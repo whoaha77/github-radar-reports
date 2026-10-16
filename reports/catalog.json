@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "pool_size": 234,
+  "pool_size": 237,
   "shown": 50,
   "capacity": 50,
   "deployment_policy": "user_initiated_only",
@@ -176,6 +176,25 @@
         "next_step": "核查快速开始中的Zotero设置、安装命令、技能安装说明与MIT许可文件"
       },
       "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
+      "repo_id": 943149,
+      "name": "d3/d3",
+      "url": "https://github.com/d3/d3",
+      "score": 89.0,
+      "reviewed_at": "2026-10-16T17:45:00.079346+00:00",
+      "stale": false,
+      "reason": "科研可视化与数据处理方向高度相关，通用性强",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "底层数据可视化JS库，可增强自定义图表与动态科研可视化的表现力",
+        "overlap": "与已有科研绘图、PPT图表能力有场景交叉，侧重Web端灵活定制",
+        "requirements": "浏览器环境，Node或直接引入脚本，ISC许可，无API费用",
+        "risk": "底层API学习曲线较陡，版本变动可能影响旧代码",
+        "next_step": "核查README链接的官方文档与示例库入口"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
     },
     {
       "repo_id": 15333471,
@@ -936,25 +955,6 @@
         "next_step": "查看 releases 页的 Windows 安装方式与 watcher 清单。"
       },
       "deployment_advice": "独立使用或借鉴，不直接部署"
-    },
-    {
-      "repo_id": 953321814,
-      "name": "robert-mcdermott/ai-knowledge-graph",
-      "url": "https://github.com/robert-mcdermott/ai-knowledge-graph",
-      "score": 80.49,
-      "reviewed_at": "2026-10-16T17:28:03.610015+00:00",
-      "stale": false,
-      "reason": "契合用户对知识图谱、本体与科研文献可视化的兴趣。",
-      "codex": {
-        "integration": "cli",
-        "priority": "中",
-        "reason": "文本转SPO知识图谱，补图谱构建与可视化能力",
-        "overlap": "与已有读论文、科研绘图存在能力交叉，图谱抽取链路待核验",
-        "requirements": "Python 3.11+，需OpenAI兼容LLM端点，可选Ollama本地；样本图免模型",
-        "risk": "推理边比例、实体标准化质量与中文抽取效果尚未验证",
-        "next_step": "核查README中的config.toml必填项、data/samples与graph-serve、graph-chat入口"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
     }
   ]
 }

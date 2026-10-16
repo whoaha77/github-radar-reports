@@ -4,33 +4,33 @@
 
 [历史项目大库](library/README.md) · [Top50](top-50.md) · [部署分析](codex-deployment.md)
 
-## [getzep/graphiti](https://github.com/getzep/graphiti)
-
-**老项目回看** · 有趣发现
-
-把事实连上时间轴，能查询“现在为真”或“曾经为真”，对追踪研究脉络很有想象力。
-
-**可以怎样探索：** 先看README中的时序图谱演示GIF与实体/事实/片段结构表。
-
-来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
-
-## [ThHanke/ontosphere](https://github.com/ThHanke/ontosphere)
+## [ai4s-research/open-science](https://github.com/ai4s-research/open-science)
 
 有趣发现
 
-在浏览器里直接编辑本体、跑完整OWL推理并让人工智能代理按工具面改图，还有可回滚的编辑溯源，语义网爱好者会觉得这是新玩具。
+它把“从一句方向到一篇带图的论文”做成一条可审计流水线，每个点都能追溯到生成它的代码与输入，还能用手机查看跑完的图表，科研复现的浪漫被工程化了。
 
-**可以怎样探索：** 打开线上演示加载示例本体跑一次推理，观察推断三元组的虚线显示与Repairs修复建议。
+**可以怎样探索：** 先看README的“See it in action”里跨物种图谱与文献PDF两张展示图，理解溯源与引用审校流程。
 
 来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
 
-## [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill)
+## [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar)
 
 有趣发现
 
-把买来读一遍就忘的技术书变成随时可问的技能，按章节按需加载，比翻PDF或让模型幻觉更实用，也很适合你已有的阅读场景。
+把“拍一支风格化短片”变成一句提示词加一个 agent，卫星影像、激光扫描、显微切片都能被拍成有数据的影像。
 
-**可以怎样探索：** 先看docs/performance.md的测量表和use-cases仓库，选一本小书看生成出的SKILL.md结构。
+**可以怎样探索：** 先逛官网 gallery 的 Evidence Films，挑一个风格读对应 STYLE.md 看提示词怎么写。
+
+来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
+
+## [jordan-gibbs/hyperresearch](https://github.com/jordan-gibbs/hyperresearch)
+
+有趣发现
+
+一次提问能拉两百多个来源、把每条引用回查原文、抓出不符或撤稿的段落，还把资料堆进可反复检索的本地文献库。
+
+**可以怎样探索：** 先读官网公开样例报告的引用与来源列表，观察 200 多来源如何被逐条核验与聚类。
 
 来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
 

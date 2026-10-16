@@ -3,40 +3,40 @@
   "repository": "whoaha77/github-radar-reports",
   "items": [
     {
-      "repo_id": 840056306,
-      "name": "getzep/graphiti",
-      "url": "https://github.com/getzep/graphiti",
-      "kind": "有趣发现",
-      "classic": true,
-      "why": "把事实连上时间轴，能查询“现在为真”或“曾经为真”，对追踪研究脉络很有想象力。",
-      "try_idea": "先看README中的时序图谱演示GIF与实体/事实/片段结构表。",
-      "reviewed_at": "2026-10-16T17:32:26.012276+00:00",
-      "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "792e9921105949f2cdd43ce6294b6c82b3504f32ceeca648e3ce852af17c3025"
-    },
-    {
-      "repo_id": 1049705027,
-      "name": "ThHanke/ontosphere",
-      "url": "https://github.com/ThHanke/ontosphere",
+      "repo_id": 1288102626,
+      "name": "ai4s-research/open-science",
+      "url": "https://github.com/ai4s-research/open-science",
       "kind": "有趣发现",
       "classic": false,
-      "why": "在浏览器里直接编辑本体、跑完整OWL推理并让人工智能代理按工具面改图，还有可回滚的编辑溯源，语义网爱好者会觉得这是新玩具。",
-      "try_idea": "打开线上演示加载示例本体跑一次推理，观察推断三元组的虚线显示与Repairs修复建议。",
-      "reviewed_at": "2026-10-16T17:29:52.303366+00:00",
+      "why": "它把“从一句方向到一篇带图的论文”做成一条可审计流水线，每个点都能追溯到生成它的代码与输入，还能用手机查看跑完的图表，科研复现的浪漫被工程化了。",
+      "try_idea": "先看README的“See it in action”里跨物种图谱与文献PDF两张展示图，理解溯源与引用审校流程。",
+      "reviewed_at": "2026-10-16T17:35:02.050553+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "2997ff997fea60c91a138a9bd590d5e1ed8d2da084b4ebeb2306689e50171e28"
+      "share_id": "50f7947c0607e5b53ce9680de58fc1683c9a289e80b23e73eafd9ce3f7da5461"
     },
     {
-      "repo_id": 1226123343,
-      "name": "virgiliojr94/book-to-skill",
-      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "repo_id": 1389011744,
+      "name": "lemomo-ai/lemo-opuscar",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar",
       "kind": "有趣发现",
       "classic": false,
-      "why": "把买来读一遍就忘的技术书变成随时可问的技能，按章节按需加载，比翻PDF或让模型幻觉更实用，也很适合你已有的阅读场景。",
-      "try_idea": "先看docs/performance.md的测量表和use-cases仓库，选一本小书看生成出的SKILL.md结构。",
-      "reviewed_at": "2026-10-16T17:34:15.792383+00:00",
+      "why": "把“拍一支风格化短片”变成一句提示词加一个 agent，卫星影像、激光扫描、显微切片都能被拍成有数据的影像。",
+      "try_idea": "先逛官网 gallery 的 Evidence Films，挑一个风格读对应 STYLE.md 看提示词怎么写。",
+      "reviewed_at": "2026-10-16T17:36:40.910652+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "328761cba647a1c920ef668c580edd7be55f804f207ec55e8e34c319189f7e2d"
+      "share_id": "d12a796f395ca8dc6f764c4674a470b067d9ab36153737bac763e671a5f2ffda"
+    },
+    {
+      "repo_id": 1206357666,
+      "name": "jordan-gibbs/hyperresearch",
+      "url": "https://github.com/jordan-gibbs/hyperresearch",
+      "kind": "有趣发现",
+      "classic": false,
+      "why": "一次提问能拉两百多个来源、把每条引用回查原文、抓出不符或撤稿的段落，还把资料堆进可反复检索的本地文献库。",
+      "try_idea": "先读官网公开样例报告的引用与来源列表，观察 200 多来源如何被逐条核验与聚类。",
+      "reviewed_at": "2026-10-16T17:33:33.229110+00:00",
+      "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
+      "share_id": "ee2265317e899fa4ade76776b0ff6c1b413e78d8e216bf628a916f4387f2287a"
     }
   ],
   "delivery_policy": "Share interesting/useful discoveries; no installation request; deduplicate chat delivery."
