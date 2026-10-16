@@ -115,6 +115,12 @@ README、Release、Star 及作者描述只是筛选材料。本程序不安装/�
 
 发布成功后，本机用 Windows 通知展示最多三个精选的中文摘要，点击打开私有 GitHub 分享页，需要浏览器已登录有权限的账号。仅新分享内容触发，同一项目至少间隔14天；相同内容不重复通知。通知关闭、会话不可用或系统抑制展示时，GitHub页面仍可阅读，程序不会把“提交到Windows”声称为“用户已读”。本机可设置 `desktop_notifications: false` 关闭通知。DS API不能直接向 Codex 聊天发消息，因此没有另设唤醒GPT的聊天定时任务。
 
+通知正文和“查看最新消息”按钮都直接打开 `main` 分支的[最新中文分享页](https://github.com/whoaha77/github-radar-reports/blob/main/reports/discoveries.md)，可收藏这个固定入口。2026-10-17已由用户实际确认收到测试通知且点击正常打开。手动重发测试通知如下，不调用DS，也不改动日常通知去重记录：
+
+```powershell
+powershell.exe -NoProfile -NonInteractive -WindowStyle Hidden -ExecutionPolicy Bypass -File .\scripts\notify.ps1 -PacketPath .\reports\sharing.json -Test
+```
+
 ## 执行器与消耗
 
 日常调用链：Windows任务 → 本地Python搜索/分页/去重/缓存 → `bin/ask.py` 的 DeepSeek Flash 文本分析 → 本地校验/历史库/报告 → Git发布 → 本机通知。任务设计、重要取舍和开发验收由主脑负责；技能指令本身不会自动路由，实际分流由上述脚本实现。普通扫描不使用 GPT/OpenAI API，也不依赖 Codex 开着；开发、验收或用户在聊天中追问仍会使用当前助手。
