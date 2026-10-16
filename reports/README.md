@@ -10,5 +10,6 @@ DS 每日估算预算上限 20 元（UTC+8），无月度金额上限。
 
 ## 最新报告与历史
 
-- **最新** [20261016-210804-98709bfa](archive/github-report-20261016-210804-98709bfa.md)
+- **最新** [20261016-211320-0dd11b3a](archive/github-report-20261016-211320-0dd11b3a.md)
+- [20261016-210804-98709bfa](archive/github-report-20261016-210804-98709bfa.md)
 - [20261016-210555-ed1bf2ed](archive/github-report-20261016-210555-ed1bf2ed.md)
