@@ -14,7 +14,14 @@ $toast = [Windows.UI.Notifications.ToastNotification]::new($document)
 $toast.Tag = 'github-radar'
 $toast.Group = 'github-radar'
 $toast.ExpirationTime = [DateTimeOffset]::Now.AddHours(2)
-$notifier = [Windows.UI.Notifications.ToastNotificationManager]::CreateToastNotifier('{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\WindowsPowerShell\v1.0\powershell.exe')
-if ($notifier.Setting -ne [Windows.UI.Notifications.NotificationSetting]::Enabled) { throw 'Windows notifications disabled' }
+$notifier = $null
+foreach ($appId in @('Microsoft.PowerShell_8wekyb3d8bbwe!App', 'Microsoft.Windows.PowerShell')) {
+    $candidate = [Windows.UI.Notifications.ToastNotificationManager]::CreateToastNotifier($appId)
+    if ($candidate.Setting -eq [Windows.UI.Notifications.NotificationSetting]::Enabled) {
+        $notifier = $candidate
+        break
+    }
+}
+if ($null -eq $notifier) { throw 'No registered PowerShell identity with enabled Windows notifications' }
 $notifier.Show($toast)
 Write-Output 'submitted_to_windows'
