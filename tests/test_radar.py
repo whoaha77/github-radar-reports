@@ -257,11 +257,11 @@ class ScheduleAndPublishTests(unittest.TestCase):
                         'claims': [{'text': '科研工具', 'source': 'readme', 'line': 1, 'quote': 'scientific research'}],
                         '_sources': {'readme': pack['pieces'][0]}}
             class API:
-                def __init__(self, *args):
+                def __init__(self, *args, **kwargs):
                     self.requests, self.auth_source, self.rate = 0, 'mock', {}
                 def get(self, *args, **kwargs):
                     return {'items': [dict(repo)], 'total_count': 1}, 'https://api.github.com/search/repositories'
-                def evidence(self, *args):
+                def evidence(self, *args, **kwargs):
                     return copy.deepcopy(pack)
             args = Namespace(scheduled=False, limit=1, no_model=False, no_publish=False)
             with patch('radar.APP', root), patch('radar.GitHub', API), \

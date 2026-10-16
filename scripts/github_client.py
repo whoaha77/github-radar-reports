@@ -38,9 +38,9 @@ def github_token():
 
 
 class GitHub:
-    def __init__(self, store, deadline, max_requests=110):
+    def __init__(self, store, deadline, max_requests=110, credentials=None):
         self.store, self.deadline = store, deadline
-        self.token, self.auth_source = github_token()
+        self.token, self.auth_source = credentials if credentials is not None else github_token()
         self.requests = 0
         self.max_requests = max_requests if self.token else min(max_requests, 35)
         self.next_search = 0.0
@@ -113,7 +113,30 @@ class GitHub:
                 raise FetchError('GitHub 网络读取失败：' + type(exc).__name__) from None
         raise FetchError('GitHub 请求未完成')
 
-    def evidence(self, repo, char_limit=18000):
+    def evidence_many(self, repos, char_limit=10000):
+        """Three independent reads, each with its own SQLite connection; no paid workers."""
+        from concurrent.futures import ThreadPoolExecutor
+        from radar_store import Store
+        def fetch(repo):
+            store = Store(self.store.path)
+            client = GitHub(store,self.deadline,max_requests=6,credentials=(self.token,self.auth_source))
+            try:
+                try:
+                    value = client.evidence(repo,char_limit=char_limit,include_release=False)
+                except (FetchError,ValueError,OSError) as exc:
+                    value = exc
+                return repo['id'],value,client.requests,client.rate
+            finally:
+                store.close()
+        results = {}
+        with ThreadPoolExecutor(max_workers=3) as pool:
+            for rid,value,requests,rate in pool.map(fetch,repos):
+                self.requests += requests
+                self.rate.update(rate)
+                results[rid] = value
+        return results
+
+    def evidence(self, repo, char_limit=18000, include_release=True):
         """Small, versioned evidence pack. No repository code is executed."""
         name = repo['full_name']
         if not isinstance(name, str) or len(name.split('/')) != 2:
@@ -137,7 +160,7 @@ class GitHub:
         except (FetchError, ValueError) as exc:
             warnings.append(str(exc))
         try:
-            releases, url = self.get(base + '/releases', {'per_page': 1})
+            releases, url = self.get(base + '/releases', {'per_page': 1}) if include_release else ([], '')
             if releases:
                 item = releases[0]
                 release_lines = ['tag: ' + str(item.get('tag_name') or ''),

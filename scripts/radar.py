@@ -20,6 +20,7 @@ from publisher import PublishError, prepare, publish_reports
 from catalog import WEIGHTS, latest_rows, score_analysis, validate_codex, validate_sharing, write_catalog
 from history import query_plan, current_page, advance_page, search_library, write_history, mark_sharing_published
 from notification import notify_discoveries
+from analysis_queue import pending_repos, drain, pause_reason
 
 APP = Path(__file__).resolve().parents[1]
 ENGINE = Path(os.environ.get('DEEPSEEK_EXECUTOR_HOME', str(APP.parents[1]))).resolve()
@@ -45,7 +46,7 @@ def config(path=None):
         target = APP / 'config.example.json'
     data = json.loads(target.read_text(encoding='utf-8-sig'))
     for key in ('daily_budget_cny', 'run_timeout_seconds', 'searches_per_scan', 'results_per_query',
-                'evidence_per_scan', 'analysis_per_scan', 'analysis_batch_size', 'model_max_output_tokens',
+                'analysis_batch_size', 'model_max_output_tokens',
                 'model_timeout_seconds', 'report_top_n', 'retention_days', 'retention_min_reports',
                 'boot_delay_minutes', 'scan_interval_minutes', 'cooldown_days'):
         value = data.get(key)
@@ -151,11 +152,58 @@ def normalize_line_numbers(body):
     for item in normalized.get('projects', []):
         if not isinstance(item, dict):
             continue
+        codex = item.get('codex')
+        if isinstance(item.get('kind'),str) and item['kind'] not in ('成熟可用','新兴潜力','值得借鉴'):
+            changes.append({'repo_id':item.get('repo_id'),'original_kind':item['kind'],'to_kind':'值得借鉴','reason':'unrecognized maturity is conservative reference only'})
+            item['_original_kind'] = item['kind']
+            item['kind'] = '值得借鉴'
+        if isinstance(codex,dict) and codex.get('next_step_note') == '':
+            del codex['next_step_note']
+            changes.append({'repo_id':item.get('repo_id'),'removed_empty_field':'codex.next_step_note'})
         for claim in item.get('claims', []) if isinstance(item.get('claims'), list) else []:
             if isinstance(claim, dict) and isinstance(claim.get('line'), str) and re.fullmatch(r'[1-9][0-9]{0,7}', claim['line']):
                 changes.append({'repo_id':item.get('repo_id'), 'from':claim['line'], 'to':int(claim['line'])})
                 claim['line'] = int(claim['line'])
     return normalized, changes
+
+
+def salvage_batch(run_dir, index, packs):
+    """Revalidate independent results locally; never buy a repeat batch for one bad row."""
+    body = json.loads((Path(run_dir)/f'batch-{index}.output.json').read_text(encoding='utf-8'))
+    body, repairs = normalize_line_numbers(body)
+    items = body.get('projects')
+    expected = {p['repo_id']:p for p in packs}
+    if not isinstance(items,list) or len(items) != len(expected):
+        raise ValueError('salvage membership mismatch')
+    ids = [x.get('repo_id') for x in items if isinstance(x,dict)]
+    if len(ids) != len(items) or any(isinstance(i,bool) or not isinstance(i,int) for i in ids) or set(ids) != set(expected):
+        raise ValueError('salvage IDs mismatch')
+    accepted, rejected = {}, {}
+    for item in items:
+        rid = item['repo_id']
+        sources = {s['id']:s for s in expected[rid]['pieces']}
+        for claim in item.get('claims',[]) if isinstance(item.get('claims'),list) else []:
+            if not isinstance(claim,dict):
+                continue
+            source = sources.get(claim.get('source'))
+            quote = claim.get('quote')
+            if source and isinstance(quote,str) and len(quote)>=8:
+                if not any(quote in line for line in source['lines']):
+                    for trim in range(1,min(4,len(quote)-7)):
+                        if all(c in ').。]}' for c in quote[-trim:]) and any(quote[:-trim] in line for line in source['lines']):
+                            repairs.append({'repo_id':rid,'from_quote':quote,'to_quote':quote[:-trim],'reason':'remove extraneous trailing punctuation; exact source required'})
+                            quote = claim['quote'] = quote[:-trim]
+                            break
+                matches = [i for i,line in enumerate(source['lines'],1) if quote in line]
+                if len(matches)==1 and claim.get('line') != matches[0]:
+                    repairs.append({'repo_id':rid,'from':claim.get('line'),'to':matches[0],'reason':'unique exact quote in same source'})
+                    claim['line'] = matches[0]
+        try:
+            accepted.update(validate_analysis({'projects':[item]},[expected[rid]]))
+        except (ValueError,TypeError,KeyError) as exc:
+            rejected[rid] = str(exc)
+    write_json(Path(run_dir)/f'batch-{index}.salvage.json',{'accepted':list(accepted),'rejected':rejected,'local_repairs':repairs,'additional_api_calls':0})
+    return accepted
 
 
 def instruction(cfg):
@@ -291,7 +339,7 @@ def analyze(store, packs, cfg, run_dir, batch_index, deadline, codex_only=False)
                     'budget_charge_micro': cost, 'usage': usage,
                     'actual_supplier_charge': 'unknown'})
     if result is None or result.returncode or not output_path.exists():
-        raise ValueError('DS调用失败或超时；预算及原始结果已保留，未重试')
+        raise ValueError('DS调用失败或超时；预算及原始结果已保留')
     validator = validate_codex_batch if codex_only else validate_analysis
     body = json.loads(output_path.read_text(encoding='utf-8'))
     if not codex_only and isinstance(body, dict):
@@ -339,7 +387,22 @@ def select_cards(cards, limit):
 
 
 def scan(store, cfg, args):
-    if args.scheduled and scheduled_slot(store, cfg, args.boot_time) is None:
+    if getattr(args,'resume_analysis',False):
+        store.put('analysis-pause',None)
+    paused = pause_reason(store,cfg,now())
+    if args.scheduled and paused:
+        return {'status':'skipped','reason':'分析队列暂停：'+paused}
+    backlog = [r for r in pending_repos(store) if not store.get('analysis-blocked:'+str(r['id']))]
+    backfill = bool(backlog) and cfg['model_enabled'] and not args.no_model
+    if args.scheduled and backfill:
+        if not args.boot_time:
+            raise ValueError('scheduled execution requires --boot-time')
+        boot = datetime.fromisoformat(args.boot_time)
+        if boot.tzinfo is None:
+            raise ValueError('boot time needs timezone')
+        if (now()-boot).total_seconds() < cfg['boot_delay_minutes']*60:
+            return {'status':'skipped','reason':'未到开机后半小时；分析队列已保留'}
+    if args.scheduled and not backfill and scheduled_slot(store, cfg, args.boot_time) is None:
         return {'status': 'skipped', 'reason': '未到开机后半小时，或本两小时窗口已运行'}
     start = now()
     run_id = start.astimezone(BJ).strftime('%Y%m%d-%H%M%S-') + uuid.uuid4().hex[:8]
@@ -352,9 +415,9 @@ def scan(store, cfg, args):
     store.run(run_id, start.isoformat(), 'running', run)
     cards = []
     try:
-        api = GitHub(store, deadline)
+        api = GitHub(store, deadline, max_requests=2000)
         found = {}
-        for step, item in enumerate(query_plan(store, cfg)):
+        for step, item in enumerate([] if backfill else query_plan(store, cfg)):
             query = item['q'].replace('{classic_before}', (start-timedelta(days=730)).date().isoformat())
             # The exploration time window advances instead of freezing at install date.
             query = re.sub(r'created:>\d{4}-\d{2}-\d{2}',
@@ -388,60 +451,17 @@ def scan(store, cfg, args):
                     store.upsert_repo(refreshed, start.isoformat())
                 except FetchError as exc:
                     run['errors'].append(str(exc))
-        candidates = [r for r in found.values() if feedback.get(r['id'], {}).get('action') not in ('ignore', 'later', 'tried_failed')]
-        analyzed_ids = {r[0] for r in store.db.execute('SELECT DISTINCT repo_id FROM analyses')}
-        candidates.sort(key=lambda r: pre_score(r) + (12 if r['id'] not in analyzed_ids else 0), reverse=True)
-        # Reserve candidates for each relevant source category, then fill by score.
-        selected = []
-        for category in ('科研', '效率', '趣味探索', '经典回溯', 'AI与开发', '探索', '关注'):
-            selected.extend([r for r in candidates if r.get('_category') == category][:3])
-        selected_ids = {r['id'] for r in selected}
-        selected.extend(r for r in candidates if r['id'] not in selected_ids)
-        limit = min(cfg['evidence_per_scan'], args.limit or cfg['evidence_per_scan'])
-        selected = selected[:limit]
-        pending, contexts = [], {}
-        for repo in selected:
-            if time.monotonic() + 15 >= deadline:
-                run['errors'].append('取证阶段达到本轮时间预算')
-                break
-            evidence = api.evidence(repo)
-            for warning in evidence['warnings']:
-                run['errors'].append(repo['full_name'] + '：' + warning)
-            pack = analysis_pack(evidence)
-            sha = input_hash(pack, cfg)
-            write_json(run_dir / (str(repo['id']) + '.evidence.json'), pack)
-            run['evidence_count'] += 1
-            growth = store.growth(repo['id'], start.isoformat(), repo['stargazers_count'])
-            store.snapshot(repo['id'], start.isoformat(), repo['stargazers_count'])
-            store.put('last_hash:' + str(repo['id']), sha)
-            last = store.get('recommended:' + str(repo['id']))
-            known_hash = store.get('known_hash:' + str(repo['id']))
-            if feedback.get(repo['id'], {}).get('action') == 'known' and (known_hash is None or known_hash == sha):
-                continue
-            if last and last['hash'] == sha and (start - datetime.fromisoformat(last['at'])).days < cfg['cooldown_days']:
-                continue
-            contexts[repo['id']] = {'repo': repo, 'hash': sha, 'pack': pack, 'growth': growth,
-                                    'change': '材料或评估规则变化' if last and last['hash'] != sha else '首次发现',
-                                    'category': repo.get('_category', '探索')}
-            existing = store.analysis(repo['id'], sha)
-            if existing:
-                run['cache_hits'] += 1
-                contexts[repo['id']]['analysis'] = existing
-            elif len(pending) < cfg['analysis_per_scan']:
-                pending.append(pack)
-        if not args.no_model and cfg['model_enabled']:
-            for i in range(0, len(pending), cfg['analysis_batch_size']):
-                packs = pending[i:i + cfg['analysis_batch_size']]
-                try:
-                    result = analyze(store, packs, cfg, run_dir, i // cfg['analysis_batch_size'], deadline)
-                    for repo_id, analysis in result.items():
-                        ctx = contexts[repo_id]
-                        store.save_analysis(repo_id, ctx['hash'], analysis, now().isoformat())
-                        ctx['analysis'] = analysis
-                        run['analyzed'] += 1
-                except (ValueError, OSError) as exc:
-                    run['errors'].append('分析未通过：' + str(exc))
-                    break
+        candidates = list({r['id']:r for r in [*pending_repos(store),*found.values()]}.values())
+        queue_cfg = dict(cfg,model_enabled=cfg['model_enabled'] and not args.no_model)
+        drained = drain(store,queue_cfg,api,run_dir,deadline,analyze,analysis_pack,input_hash,now,salvage_batch,
+                        repos=candidates,limit=args.limit)
+        contexts = {c['repo']['id']:c for c in drained['contexts']}
+        for key in ('analyzed','cache_hits','evidence_count'):
+            run[key] = drained[key]
+        run['remaining_analysis'] = drained['remaining']
+        run['errors'].extend(drained['errors'])
+        if drained['remaining']:
+            run['errors'].append(f"仍有{drained['remaining']}个项目未完成分析，保留队列继续处理")
         for ctx in contexts.values():
             repo, analysis = ctx['repo'], ctx.get('analysis')
             if analysis:
@@ -459,7 +479,7 @@ def scan(store, cfg, args):
         cards = select_cards(cards, cfg['report_top_n'])
         run['api_requests'], run['auth_source'], run['rate_limits'] = api.requests, api.auth_source, api.rate
         run['status'] = 'partial' if any(not e.startswith('查询为抽样覆盖') for e in run['errors']) else 'completed'
-        if not found:
+        if not found and not backfill:
             run['status'] = 'failed' if run['errors'] else 'completed'
     except Exception as exc:
         run['status'] = 'failed'
@@ -587,10 +607,11 @@ def main(argv=None):
     p.add_argument('--limit', type=int)
     p.add_argument('--scheduled', action='store_true')
     p.add_argument('--boot-time')
+    p.add_argument('--resume-analysis',action='store_true',help='修复全局阻塞后手动恢复，不自动重试坏结果')
     sub.add_parser('status')
     p = sub.add_parser('library')
     p.add_argument('--query', default='')
-    p.add_argument('--status', choices=['all','已分析','待分析','需复核','已忽略','暂缓','试用失败'], default='all')
+    p.add_argument('--status', choices=['all','已分析','待分析','需复核','已忽略','暂缓','试用失败','分析受阻'], default='all')
     p.add_argument('--limit', type=int, default=20)
     p = sub.add_parser('catalog')
     p.add_argument('--enrich', action='store_true', help='用Flash补充历史项目的Codex分析，计入同一每日预算')
@@ -602,12 +623,14 @@ def main(argv=None):
     p.add_argument('repo_id', type=int)
     p.add_argument('action', choices=['saved', 'known', 'ignore', 'later', 'tried_ok', 'tried_failed', 'clear'])
     p.add_argument('--reason', default='')
+    p = sub.add_parser('retry-analysis',help='修正规格后手动解除单个项目的分析阻塞')
+    p.add_argument('repo_id',type=int)
     args = parser.parse_args(argv)
     cfg = config(args.config)
     if args.command == 'scan' and args.dry_run:
         print(json.dumps({'dry_run': True, 'paid_calls': 0, 'repository': cfg['repository'],
                           'daily_budget_cny': cfg['daily_budget_cny'], 'searches': cfg['searches_per_scan'],
-                          'max_analysis_batches': math.ceil(cfg['analysis_per_scan']/cfg['analysis_batch_size']),
+                          'analysis_policy': 'all_discovered_streaming_queue',
                           'reports': str(APP/'reports'), 'retention': [cfg['retention_days'], cfg['retention_min_reports']]}, ensure_ascii=False, indent=2))
         return 0
     if getattr(args, 'limit', None) is not None and args.limit < 1:
@@ -623,6 +646,9 @@ def main(argv=None):
                 result = refresh_catalog(store, cfg, args)
             elif args.command == 'library':
                 result = search_library(store, args.query, args.status, args.limit)
+            elif args.command == 'retry-analysis':
+                store.put('analysis-blocked:'+str(args.repo_id),None)
+                result = {'repo_id':args.repo_id,'status':'queued_for_analysis'}
             elif args.command == 'feedback':
                 store.set_feedback(args.repo_id, args.action, args.reason, now().isoformat())
                 if args.action == 'known':

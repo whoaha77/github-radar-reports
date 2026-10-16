@@ -58,7 +58,7 @@ def library_records(store):
         action = feedback.get(row['repo_id'],{}).get('action')
         status = {'ignore':'已忽略','later':'暂缓','tried_failed':'试用失败'}.get(action)
         if not status:
-            status = '已分析' if analysis else ('需复核' if row['repo_id'] in recorded else '待分析')
+            status = '已分析' if analysis else ('分析受阻' if store.get('analysis-blocked:'+str(row['repo_id'])) else ('需复核' if row['repo_id'] in recorded else '待分析'))
         records.append({'repo_id':row['repo_id'],'name':repo['full_name'],'url':repo['html_url'],
                         'aliases':repo.get('_known_names',[]),'description':repo.get('description') or '',
                         'topics':repo.get('topics',[]),'language':repo.get('language'),
@@ -66,8 +66,10 @@ def library_records(store):
                         'stars':repo.get('stargazers_count',0),'archived':bool(repo.get('archived')),
                         'first_seen':row['first_seen'],'last_seen':row['last_seen'],
                         'status':status,'feedback':action,'score':round(analysis['score'],2) if analysis else None,
+                        'analysis_block':store.get('analysis-blocked:'+str(row['repo_id'])) if not analysis else None,
                         'summary':analysis['analysis']['summary'] if analysis else None,
                         'reviewed_at':analysis['reviewed_at'] if analysis else None,
+                        'material_limits':analysis['analysis'].get('_material_limits',[]) if analysis else [],
                         'analysis':{k:v for k,v in analysis['analysis'].items() if not k.startswith('_')} if analysis else None,
                         'evidence_urls':{k:v['url'] for k,v in analysis['analysis']['_sources'].items()} if analysis else {}})
     return records
