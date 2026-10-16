@@ -4,6 +4,20 @@
 
 **[查看最新报告与历史](reports/README.md)**
 
+**[历史优选 Top 50](reports/top-50.md) · [Codex 部署分析](reports/codex-deployment.md)**
+
+## 历史榜单与 Codex 部署规则
+
+历史 Top 50 从累计分析通过的项目中持续维护，每个仓库使用最新有效分析，只占一个位置；不足50个就显示实际数量，不凑数、不冒充全 GitHub 排名。榜单附入选原因、分数、类型、最近分析时间及每个项目的详细分析。长期历史和榜单不因30天轮次报告清理而消失；分析超过30天会标为待复核，不再作为高价值部署候选。
+
+**用户规则：只提示高价值候选，等用户主动说安装后才部署；不自动安装，不每轮询问。**本查找器没有安装执行入口，不修改 Codex 技能目录、MCP 配置或系统依赖，不运行候选仓库命令。
+
+Flash 为每个项目补充：集成类型、优先级、对 Codex 的具体价值、与现有能力重叠、依赖与费用、权限/风险、部署前下一步核查。高价值提示要求参考分至少75、适配优先级为高且分析未过期；这些门槛不能代替组件核查或用户安装指令。仓库型 Skill 集合需逐组件核查，不能整库盲装；普通应用和参考资料不作为直接部署候选。
+
+Skill 是工作流与资源，MCP 是工具连接，CLI/代码库通常属于本机或项目依赖；它们的接入方式不同。依据 [官方 Skills 文档](https://developers.openai.com/plugins/concepts/skills) 和 [Codex MCP 文档](https://developers.openai.com/codex/mcp) 区分类型。本机实际安装状态仍需安装任务中核验，不能仅凭项目名称或 `known` 反馈推断。
+
+榜单和部署分析会在每次正常扫描后自动刷新；这里只生成建议，不会主动安装或弹出逐项安装询问。新候选获得一定的取证优先权，避免一直重复分析相同热门项目。
+
 ## 当前行为
 
 - 每轮轮换 6 条主题查询，保存发现来源与有限候选证据；不声称遍历全 GitHub。
@@ -53,6 +67,8 @@ Copy-Item config.example.json config.json
 .\run.ps1 scan --no-model --no-publish # 不调用模型、不发布
 .\run.ps1 scan --dry-run               # 展示计划，不请求GitHub/DS、不推送
 .\run.ps1 status                      # 最近运行与今日预算占用
+.\run.ps1 catalog --no-publish        # 不调用模型，本地重建历史Top50和部署建议
+.\run.ps1 catalog --enrich --limit 16 # 用Flash补充已有证据的部署分析并发布，仍计入每日20元
 .\run.ps1 feedback 123456 saved --reason '准备试用'
 .\run.ps1 feedback 123456 known --reason '已经使用'
 .\run.ps1 feedback 123456 ignore --reason '不适用'

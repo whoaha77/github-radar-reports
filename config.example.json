@@ -14,7 +14,7 @@
   "evidence_per_scan": 18,
   "analysis_per_scan": 12,
   "analysis_batch_size": 4,
-  "model_max_output_tokens": 4200,
+  "model_max_output_tokens": 6000,
   "model_timeout_seconds": 75,
   "report_top_n": 5,
   "cooldown_days": 7,
@@ -40,5 +40,7 @@
     {"category": "科研", "q": "ontology in:description stars:>30", "sort": "updated"},
     {"category": "效率", "q": "topic:document-processing stars:>50", "sort": "stars"},
     {"category": "探索", "q": "topic:developer-tools stars:>500", "sort": "updated"}
-  ]
+  ],
+  "deployment_policy": "user_initiated_only",
+  "codex_candidate_min_score": 75
 }

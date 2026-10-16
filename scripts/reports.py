@@ -59,6 +59,13 @@ def render(run, cards, budget):
             lines += [f"**参考评分：** {card['score']:.1f}/100（固定权重计算，仅作筛选参考）。", '',
                       '**主要未知：** ' + '；'.join(mdtext(x) for x in analysis['unknowns']), '',
                       '**证据等级：** 仓库材料支持；未进行运行实测。', '']
+            codex = analysis.get('codex')
+            if codex:
+                lines += ['**Codex 适配：** ' + mdtext(codex['integration']) + '；优先级 ' + mdtext(codex['priority']), '',
+                          '**接入价值与重叠：** ' + mdtext(codex['reason'] + '；' + codex['overlap']), '',
+                          '**依赖与风险：** ' + mdtext(codex['requirements'] + '；' + codex['risk']), '',
+                          '**部署前核查：** ' + mdtext(codex['next_step']), '',
+                          '仅提示候选；等待你主动提出安装，本查找器不执行部署。', '']
             for claim in analysis['claims']:
                 source = card['sources'].get(claim['source'])
                 lines += [f"- {mdtext(claim['text'])}（{source['url']}，证据 {claim['source']} 第 {claim['line']} 行）"]

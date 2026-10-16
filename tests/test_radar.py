@@ -93,9 +93,31 @@ class AnalysisTests(unittest.TestCase):
         self.item = {'repo_id': 1, 'summary': '工具', 'fit': '处理文档', 'difference': '尚未比较', 'adoption': 'Windows未验证',
                      'kind': '新兴潜力', 'scores': {k: 3 for k in radar.WEIGHTS}, 'unknowns': ['未实测'],
                      'claims': [{'text': '科研工具', 'source': 'readme', 'line': 1, 'quote': 'scientific research toolkit'}]}
+        self.item['codex'] = {'integration': 'skill', 'priority': '高', 'reason': '文档工作流',
+                              'overlap': '已有文档技能，需对照增量', 'requirements': '依赖未验证',
+                              'risk': '需检查脚本', 'next_step': '确认具体SKILL.md及依赖'}
 
     def test_accepts_exact_supported_anchor(self):
         self.assertIn(1, radar.validate_analysis({'projects': [copy.deepcopy(self.item)]}, self.packs))
+
+    def test_codex_analysis_must_not_be_omitted_or_assert_installation(self):
+        item = copy.deepcopy(self.item)
+        del item['codex']
+        with self.assertRaises(ValueError):
+            radar.validate_analysis({'projects': [item]}, self.packs)
+
+    def test_codex_only_batch_requires_exact_ids_and_no_rewritten_facts(self):
+        valid = {'projects': [{'repo_id': 1, 'codex': copy.deepcopy(self.item['codex'])}]}
+        self.assertIn(1, radar.validate_codex_batch(valid, self.packs))
+        for item in ({'repo_id': 2, 'codex': self.item['codex']},
+                     {'repo_id': True, 'codex': self.item['codex']},
+                     {'repo_id': 1, 'codex': self.item['codex'], 'summary': 'rewritten'}):
+            with self.assertRaises(ValueError):
+                radar.validate_codex_batch({'projects':[item]},self.packs)
+        item = copy.deepcopy(self.item)
+        item['codex']['installed'] = True
+        with self.assertRaises(ValueError):
+            radar.validate_analysis({'projects': [item]}, self.packs)
 
     def test_rejects_missing_duplicate_wrong_id_and_nan(self):
         for items in ([], [self.item, self.item], [dict(self.item, repo_id=2)]):
