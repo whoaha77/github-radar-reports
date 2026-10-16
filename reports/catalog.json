@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "pool_size": 12,
-  "shown": 12,
+  "pool_size": 14,
+  "shown": 14,
   "capacity": 50,
   "deployment_policy": "user_initiated_only",
   "high_value_candidates": 3,
@@ -24,6 +24,25 @@
         "next_step": "核查skills目录下SKILL.md、skill-requirements.toml与安全扫描工作流"
       },
       "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
+      "repo_id": 33884891,
+      "name": "apache/airflow",
+      "url": "https://github.com/apache/airflow",
+      "score": 85.85,
+      "reviewed_at": "2026-10-16T16:58:24.169497+00:00",
+      "stale": false,
+      "reason": "与数据处理、AI/ML流程自动化和科研批处理高度相关，属通用效率基建。",
+      "codex": {
+        "integration": "mixed",
+        "priority": "中",
+        "reason": "可把科研数据管道、文献批处理与AI步骤编排为定时DAG",
+        "overlap": "与自动化与数据处理能力交叉，调度与依赖编排增量待核验",
+        "requirements": "Python加SQLite或Postgres元数据库；Windows需WSL2或Linux容器；Apache-2.0",
+        "risk": "原生不支持Windows生产环境，资源占用与配置复杂度未验证",
+        "next_step": "先阅读README链接的INSTALLING.md及Windows运行说明，再核对项目运行时依赖与容器要求。"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
     },
     {
       "repo_id": 853189791,
@@ -233,6 +252,25 @@
         "next_step": "核查INSTALL.md的目录约定与sn-search-academic的API key要求，确认skill能否在Codex技能目录直接触发。"
       },
       "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
+      "repo_id": 101109137,
+      "name": "PavelDoGreat/WebGL-Fluid-Simulation",
+      "url": "https://github.com/PavelDoGreat/WebGL-Fluid-Simulation",
+      "score": 58.45,
+      "reviewed_at": "2026-10-16T16:58:24.166497+00:00",
+      "stale": false,
+      "reason": "与科研可视化、动手演示和趣味探索相关，非文献或数据处理工具。",
+      "codex": {
+        "integration": "application",
+        "priority": "低",
+        "reason": "浏览器GPU流体模拟代码，可作可视化素材与WebGL学习参照",
+        "overlap": "与科研绘图能力交叉在渲染表现层，具体增量待核验",
+        "requirements": "现代浏览器与WebGL支持；Windows可用；无API费用；MIT许可",
+        "risk": "未验证本机GPU与浏览器兼容性，仅浏览器演示形态",
+        "next_step": "先核对作者在线演示与源码入口，定位实际WebGL组件；尚未读取代码树，不指定未核实文件。"
+      },
+      "deployment_advice": "独立使用或借鉴，不直接部署"
     }
   ]
 }

@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "repository": "whoaha77/github-radar-reports",
+  "items": [
+    {
+      "repo_id": 101109137,
+      "name": "PavelDoGreat/WebGL-Fluid-Simulation",
+      "url": "https://github.com/PavelDoGreat/WebGL-Fluid-Simulation",
+      "kind": "有趣发现",
+      "classic": true,
+      "why": "在网页里用手一划就搅动出彩色流体涡旋，物理感十足，几秒就能玩，适合当作可视化灵感与教学演示素材。",
+      "try_idea": "先打开作者提供的演示，尝试拖动鼠标，看看流体如何响应；再探索演示中有哪些可调参数。",
+      "reviewed_at": "2026-10-16T16:58:24.166497+00:00",
+      "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
+      "share_id": "18c6b61f105b16ce82a534b0307c91836c5e707e9232fbb0d386720c0846bc6a"
+    },
+    {
+      "repo_id": 33884891,
+      "name": "apache/airflow",
+      "url": "https://github.com/apache/airflow",
+      "kind": "有趣发现",
+      "classic": true,
+      "why": "把零散的下载、清洗、训练、绘图步骤组织成有依赖关系的DAG，定时运行并查看进度；可以借鉴这种方式整理科研数据流水线，改善过程追溯。",
+      "try_idea": "先看官方最小DAG示例和调度界面，想想自己的文献或数据处理步骤能怎样串起来；Windows运行条件另行核对。",
+      "reviewed_at": "2026-10-16T16:58:24.169497+00:00",
+      "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
+      "share_id": "681afcf0bb226e16666441e472251cf5ae7886d2885f763183374d54f27318b3"
+    },
+    {
+      "repo_id": 824541776,
+      "name": "xerrors/Yuxi",
+      "url": "https://github.com/xerrors/Yuxi",
+      "kind": "有趣发现",
+      "classic": true,
+      "why": "可私有部署的多租户知识智能体平台，整合Agentic RAG、知识图谱、LangGraph多智能体、MCP/Skills、沙盒与权限管理。",
+      "try_idea": "看看仓库的图谱示例：一堆文字、代码或资料被组织成图之后，会不会更容易看出联系？",
+      "reviewed_at": "2026-10-16T13:14:16.880382+00:00",
+      "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
+      "share_id": "f43d7273c8f260f749e4e44cdd592041577ce9855d2ffeb7fc8fe471f2c5485c"
+    }
+  ],
+  "delivery_policy": "Share interesting/useful discoveries; no installation request; deduplicate chat delivery."
+}
