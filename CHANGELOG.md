@@ -1,5 +1,10 @@
 # 更新记录
 
+## 2026-10-16 v0.1.1
+
+- 修复 Windows PowerShell 5 与新版 PowerShell 混合写调度日志时的编码差异：统一 Python 输出解码与日志写入为 UTF-8，后续使用独立 UTF-8 日志文件，保留旧日志。
+- 用实际任务执行的 Windows PowerShell 5 入口验证中文 JSON 可读、重复窗口跳过且未新增 DS 请求。
+
 ## 2026-10-16 v0.1.0
 
 - 实现 GitHub 官方仓库搜索、科研/效率优先的主题轮换、SQLite 去重、证据快照、历史 Star 变化和反馈。

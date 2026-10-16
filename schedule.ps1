@@ -2,6 +2,9 @@
 param([switch]$Install, [switch]$Tick, [switch]$DryRun)
 $ErrorActionPreference = 'Stop'
 $env:PYTHONUTF8 = '1'
+$utf8Console = New-Object System.Text.UTF8Encoding($false)
+[Console]::OutputEncoding = $utf8Console
+$OutputEncoding = $utf8Console
 $taskName = 'GitHubRadar-whoaha77'
 $marker = 'GitHubRadar managed task v1; boot+30m then every 2h; user session'
 $python = (Get-Command python -ErrorAction Stop).Source
@@ -11,7 +14,8 @@ if ($Tick) {
     $logDir = Join-Path $PSScriptRoot 'logs'
     New-Item -ItemType Directory -Path $logDir -Force | Out-Null
     $stamp = Get-Date -Format 'yyyyMMdd'
-    & $python -I $main scan --scheduled --boot-time $boot *>> (Join-Path $logDir "schedule-$stamp.log")
+    & $python -I $main scan --scheduled --boot-time $boot 2>&1 |
+        Out-File -LiteralPath (Join-Path $logDir "schedule-$stamp-utf8.log") -Encoding utf8 -Append
     exit $LASTEXITCODE
 }
 if (-not $Install) { throw 'Use -Install [-DryRun], or -Tick for a scheduled check.' }
