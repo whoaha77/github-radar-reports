@@ -99,6 +99,46 @@
 
 **部署前核查：** 核查文档中Windows安装页及中文语言包说明。
 
+### [anthropics/skills](projects/1061953414.md)
+
+**为什么值得：** 提供技能规范、模板与文档类实现范式，可用于设计自研技能结构。
+
+**重叠与增量（未核对安装清单）：** 与已有文档处理、论文写作能力存在主题交叉，规范与模板结构属潜在增量，待核验。
+
+**代价与风险：** 看规范与模板无需运行时；实际加载依赖Claude Code插件机制，Codex适配未证。；部分技能source-available，授权边界与非Claude环境兼容性未验证。
+
+**部署前核查：** 核查spec目录规范文件、template目录模板与docx/pdf/pptx/xlsx子目录的授权声明。
+
+### [getzep/graphiti](projects/840056306.md)
+
+**为什么值得：** 为科研知识图谱与引用关系提供时序事实与混合检索能力。
+
+**重叠与增量（未核对安装清单）：** 已有文献检索与知识图谱兴趣，此项目可补时序事实有效性；与现有检索能力交叉待核验。
+
+**代价与风险：** Python3.10+，需Neo4j等图数据库及OpenAI等LLM密钥，费用未知。；依赖外部图数据库与LLM，小模型易失败，大规模表现未知。
+
+**部署前核查：** 核查README安装段所列Neo4j/FalkorDB版本与依赖清单。
+
+### [ThHanke/ontosphere](projects/1049705027.md)
+
+**为什么值得：** 通过MCP暴露43个图谱工具，让Codex可读写RDF、跑OWL推理并取用一致性修复建议。
+
+**重叠与增量（未核对安装清单）：** 与已有科研绘图、知识图谱相关能力交叉在可视化呈现，推理校验与代理编辑溯源属潜在增量，待核验。
+
+**代价与风险：** 走浏览器modelContext接口，需支持WebMCP的浏览器或polyfill；本地无后端。；MCP桥接稳定性、大图推理内存占用与License一致性均未验证。
+
+**部署前核查：** 核查README的MCP工具清单、/.well-known/mcp.json清单与LICENSE文件，再看Relay设置文档。
+
+### [DeusData/codebase-memory-mcp](projects/1166102148.md)
+
+**为什么值得：** 为Codex补上代码库知识图谱检索、调用链追踪与影响分析，降低大仓库上下文成本。
+
+**重叠与增量（未核对安装清单）：** 与已有代码理解与检索能力存在交叉，图谱化查询与Cypher接口为潜在增量，待核验。
+
+**代价与风险：** 需下载对应平台二进制并配置MCP客户端；Windows有PowerShell脚本；无API密钥要求，MIT许可。；性能与省token数据为作者自报，Windows安装与索引行为未验证。
+
+**部署前核查：** 核查install.ps1的Windows分支、release资产架构与README中MCP配置示例文件。
+
 ### [ucbepic/docetl](projects/826111692.md)
 
 **为什么值得：** 为批量文档数据处理提供声明式LLM流水线与自动优化。
@@ -129,6 +169,36 @@
 
 **部署前核查：** 核查README中llms.txt文档索引与迁移指南所涉类名参数。
 
+### [virgiliojr94/book-to-skill](projects/1226123343.md)
+
+**为什么值得：** 生成按需加载的书籍与文档技能
+
+**重叠与增量（未核对安装清单）：** 与已有读论文和PDF能力交叉，增量在跨代理技能封装
+
+**代价与风险：** 需Python提取器、可选PDF工具链与宿主技能目录写入权限；转换质量与token节省均为作者自述，缺独立验证
+
+**部署前核查：** 核查scripts/extract.py的--check依赖清单与SKILL.md规范
+
+### [assafelovic/gpt-researcher](projects/639835356.md)
+
+**为什么值得：** 可补充多代理深度研究与带引用长报告生成能力
+
+**重叠与增量（未核对安装清单）：** 与既有文献检索、写作与PDF导出能力交叉，深层递归研究可能为增量待核验
+
+**代价与风险：** Python 3.12+、OPENAI_API_KEY与TAVILY_API_KEY，可选Google密钥；有API费用；成本与抓取稳定性未验证，外部网页内容不可信，需人工复核引用
+
+**部署前核查：** 核查requirements.txt依赖、main.py入口与MCP配置示例的有效性
+
+### [op7418/guizang-ppt-skill](projects/1219042200.md)
+
+**为什么值得：** 为 Codex 增加单文件 HTML 幻灯片与演讲者模式生成链路。
+
+**重叠与增量（未核对安装清单）：** 与已有 PPT 生成能力存在功能交叉，HTML 与排练模式为潜在增量。
+
+**代价与风险：** 需 Node/npx、可写文件系统；配图需图像生成 API。；AGPL 许可与第三方脚本行为需审慎核查。
+
+**部署前核查：** 核查 SKILL.md、assets 模板与 scripts 下校验器的实际文件。
+
 ### [PDFMathTranslate/PDFMathTranslate](projects/853189791.md)
 
 **为什么值得：** 为Codex补充PDF论文双语翻译并保留公式排版的能力
@@ -149,6 +219,16 @@
 
 **部署前核查：** 核查 MCP 服务端与 Agent Skills 文档、许可证及部署要求。
 
+### [jordan-gibbs/hyperresearch](projects/1206357666.md)
+
+**为什么值得：** 为 Codex 补上多源深研、引用逐句核验与可复用文献 vault 的研究链路。
+
+**重叠与增量（未核对安装清单）：** 与 Codex 既有文献检索、读论文能力高度交叉，学术去重、引用核查与持久 vault 属潜在增量，待核验。
+
+**代价与风险：** 需要 Python 3.11+ 与 pip 安装，Codex 需 workspace-write 与网络访问权限，可能产生模型费用。；Codex 目标当前需从 GitHub 安装，沙箱网络与写入权限的安全边界未验证。
+
+**部署前核查：** 核查 pyproject.toml、安装目标 codex 的脚本与 .codex/hooks.json 的实际内容，确认所需权限。
+
 ### [oomol-lab/pdf-craft](projects/931354511.md)
 
 **为什么值得：** 为Codex补扫描PDF到Markdown/EPUB的OCR与翻译流水线
@@ -159,25 +239,25 @@
 
 **部署前核查：** 核查安装指南中的Poppler步骤、OCR后端文档与许可文件
 
-### [enoch3712/ExtractThinker](projects/751474418.md)
+### [firecrawl/pdf-inspector](projects/1151702019.md)
 
-**为什么值得：** 为文档字段化抽取与校验增加结构化管线能力
+**为什么值得：** 为 PDF 文献提供快速分类与 Markdown 抽取
 
-**重叠与增量（未核对安装清单）：** 与已有PDF处理交叉，增量在Pydantic契约与分类拆分
+**重叠与增量（未核对安装清单）：** 与已有 PDF 处理能力可能交叉，增量待核验
 
-**代价与风险：** Python 3.9-3.13，模型API key，部分功能需从源码安装；MCP与并行抽取未发布正式版
+**代价与风险：** Python/Node/Rust 任一环境；OCR 需额外运行库；抽取质量在不同版式下未知
 
-**部署前核查：** 核查mcp-container.md与pypdf加载器文档
+**部署前核查：** 核查 docs/python.md 与 OCR 运行时安装说明
 
-### [plotly/dash](projects/33702544.md)
+### [brycewang-stanford/Awesome-Journal-Skills](projects/1248879346.md)
 
-**为什么值得：** 为Codex补充把Python分析代码转为可交互数据应用的能力
+**为什么值得：** 按目标期刊定制科研写作与投稿流程
 
-**重叠与增量（未核对安装清单）：** 与已有科研绘图存在能力交叉，交互式Web应用为潜在增量
+**重叠与增量（未核对安装清单）：** 与已有论文写作、绘图能力交叉，增量在期刊级规范
 
-**代价与风险：** Windows需Python与pip安装dash，浏览器运行，免费开源；Callback交互性能与部署方式未验证
+**代价与风险：** 技能为Markdown但可能依赖Stata与外部平台，费用未知；数量庞大但质量与真实性未逐项验证
 
-**部署前核查：** 部署前核查README的getting-started教程与dash.gallery示例
+**部署前核查：** 核查shared-resources/venue-index.tsv与单个期刊包的SKILL.md
 
 ## 不同类型如何接入
 

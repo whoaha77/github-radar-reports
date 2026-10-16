@@ -64,12 +64,12 @@
 | [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) | 已分析 | 2017-12-26 | Your One-Stop Publication Workbench |
 | [reHackable/awesome-reMarkable](https://github.com/reHackable/awesome-reMarkable) | 已分析 | 2018-01-19 | A curated list of projects related to the reMarkable tablet |
 | [dpilger26/NumCpp](https://github.com/dpilger26/NumCpp) | 已分析 | 2018-02-07 | C++ implementation of the Python Numpy library |
-| [gocn/knowledge](https://github.com/gocn/knowledge) | 分析受阻 | 2018-03-05 | Go社区的知识图谱，Knowledge Graph |
-| [valpackett/awesome-gtk](https://github.com/valpackett/awesome-gtk) | 分析受阻 | 2018-03-24 | List of awesome GTK (3/4) applications |
-| [rust-ml/linfa](https://github.com/rust-ml/linfa) | 分析受阻 | 2018-04-05 | A Rust machine learning framework. |
-| [OpenTTD/OpenTTD](https://github.com/OpenTTD/OpenTTD) | 分析受阻 | 2018-04-06 | OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe |
-| [a-b-street/abstreet](https://github.com/a-b-street/abstreet) | 分析受阻 | 2018-06-04 | Transportation planning and traffic simulation software for creating cities friendlier to walking, biking, and public tr |
-| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 分析受阻 | 2018-06-29 | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
+| [gocn/knowledge](https://github.com/gocn/knowledge) | 已分析 | 2018-03-05 | Go社区的知识图谱，Knowledge Graph |
+| [valpackett/awesome-gtk](https://github.com/valpackett/awesome-gtk) | 已分析 | 2018-03-24 | List of awesome GTK (3/4) applications |
+| [rust-ml/linfa](https://github.com/rust-ml/linfa) | 已分析 | 2018-04-05 | A Rust machine learning framework. |
+| [OpenTTD/OpenTTD](https://github.com/OpenTTD/OpenTTD) | 已分析 | 2018-04-06 | OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe |
+| [a-b-street/abstreet](https://github.com/a-b-street/abstreet) | 已分析 | 2018-06-04 | Transportation planning and traffic simulation software for creating cities friendlier to walking, biking, and public tr |
+| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 已分析 | 2018-06-29 | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
 | [zjunlp/DeepKE](https://github.com/zjunlp/DeepKE) | 已分析 | 2018-08-01 | [EMNLP 2022] An Open Toolkit for Knowledge Graph Extraction and Construction |
 | [writing-resources/awesome-scientific-writing](https://github.com/writing-resources/awesome-scientific-writing) | 已分析 | 2018-09-05 | :keyboard: A curated list of awesome tools, demos and resources to go beyond LaTeX  |
 | [awesome-thesis/awesome-thesis](https://github.com/awesome-thesis/awesome-thesis) | 已分析 | 2018-09-22 | A curated list of practical tips and tricks to help you achieve an awesome CS master thesis [WIP] - contributions are we |

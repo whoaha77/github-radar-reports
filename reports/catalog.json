@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "pool_size": 129,
+  "pool_size": 234,
   "shown": 50,
   "capacity": 50,
   "deployment_policy": "user_initiated_only",
-  "high_value_candidates": 17,
+  "high_value_candidates": 25,
   "projects": [
     {
       "repo_id": 1460385,
@@ -81,6 +81,25 @@
         "next_step": "核查LICENSE、Docker镜像标签与API文档鉴权方式"
       },
       "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
+      "repo_id": 1160005002,
+      "name": "microsoft/Ontology-Playground",
+      "url": "https://github.com/microsoft/Ontology-Playground",
+      "score": 90.93,
+      "reviewed_at": "2026-10-16T17:32:43.766461+00:00",
+      "stale": false,
+      "reason": "与知识图谱、本体兴趣高度相关，覆盖本体学习、可视化与导出，科研教学均可用。",
+      "codex": {
+        "integration": "application",
+        "priority": "中",
+        "reason": "可补充本体可视化与RDF/XML建模导出能力，服务知识图谱学习与教学演示。",
+        "overlap": "与已有科研绘图、PDF/文档处理存在图表与文档输出交叉，本体建模与RDF导出为潜在增量，待核验。",
+        "requirements": "浏览器即可用；本地开发需Node/npm与Windows环境；无API费用要求，MIT许可。",
+        "risk": "预览版功能可能变动，Fabric IQ相关标签与导出语义尚未验证。",
+        "next_step": "核查README中RDF导出配置文档docs/rdf-export-profiles.md与package.json中的Node版本要求。"
+      },
+      "deployment_advice": "独立使用或借鉴，不直接部署"
     },
     {
       "repo_id": 221981891,
@@ -197,6 +216,101 @@
       "deployment_advice": "独立使用或借鉴，不直接部署"
     },
     {
+      "repo_id": 1061953414,
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "score": 87.5,
+      "reviewed_at": "2026-10-16T17:29:52.307366+00:00",
+      "stale": false,
+      "reason": "直接贴合技能化科研文档处理与开发自动化兴趣，可作为自定义技能范本。",
+      "codex": {
+        "integration": "skill",
+        "priority": "高",
+        "reason": "提供技能规范、模板与文档类实现范式，可用于设计自研技能结构。",
+        "overlap": "与已有文档处理、论文写作能力存在主题交叉，规范与模板结构属潜在增量，待核验。",
+        "requirements": "看规范与模板无需运行时；实际加载依赖Claude Code插件机制，Codex适配未证。",
+        "risk": "部分技能source-available，授权边界与非Claude环境兼容性未验证。",
+        "next_step": "核查spec目录规范文件、template目录模板与docx/pdf/pptx/xlsx子目录的授权声明。"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
+      "repo_id": 1153982569,
+      "name": "run-llama/liteparse",
+      "url": "https://github.com/run-llama/liteparse",
+      "score": 87.22,
+      "reviewed_at": "2026-10-16T17:32:19.062298+00:00",
+      "stale": false,
+      "reason": "与用户关注的PDF、数据处理、科研文档管道高度相关。",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "为Codex补充本地文档解析与结构化输出能力。",
+        "overlap": "与既有PDF处理能力存在潜在功能交叉，多语言绑定与边界框输出的增量待核验。",
+        "requirements": "Rust或Python/Node绑定，可选Tesseract OCR与外部OCR服务；Apache-2.0许可。",
+        "risk": "解析质量在复杂版面上的实际表现与OCR依赖开销尚未验证。",
+        "next_step": "核查README基准表与benchmarks、Reproducing章节及绑定文档。"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
+      "repo_id": 840056306,
+      "name": "getzep/graphiti",
+      "url": "https://github.com/getzep/graphiti",
+      "score": 87.01,
+      "reviewed_at": "2026-10-16T17:32:26.012276+00:00",
+      "stale": false,
+      "reason": "契合知识图谱、本体与科研数据处理兴趣。",
+      "codex": {
+        "integration": "library",
+        "priority": "高",
+        "reason": "为科研知识图谱与引用关系提供时序事实与混合检索能力。",
+        "overlap": "已有文献检索与知识图谱兴趣，此项目可补时序事实有效性；与现有检索能力交叉待核验。",
+        "requirements": "Python3.10+，需Neo4j等图数据库及OpenAI等LLM密钥，费用未知。",
+        "risk": "依赖外部图数据库与LLM，小模型易失败，大规模表现未知。",
+        "next_step": "核查README安装段所列Neo4j/FalkorDB版本与依赖清单。"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
+      "repo_id": 1049705027,
+      "name": "ThHanke/ontosphere",
+      "url": "https://github.com/ThHanke/ontosphere",
+      "score": 86.79,
+      "reviewed_at": "2026-10-16T17:29:52.303366+00:00",
+      "stale": false,
+      "reason": "直击本体、知识图谱、语义网与科研数据兴趣，与AI代理协作方式贴合。",
+      "codex": {
+        "integration": "mcp",
+        "priority": "高",
+        "reason": "通过MCP暴露43个图谱工具，让Codex可读写RDF、跑OWL推理并取用一致性修复建议。",
+        "overlap": "与已有科研绘图、知识图谱相关能力交叉在可视化呈现，推理校验与代理编辑溯源属潜在增量，待核验。",
+        "requirements": "走浏览器modelContext接口，需支持WebMCP的浏览器或polyfill；本地无后端。",
+        "risk": "MCP桥接稳定性、大图推理内存占用与License一致性均未验证。",
+        "next_step": "核查README的MCP工具清单、/.well-known/mcp.json清单与LICENSE文件，再看Relay设置文档。"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
+      "repo_id": 1166102148,
+      "name": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "score": 86.34,
+      "reviewed_at": "2026-10-16T17:32:43.775476+00:00",
+      "stale": false,
+      "reason": "与知识图谱、开发自动化高度相关，代码图谱与查询能力契合科研与工程效率需求。",
+      "codex": {
+        "integration": "mcp",
+        "priority": "高",
+        "reason": "为Codex补上代码库知识图谱检索、调用链追踪与影响分析，降低大仓库上下文成本。",
+        "overlap": "与已有代码理解与检索能力存在交叉，图谱化查询与Cypher接口为潜在增量，待核验。",
+        "requirements": "需下载对应平台二进制并配置MCP客户端；Windows有PowerShell脚本；无API密钥要求，MIT许可。",
+        "risk": "性能与省token数据为作者自报，Windows安装与索引行为未验证。",
+        "next_step": "核查install.ps1的Windows分支、release资产架构与README中MCP配置示例文件。"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
       "repo_id": 826111692,
       "name": "ucbepic/docetl",
       "url": "https://github.com/ucbepic/docetl",
@@ -254,6 +368,25 @@
       "deployment_advice": "继续观察，暂不建议接入"
     },
     {
+      "repo_id": 1288402762,
+      "name": "synthetic-sciences/openscience",
+      "url": "https://github.com/synthetic-sciences/openscience",
+      "score": 85.71,
+      "reviewed_at": "2026-10-16T17:35:27.891457+00:00",
+      "stale": false,
+      "reason": "高度契合文献、数据处理与科研自动化兴趣。",
+      "codex": {
+        "integration": "application",
+        "priority": "中",
+        "reason": "可借鉴科研agent工作台与技能编排思路",
+        "overlap": "与已有读论文、绘图、PDF处理能力交叉，增量在实验运行与可审计trace",
+        "requirements": "Windows桌面版可用，但需自备模型API密钥或本地模型，可能产生费用",
+        "risk": "benchmark分数为作者自述，未独立验证",
+        "next_step": "核查package.json与assets/workspace.png及skills目录是否随包分发"
+      },
+      "deployment_advice": "独立使用或借鉴，不直接部署"
+    },
+    {
       "repo_id": 13428264,
       "name": "ShareX/ShareX",
       "url": "https://github.com/ShareX/ShareX",
@@ -307,6 +440,120 @@
         "requirements": "Python，通过LiteLLM接云端或本地LLM，可含决策模型，费用未知。",
         "risk": "小模型可能不遵循抽取指令，1.0版本有迁移破坏性变更。",
         "next_step": "核查README中llms.txt文档索引与迁移指南所涉类名参数。"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
+      "repo_id": 139199684,
+      "name": "PrefectHQ/prefect",
+      "url": "https://github.com/PrefectHQ/prefect",
+      "score": 84.76,
+      "reviewed_at": "2026-10-16T17:32:25.622010+00:00",
+      "stale": false,
+      "reason": "与数据处理、开发自动化兴趣高度契合。",
+      "codex": {
+        "integration": "mixed",
+        "priority": "中",
+        "reason": "Python工作流编排，可托管数据管道与定时任务。",
+        "overlap": "与已有DeepSeek执行器等能力有调度交叉，集成度待核验。",
+        "requirements": "需Python 3.11+；自托管server或Cloud；Cloud可能产生费用。",
+        "risk": "版本快速演进，部署与费用细节未验证。",
+        "next_step": "核查README安装与服务器启动章节，以及agents相关文件。"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
+      "repo_id": 1226123343,
+      "name": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "score": 84.59,
+      "reviewed_at": "2026-10-16T17:34:15.792383+00:00",
+      "stale": false,
+      "reason": "高度对口文献、PDF与知识管理，并把结构化阅读嵌入日常编码工作流。",
+      "codex": {
+        "integration": "mixed",
+        "priority": "高",
+        "reason": "生成按需加载的书籍与文档技能",
+        "overlap": "与已有读论文和PDF能力交叉，增量在跨代理技能封装",
+        "requirements": "需Python提取器、可选PDF工具链与宿主技能目录写入权限",
+        "risk": "转换质量与token节省均为作者自述，缺独立验证",
+        "next_step": "核查scripts/extract.py的--check依赖清单与SKILL.md规范"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
+      "repo_id": 639835356,
+      "name": "assafelovic/gpt-researcher",
+      "url": "https://github.com/assafelovic/gpt-researcher",
+      "score": 84.46,
+      "reviewed_at": "2026-10-16T17:32:25.835530+00:00",
+      "stale": false,
+      "reason": "直接覆盖文献式检索、报告撰写与可视化插图，与科研效率工具方向高度契合。",
+      "codex": {
+        "integration": "mixed",
+        "priority": "高",
+        "reason": "可补充多代理深度研究与带引用长报告生成能力",
+        "overlap": "与既有文献检索、写作与PDF导出能力交叉，深层递归研究可能为增量待核验",
+        "requirements": "Python 3.12+、OPENAI_API_KEY与TAVILY_API_KEY，可选Google密钥；有API费用",
+        "risk": "成本与抓取稳定性未验证，外部网页内容不可信，需人工复核引用",
+        "next_step": "核查requirements.txt依赖、main.py入口与MCP配置示例的有效性"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
+      "repo_id": 982587624,
+      "name": "opendataloader-project/opendataloader-pdf",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "score": 84.45,
+      "reviewed_at": "2026-10-16T17:32:26.193096+00:00",
+      "stale": false,
+      "reason": "直接对应文献与PDF处理兴趣，可服务RAG与引用定位。",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "PDF转Markdown/JSON带坐标，补版面与表格解析",
+        "overlap": "与已有PDF处理能力交叉，版面与坐标输出为潜在增量",
+        "requirements": "需Java 11+与Python 3.10+；混合模式需额外服务；企业功能收费未知",
+        "risk": "基准成绩为作者自报，Windows下JVM调用与混合服务稳定性待核验",
+        "next_step": "核查README中Java依赖、hybrid模式服务命令与LangChain集成说明"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
+      "repo_id": 1098317259,
+      "name": "docling-project/docling-graph",
+      "url": "https://github.com/docling-project/docling-graph",
+      "score": 84.44,
+      "reviewed_at": "2026-10-16T17:33:49.868412+00:00",
+      "stale": false,
+      "reason": "面向文献PDF处理、知识图谱与本体抽取，与科研知识管理兴趣高度相关。",
+      "codex": {
+        "integration": "cli",
+        "priority": "中",
+        "reason": "为Codex补充文档转知识图谱的抽取与可视化能力",
+        "overlap": "与已有PDF处理、科研绘图有交叉，图结构与溯源为本机待核验增量",
+        "requirements": "Python 3.10+，需LLM或VLM后端，远程API可能产生费用，Windows可跑但GPU与模型下载待核验",
+        "risk": "README自述功能未经测试验证，模型抽取准确性与API成本未知",
+        "next_step": "核查pyproject或requirements依赖、.env.example所需密钥与vlm可选依赖安装方式"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
+      "repo_id": 1219042200,
+      "name": "op7418/guizang-ppt-skill",
+      "url": "https://github.com/op7418/guizang-ppt-skill",
+      "score": 84.4,
+      "reviewed_at": "2026-10-16T17:33:54.320241+00:00",
+      "stale": false,
+      "reason": "高度契合科研汇报与效率工具需求，且声明同时支持 Claude Code 与 Codex。",
+      "codex": {
+        "integration": "skill",
+        "priority": "高",
+        "reason": "为 Codex 增加单文件 HTML 幻灯片与演讲者模式生成链路。",
+        "overlap": "与已有 PPT 生成能力存在功能交叉，HTML 与排练模式为潜在增量。",
+        "requirements": "需 Node/npx、可写文件系统；配图需图像生成 API。",
+        "risk": "AGPL 许可与第三方脚本行为需审慎核查。",
+        "next_step": "核查 SKILL.md、assets 模板与 scripts 下校验器的实际文件。"
       },
       "deployment_advice": "高价值核查候选，等你主动提出安装"
     },
@@ -368,6 +615,25 @@
       "deployment_advice": "高价值核查候选，等你主动提出安装"
     },
     {
+      "repo_id": 1206357666,
+      "name": "jordan-gibbs/hyperresearch",
+      "url": "https://github.com/jordan-gibbs/hyperresearch",
+      "score": 83.38,
+      "reviewed_at": "2026-10-16T17:33:33.229110+00:00",
+      "stale": false,
+      "reason": "直接命中用户的文献检索、引用管理与科研效率兴趣，且明确支持 Codex。",
+      "codex": {
+        "integration": "skill",
+        "priority": "高",
+        "reason": "为 Codex 补上多源深研、引用逐句核验与可复用文献 vault 的研究链路。",
+        "overlap": "与 Codex 既有文献检索、读论文能力高度交叉，学术去重、引用核查与持久 vault 属潜在增量，待核验。",
+        "requirements": "需要 Python 3.11+ 与 pip 安装，Codex 需 workspace-write 与网络访问权限，可能产生模型费用。",
+        "risk": "Codex 目标当前需从 GitHub 安装，沙箱网络与写入权限的安全边界未验证。",
+        "next_step": "核查 pyproject.toml、安装目标 codex 的脚本与 .codex/hooks.json 的实际内容，确认所需权限。"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
       "repo_id": 931354511,
       "name": "oomol-lab/pdf-craft",
       "url": "https://github.com/oomol-lab/pdf-craft",
@@ -385,6 +651,25 @@
         "next_step": "核查安装指南中的Poppler步骤、OCR后端文档与许可文件"
       },
       "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
+      "repo_id": 1308263428,
+      "name": "rekursiv-ai/trackinizer",
+      "url": "https://github.com/rekursiv-ai/trackinizer",
+      "score": 82.69,
+      "reviewed_at": "2026-10-16T17:35:27.900461+00:00",
+      "stale": false,
+      "reason": "高度契合知识图谱、文献与实验记录兴趣。",
+      "codex": {
+        "integration": "cli",
+        "priority": "中",
+        "reason": "把Issue、实验、论文与信念建成可查询的认知图谱",
+        "overlap": "与已有文献与科研绘图交叉，增量在信念—证据关系与变更日志",
+        "requirements": "需uv与Python3.12，默认PGlite或自备Postgres，含pgvector",
+        "risk": "图模型尚早，本地helper需配Claude/Codex CLI",
+        "next_step": "核查docs/api.md与types目录的契约定义"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
     },
     {
       "repo_id": 231283452,
@@ -444,6 +729,44 @@
       "deployment_advice": "独立使用或借鉴，不直接部署"
     },
     {
+      "repo_id": 1137078255,
+      "name": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "score": 81.74,
+      "reviewed_at": "2026-10-16T17:31:36.791027+00:00",
+      "stale": false,
+      "reason": "与知识图谱、AI开发自动化兴趣高度相关，本地运行利于隐私。",
+      "codex": {
+        "integration": "mcp",
+        "priority": "中",
+        "reason": "为Agent补充本地代码图谱查询，可能减少检索轮次与上下文消耗。",
+        "overlap": "与已有代码阅读能力存在交叉，增量在预索引与增量同步。",
+        "requirements": "Windows可用PowerShell安装，CLI内置运行时，无需Node。",
+        "risk": "索引准确性与telemetry行为尚未验证，代码数据本地性需确认。",
+        "next_step": "核查README的install.ps1、telemetry章节与codegraph init生成目录。"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
+      "repo_id": 1151702019,
+      "name": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "score": 81.59,
+      "reviewed_at": "2026-10-16T17:31:57.141148+00:00",
+      "stale": false,
+      "reason": "直接命中 PDF 与文献处理兴趣，检测扫描与文本型以便路由 OCR。",
+      "codex": {
+        "integration": "library",
+        "priority": "高",
+        "reason": "为 PDF 文献提供快速分类与 Markdown 抽取",
+        "overlap": "与已有 PDF 处理能力可能交叉，增量待核验",
+        "requirements": "Python/Node/Rust 任一环境；OCR 需额外运行库",
+        "risk": "抽取质量在不同版式下未知",
+        "next_step": "核查 docs/python.md 与 OCR 运行时安装说明"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
       "repo_id": 626805178,
       "name": "langgenius/dify",
       "url": "https://github.com/langgenius/dify",
@@ -461,6 +784,25 @@
         "next_step": "核查LICENSE与docker/docker-compose.yaml及版本升级说明"
       },
       "deployment_advice": "独立使用或借鉴，不直接部署"
+    },
+    {
+      "repo_id": 1203670949,
+      "name": "AgriciDaniel/claude-obsidian",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "score": 81.48,
+      "reviewed_at": "2026-10-16T17:33:33.227115+00:00",
+      "stale": false,
+      "reason": "高度契合用户的知识图谱、文献与引用管理兴趣，本地 Markdown 所有权与溯源设计值得关注。",
+      "codex": {
+        "integration": "mixed",
+        "priority": "中",
+        "reason": "可为 Codex 增加本地知识库摄取、溯源引用与知识图谱整理的技能链路。",
+        "overlap": "与 Codex 的文献阅读与写作能力有交叉，本地 vault 溯源与事务写入属潜在增量，待核验。",
+        "requirements": "需要 Python 3、Obsidian 与独立的 vault 目录；网络出口与远程模型需显式同意。",
+        "risk": "Codex 侧技能链接未经本机验证，Windows 路径与权限行为未知。",
+        "next_step": "核查 docs/windows-wsl.md、docs/install-guide.md 与 scripts/setup-multi-agent.sh，确认 Codex 主机支持的实际步骤。"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
     },
     {
       "repo_id": 1287804060,
@@ -499,6 +841,25 @@
         "next_step": "核查自托管在Windows的安装方式、是否需要Docker，以及文档索引格式支持范围"
       },
       "deployment_advice": "独立使用或借鉴，不直接部署"
+    },
+    {
+      "repo_id": 1248879346,
+      "name": "brycewang-stanford/Awesome-Journal-Skills",
+      "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills",
+      "score": 81.2,
+      "reviewed_at": "2026-10-16T17:35:59.675569+00:00",
+      "stale": false,
+      "reason": "极强对口科研写作与实证流程，覆盖经管与自然科学主流期刊。",
+      "codex": {
+        "integration": "mixed",
+        "priority": "高",
+        "reason": "按目标期刊定制科研写作与投稿流程",
+        "overlap": "与已有论文写作、绘图能力交叉，增量在期刊级规范",
+        "requirements": "技能为Markdown但可能依赖Stata与外部平台，费用未知",
+        "risk": "数量庞大但质量与真实性未逐项验证",
+        "next_step": "核查shared-resources/venue-index.tsv与单个期刊包的SKILL.md"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
     },
     {
       "repo_id": 198466472,
@@ -594,367 +955,6 @@
         "next_step": "核查README中的config.toml必填项、data/samples与graph-serve、graph-chat入口"
       },
       "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 542284380,
-      "name": "usebruno/bruno",
-      "url": "https://github.com/usebruno/bruno",
-      "score": 80.36,
-      "reviewed_at": "2026-10-16T17:25:09.355273+00:00",
-      "stale": false,
-      "reason": "属开发自动化与效率工具，Windows可装，契合通用工具兴趣。",
-      "codex": {
-        "integration": "cli",
-        "priority": "中",
-        "reason": "可为Codex增加本地API集合调试与自动化测试能力，配合CLI做CI验证。",
-        "overlap": "与已有执行器、开发自动化存在能力交叉，纯文本集合与bru run可能形成增量，待核验。",
-        "requirements": "Windows可winget安装；CLI需Node.js或Docker，可能有商业版功能需付费。",
-        "risk": "尚未验证无人值守运行API测试的凭据与安全处理。",
-        "next_step": "核查bru CLI文档与License，确认凭据存储与CI使用方式。"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 410689335,
-      "name": "dvanoni/notero",
-      "url": "https://github.com/dvanoni/notero",
-      "score": 80.02,
-      "reviewed_at": "2026-10-16T17:24:48.106050+00:00",
-      "stale": false,
-      "reason": "高度契合文献管理与知识图谱兴趣",
-      "codex": {
-        "integration": "application",
-        "priority": "高",
-        "reason": "把Zotero条目与PDF批注同步进Notion，打通文献管理与笔记知识库",
-        "overlap": "与已有文献检索、引用管理能力交叉，增量在Notion双向链接与项目视图",
-        "requirements": "需Zotero插件环境、Notion账号与工作区授权，MIT许可，Windows可用",
-        "risk": "需Notion在线服务，同步失败或数据一致性问题未验证",
-        "next_step": "核查README安装说明中的xpi文件与Notion连接步骤，以及数据库属性要求"
-      },
-      "deployment_advice": "独立使用或借鉴，不直接部署"
-    },
-    {
-      "repo_id": 245049028,
-      "name": "koodo-reader/koodo-reader",
-      "url": "https://github.com/koodo-reader/koodo-reader",
-      "score": 79.91,
-      "reviewed_at": "2026-10-16T17:23:48.787016+00:00",
-      "stale": false,
-      "reason": "与文献、PDF阅读兴趣直接相关，跨平台效率工具",
-      "codex": {
-        "integration": "application",
-        "priority": "中",
-        "reason": "为Codex补充电子书与PDF阅读、标注和导出能力",
-        "overlap": "与已有PDF处理、文献阅读存在明显交叉，TTS与插件或为增量",
-        "requirements": "Windows有安装包与Winget；需注意AGPL-3.0与自建环境",
-        "risk": "AI功能需自备模型与密钥，费用与隐私未验证",
-        "next_step": "核查README功能列表与Windows安装条目，评估与现有阅读流程重合度"
-      },
-      "deployment_advice": "独立使用或借鉴，不直接部署"
-    },
-    {
-      "repo_id": 8681349,
-      "name": "huginn/huginn",
-      "url": "https://github.com/huginn/huginn",
-      "score": 79.9,
-      "reviewed_at": "2026-10-16T17:16:21.122626+00:00",
-      "stale": false,
-      "reason": "可做科研信息监控与自动化提醒，契合效率工具与开发自动化兴趣。",
-      "codex": {
-        "integration": "application",
-        "priority": "中",
-        "reason": "提供自托管事件代理编排，可作为自动化信息流与任务触发中枢",
-        "overlap": "与已有开发自动化思路交叉，但代理图式监控与RSS/网页抓取触发在本机能力中待核验",
-        "requirements": "Windows需Ruby、Node与MySQL或PostgreSQL，或改用Docker；MIT许可；外部服务API费用取决于所选代理",
-        "risk": "Web抓取类代理长期运行稳定性与合规性未验证",
-        "next_step": "核查Docker镜像与单进程部署文档，确认Windows下持久化存储配置"
-      },
-      "deployment_advice": "独立使用或借鉴，不直接部署"
-    },
-    {
-      "repo_id": 872119017,
-      "name": "D4Vinci/Scrapling",
-      "url": "https://github.com/D4Vinci/Scrapling",
-      "score": 79.89,
-      "reviewed_at": "2026-10-16T17:27:04.138073+00:00",
-      "stale": false,
-      "reason": "契合科研数据采集与自动化兴趣。",
-      "codex": {
-        "integration": "mixed",
-        "priority": "中",
-        "reason": "提供自适应抓取与MCP服务，可补网页数据采集能力。",
-        "overlap": "已有PDF与数据处理及潜在浏览器能力，此项目侧重抗改版选择器与反爬；交叉待核验。",
-        "requirements": "Python，含MCP与CLI组件，可能需Playwright浏览器，费用未知。",
-        "risk": "反爬绕过存在法律与合规风险，选择器自适应可靠性未知。",
-        "next_step": "核查README中MCP与CLI文档页及Playwright依赖要求。"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 373880084,
-      "name": "ContinualAI/continual-learning-papers",
-      "url": "https://github.com/ContinualAI/continual-learning-papers",
-      "score": 79.74,
-      "reviewed_at": "2026-10-16T17:24:27.819404+00:00",
-      "stale": false,
-      "reason": "直接契合文献与引用管理兴趣，提供bibtex与Zotero协作流程。",
-      "codex": {
-        "integration": "reference",
-        "priority": "中",
-        "reason": "可作持续学习文献库与Zotero引用来源",
-        "overlap": "与已有文献检索能力有交叉，属主题专用清单增量",
-        "requirements": "仅需浏览器或Zotero账号，Windows可访问，无费用",
-        "risk": "列表更新是否及时未验证",
-        "next_step": "核查README论文分类与bibtex文件"
-      },
-      "deployment_advice": "独立使用或借鉴，不直接部署"
-    },
-    {
-      "repo_id": 751474418,
-      "name": "enoch3712/ExtractThinker",
-      "url": "https://github.com/enoch3712/ExtractThinker",
-      "score": 79.41,
-      "reviewed_at": "2026-10-16T17:26:21.990059+00:00",
-      "stale": false,
-      "reason": "PDF与科研数据处理强相关。",
-      "codex": {
-        "integration": "library",
-        "priority": "高",
-        "reason": "为文档字段化抽取与校验增加结构化管线能力",
-        "overlap": "与已有PDF处理交叉，增量在Pydantic契约与分类拆分",
-        "requirements": "Python 3.9-3.13，模型API key，部分功能需从源码安装",
-        "risk": "MCP与并行抽取未发布正式版",
-        "next_step": "核查mcp-container.md与pypdf加载器文档"
-      },
-      "deployment_advice": "高价值核查候选，等你主动提出安装"
-    },
-    {
-      "repo_id": 808665467,
-      "name": "Topdu/OpenOCR",
-      "url": "https://github.com/Topdu/OpenOCR",
-      "score": 79.34,
-      "reviewed_at": "2026-10-16T17:26:44.029027+00:00",
-      "stale": false,
-      "reason": "PDF与文档数据处理、科研公式表格解析高度相关。",
-      "codex": {
-        "integration": "library",
-        "priority": "中",
-        "reason": "为文档解析增加公式、表格统一识别能力。",
-        "overlap": "与已有PDF处理能力存在处理环节交叉，公式表格结构化是潜在增量。",
-        "requirements": "Python环境，可能需GPU与模型权重下载。",
-        "risk": "Windows部署与显存需求未验证，精度为作者自述。",
-        "next_step": "核查QUICKSTART.md与opendoc/unirec文档中的依赖与权重获取方式。"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 824541776,
-      "name": "xerrors/Yuxi",
-      "url": "https://github.com/xerrors/Yuxi",
-      "score": 78.94,
-      "reviewed_at": "2026-10-16T13:14:16.880382+00:00",
-      "stale": false,
-      "reason": "覆盖知识图谱、RAG、知识库与多智能体编排，契合科研知识管理与数据处理需求，但偏企业级平台。",
-      "codex": {
-        "integration": "application",
-        "priority": "中",
-        "reason": "本地部署的RAG、知识图谱与多智能体平台，可承载科研知识库构建与实体关系抽取任务",
-        "overlap": "知识图谱与RAG与Codex已有检索能力相邻，但多租户、图谱构建与评估界面为增量",
-        "requirements": "完全基于Docker，含Milvus、Neo4j、PostgreSQL、MinerU，需较充足内存与磁盘",
-        "risk": "企业级资源占用高，默认走第三方大模型API产生费用，升级需停机迁移数据库",
-        "next_step": "核查Windows下WSL2+Docker Compose最低硬件要求及是否必需SiliconFlow密钥"
-      },
-      "deployment_advice": "独立使用或借鉴，不直接部署"
-    },
-    {
-      "repo_id": 54614238,
-      "name": "stdlib-js/stdlib",
-      "url": "https://github.com/stdlib-js/stdlib",
-      "score": 78.56,
-      "reviewed_at": "2026-10-16T17:21:18.260757+00:00",
-      "stale": false,
-      "reason": "与用户数据处理、科研可视化、统计计算兴趣契合。",
-      "codex": {
-        "integration": "library",
-        "priority": "中",
-        "reason": "为 JavaScript 环境补齐数值计算、统计分布与绘图能力。",
-        "overlap": "与已有科研绘图、数据处理能力存在潜在交叉，具体增量待核验。",
-        "requirements": "Node.js 与 npm；BLAS native 依赖在 Windows 上可能需编译工具链。",
-        "risk": "native add-on 编译失败或性能差异未验证。",
-        "next_step": "查看 @stdlib/math/base/special 与 @stdlib/plot/ctor 的安装与示例。"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 90796663,
-      "name": "puppeteer/puppeteer",
-      "url": "https://github.com/puppeteer/puppeteer",
-      "score": 78.46,
-      "reviewed_at": "2026-10-16T17:21:57.386005+00:00",
-      "stale": false,
-      "reason": "可辅助网页数据采集与开发自动化，属效率工具。",
-      "codex": {
-        "integration": "mcp",
-        "priority": "中",
-        "reason": "浏览器自动化库，并通过chrome-devtools-mcp提供MCP形态能力",
-        "overlap": "与已有PDF、文档处理能力有交叉，网页抓取与调试增量待核验",
-        "requirements": "需Node运行环境；README提示现代包管理器默认拦截安装脚本，需手动装浏览器",
-        "risk": "安装脚本被拦截会导致运行时缺浏览器，实验性WebMCP稳定性未知",
-        "next_step": "核查MCP章节指向的chrome-devtools-mcp配置与浏览器安装步骤"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 36889083,
-      "name": "obophenotype/cell-ontology",
-      "url": "https://github.com/obophenotype/cell-ontology",
-      "score": 78.27,
-      "reviewed_at": "2026-10-16T17:20:57.771419+00:00",
-      "stale": false,
-      "reason": "面向本体与科研数据标注，与细胞类型、单细胞组学数据集注释场景高度相关。",
-      "codex": {
-        "integration": "reference",
-        "priority": "中",
-        "reason": "细胞类型本体为单细胞与生信分析标注提供标准术语参照",
-        "overlap": "与文献和知识图谱能力有术语层交叉，作为数据源而非工具，具体结合待核验",
-        "requirements": "主要是发布OWL/OBO文件与编辑器工作流；使用需下载最新release文件",
-        "risk": "README被截断，许可为CC-BY-4.0需署名；实际使用范围未验证",
-        "next_step": "核查releases最新文件、README-release-files说明与许可证署名要求"
-      },
-      "deployment_advice": "独立使用或借鉴，不直接部署"
-    },
-    {
-      "repo_id": 805115184,
-      "name": "OSU-NLP-Group/HippoRAG",
-      "url": "https://github.com/OSU-NLP-Group/HippoRAG",
-      "score": 78.22,
-      "reviewed_at": "2026-10-16T17:26:44.027027+00:00",
-      "stale": false,
-      "reason": "科研文献问答与知识图谱交叉，契合多跳检索与记忆增强方向。",
-      "codex": {
-        "integration": "library",
-        "priority": "中",
-        "reason": "提供图谱式多跳检索与长期记忆索引，可增强文献关联问答。",
-        "overlap": "与已有文献检索、读论文能力在检索环节存在交叉，图谱增强部分待核验。",
-        "requirements": "Python 3.10环境、LLM与嵌入API密钥或本地模型、可选GPU。",
-        "risk": "索引升级需重建，Windows与本地模型支持未验证。",
-        "next_step": "核查examples/demo_openai.py与安装说明中的依赖约束文件。"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 515368123,
-      "name": "tracel-ai/burn",
-      "url": "https://github.com/tracel-ai/burn",
-      "score": 77.91,
-      "reviewed_at": "2026-10-16T17:25:09.352268+00:00",
-      "stale": false,
-      "reason": "契合科研计算与AI兴趣，可作模型训练与实验的工程选项。",
-      "codex": {
-        "integration": "library",
-        "priority": "中",
-        "reason": "为Codex侧增加Rust深度学习与数值计算能力，可写训练与推理代码。",
-        "overlap": "与已有执行器调用外部AI服务存在能力交叉，本地Rust模型训练可能形成增量，需核验。",
-        "requirements": "需Rust工具链与可选GPU驱动，Windows编译环境与显存要求未知。",
-        "risk": "未验证Windows下后端编译成功与性能表现。",
-        "next_step": "核查README后端支持矩阵与BUILD说明，确认所需驱动与工具链版本。"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 501045649,
-      "name": "wavetermdev/waveterm",
-      "url": "https://github.com/wavetermdev/waveterm",
-      "score": 77.7,
-      "reviewed_at": "2026-10-16T17:25:09.349266+00:00",
-      "stale": false,
-      "reason": "属通用开发效率工具，Windows可装，契合效率与开发自动化兴趣。",
-      "codex": {
-        "integration": "application",
-        "priority": "中",
-        "reason": "可作为带AI助手的终端工作台，增强命令行与远程文件操作体验。",
-        "overlap": "与已有执行器、文档处理存在能力交叉，终端内文件预览与SSH会话可能形成增量，待核验。",
-        "requirements": "Windows 10 1809以上；AI能力需自带API密钥或本地模型，可能产生费用。",
-        "risk": "尚未验证其AI操作文件的安全边界与密钥存储实现。",
-        "next_step": "核查Wave AI模式说明与密钥存储文档，确认权限与备份机制。"
-      },
-      "deployment_advice": "独立使用或借鉴，不直接部署"
-    },
-    {
-      "repo_id": 35751761,
-      "name": "dhimmel/obonet",
-      "url": "https://github.com/dhimmel/obonet",
-      "score": 77.6,
-      "reviewed_at": "2026-10-16T17:20:57.769426+00:00",
-      "stale": false,
-      "reason": "直接对应本体与知识图谱兴趣，可用于解析GO、CL等本体做图分析。",
-      "codex": {
-        "integration": "library",
-        "priority": "中",
-        "reason": "把OBO本体读入networkx图，为本体与知识图谱分析补上解析环节",
-        "overlap": "科研数据处理与可视化能力交叉，但读OBO文件并转MultiDiGraph的环节待核验",
-        "requirements": "Python 3与networkx依赖，Windows可pip安装；需核对pyproject中最低Python版本",
-        "risk": "许可证标记为NOASSERTION，开源条款未验证；Parser仅覆盖OBO 1.2与1.4",
-        "next_step": "部署前核查pyproject.toml、LICENSE.md及tests/data下示例OBO文件"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 1003043071,
-      "name": "vitali87/code-graph-rag",
-      "url": "https://github.com/vitali87/code-graph-rag",
-      "score": 77.44,
-      "reviewed_at": "2026-10-16T17:28:03.615810+00:00",
-      "stale": false,
-      "reason": "契合AI与开发自动化兴趣，与知识图谱主题一致。",
-      "codex": {
-        "integration": "mcp",
-        "priority": "中",
-        "reason": "代码知识图谱与图查询，补代码库结构理解与死代码检索",
-        "overlap": "与已有开发自动化、DeepSeek执行器存在交叉，图检索方式为潜在增量",
-        "requirements": "Python 3.12+与ripgrep，默认嵌入式SQLite，无需数据库服务器",
-        "risk": "多语言解析准确度、Windows兼容与--clean删除范围待核验",
-        "next_step": "核查README中安装命令、graph.sqlite路径与语言支持矩阵文档"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 43007325,
-      "name": "DiseaseOntology/HumanDiseaseOntology",
-      "url": "https://github.com/DiseaseOntology/HumanDiseaseOntology",
-      "score": 77.44,
-      "reviewed_at": "2026-10-16T17:20:57.779423+00:00",
-      "stale": false,
-      "reason": "面向疾病本体与医学知识图谱，适合疾病名称标准化与数据关联。",
-      "codex": {
-        "integration": "reference",
-        "priority": "中",
-        "reason": "人类疾病本体为疾病术语标准化与医学数据关联提供权威参照",
-        "overlap": "与文献检索、知识图谱兴趣交叉，作为术语数据源，具体接法待核验",
-        "requirements": "主要用OWL发布文件与IRI获取，Windows可下载；无需运行时代码",
-        "risk": "OBO与JSON生产文件表示方式近期有变更，可能影响兼容性，需核查",
-        "next_step": "核查README-release-files.md、最新release与IRI稳定性说明"
-      },
-      "deployment_advice": "独立使用或借鉴，不直接部署"
-    },
-    {
-      "repo_id": 33702544,
-      "name": "plotly/dash",
-      "url": "https://github.com/plotly/dash",
-      "score": 77.28,
-      "reviewed_at": "2026-10-16T17:20:36.639522+00:00",
-      "stale": false,
-      "reason": "科研可视化与数据处理方向高度相关",
-      "codex": {
-        "integration": "library",
-        "priority": "高",
-        "reason": "为Codex补充把Python分析代码转为可交互数据应用的能力",
-        "overlap": "与已有科研绘图存在能力交叉，交互式Web应用为潜在增量",
-        "requirements": "Windows需Python与pip安装dash，浏览器运行，免费开源",
-        "risk": "Callback交互性能与部署方式未验证",
-        "next_step": "部署前核查README的getting-started教程与dash.gallery示例"
-      },
-      "deployment_advice": "高价值核查候选，等你主动提出安装"
     }
   ]
 }
