@@ -600,7 +600,8 @@ def update_index(store, cfg):
     reports = [r for r in store.reports() if Path(r['root']).absolute() == (folder / 'archive').absolute()]
     text = '# GitHub 项目发现报告\n\n优先科研与效率工具，兼顾 AI、开发工具与广泛探索。\n\n'
     text += '运行频率：开机后 30 分钟，之后每 2 小时；本机离线时暂停。\n\n'
-    text += 'DS 每日估算预算上限 20 元（UTC+8），无月度金额上限。\n\n'
+    text += ('DS 金额不限额，保留用量、估算费用与未知调用记录。\n\n' if cfg['daily_budget_cny'] is None
+             else f"DS 每日估算预算上限 {cfg['daily_budget_cny']:g} 元（UTC+8），无月度金额上限。\n\n")
     text += '仅清理超过 30 天的报告，并至少保留最新 10 份；Git 提交历史保留。\n\n'
     text += '**[历史优选 Top 50](top-50.md) · [Codex 部署分析](codex-deployment.md)**\n\n'
     text += '**[全部历史项目大库](library/README.md) · [有趣与实用发现](discoveries.md)**\n\n'

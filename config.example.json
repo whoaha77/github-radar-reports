@@ -3,7 +3,7 @@
   "repository": "whoaha77/github-radar-reports",
   "publish": true,
   "model_enabled": true,
-  "daily_budget_cny": 20,
+  "daily_budget_cny": null,
   "retention_days": 30,
   "retention_min_reports": 10,
   "boot_delay_minutes": 30,

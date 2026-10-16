@@ -344,10 +344,10 @@ class Store:
         }
 
     def reserve(
-        self, trace_id: str, day: str, amount_micro: int, limit_micro: int
+        self, trace_id: str, day: str, amount_micro: int, limit_micro: int | None
     ) -> bool:
         amount = _require_micro(amount_micro, "amount_micro")
-        limit = _require_micro(limit_micro, "limit_micro")
+        limit = None if limit_micro is None else _require_micro(limit_micro, "limit_micro")
         try:
             self.db.execute("BEGIN IMMEDIATE")
             dup = self.db.execute(
@@ -362,7 +362,7 @@ class Store:
                 (day,),
             ).fetchone()
             current = row["total"] or 0
-            if current + amount > limit:
+            if limit is not None and current + amount > limit:
                 self.db.rollback()
                 return False
             self.db.execute(

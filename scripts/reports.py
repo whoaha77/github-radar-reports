@@ -31,12 +31,13 @@ def mdtext(value):
 
 
 def render(run, cards, budget):
+    spending_limit = '不限额' if run['daily_budget'] is None else f"¥{run['daily_budget']:.2f}"
     lines = ['# GitHub 项目发现报告', '', '**时间：** ' + run['local_time'], '',
              '**运行状态：** ' + run['status'], '',
              '优先科研与效率工具；项目内容未经安装或运行验证。', '',
              f"本轮发现 {run['discovered']} 个项目，读取 {run['evidence_count']} 个证据包，"
              f"新增 DS 分析 {run['analyzed']} 个，复用分析 {run['cache_hits']} 个。", '',
-             f"今日 DS 预算占用（保守估算）：¥{budget['charged_micro']/1000000:.4f} / ¥{run['daily_budget']:.2f}。"
+             f"今日 DS 预算占用（保守估算）：¥{budget['charged_micro']/1000000:.4f} / {spending_limit}。"
              f"费用未知 {budget['unknown_count']} 笔；未知调用保留预算。", '',
              '这是本程序的独立预算，不包含其他 DS 工具调用或订阅消耗。', '']
     if run.get('errors'):

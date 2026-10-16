@@ -16,7 +16,7 @@ def pause_reason(store,cfg,current):
     if not pause:
         return None
     day = current.astimezone(timezone(timedelta(hours=8))).date().isoformat()
-    if (pause['kind']=='budget' and pause['day']!=day) or (pause['kind']=='pricing' and pause.get('pricing')!=cfg['pricing']):
+    if (pause['kind']=='budget' and (pause['day']!=day or ('daily_budget_cny' in cfg and cfg['daily_budget_cny'] is None))) or (pause['kind']=='pricing' and pause.get('pricing')!=cfg['pricing']):
         store.put('analysis-pause',None)
         return None
     return pause['reason']
