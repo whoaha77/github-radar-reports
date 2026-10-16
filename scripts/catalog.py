@@ -48,7 +48,19 @@ def score_analysis(repo, analysis):
     return sum(values[k] * v for k, v in WEIGHTS.items())
 
 
-def latest_rows(store, current=None):
+def validate_sharing(value):
+    if not isinstance(value, dict) or set(value) != {'why','try_idea','curiosity'}:
+        raise ValueError('invalid sharing structure')
+    for key in ('why','try_idea'):
+        if not isinstance(value[key], str) or not 1 <= len(value[key]) <= 400:
+            raise ValueError('invalid sharing text')
+    score = value['curiosity']
+    if isinstance(score, bool) or not isinstance(score,(int,float)) or not math.isfinite(score) or not 0 <= score <= 5:
+        raise ValueError('invalid curiosity score')
+    return value
+
+
+def latest_rows(store, current=None, include_exploration=False, include_filtered=False):
     """One latest accepted version per repo, never the maximum old score."""
     current = current or datetime.now(timezone.utc)
     feedback = store.feedback()
@@ -59,13 +71,15 @@ def latest_rows(store, current=None):
         if repo_id in seen:
             continue
         seen.add(repo_id)
-        if repo_id not in repos or feedback.get(repo_id, {}).get('action') in ('ignore', 'later', 'tried_failed'):
+        if repo_id not in repos or (not include_filtered and feedback.get(repo_id, {}).get('action') in ('ignore', 'later', 'tried_failed')):
             continue
         try:
             analysis = json.loads(record['body'])
+            if 'sharing' in analysis:
+                validate_sharing(analysis['sharing'])
             repo = repos[repo_id]
             score = score_analysis(repo, analysis)
-            if score < 55 or analysis['scores']['relevance'] < 2.5:
+            if not include_exploration and (score < 55 or analysis['scores']['relevance'] < 2.5):
                 continue
             if not all(isinstance(analysis.get(k), str) and analysis[k] for k in ('summary', 'fit', 'difference', 'adoption')):
                 continue

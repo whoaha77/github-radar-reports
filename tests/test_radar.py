@@ -74,7 +74,7 @@ class StorageTests(unittest.TestCase):
     def test_repo_identity_survives_rename(self):
         self.store.upsert_repo({'id': 123, 'full_name': 'old/name'}, '2026-10-15')
         self.store.upsert_repo({'id': 123, 'full_name': 'new/name'}, '2026-10-16')
-        self.assertEqual(self.store.repos(), [{'id': 123, 'full_name': 'new/name'}])
+        self.assertEqual(self.store.repos(), [{'id': 123, 'full_name': 'new/name', '_known_names': ['old/name']}])
 
     def test_lock_excludes_another_process_and_recovers(self):
         lock = self.path / 'scan.lock'

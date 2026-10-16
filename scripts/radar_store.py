@@ -137,11 +137,19 @@ class Store:
         repo_id = body["id"]
         if not _is_positive_int(repo_id):
             raise ValueError("body['id'] must be a positive int")
-        encoded = _json_dumps(body)
+        body = dict(body)
         with self.db:
             row = self.db.execute(
-                "SELECT first_seen FROM repos WHERE repo_id=?", (repo_id,)
+                "SELECT first_seen,body FROM repos WHERE repo_id=?", (repo_id,)
             ).fetchone()
+            if row is not None:
+                previous = _json_loads(row['body'])
+                names = set(previous.get('_known_names', []))
+                if previous.get('full_name') != body.get('full_name') and previous.get('full_name'):
+                    names.add(previous['full_name'])
+                if names:
+                    body['_known_names'] = sorted(names)
+            encoded = _json_dumps(body)
             if row is None:
                 self.db.execute(
                     "INSERT INTO repos(repo_id, body, first_seen, last_seen) "

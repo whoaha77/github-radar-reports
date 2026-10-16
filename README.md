@@ -68,6 +68,8 @@ Copy-Item config.example.json config.json
 .\run.ps1 scan --dry-run               # 展示计划，不请求GitHub/DS、不推送
 .\run.ps1 status                      # 最近运行与今日预算占用
 .\run.ps1 catalog --no-publish        # 不调用模型，本地重建历史Top50和部署建议
+.\run.ps1 library --query 'simulation' # 离线检索全部历史库，包含尚未分析的项目
+.\run.ps1 library --status 待分析 --limit 10
 .\run.ps1 catalog --enrich --limit 16 # 用Flash补充已有证据的部署分析并发布，仍计入每日20元
 .\run.ps1 feedback 123456 saved --reason '准备试用'
 .\run.ps1 feedback 123456 known --reason '已经使用'
@@ -102,3 +104,19 @@ python -m unittest discover -s tests -p 'test_*.py' -v
 README、Release、Star 及作者描述只是筛选材料。本程序不安装/运行候选仓库，不声称完成安全审计或性能验证。引用行号对应本机固定证据快照，远端后续修改可能改变行号。
 
 首版采用官方仓库搜索和 README/Release 证据，不依赖 find-skills CLI、Trending HTML、复杂多 Agent 或向量数据库。查询与偏好可配置；单轮是有预算的抽样覆盖。推荐质量仍需要结合真实使用反馈逐步验证。
+
+## 全量历史库、经典回溯与分享
+
+`reports/library/` 是累计发现库，包含已分析、待分析、需复核、已忽略、暂缓与试用失败记录。按 GitHub 数字 ID 去重，改名保留旧名称与首次发现时间；JSON 包含已有分析和证据链接，可离线按名称、别名、简介、主题或摘要搜索。它与 Top50 是两种视图，不因报告过期而清除项目。完整模型证据快照和分析版本另保存在本机 SQLite 与 work/ 中，不上传本机凭证或日志。
+
+每轮保留经典回溯和趣味探索来源；经典查询覆盖创建超过两年的项目，不要求近期创建或近期提交。各查询成功后向下一页推进，滚动日期改变不重置页码；受 GitHub 搜索每查询前1000项及本机抽样/时间预算约束，不能保证覆盖所有优质项目。忽略记录继续保留，避免反复推送。对同样材料命中语义缓存时不重复付费，Star变化不使缓存失效。
+
+`reports/discoveries.md` 分享好玩、有趣、有用的项目，老项目也可重新被发现；它不以是否适合 Codex 安装为门槛。Flash 在同批分析中写中文分享和探索点，不另开 GPT 调用；旧分析可复用 DS 摘要配合本地提示。`reports/sharing.json` 是小型发布包，按上次分享时间轮换，不反复占用前三名。尚未运行体验的项目明确标识未知，不把作者说明当实测结果。
+
+发布成功后，本机用 Windows 通知展示最多三个精选的中文摘要，点击打开私有 GitHub 分享页，需要浏览器已登录有权限的账号。仅新分享内容触发，同一项目至少间隔14天；相同内容不重复通知。通知关闭、会话不可用或系统抑制展示时，GitHub页面仍可阅读，程序不会把“提交到Windows”声称为“用户已读”。本机可设置 `desktop_notifications: false` 关闭通知。DS API不能直接向 Codex 聊天发消息，因此没有另设唤醒GPT的聊天定时任务。
+
+## 执行器与消耗
+
+日常调用链：Windows任务 → 本地Python搜索/分页/去重/缓存 → `bin/ask.py` 的 DeepSeek Flash 文本分析 → 本地校验/历史库/报告 → Git发布 → 本机通知。任务设计、重要取舍和开发验收由主脑负责；技能指令本身不会自动路由，实际分流由上述脚本实现。普通扫描不使用 GPT/OpenAI API，也不依赖 Codex 开着；开发、验收或用户在聊天中追问仍会使用当前助手。
+
+每批DS调用先预留预算，固定Flash、thinking off、零自动重试；校验精确项目ID、字段、评分与原文引文。超时、截断或校验失败不算成功。已有用量、耗时和估算金额可核查，实际供应商扣费未知；没有同任务GPT基线时不声明节省百分比。不能将低API费用直接解释为Codex订阅消耗的下降。
