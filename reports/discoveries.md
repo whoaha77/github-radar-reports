@@ -4,33 +4,33 @@
 
 [历史项目大库](library/README.md) · [Top50](top-50.md) · [部署分析](codex-deployment.md)
 
-## [lllllllama/RigorPilot-Skills](https://github.com/lllllllama/RigorPilot-Skills)
+## [diasurgical/devilution](https://github.com/diasurgical/devilution)
 
-有趣发现
+**老项目回看** · 有趣发现
 
-给README做可验证的体检报告，绿黄红标出哪些命令真跑通，复现论文不再靠猜。
+从残留在日版符号文件和隐藏MPQ中的调试信息，一点点拼回1996年游戏源码，像数字考古。
 
-**可以怎样探索：** 先看micrograd展示的RIGORPILOT_README.md标注效果。
-
-来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
-
-## [4thfever/cultivation-world-simulator](https://github.com/4thfever/cultivation-world-simulator)
-
-有趣发现
-
-你当天道看一群AI修士勾心斗角、宗门兴衰，还能降天劫或改人心，像活的修仙小说。
-
-**可以怎样探索：** 先看README里的游戏演示GIF和“自主思考”截图，感受涌现叙事。
+**可以怎样探索：** 先读Introduction了解符号文件与泄漏故事。
 
 来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
 
-## [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)
+## [K-Dense-AI/k-dense-byok](https://github.com/K-Dense-AI/k-dense-byok)
 
 有趣发现
 
-像把Office搬进本地还配了个敢改稿的AI，改动以修订和快照呈现可一键回滚，表格用真公式，文件还能被搜索提问。
+把 AI 科研助手装进自己电脑，用自备 Key 或本地模型跑完整分析流程，还能留下可复现的实验笔记本。
 
-**可以怎样探索：** 先看Sheets的AI问答演示：回答里把用到的单元格作为链接引用。
+**可以怎样探索：** 先看 README 顶部的演示 GIF 与论文链接，观察一次单细胞 RNA-seq 端到端分析的交互。
+
+来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
+
+## [qwdwqfwq/topconf-paper-figure-gallery](https://github.com/qwdwqfwq/topconf-paper-figure-gallery)
+
+有趣发现
+
+画论文Figure 1前先看三千多张顶会主图怎么排版，还送一个基于参考图生成初稿的FigureForge，堪称科研绘图灵感库。
+
+**可以怎样探索：** 先逛在线画廊按会议和视觉模式筛选，再用forge输入你的摘要勾选参考图跑一次初稿。
 
 来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
 

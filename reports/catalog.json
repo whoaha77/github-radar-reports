@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "pool_size": 397,
+  "pool_size": 441,
   "shown": 50,
   "capacity": 50,
   "deployment_policy": "user_initiated_only",

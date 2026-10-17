@@ -3,40 +3,40 @@
   "repository": "whoaha77/github-radar-reports",
   "items": [
     {
-      "repo_id": 1195799446,
-      "name": "lllllllama/RigorPilot-Skills",
-      "url": "https://github.com/lllllllama/RigorPilot-Skills",
+      "repo_id": 127684759,
+      "name": "diasurgical/devilution",
+      "url": "https://github.com/diasurgical/devilution",
       "kind": "有趣发现",
-      "classic": false,
-      "why": "给README做可验证的体检报告，绿黄红标出哪些命令真跑通，复现论文不再靠猜。",
-      "try_idea": "先看micrograd展示的RIGORPILOT_README.md标注效果。",
-      "reviewed_at": "2026-10-17T08:53:32.801088+00:00",
+      "classic": true,
+      "why": "从残留在日版符号文件和隐藏MPQ中的调试信息，一点点拼回1996年游戏源码，像数字考古。",
+      "try_idea": "先读Introduction了解符号文件与泄漏故事。",
+      "reviewed_at": "2026-10-17T10:32:05.150100+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "fc9994fdc9c50d96ace4295f4b29097251925e13f287826a026c9fb5b4e049d1"
+      "share_id": "972bdefab9c83a81e7d1fddc0ad1a5c0c5c4d2a0946964a64ae7d233423336fa"
     },
     {
-      "repo_id": 1040174885,
-      "name": "4thfever/cultivation-world-simulator",
-      "url": "https://github.com/4thfever/cultivation-world-simulator",
+      "repo_id": 1186701238,
+      "name": "K-Dense-AI/k-dense-byok",
+      "url": "https://github.com/K-Dense-AI/k-dense-byok",
       "kind": "有趣发现",
       "classic": false,
-      "why": "你当天道看一群AI修士勾心斗角、宗门兴衰，还能降天劫或改人心，像活的修仙小说。",
-      "try_idea": "先看README里的游戏演示GIF和“自主思考”截图，感受涌现叙事。",
-      "reviewed_at": "2026-10-17T08:52:34.013398+00:00",
+      "why": "把 AI 科研助手装进自己电脑，用自备 Key 或本地模型跑完整分析流程，还能留下可复现的实验笔记本。",
+      "try_idea": "先看 README 顶部的演示 GIF 与论文链接，观察一次单细胞 RNA-seq 端到端分析的交互。",
+      "reviewed_at": "2026-10-16T17:33:33.222109+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "c730467c7bdff6aebb0261f72b6ff6ae67f86ed6cbae09353739f0d24482e9fb"
+      "share_id": "c12889d79b28a1c42d93a9be7be5dbadcd4123a024df22dd8c95b7f5ce460018"
     },
     {
-      "repo_id": 1318187016,
-      "name": "genspark-ai/genoffice",
-      "url": "https://github.com/genspark-ai/genoffice",
+      "repo_id": 1374667371,
+      "name": "qwdwqfwq/topconf-paper-figure-gallery",
+      "url": "https://github.com/qwdwqfwq/topconf-paper-figure-gallery",
       "kind": "有趣发现",
       "classic": false,
-      "why": "像把Office搬进本地还配了个敢改稿的AI，改动以修订和快照呈现可一键回滚，表格用真公式，文件还能被搜索提问。",
-      "try_idea": "先看Sheets的AI问答演示：回答里把用到的单元格作为链接引用。",
-      "reviewed_at": "2026-10-17T08:54:28.462892+00:00",
+      "why": "画论文Figure 1前先看三千多张顶会主图怎么排版，还送一个基于参考图生成初稿的FigureForge，堪称科研绘图灵感库。",
+      "try_idea": "先逛在线画廊按会议和视觉模式筛选，再用forge输入你的摘要勾选参考图跑一次初稿。",
+      "reviewed_at": "2026-10-16T17:36:18.617311+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "a81318e26aa144af5e0a61ca76e17022fba722d93e33f6fd466efdf124d4b4b0"
+      "share_id": "f2e9d71e9f72aba92e2d098b7729967bb9eddab06a1f77728b8cb6160adf2f43"
     }
   ],
   "delivery_policy": "Share interesting/useful discoveries; no installation request; deduplicate chat delivery."
