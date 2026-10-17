@@ -47,18 +47,18 @@ logs/                   调度日志，不上传
 backups/                本机备份，不上传
 ```
 
-本机部署在 `D:\CodexProject\deepseek-executor\apps\github-radar`，默认自动找到上层执行器。单独克隆时，设置环境变量 `DEEPSEEK_EXECUTOR_HOME` 为执行器根目录；不要指向其 bin 子目录。
+通常位于执行器的 `apps/github-radar` 目录下，默认自动找到上层执行器。单独克隆时，设置环境变量 `DEEPSEEK_EXECUTOR_HOME` 为执行器根目录；不要指向其 bin 子目录。
 
 ```powershell
-$env:DEEPSEEK_EXECUTOR_HOME = 'D:\CodexProject\deepseek-executor'
+$env:DEEPSEEK_EXECUTOR_HOME = 'C:\path\to\deepseek-executor'
 Copy-Item config.example.json config.json
 .\run.ps1 scan --dry-run
 .\run.ps1 scan --no-publish --limit 4
 ```
 
-执行器按其自己的规则读取 `DEEPSEEK_API_KEY` 或现有本机配置，本项目不保存密钥。GitHub 优先复用 `GH_TOKEN`/`GITHUB_TOKEN`，否则非交互调用 Git Credential Manager。仅查询公开项目，发布到配置的私有仓库；不打印或提交凭证。
+执行器按其自己的规则读取 `DEEPSEEK_API_KEY` 或现有本机配置，本项目不保存密钥。GitHub 优先复用 `GH_TOKEN`/`GITHUB_TOKEN`，否则非交互调用 Git Credential Manager。仅查询公开项目，发布到配置的仓库；不打印或提交凭证。
 
-已有本机配置时不要覆盖；先备份并比较。仓库默认目标为 `whoaha77/github-radar-reports`，发布前核对 origin、main 分支及远端 private 属性，禁止 force push、reset 或自动丢弃冲突。
+已有本机配置时不要覆盖；先备份并比较。仓库默认目标为 `whoaha77/github-radar-reports`，发布前核对 origin、main 分支与远端可见性，禁止 force push、reset 或自动丢弃冲突。
 
 ## 使用
 
@@ -93,7 +93,7 @@ python -m unittest discover -s tests -p 'test_*.py' -v
 
 该任务不保存 Windows 密码、不要求管理员权限，不唤醒休眠的电脑。**尚未登录 Windows 时无法使用本用户凭证运行；登录后补检查。**采集与分析阶段设置 10 分钟时间预算，发布另有请求超时；任务外层 15 分钟兜底，避免无限等待。进程互斥防止手动与定时运行重叠。
 
-首次部署先审查白名单文件、测试、建立私有远端并提交完整源码；后续扫描仅提交报告目录。源码版本由开发迭代时单独提交。推送失败保留本地文件与提交；远端冲突不会强行覆盖。
+首次部署先审查白名单文件、测试、建立远端并提交完整源码；后续扫描仅提交报告目录。源码版本由开发迭代时单独提交。推送失败保留本地文件与提交；远端冲突不会强行覆盖。
 
 ## 预算和证据的边界
 
@@ -113,7 +113,7 @@ README、Release、Star 及作者描述只是筛选材料。本程序不安装/�
 
 `reports/discoveries.md` 分享好玩、有趣、有用的项目，老项目也可重新被发现；它不以是否适合 Codex 安装为门槛。Flash 在同批分析中写中文分享和探索点，不另开 GPT 调用；旧分析可复用 DS 摘要配合本地提示。`reports/sharing.json` 是小型发布包，按上次分享时间轮换，不反复占用前三名。尚未运行体验的项目明确标识未知，不把作者说明当实测结果。
 
-发布成功后，本机用 Windows 通知展示最多三个精选的中文摘要，点击打开私有 GitHub 分享页，需要浏览器已登录有权限的账号。仅新分享内容触发，同一项目至少间隔14天；相同内容不重复通知。通知关闭、会话不可用或系统抑制展示时，GitHub页面仍可阅读，程序不会把“提交到Windows”声称为“用户已读”。本机可设置 `desktop_notifications: false` 关闭通知。DS API不能直接向 Codex 聊天发消息，因此没有另设唤醒GPT的聊天定时任务。
+发布成功后，本机用 Windows 通知展示最多三个精选的中文摘要，点击打开 GitHub 分享页。仅新分享内容触发，同一项目至少间隔14天；相同内容不重复通知。通知关闭、会话不可用或系统抑制展示时，GitHub页面仍可阅读，程序不会把“提交到Windows”声称为“用户已读”。本机可设置 `desktop_notifications: false` 关闭通知。DS API不能直接向 Codex 聊天发消息，因此没有另设唤醒GPT的聊天定时任务。
 
 通知正文和“查看最新消息”按钮都直接打开 `main` 分支的[最新中文分享页](https://github.com/whoaha77/github-radar-reports/blob/main/reports/discoveries.md)，可收藏这个固定入口。2026-10-17已由用户实际确认收到测试通知且点击正常打开。手动重发测试通知如下，不调用DS，也不改动日常通知去重记录：
 
