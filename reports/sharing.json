@@ -3,40 +3,40 @@
   "repository": "whoaha77/github-radar-reports",
   "items": [
     {
-      "repo_id": 1382304020,
-      "name": "sevenevesai/riso-windowseat",
-      "url": "https://github.com/sevenevesai/riso-windowseat",
-      "kind": "有趣发现",
-      "classic": false,
-      "why": "把孔版印刷的颗粒感做成会动的短片，火车窗、星群、大理石纹全是代码画的，还带配乐。",
-      "try_idea": "先看Window Seat的78秒短片和分镜对照表，再翻studies里的技术A/B对比。",
-      "reviewed_at": "2026-10-17T12:34:41.946278+00:00",
-      "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "8971c53214c7e9bd2169501ffccc1c756f0bd8354daa596fada0661ddfafe84b"
-    },
-    {
-      "repo_id": 521191759,
-      "name": "ProjectPhysX/FluidX3D",
-      "url": "https://github.com/ProjectPhysX/FluidX3D",
+      "repo_id": 6105714,
+      "name": "pymupdf/PyMuPDF",
+      "url": "https://github.com/pymupdf/PyMuPDF",
       "kind": "有趣发现",
       "classic": true,
-      "why": "能在普通电脑上用GPU跑出漂亮的三维流体仿真和光线追踪渲染，拖拽旋转、切面观察，像随身风洞。",
-      "try_idea": "先看YouTube演示视频与示例setup，选一个自带算例了解运行与渲染效果。",
-      "reviewed_at": "2026-10-16T17:25:09.354271+00:00",
+      "why": "号称月下载超5000万次的PDF引擎，能把论文直接转成带结构的Markdown喂给大模型，还能抽表格、做标注和脱敏。",
+      "try_idea": "用page.find_tables()把一张PDF表格转成Markdown或Pandas，看看还原度。",
+      "reviewed_at": "2026-10-17T14:30:17.081904+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "35543c538254debf5a93fdadd4631b6a1cb4b14a2f94a02dad82a602803b9d71"
+      "share_id": "2beaca1dcee13d96cb749acc96b090f1e2db97b60b4c0b487be472955e0c95fd"
     },
     {
-      "repo_id": 1129786550,
-      "name": "teng-lin/notebooklm-py",
-      "url": "https://github.com/teng-lin/notebooklm-py",
+      "repo_id": 958212587,
+      "name": "growgraph/ontocast",
+      "url": "https://github.com/growgraph/ontocast",
       "kind": "有趣发现",
       "classic": false,
-      "why": "让代理指挥NotebookLM把一堆PDF读透，再批量吐出播客、测验和思维导图，像给研究配了个外包分析团队。",
-      "try_idea": "先看CLI里导入几个来源并提问生成测验的示例，感受端到端流程。",
-      "reviewed_at": "2026-10-17T08:52:52.659970+00:00",
+      "why": "把一堆PDF自动变成带本体和出处链接的知识图谱，是知识工作者会眼前一亮的玩法。",
+      "try_idea": "先用自带示例本体跑单篇文档，看Turtle输出与来源标注效果。",
+      "reviewed_at": "2026-10-17T14:33:30.903247+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "00e025def8685d77c7aae0512defd860c47f31c369084451d5bc7ab0c93486a8"
+      "share_id": "5f2fe814c52f032c07c5a4c55ab5a3c62296ffa25a1df0653e08842a043e6ef6"
+    },
+    {
+      "repo_id": 1158430198,
+      "name": "rohitg00/k8sgames",
+      "url": "https://github.com/rohitg00/k8sgames",
+      "kind": "有趣发现",
+      "classic": false,
+      "why": "用打游戏的方式敲kubectl修集群故障，3D画布还能拖资源出架构图并导出YAML。",
+      "try_idea": "先打开k8sgames.com/draw，拖几个资源画张架构图再导出PNG。",
+      "reviewed_at": "2026-10-17T14:34:06.485941+00:00",
+      "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
+      "share_id": "890ce0d47072346d4a41d06b47c35228e9d7a4eada76e5c01c56f801e1c02d70"
     }
   ],
   "delivery_policy": "Share interesting/useful discoveries; no installation request; deduplicate chat delivery."

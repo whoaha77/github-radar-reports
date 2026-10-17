@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "pool_size": 500,
+  "pool_size": 573,
   "shown": 50,
   "capacity": 50,
   "deployment_policy": "user_initiated_only",
-  "high_value_candidates": 22,
+  "high_value_candidates": 21,
   "projects": [
     {
       "repo_id": 826168160,
@@ -121,6 +121,25 @@
       "deployment_advice": "高价值核查候选，等你主动提出安装"
     },
     {
+      "repo_id": 6105714,
+      "name": "pymupdf/PyMuPDF",
+      "url": "https://github.com/pymupdf/PyMuPDF",
+      "score": 90.08,
+      "reviewed_at": "2026-10-17T14:30:17.081904+00:00",
+      "stale": false,
+      "reason": "直接命中文献、PDF与数据处理兴趣，且面向LLM管道。",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "为PDF提取、表格识别与Markdown转换增加Python底层能力",
+        "overlap": "已有PDF处理可能覆盖基础读写，此库增量在高精度版面元数据与表格抽取",
+        "requirements": "pip安装wheel，Windows有预编译包，Python 3.11-3.15；OCR需另装Tesseract",
+        "risk": "非官方测试验证；AGPL-3.0对分发有传染性约束",
+        "next_step": "核查README中wheel支持平台与COPYING许可证，确认Office转换需License Key"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
       "repo_id": 257526212,
       "name": "Flow-Launcher/Flow.Launcher",
       "url": "https://github.com/Flow-Launcher/Flow.Launcher",
@@ -176,6 +195,25 @@
         "next_step": "核查快速开始中的Zotero设置、安装命令、技能安装说明与MIT许可文件"
       },
       "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
+      "repo_id": 3119517,
+      "name": "py-pdf/pypdf",
+      "url": "https://github.com/py-pdf/pypdf",
+      "score": 89.02,
+      "reviewed_at": "2026-10-17T14:29:57.773965+00:00",
+      "stale": false,
+      "reason": "与文献与PDF处理强相关，是科研效率基础构件。",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "为PDF拆分合并与文本提取提供脚本能力",
+        "overlap": "与已有PDF处理能力潜在重叠，增量待核验",
+        "requirements": "Python与pip，AES加密需crypto扩展",
+        "risk": "许可证与解析边界情况未验证",
+        "next_step": "核查README示例与仓库LICENSE文件"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
     },
     {
       "repo_id": 943149,
@@ -710,6 +748,25 @@
       "deployment_advice": "高价值核查候选，等你主动提出安装"
     },
     {
+      "repo_id": 1074176989,
+      "name": "Hylouis233/bibverify",
+      "url": "https://github.com/Hylouis233/bibverify",
+      "score": 84.5,
+      "reviewed_at": "2026-10-17T14:33:48.941169+00:00",
+      "stale": false,
+      "reason": "与文献、引用管理、科研写作流程直接相关",
+      "codex": {
+        "integration": "mixed",
+        "priority": "高",
+        "reason": "为Codex补充BibTeX条目核验与元数据校正，减少引用错误",
+        "overlap": "已有文献检索与引用管理相关能力，这里侧重条目的多源一致性与非破坏性合并，具体交集待核验",
+        "requirements": "Python 3.11–3.14；部分源需邮箱或免费API密钥；Windows支持已声明",
+        "risk": "多源匹配阈值与自动更新阈值默认设置需按需调整，误判风险未知",
+        "next_step": "核查cli入口、MCP server配置与config_template.json字段"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
       "repo_id": 639835356,
       "name": "assafelovic/gpt-researcher",
       "url": "https://github.com/assafelovic/gpt-researcher",
@@ -786,6 +843,44 @@
       "deployment_advice": "高价值核查候选，等你主动提出安装"
     },
     {
+      "repo_id": 94702367,
+      "name": "pdfcpu/pdfcpu",
+      "url": "https://github.com/pdfcpu/pdfcpu",
+      "score": 84.4,
+      "reviewed_at": "2026-10-17T14:31:27.751872+00:00",
+      "stale": false,
+      "reason": "高度贴合PDF处理与批量文档操作需求，可作脚本化流水线组件。",
+      "codex": {
+        "integration": "cli",
+        "priority": "高",
+        "reason": "为批量PDF校验、合并、水印提供本地命令行能力",
+        "overlap": "与已有PDF处理能力存在能力交叉，增量在脚本化批处理与校验",
+        "requirements": "需Go构建或下载对应平台二进制，无API费用",
+        "risk": "Windows下可执行文件与字体兼容性未验证",
+        "next_step": "核查README安装链接与pkg/api样例、LICENSE文件"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
+      "repo_id": 102369738,
+      "name": "Hopding/pdf-lib",
+      "url": "https://github.com/Hopding/pdf-lib",
+      "score": 84.38,
+      "reviewed_at": "2026-10-17T14:31:44.242769+00:00",
+      "stale": false,
+      "reason": "直接命中PDF处理兴趣，可在Node或浏览器中程序化生成与编辑PDF。",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "为Codex增加可编程PDF生成与批量编辑的底层库能力。",
+        "overlap": "与现有PDF处理存在潜在交叉，库级定制是待核验增量。",
+        "requirements": "Node运行时，npm依赖，无需API费用。",
+        "risk": "复杂PDF与字体嵌入效果未验证。",
+        "next_step": "核查package.json依赖与examples中示例脚本。"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
       "repo_id": 458648791,
       "name": "paperless-ngx/paperless-ngx",
       "url": "https://github.com/paperless-ngx/paperless-ngx",
@@ -843,116 +938,21 @@
       "deployment_advice": "继续观察，暂不建议接入"
     },
     {
-      "repo_id": 79413341,
-      "name": "dswah/pyGAM",
-      "url": "https://github.com/dswah/pyGAM",
-      "score": 83.52,
-      "reviewed_at": "2026-10-17T12:31:20.847425+00:00",
+      "repo_id": 1291410,
+      "name": "libvips/libvips",
+      "url": "https://github.com/libvips/libvips",
+      "score": 83.64,
+      "reviewed_at": "2026-10-17T14:29:57.765971+00:00",
       "stale": false,
-      "reason": "直接契合科研数据处理与可解释建模，接口贴近scikit-learn/scipy。",
-      "codex": {
-        "integration": "library",
-        "priority": "高",
-        "reason": "为Codex增加可解释非线性回归与效应图分析能力。",
-        "overlap": "与已有数据处理/绘图能力存在交叉，GAM建模与部分依赖图是潜在增量。",
-        "requirements": "Windows装Python与pygam；可选MKL加速；无API费用。",
-        "risk": "新版Python兼容与性能未验证。",
-        "next_step": "核查setup/依赖声明与教程笔记本是否可复现。"
-      },
-      "deployment_advice": "高价值核查候选，等你主动提出安装"
-    },
-    {
-      "repo_id": 204164353,
-      "name": "kestra-io/kestra",
-      "url": "https://github.com/kestra-io/kestra",
-      "score": 83.44,
-      "reviewed_at": "2026-10-16T17:23:28.878861+00:00",
-      "stale": false,
-      "reason": "与数据处理、AI 与开发自动化兴趣高度契合，可编排科研数据管道。",
-      "codex": {
-        "integration": "mixed",
-        "priority": "高",
-        "reason": "可编排数据与 AI 流程，并通过 MCP 或 Agent Skills 暴露给 Codex。",
-        "overlap": "与已有执行器、自动化能力存在交叉，声明式编排与 MCP 暴露为潜在增量。",
-        "requirements": "Docker 或 JVM 部署，Apache-2.0，AI 功能可能需外部模型 API。",
-        "risk": "未验证 Windows 部署、插件权限与 MCP 暴露的安全边界。",
-        "next_step": "核查 MCP 服务端与 Agent Skills 文档、许可证及部署要求。"
-      },
-      "deployment_advice": "高价值核查候选，等你主动提出安装"
-    },
-    {
-      "repo_id": 1206357666,
-      "name": "jordan-gibbs/hyperresearch",
-      "url": "https://github.com/jordan-gibbs/hyperresearch",
-      "score": 83.38,
-      "reviewed_at": "2026-10-16T17:33:33.229110+00:00",
-      "stale": false,
-      "reason": "直接命中用户的文献检索、引用管理与科研效率兴趣，且明确支持 Codex。",
-      "codex": {
-        "integration": "skill",
-        "priority": "高",
-        "reason": "为 Codex 补上多源深研、引用逐句核验与可复用文献 vault 的研究链路。",
-        "overlap": "与 Codex 既有文献检索、读论文能力高度交叉，学术去重、引用核查与持久 vault 属潜在增量，待核验。",
-        "requirements": "需要 Python 3.11+ 与 pip 安装，Codex 需 workspace-write 与网络访问权限，可能产生模型费用。",
-        "risk": "Codex 目标当前需从 GitHub 安装，沙箱网络与写入权限的安全边界未验证。",
-        "next_step": "核查 pyproject.toml、安装目标 codex 的脚本与 .codex/hooks.json 的实际内容，确认所需权限。"
-      },
-      "deployment_advice": "高价值核查候选，等你主动提出安装"
-    },
-    {
-      "repo_id": 95995403,
-      "name": "lmcinnes/umap",
-      "url": "https://github.com/lmcinnes/umap",
-      "score": 83.34,
-      "reviewed_at": "2026-10-17T08:30:43.225119+00:00",
-      "stale": false,
-      "reason": "科研可视化与高维数据处理高度相关，适合单细胞、聚类结果、嵌入向量降维展示。",
+      "reason": "与PDF处理、科研可视化及大体量图像数据高度相关，并附带Windows二进制。",
       "codex": {
         "integration": "library",
         "priority": "中",
-        "reason": "为Codex增加高维数据降维与二维嵌入可视化能力",
-        "overlap": "与已有科研绘图能力交叉，增量在降维算法本身，具体集成待核验",
-        "requirements": "Python环境及numpy、scipy、scikit-learn、numba依赖",
-        "risk": "依赖numba，Windows下版本兼容与编译未验证",
-        "next_step": "核查pyproject与文档中的依赖版本要求及Windows安装说明"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 467844167,
-      "name": "windingwind/zotero-pdf-translate",
-      "url": "https://github.com/windingwind/zotero-pdf-translate",
-      "score": 83.16,
-      "reviewed_at": "2026-10-17T08:51:38.489699+00:00",
-      "stale": false,
-      "reason": "与文献管理、PDF 阅读兴趣高度契合，直接嵌入 Zotero 阅读流程。",
-      "codex": {
-        "integration": "application",
-        "priority": "中",
-        "reason": "为 Zotero 阅读流程增加选区与批注即译能力。",
-        "overlap": "与已有论文阅读与翻译能力存在交叉，批注联动或为增量。",
-        "requirements": "安装 Zotero 7/8；部分服务需密钥或本地服务。",
-        "risk": "免费服务稳定性与隐私未验证。",
-        "next_step": "核查 manifest 支持版本与各翻译服务配置说明。"
-      },
-      "deployment_advice": "独立使用或借鉴，不直接部署"
-    },
-    {
-      "repo_id": 122945974,
-      "name": "vasturiano/force-graph",
-      "url": "https://github.com/vasturiano/force-graph",
-      "score": 83.16,
-      "reviewed_at": "2026-10-17T08:51:03.881266+00:00",
-      "stale": false,
-      "reason": "知识图谱与科研可视化，高度相关",
-      "codex": {
-        "integration": "library",
-        "priority": "中",
-        "reason": "可生成交互式知识图谱/关系网网页可视化",
-        "overlap": "与既有科研绘图能力交叉，新增交互式图谱呈现",
-        "requirements": "Node/npm或CDN，Windows浏览器可用",
-        "risk": "大图性能与交互复杂度未实测",
-        "next_step": "核查README入门示例与API参考，浏览器打开官方演示"
+        "reason": "为批量图像与PDF渲染提供低内存引擎",
+        "overlap": "与已有PDF与绘图能力可能交叉，增量待核验",
+        "requirements": "Windows安装二进制并配置Python绑定",
+        "risk": "原生依赖与格式插件缺失风险未验证",
+        "next_step": "核查releases页面Windows包与pyvips依赖说明"
       },
       "deployment_advice": "继续观察，暂不建议接入"
     }

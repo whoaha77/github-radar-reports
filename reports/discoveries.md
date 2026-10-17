@@ -4,33 +4,33 @@
 
 [历史项目大库](library/README.md) · [Top50](top-50.md) · [部署分析](codex-deployment.md)
 
-## [sevenevesai/riso-windowseat](https://github.com/sevenevesai/riso-windowseat)
-
-有趣发现
-
-把孔版印刷的颗粒感做成会动的短片，火车窗、星群、大理石纹全是代码画的，还带配乐。
-
-**可以怎样探索：** 先看Window Seat的78秒短片和分镜对照表，再翻studies里的技术A/B对比。
-
-来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
-
-## [ProjectPhysX/FluidX3D](https://github.com/ProjectPhysX/FluidX3D)
+## [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF)
 
 **老项目回看** · 有趣发现
 
-能在普通电脑上用GPU跑出漂亮的三维流体仿真和光线追踪渲染，拖拽旋转、切面观察，像随身风洞。
+号称月下载超5000万次的PDF引擎，能把论文直接转成带结构的Markdown喂给大模型，还能抽表格、做标注和脱敏。
 
-**可以怎样探索：** 先看YouTube演示视频与示例setup，选一个自带算例了解运行与渲染效果。
+**可以怎样探索：** 用page.find_tables()把一张PDF表格转成Markdown或Pandas，看看还原度。
 
 来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
 
-## [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py)
+## [growgraph/ontocast](https://github.com/growgraph/ontocast)
 
 有趣发现
 
-让代理指挥NotebookLM把一堆PDF读透，再批量吐出播客、测验和思维导图，像给研究配了个外包分析团队。
+把一堆PDF自动变成带本体和出处链接的知识图谱，是知识工作者会眼前一亮的玩法。
 
-**可以怎样探索：** 先看CLI里导入几个来源并提问生成测验的示例，感受端到端流程。
+**可以怎样探索：** 先用自带示例本体跑单篇文档，看Turtle输出与来源标注效果。
+
+来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
+
+## [rohitg00/k8sgames](https://github.com/rohitg00/k8sgames)
+
+有趣发现
+
+用打游戏的方式敲kubectl修集群故障，3D画布还能拖资源出架构图并导出YAML。
+
+**可以怎样探索：** 先打开k8sgames.com/draw，拖几个资源画张架构图再导出PNG。
 
 来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
 

@@ -179,6 +179,16 @@
 
 **部署前核查：** 核查scripts/extract.py的--check依赖清单与SKILL.md规范
 
+### [Hylouis233/bibverify](projects/1074176989.md)
+
+**为什么值得：** 为Codex补充BibTeX条目核验与元数据校正，减少引用错误
+
+**重叠与增量（未核对安装清单）：** 已有文献检索与引用管理相关能力，这里侧重条目的多源一致性与非破坏性合并，具体交集待核验
+
+**代价与风险：** Python 3.11–3.14；部分源需邮箱或免费API密钥；Windows支持已声明；多源匹配阈值与自动更新阈值默认设置需按需调整，误判风险未知
+
+**部署前核查：** 核查cli入口、MCP server配置与config_template.json字段
+
 ### [assafelovic/gpt-researcher](projects/639835356.md)
 
 **为什么值得：** 可补充多代理深度研究与带引用长报告生成能力
@@ -199,35 +209,15 @@
 
 **部署前核查：** 核查 SKILL.md、assets 模板与 scripts 下校验器的实际文件。
 
-### [dswah/pyGAM](projects/79413341.md)
+### [pdfcpu/pdfcpu](projects/94702367.md)
 
-**为什么值得：** 为Codex增加可解释非线性回归与效应图分析能力。
+**为什么值得：** 为批量PDF校验、合并、水印提供本地命令行能力
 
-**重叠与增量（未核对安装清单）：** 与已有数据处理/绘图能力存在交叉，GAM建模与部分依赖图是潜在增量。
+**重叠与增量（未核对安装清单）：** 与已有PDF处理能力存在能力交叉，增量在脚本化批处理与校验
 
-**代价与风险：** Windows装Python与pygam；可选MKL加速；无API费用。；新版Python兼容与性能未验证。
+**代价与风险：** 需Go构建或下载对应平台二进制，无API费用；Windows下可执行文件与字体兼容性未验证
 
-**部署前核查：** 核查setup/依赖声明与教程笔记本是否可复现。
-
-### [kestra-io/kestra](projects/204164353.md)
-
-**为什么值得：** 可编排数据与 AI 流程，并通过 MCP 或 Agent Skills 暴露给 Codex。
-
-**重叠与增量（未核对安装清单）：** 与已有执行器、自动化能力存在交叉，声明式编排与 MCP 暴露为潜在增量。
-
-**代价与风险：** Docker 或 JVM 部署，Apache-2.0，AI 功能可能需外部模型 API。；未验证 Windows 部署、插件权限与 MCP 暴露的安全边界。
-
-**部署前核查：** 核查 MCP 服务端与 Agent Skills 文档、许可证及部署要求。
-
-### [jordan-gibbs/hyperresearch](projects/1206357666.md)
-
-**为什么值得：** 为 Codex 补上多源深研、引用逐句核验与可复用文献 vault 的研究链路。
-
-**重叠与增量（未核对安装清单）：** 与 Codex 既有文献检索、读论文能力高度交叉，学术去重、引用核查与持久 vault 属潜在增量，待核验。
-
-**代价与风险：** 需要 Python 3.11+ 与 pip 安装，Codex 需 workspace-write 与网络访问权限，可能产生模型费用。；Codex 目标当前需从 GitHub 安装，沙箱网络与写入权限的安全边界未验证。
-
-**部署前核查：** 核查 pyproject.toml、安装目标 codex 的脚本与 .codex/hooks.json 的实际内容，确认所需权限。
+**部署前核查：** 核查README安装链接与pkg/api样例、LICENSE文件
 
 ## 不同类型如何接入
 
