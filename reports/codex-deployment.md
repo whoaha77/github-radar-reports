@@ -199,6 +199,16 @@
 
 **部署前核查：** 核查 SKILL.md、assets 模板与 scripts 下校验器的实际文件。
 
+### [dswah/pyGAM](projects/79413341.md)
+
+**为什么值得：** 为Codex增加可解释非线性回归与效应图分析能力。
+
+**重叠与增量（未核对安装清单）：** 与已有数据处理/绘图能力存在交叉，GAM建模与部分依赖图是潜在增量。
+
+**代价与风险：** Windows装Python与pygam；可选MKL加速；无API费用。；新版Python兼容与性能未验证。
+
+**部署前核查：** 核查setup/依赖声明与教程笔记本是否可复现。
+
 ### [kestra-io/kestra](projects/204164353.md)
 
 **为什么值得：** 可编排数据与 AI 流程，并通过 MCP 或 Agent Skills 暴露给 Codex。
@@ -218,26 +228,6 @@
 **代价与风险：** 需要 Python 3.11+ 与 pip 安装，Codex 需 workspace-write 与网络访问权限，可能产生模型费用。；Codex 目标当前需从 GitHub 安装，沙箱网络与写入权限的安全边界未验证。
 
 **部署前核查：** 核查 pyproject.toml、安装目标 codex 的脚本与 .codex/hooks.json 的实际内容，确认所需权限。
-
-### [oomol-lab/pdf-craft](projects/931354511.md)
-
-**为什么值得：** 为Codex补扫描PDF到Markdown/EPUB的OCR与翻译流水线
-
-**重叠与增量（未核对安装清单）：** 与已有PDF读取、翻译和文档处理能力有交叉，结构化重排与EPUB产出为潜在增量；本机组件待核验
-
-**代价与风险：** Windows需Python 3.11–3.13与Poppler；本地OCR需CUDA与显存，远程OCR需端点与密钥；扫描质量与版式影响结果；远程OCR会外发页面内容，隐私需评估
-
-**部署前核查：** 核查安装指南中的Poppler步骤、OCR后端文档与许可文件
-
-### [antvis/G6](projects/81810486.md)
-
-**为什么值得：** 可为Codex增加知识图谱与关系网络的可视化引擎能力。
-
-**重叠与增量（未核对安装清单）：** 与现有科研绘图交叉，增量在关系图布局与交互分析，待核验。
-
-**代价与风险：** Windows需Node/npm；浏览器渲染；GPU布局需硬件支持；无API费用。；布局性能与自定义元素复杂度未验证。
-
-**部署前核查：** 核查package.json依赖、examples示例及布局插件文档。
 
 ## 不同类型如何接入
 
