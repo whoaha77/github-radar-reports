@@ -49,6 +49,16 @@
 
 **部署前核查：** 核查docs/skills.md目录、单个SKILL.md样例、LICENSE.md与skill-tests工作流。
 
+### [pyvista/pyvista](projects/92974124.md)
+
+**为什么值得：** 为科研绘图增加3D网格与体渲染能力
+
+**重叠与增量（未核对安装清单）：** 与已有科研绘图存在潜在交叉，3D增量待核验
+
+**代价与风险：** Python 3.10+与VTK，Windows图形后端；无头渲染与CLI输出格式未验证
+
+**部署前核查：** 核查安装文档与CLI参考页
+
 ### [microsoft/playwright](projects/221981891.md)
 
 **为什么值得：** 为Codex增添浏览器自动化与端到端网页测试能力
@@ -158,6 +168,16 @@
 **代价与风险：** 需Python环境，viz/network等依赖需选装；Windows可行性待验证。；预发布版本API变动与可视化后端兼容性未知。
 
 **部署前核查：** 核查pyproject依赖组、README-quick-start与示例模型目录。
+
+### [dathere/qsv](projects/320463703.md)
+
+**为什么值得：** 高速表格数据处理，覆盖CSV/Excel转换、统计与数据字典。
+
+**重叠与增量（未核对安装清单）：** 与已有Excel/PDF处理交叉，增量在命令行批处理与FAIR化。
+
+**代价与风险：** Windows有构建流水线；部分AI命令需OpenAI兼容API费用。；License为Other未声明，AI功能外部依赖未验证。
+
+**部署前核查：** 核查README许可证段、.claude/skills文档与Windows二进制发布。
 
 ### [shcherbak-ai/contextgem](projects/871373324.md)
 

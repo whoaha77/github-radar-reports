@@ -2,6 +2,14 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [edmcouncil/fibo](https://github.com/edmcouncil/fibo) | 已分析 | 2014-02-07 | The Financial Industry Business Ontology (FIBO) defines the sets of things that are of interest in financial business ap |
+| [geerlingguy/mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook) | 已分析 | 2014-02-12 | Mac setup and configuration via Ansible. |
+| [idaholab/moose](https://github.com/idaholab/moose) | 已分析 | 2014-02-14 | Multiphysics Object Oriented Simulation Environment |
+| [laserpilot/Installation_Up_4evr](https://github.com/laserpilot/Installation_Up_4evr) | 已分析 | 2014-02-23 | This is an article with tips about how to keep an installation up forever |
+| [gabrielecirulli/2048](https://github.com/gabrielecirulli/2048) | 已分析 | 2014-03-05 | The source code for 2048  |
+| [Strilanc/Quirk](https://github.com/Strilanc/Quirk) | 已分析 | 2014-03-05 | A drag-and-drop quantum circuit simulator that runs in your browser. A toy for exploring and understanding small quantum |
+| [sschmid/Entitas](https://github.com/sschmid/Entitas) | 已分析 | 2014-03-18 | Entitas is a super fast Entity Component System (ECS) Framework specifically made for C# and Unity |
+| [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 已分析 | 2014-04-01 | An open source re-implementation of RollerCoaster Tycoon 2 🎢 |
 | [NorthwoodsSoftware/GoJS](https://github.com/NorthwoodsSoftware/GoJS) | 已分析 | 2014-04-02 | JavaScript diagramming library for interactive flowcharts, org charts, design tools, planning tools, visual languages. |
 | [vcmi/vcmi](https://github.com/vcmi/vcmi) | 已分析 | 2014-04-06 | Open-source engine for Heroes of Might and Magic III |
 | [itamarst/eliot](https://github.com/itamarst/eliot) | 已分析 | 2014-04-09 | Eliot: the logging system that tells you *why* it happened |
@@ -35,6 +43,8 @@
 | [gem5/gem5](https://github.com/gem5/gem5) | 已分析 | 2014-12-02 | The official repository for the gem5 computer-system architecture simulator. |
 | [fastlane/fastlane](https://github.com/fastlane/fastlane) | 已分析 | 2014-12-02 | 🚀 The easiest way to automate building and releasing your iOS and Android apps |
 | [creativescala/doodle](https://github.com/creativescala/doodle) | 已分析 | 2014-12-10 | Compositional vector graphics in Scala / Scala.JS |
+| [chrisvoncsefalvay/learn-julia-the-hard-way](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way) | 已分析 | 2014-12-11 | Learn Julia the hard way! |
+| [pharmai/plip](https://github.com/pharmai/plip) | 已分析 | 2014-12-16 | Protein-Ligand Interaction Profiler - Analyze and visualize non-covalent protein-ligand interactions in PDB files accord |
 | [mlpack/mlpack](https://github.com/mlpack/mlpack) | 已分析 | 2014-12-17 | mlpack: a fast, header-only C++ machine learning library |
 | [adnanh/webhook](https://github.com/adnanh/webhook) | 已分析 | 2015-01-12 | webhook is a lightweight incoming webhook server to run shell commands |
 | [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | 已分析 | 2015-01-18 | :page_facing_up: Awesome CV is LaTeX template for your outstanding job application |
@@ -58,8 +68,10 @@
 | [pywinauto/pywinauto](https://github.com/pywinauto/pywinauto) | 已分析 | 2015-05-25 | Windows GUI Automation with Python (based on text properties) |
 | [artilleryio/artillery](https://github.com/artilleryio/artillery) | 已分析 | 2015-05-28 | The complete load testing platform. Everything you need for production-grade load tests. Serverless &amp; distributed. Load  |
 | [obophenotype/cell-ontology](https://github.com/obophenotype/cell-ontology) | 已分析 | 2015-06-04 | An ontology of cell types |
+| [GladysAssistant/Gladys](https://github.com/GladysAssistant/Gladys) | 已分析 | 2015-06-05 | A privacy-first, open-source home assistant |
 | [mfem/mfem](https://github.com/mfem/mfem) | 已分析 | 2015-06-11 | Lightweight, general, scalable C++ library for finite element methods |
 | [grahamjenson/list_of_recommender_systems](https://github.com/grahamjenson/list_of_recommender_systems) | 已分析 | 2015-06-12 | A List of Recommender Systems and Resources |
+| [nvdv/vprof](https://github.com/nvdv/vprof) | 已分析 | 2015-06-29 | Visual profiler for Python |
 | [hiloteam/Hilo](https://github.com/hiloteam/Hilo) | 已分析 | 2015-07-06 | A Cross-end HTML5 Game development solution |
 | [OpenIntroStat/ims](https://github.com/OpenIntroStat/ims) | 已分析 | 2015-07-13 | 📚 Introduction to Modern Statistics - A college-level open-source textbook with a modern approach highlighting multivari |
 | [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader) | 已分析 | 2015-07-21 | A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations  |
@@ -69,9 +81,12 @@
 | [jsvine/pdfplumber](https://github.com/jsvine/pdfplumber) | 已分析 | 2015-08-24 | Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables. |
 | [ontologyportal/sumo](https://github.com/ontologyportal/sumo) | 已分析 | 2015-09-06 | Suggested Upper Merged Ontology (SUMO) |
 | [sshahine/JFoenix](https://github.com/sshahine/JFoenix) | 已分析 | 2015-09-08 | JavaFX Material Design Library |
+| [yymao/adstex](https://github.com/yymao/adstex) | 已分析 | 2015-09-13 | Automated generation of NASA ADS bibtex entries directly from citation keys in your TeX source files |
 | [DiseaseOntology/HumanDiseaseOntology](https://github.com/DiseaseOntology/HumanDiseaseOntology) | 已分析 | 2015-09-23 | Repository for the Human Disease Ontology. |
+| [openhpc/ohpc](https://github.com/openhpc/ohpc) | 已分析 | 2015-09-28 | OpenHPC Integration, Packaging, and Test Repo |
 | [danger/danger](https://github.com/danger/danger) | 已分析 | 2015-09-29 | 🚫 Stop saying "you forgot to …" in code review (in Ruby) |
 | [JustArchiNET/ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) | 已分析 | 2015-10-25 | C# application with primary purpose of farming Steam cards from multiple accounts simultaneously. |
+| [cogciprocate/ocl](https://github.com/cogciprocate/ocl) | 已分析 | 2015-10-31 | OpenCL for Rust |
 | [EpistasisLab/tpot](https://github.com/EpistasisLab/tpot) | 已分析 | 2015-11-03 | A Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming. |
 | [plotly/plotly.js](https://github.com/plotly/plotly.js) | 已分析 | 2015-11-05 | Open-source JavaScript charting library behind Plotly and Dash |
 | [dbrizov/Unity-WaterBuoyancy](https://github.com/dbrizov/Unity-WaterBuoyancy) | 已分析 | 2015-11-16 | Water Buoyancy Simulation for Unity |
@@ -80,25 +95,10 @@
 | [aliyun/aliyun-oss-csharp-sdk](https://github.com/aliyun/aliyun-oss-csharp-sdk) | 已分析 | 2015-11-27 | Aliyun OSS SDK for C# |
 | [eliasts/Ocean_Community_Next_Gen](https://github.com/eliasts/Ocean_Community_Next_Gen) | 已分析 | 2015-12-05 | Next gen iteration of the unity community ocean shader |
 | [guarinogabriel/Mac-CLI](https://github.com/guarinogabriel/Mac-CLI) | 已分析 | 2015-12-07 |  macOS command line tool for developers – The ultimate tool to manage your Mac. It provides a huge set of command line  |
+| [scikit-video/scikit-video](https://github.com/scikit-video/scikit-video) | 已分析 | 2015-12-09 | Video Processing in Python |
 | [goplus/xgo](https://github.com/goplus/xgo) | 已分析 | 2015-12-12 | XGo is a programming language that reads like plain English. But it's also incredibly powerful — it lets you leverage as |
+| [evelinag/StarWars-social-network](https://github.com/evelinag/StarWars-social-network) | 已分析 | 2015-12-15 | The Star Wars social network |
 | [visgl/deck.gl](https://github.com/visgl/deck.gl) | 已分析 | 2015-12-15 | WebGL2 powered visualization framework |
+| [jtablesaw/tablesaw](https://github.com/jtablesaw/tablesaw) | 已分析 | 2016-01-01 | Java dataframe and visualization library |
 | [konvajs/react-konva](https://github.com/konvajs/react-konva) | 已分析 | 2016-01-03 | React components for the Konva 2d canvas library. Build interactive graphics, design editors, and whiteboards with JSX. |
 | [egeerardyn/awesome-LaTeX](https://github.com/egeerardyn/awesome-LaTeX) | 已分析 | 2016-01-06 | Curated list of LaTeX awesomeness |
-| [xwmx/nb](https://github.com/xwmx/nb) | 分析受阻 | 2016-01-12 | CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versi |
-| [ggez/ggez](https://github.com/ggez/ggez) | 已分析 | 2016-01-30 | Rust library to create a Good Game Easily |
-| [google/EarlGrey](https://github.com/google/EarlGrey) | 已分析 | 2016-02-04 | :tea: iOS UI Automation Test Framework |
-| [eseifert/altero](https://github.com/eseifert/altero) | 已分析 | 2016-02-13 | Self-hosted sync server for Zotero — keep libraries, groups, notes and attachments on your own infrastructure using the  |
-| [uber/react-vis](https://github.com/uber/react-vis) | 已分析 | 2016-02-22 | Data Visualization Components |
-| [bradley/Blotter](https://github.com/bradley/Blotter) | 已分析 | 2016-02-22 | A JavaScript API for drawing unconventional text effects on the web. |
-| [lpil/sonic-pi-tool](https://github.com/lpil/sonic-pi-tool) | 已分析 | 2016-03-03 | 🎻 Controlling Sonic Pi from the command line |
-| [Juris-M/citeproc-js](https://github.com/Juris-M/citeproc-js) | 分析受阻 | 2016-03-04 | A JavaScript implementation of the Citation Style Language (CSL) https://citeproc-js.readthedocs.io |
-| [yenchenlin/DeepLearningFlappyBird](https://github.com/yenchenlin/DeepLearningFlappyBird) | 已分析 | 2016-03-15 | Flappy Bird hack using Deep Reinforcement Learning (Deep Q-learning). |
-| [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 已分析 | 2016-03-24 | ✨ The fundamental numerical library for JavaScript and TypeScript. ✨                    ⭐️ Star to support our work! |
-| [agronholm/apscheduler](https://github.com/agronholm/apscheduler) | 已分析 | 2016-03-27 | Task scheduling library for Python |
-| [acados/acados](https://github.com/acados/acados) | 已分析 | 2016-04-05 | Fast and embedded solvers for nonlinear optimal control and nonlinear model predictive control |
-| [jslee02/awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries) | 已分析 | 2016-04-16 | :sunglasses: A curated list of robotics libraries and software |
-| [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch) | 已分析 | 2016-04-27 | The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused. |
-| [reactchartjs/react-chartjs-2](https://github.com/reactchartjs/react-chartjs-2) | 已分析 | 2016-05-06 | React components for Chart.js, the most popular charting library |
-| [dhondta/rpl-attacks](https://github.com/dhondta/rpl-attacks) | 已分析 | 2016-05-08 | RPL attacks framework for simulating WSN with a malicious mote based on Contiki |
-| [cocopon/tweakpane](https://github.com/cocopon/tweakpane) | 已分析 | 2016-05-10 | :control_knobs: Compact GUI for fine-tuning parameters and monitoring value changes |
-| [algorithm-visualizer/algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer) | 已分析 | 2016-05-15 | :fireworks:Interactive Online Platform that Visualizes Algorithms from Code |

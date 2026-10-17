@@ -4,33 +4,33 @@
 
 [历史项目大库](library/README.md) · [Top50](top-50.md) · [部署分析](codex-deployment.md)
 
-## [mosra/magnum](https://github.com/mosra/magnum)
-
-**老项目回看** · 有趣发现
-
-想亲手写三维可视化或小游戏时，它是少见的模块化图形底座，单头文件用法也很讨喜。
-
-**可以怎样探索：** 先看magnum-examples里的viewer示例，感受加载复杂3D模型的效果。
-
-来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
-
-## [Agentshire/Agentshire](https://github.com/Agentshire/Agentshire)
+## [jorgepb96/nodus](https://github.com/jorgepb96/nodus)
 
 有趣发现
 
-把多代理协作变成一座能走能看的小镇，加班太久还会冒出“班味Boss”，可视化思路非常讨喜。
+把参考文献变成可点击的思想图谱和论证分支，还能用Word插件带回可验证引用。
 
-**可以怎样探索：** 先看YouTube演示视频里的召唤、协作与烟花流程，再进角色工坊建一个NPC。
+**可以怎样探索：** 先逛官网交互演示，看十二主题知识图谱与论证地图。
 
 来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
 
-## [infusius/masala](https://github.com/infusius/masala)
+## [GXL-ai/paperclip](https://github.com/GXL-ai/paperclip)
 
 有趣发现
 
-代理能现场给你写一个PDB查看器或SQLite可视化面板，研究上下文不再切窗口。
+把百万级论文变成目录树，用grep、jq和并行AI阅读器批量问问题，像在命令行里做系统综述。
 
-**可以怎样探索：** 先看截图，试用从新标签页启动一次文献综述模块，观察过程Pane。
+**可以怎样探索：** 先用一条关键词搜索并grep全文，再对结果跑map提炼方法，观察合并输出。
+
+来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
+
+## [xr843/fojin](https://github.com/xr843/fojin)
+
+有趣发现
+
+问一句佛经问题就得到可直接点开的经卷引文，还能并排看汉巴藏三种文本，反幻觉思路值得学。
+
+**可以怎样探索：** 先打开live demo提一个问题，看引文抽屉和verify/quote的逐字比对
 
 来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
 

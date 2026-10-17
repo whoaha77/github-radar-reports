@@ -20,6 +20,7 @@
 | [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) | 已分析 | 2010-10-04 | Open Source real-time strategy game engine for early Westwood games such as Command &amp; Conquer: Red Alert written in C# u |
 | [mosra/magnum](https://github.com/mosra/magnum) | 已分析 | 2010-12-19 | Lightweight and modular C++11 graphics middleware for games and data visualization |
 | [libvips/libvips](https://github.com/libvips/libvips) | 已分析 | 2011-01-25 | A fast image processing library with low memory needs. |
+| [mne-tools/mne-python](https://github.com/mne-tools/mne-python) | 已分析 | 2011-01-28 | MNE: Magnetoencephalography (MEG) and Electroencephalography (EEG) in Python |
 | [mapeditor/tiled](https://github.com/mapeditor/tiled) | 已分析 | 2011-02-27 | Flexible level editor |
 | [scipy/scipy](https://github.com/scipy/scipy) | 已分析 | 2011-03-09 | SciPy library main repository |
 | [inducer/pyopencl](https://github.com/inducer/pyopencl) | 已分析 | 2011-04-06 | OpenCL integration for Python, plus shiny features |
@@ -37,12 +38,17 @@
 | [session-replay-tools/tcpcopy](https://github.com/session-replay-tools/tcpcopy) | 已分析 | 2011-10-14 | An online request replication and TCP stream replay tool, ideal for real testing, performance testing, stability testing |
 | [gephi/gephi](https://github.com/gephi/gephi) | 已分析 | 2011-10-22 | Gephi - The Open Graph Viz Platform |
 | [squizlabs/PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) | 已分析 | 2011-11-03 | PHP_CodeSniffer tokenizes PHP files and detects violations of a defined set of coding standards. |
+| [anvaka/VivaGraphJS](https://github.com/anvaka/VivaGraphJS) | 已分析 | 2011-12-17 | Graph drawing library for JavaScript |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf) | 已分析 | 2012-01-06 | A pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files |
 | [ArashPartow/exprtk](https://github.com/ArashPartow/exprtk) | 已分析 | 2012-01-28 | C++ Mathematical Expression Parsing And Evaluation Library   https://www.partow.net/programming/exprtk/index.html |
 | [C4Labs/C4iOS](https://github.com/C4Labs/C4iOS) | 已分析 | 2012-02-17 | C4 is an open-source creative coding framework that harnesses the power of native iOS programming with a simplified API  |
 | [lichess-org/lila](https://github.com/lichess-org/lila) | 已分析 | 2012-02-21 | ♞ lichess.org: the forever free, adless and open source chess server ♞ |
 | [bokeh/bokeh](https://github.com/bokeh/bokeh) | 已分析 | 2012-03-26 | Interactive Data Visualization in the browser, from  Python |
+| [jrnl-org/jrnl](https://github.com/jrnl-org/jrnl) | 已分析 | 2012-03-29 | Collect your thoughts and notes without leaving the command line. |
+| [perfume-dev/example-openFrameworks](https://github.com/perfume-dev/example-openFrameworks) | 已分析 | 2012-03-30 | openFrameworks 0.12.1 examples from the 2012 Perfume Global Site Project, including BVH motion visualization. |
+| [OpenChemistry/avogadrolibs](https://github.com/OpenChemistry/avogadrolibs) | 已分析 | 2012-04-28 | Avogadro libraries provide 3D rendering, visualization, analysis and data processing useful in computational chemistry,  |
 | [PHPOffice/PHPWord](https://github.com/PHPOffice/PHPWord) | 分析受阻 | 2012-05-06 | A pure PHP library for reading and writing word processing documents |
+| [ddemidov/vexcl](https://github.com/ddemidov/vexcl) | 已分析 | 2012-05-29 | VexCL is a C++ vector expression template library for OpenCL/CUDA/OpenMP |
 | [dc-js/dc.js](https://github.com/dc-js/dc.js) | 已分析 | 2012-06-19 | Multi-Dimensional charting built to work natively with crossfilter rendered with d3.js |
 | [libgdx/libgdx](https://github.com/libgdx/libgdx) | 已分析 | 2012-08-10 | Desktop/Android/HTML5/iOS Java game development framework |
 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 已分析 | 2012-08-30 | The main repository for the development of the evolution game Thrive.  |
@@ -52,6 +58,7 @@
 | [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) | 已分析 | 2012-10-06 | PyMuPDF is a high performance Python library for data extraction, analysis, conversion &amp; manipulation of PDF (and other) |
 | [casadi/casadi](https://github.com/casadi/casadi) | 已分析 | 2012-10-31 | CasADi is a symbolic framework for numeric optimization implementing automatic differentiation in forward and reverse mo |
 | [openworm/OpenWorm](https://github.com/openworm/OpenWorm) | 已分析 | 2012-12-01 | Repository for the main Dockerfile with the OpenWorm software stack and project-wide issues |
+| [ddemidov/amgcl](https://github.com/ddemidov/amgcl) | 已分析 | 2012-12-03 | C++ library for solving large sparse linear systems with algebraic multigrid method |
 | [appium/appium](https://github.com/appium/appium) | 已分析 | 2013-01-09 | Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol |
 | [pixijs/pixijs](https://github.com/pixijs/pixijs) | 已分析 | 2013-01-21 | The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer. |
 | [vega/vega](https://github.com/vega/vega) | 已分析 | 2013-02-03 | A visualization grammar. |
@@ -59,6 +66,7 @@
 | [processing/p5.js](https://github.com/processing/p5.js) | 已分析 | 2013-02-26 | p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express t |
 | [huginn/huginn](https://github.com/huginn/huginn) | 已分析 | 2013-03-10 | Create agents that monitor and act on your behalf.  Your agents are standing by! |
 | [tabulapdf/tabula](https://github.com/tabulapdf/tabula) | 已分析 | 2013-03-11 | Tabula is a tool for liberating data tables trapped inside PDF files |
+| [vispy/vispy](https://github.com/vispy/vispy) | 已分析 | 2013-03-21 | Main repository for Vispy |
 | [lambdamusic/Ontospy](https://github.com/lambdamusic/Ontospy) | 已分析 | 2013-03-22 | Python library and command-line interface for inspecting and visualizing RDF models aka ontologies. |
 | [koreader/koreader](https://github.com/koreader/koreader) | 已分析 | 2013-03-24 | An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, P |
 | [apache/echarts](https://github.com/apache/echarts) | 已分析 | 2013-04-03 | Apache ECharts is a powerful, interactive charting and data visualization library for browser |
@@ -94,11 +102,3 @@
 | [release-it/release-it](https://github.com/release-it/release-it) | 已分析 | 2014-01-15 | 🚀 Automate versioning and package publishing |
 | [autokey/autokey](https://github.com/autokey/autokey) | 已分析 | 2014-01-31 | AutoKey, a desktop automation utility for Linux and X11. |
 | [ossia/libossia](https://github.com/ossia/libossia) | 已分析 | 2014-02-04 | A modern C++, cross-environment distributed object model for creative coding and interaction scoring |
-| [edmcouncil/fibo](https://github.com/edmcouncil/fibo) | 已分析 | 2014-02-07 | The Financial Industry Business Ontology (FIBO) defines the sets of things that are of interest in financial business ap |
-| [geerlingguy/mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook) | 已分析 | 2014-02-12 | Mac setup and configuration via Ansible. |
-| [idaholab/moose](https://github.com/idaholab/moose) | 已分析 | 2014-02-14 | Multiphysics Object Oriented Simulation Environment |
-| [laserpilot/Installation_Up_4evr](https://github.com/laserpilot/Installation_Up_4evr) | 已分析 | 2014-02-23 | This is an article with tips about how to keep an installation up forever |
-| [gabrielecirulli/2048](https://github.com/gabrielecirulli/2048) | 已分析 | 2014-03-05 | The source code for 2048  |
-| [Strilanc/Quirk](https://github.com/Strilanc/Quirk) | 已分析 | 2014-03-05 | A drag-and-drop quantum circuit simulator that runs in your browser. A toy for exploring and understanding small quantum |
-| [sschmid/Entitas](https://github.com/sschmid/Entitas) | 已分析 | 2014-03-18 | Entitas is a super fast Entity Component System (ECS) Framework specifically made for C# and Unity |
-| [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 已分析 | 2014-04-01 | An open source re-implementation of RollerCoaster Tycoon 2 🎢 |

@@ -3,40 +3,40 @@
   "repository": "whoaha77/github-radar-reports",
   "items": [
     {
-      "repo_id": 1182756,
-      "name": "mosra/magnum",
-      "url": "https://github.com/mosra/magnum",
-      "kind": "有趣发现",
-      "classic": true,
-      "why": "想亲手写三维可视化或小游戏时，它是少见的模块化图形底座，单头文件用法也很讨喜。",
-      "try_idea": "先看magnum-examples里的viewer示例，感受加载复杂3D模型的效果。",
-      "reviewed_at": "2026-10-17T16:30:18.313284+00:00",
-      "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "665c69c0ce3db2ecadd962ae5494e8bf678e25a4de5997e365be8b120b045b07"
-    },
-    {
-      "repo_id": 1186078103,
-      "name": "Agentshire/Agentshire",
-      "url": "https://github.com/Agentshire/Agentshire",
+      "repo_id": 1269112987,
+      "name": "jorgepb96/nodus",
+      "url": "https://github.com/jorgepb96/nodus",
       "kind": "有趣发现",
       "classic": false,
-      "why": "把多代理协作变成一座能走能看的小镇，加班太久还会冒出“班味Boss”，可视化思路非常讨喜。",
-      "try_idea": "先看YouTube演示视频里的召唤、协作与烟花流程，再进角色工坊建一个NPC。",
-      "reviewed_at": "2026-10-17T14:34:26.571433+00:00",
+      "why": "把参考文献变成可点击的思想图谱和论证分支，还能用Word插件带回可验证引用。",
+      "try_idea": "先逛官网交互演示，看十二主题知识图谱与论证地图。",
+      "reviewed_at": "2026-10-17T18:35:17.395902+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "1a26f8296a8e36ea863b47f3a6b29a8f523c52f75ef9855693a393443c740337"
+      "share_id": "81b07a07cc2ba48a3a3f5477fcbd9190119ecab43bbea1d8ee4b1442724567cd"
     },
     {
-      "repo_id": 1370994072,
-      "name": "infusius/masala",
-      "url": "https://github.com/infusius/masala",
+      "repo_id": 1209893338,
+      "name": "GXL-ai/paperclip",
+      "url": "https://github.com/GXL-ai/paperclip",
       "kind": "有趣发现",
       "classic": false,
-      "why": "代理能现场给你写一个PDB查看器或SQLite可视化面板，研究上下文不再切窗口。",
-      "try_idea": "先看截图，试用从新标签页启动一次文献综述模块，观察过程Pane。",
-      "reviewed_at": "2026-10-17T14:35:47.919071+00:00",
+      "why": "把百万级论文变成目录树，用grep、jq和并行AI阅读器批量问问题，像在命令行里做系统综述。",
+      "try_idea": "先用一条关键词搜索并grep全文，再对结果跑map提炼方法，观察合并输出。",
+      "reviewed_at": "2026-10-17T18:35:17.385371+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "05548f0777a19ef703cb220c8cbd76772ca8117569a13a61c7fded5081466bbf"
+      "share_id": "fcf95823683c9942dc97afba92024e4bb8453380dea80ef8a06972b8e7e1894c"
+    },
+    {
+      "repo_id": 1177921872,
+      "name": "xr843/fojin",
+      "url": "https://github.com/xr843/fojin",
+      "kind": "有趣发现",
+      "classic": false,
+      "why": "问一句佛经问题就得到可直接点开的经卷引文，还能并排看汉巴藏三种文本，反幻觉思路值得学。",
+      "try_idea": "先打开live demo提一个问题，看引文抽屉和verify/quote的逐字比对",
+      "reviewed_at": "2026-10-17T18:34:57.147837+00:00",
+      "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
+      "share_id": "dfaa3fb91dd74dec64c57596e674abd58f56a67c1e0cee88cf187166829628b4"
     }
   ],
   "delivery_policy": "Share interesting/useful discoveries; no installation request; deduplicate chat delivery."

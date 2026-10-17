@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "pool_size": 611,
+  "pool_size": 676,
   "shown": 50,
   "capacity": 50,
   "deployment_policy": "user_initiated_only",
-  "high_value_candidates": 21,
+  "high_value_candidates": 23,
   "projects": [
     {
       "repo_id": 826168160,
@@ -79,6 +79,25 @@
         "requirements": "Python环境、部分数据库凭证；按技能逐项安装；API费用未知。",
         "risk": "数量大易过载，技能质量与安全性需抽样审查。",
         "next_step": "核查docs/skills.md目录、单个SKILL.md样例、LICENSE.md与skill-tests工作流。"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
+      "repo_id": 92974124,
+      "name": "pyvista/pyvista",
+      "url": "https://github.com/pyvista/pyvista",
+      "score": 91.17,
+      "reviewed_at": "2026-10-17T18:31:19.658323+00:00",
+      "stale": false,
+      "reason": "科研可视化首选工具之一，直接契合科研绘图兴趣。",
+      "codex": {
+        "integration": "library",
+        "priority": "高",
+        "reason": "为科研绘图增加3D网格与体渲染能力",
+        "overlap": "与已有科研绘图存在潜在交叉，3D增量待核验",
+        "requirements": "Python 3.10+与VTK，Windows图形后端",
+        "risk": "无头渲染与CLI输出格式未验证",
+        "next_step": "核查安装文档与CLI参考页"
       },
       "deployment_advice": "高价值核查候选，等你主动提出安装"
     },
@@ -558,6 +577,25 @@
       "deployment_advice": "高价值核查候选，等你主动提出安装"
     },
     {
+      "repo_id": 320463703,
+      "name": "dathere/qsv",
+      "url": "https://github.com/dathere/qsv",
+      "score": 86.16,
+      "reviewed_at": "2026-10-17T18:32:45.872211+00:00",
+      "stale": false,
+      "reason": "高度契合数据处理与科研表格工作流。",
+      "codex": {
+        "integration": "cli",
+        "priority": "高",
+        "reason": "高速表格数据处理，覆盖CSV/Excel转换、统计与数据字典。",
+        "overlap": "与已有Excel/PDF处理交叉，增量在命令行批处理与FAIR化。",
+        "requirements": "Windows有构建流水线；部分AI命令需OpenAI兼容API费用。",
+        "risk": "License为Other未声明，AI功能外部依赖未验证。",
+        "next_step": "核查README许可证段、.claude/skills文档与Windows二进制发布。"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
       "repo_id": 118264731,
       "name": "deepcharles/ruptures",
       "url": "https://github.com/deepcharles/ruptures",
@@ -634,6 +672,25 @@
       "deployment_advice": "独立使用或借鉴，不直接部署"
     },
     {
+      "repo_id": 1269112987,
+      "name": "jorgepb96/nodus",
+      "url": "https://github.com/jorgepb96/nodus",
+      "score": 85.41,
+      "reviewed_at": "2026-10-17T18:35:17.395902+00:00",
+      "stale": false,
+      "reason": "高度匹配文献、引用管理、知识图谱与科研可视化兴趣。",
+      "codex": {
+        "integration": "application",
+        "priority": "高",
+        "reason": "为科研文献提供知识图谱、论证地图与Zotero联动的本地工作区",
+        "overlap": "与已有读论文、文献检索、绘图能力交叉，论证地图与覆盖率分析为潜在增量",
+        "requirements": "Windows 10/11可直接下载EXE，可选在线AI或本地模型，需自备Key",
+        "risk": "AGPL-3.0许可，AI功能数据外发需用户主动同意，宣称能力未验证",
+        "next_step": "核查Releases页Windows安装包、Zotero插件xpi与演示站点，确认AI供应商配置"
+      },
+      "deployment_advice": "独立使用或借鉴，不直接部署"
+    },
+    {
       "repo_id": 126493684,
       "name": "gotenberg/gotenberg",
       "url": "https://github.com/gotenberg/gotenberg",
@@ -691,6 +748,25 @@
       "deployment_advice": "高价值核查候选，等你主动提出安装"
     },
     {
+      "repo_id": 722915433,
+      "name": "SwanHubX/SwanLab",
+      "url": "https://github.com/SwanHubX/SwanLab",
+      "score": 84.77,
+      "reviewed_at": "2026-10-17T18:33:55.760285+00:00",
+      "stale": false,
+      "reason": "直击科研训练实验管理、图表对比与硬件记录，与科研可视化和数据处理兴趣高度契合。",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "为训练实验提供指标记录与可视化看板",
+        "overlap": "与已有科研绘图有图表呈现交叉，实验跟踪记录待核验",
+        "requirements": "Python 环境；自托管需 Docker；云端可能产生账号与费用",
+        "risk": "自托管配置与数据存储合规性未验证",
+        "next_step": "核查 pyproject 或依赖文件、自托管部署文档与许可证"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
       "repo_id": 139199684,
       "name": "PrefectHQ/prefect",
       "url": "https://github.com/PrefectHQ/prefect",
@@ -727,6 +803,25 @@
         "next_step": "核查下载页与隐私政策、上传目标说明。"
       },
       "deployment_advice": "独立使用或借鉴，不直接部署"
+    },
+    {
+      "repo_id": 1301584,
+      "name": "mne-tools/mne-python",
+      "url": "https://github.com/mne-tools/mne-python",
+      "score": 84.6,
+      "reviewed_at": "2026-10-17T18:30:03.425910+00:00",
+      "stale": false,
+      "reason": "科研数据可视化与时频统计分析的成熟基础库，属科研工具范畴。",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "补充脑电/脑磁信号的预处理、源估计与连接分析能力",
+        "overlap": "与科研绘图、统计交叉；信号处理与源定位为潜在增量，待核验",
+        "requirements": "Python≥3.11及NumPy/SciPy/Matplotlib等依赖，Windows需可用的图形后端",
+        "risk": "数据格式兼容、大数据性能及安装体积尚未验证",
+        "next_step": "核查install指南页与pyproject依赖清单，确认Windows支持"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
     },
     {
       "repo_id": 1226123343,
@@ -860,101 +955,6 @@
         "next_step": "核查README安装链接与pkg/api样例、LICENSE文件"
       },
       "deployment_advice": "高价值核查候选，等你主动提出安装"
-    },
-    {
-      "repo_id": 102369738,
-      "name": "Hopding/pdf-lib",
-      "url": "https://github.com/Hopding/pdf-lib",
-      "score": 84.38,
-      "reviewed_at": "2026-10-17T14:31:44.242769+00:00",
-      "stale": false,
-      "reason": "直接命中PDF处理兴趣，可在Node或浏览器中程序化生成与编辑PDF。",
-      "codex": {
-        "integration": "library",
-        "priority": "中",
-        "reason": "为Codex增加可编程PDF生成与批量编辑的底层库能力。",
-        "overlap": "与现有PDF处理存在潜在交叉，库级定制是待核验增量。",
-        "requirements": "Node运行时，npm依赖，无需API费用。",
-        "risk": "复杂PDF与字体嵌入效果未验证。",
-        "next_step": "核查package.json依赖与examples中示例脚本。"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 458648791,
-      "name": "paperless-ngx/paperless-ngx",
-      "url": "https://github.com/paperless-ngx/paperless-ngx",
-      "score": 84.34,
-      "reviewed_at": "2026-10-16T17:24:48.110052+00:00",
-      "stale": false,
-      "reason": "高度契合PDF、数据处理与科研效率兴趣",
-      "codex": {
-        "integration": "application",
-        "priority": "高",
-        "reason": "本地文档管理系统，可OCR索引归档文件，衔接PDF与文献工作流",
-        "overlap": "与已有PDF处理、文献管理交叉，增量在自动归档与全文检索",
-        "requirements": "推荐docker compose部署，GPL-3.0许可，Windows需容器环境，无API费用",
-        "risk": "README明确明文存储无加密，不应在不可信主机运行，安全性需评估",
-        "next_step": "核查docker compose配置文件与安装脚本，确认数据存储与备份路径"
-      },
-      "deployment_advice": "独立使用或借鉴，不直接部署"
-    },
-    {
-      "repo_id": 274095345,
-      "name": "naivenaive/EasyPubMed",
-      "url": "https://github.com/naivenaive/EasyPubMed",
-      "score": 84.29,
-      "reviewed_at": "2026-10-17T12:32:30.666606+00:00",
-      "stale": false,
-      "reason": "高度贴合文献检索、引用管理、PDF获取与阅读效率兴趣。",
-      "codex": {
-        "integration": "application",
-        "priority": "中",
-        "reason": "网页端文献筛选、取全文与引用导出的效率补充",
-        "overlap": "与已有文献检索、读论文能力存在交叉，增量在多引擎翻译与引用格式导出；待核验",
-        "requirements": "在Chrome或Edge安装扩展，Windows可用，翻译与全文渠道依赖外部服务",
-        "risk": "第三方接口可用性与合规风险，数据来源准确性未验证",
-        "next_step": "核查manifest权限、翻译接口配置与更新日志中的数据来源"
-      },
-      "deployment_advice": "独立使用或借鉴，不直接部署"
-    },
-    {
-      "repo_id": 12777496,
-      "name": "pyqtgraph/pyqtgraph",
-      "url": "https://github.com/pyqtgraph/pyqtgraph",
-      "score": 83.79,
-      "reviewed_at": "2026-10-17T16:30:18.323287+00:00",
-      "stale": false,
-      "reason": "科研可视化与数据处理高度对口，Windows可用pip或conda安装。",
-      "codex": {
-        "integration": "library",
-        "priority": "中",
-        "reason": "为Codex补交互式实时科研绘图与自定义GUI能力",
-        "overlap": "与现有科研绘图在图表输出上交叉，增量在交互界面与实时刷新，待核验",
-        "requirements": "Windows需Python 3.12+、Qt绑定与numpy 2.2+，无API费用",
-        "risk": "License条款与版本约束未核实，大数组渲染性能未知",
-        "next_step": "核查仓库LICENSE文件与pyqtgraph/examples示例入口"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 541798154,
-      "name": "Unstructured-IO/unstructured",
-      "url": "https://github.com/Unstructured-IO/unstructured",
-      "score": 83.68,
-      "reviewed_at": "2026-10-17T08:51:55.149203+00:00",
-      "stale": false,
-      "reason": "与文献、PDF处理兴趣高度相关，可作为科研文档入库预处理候选。",
-      "codex": {
-        "integration": "library",
-        "priority": "中",
-        "reason": "可为Codex补强复杂版式PDF与多格式文档的结构化抽取",
-        "overlap": "与现有PDF/文献处理能力存在能力交叉，增量在于元素级分块与元数据",
-        "requirements": "Python环境；全文档支持需较重的系统与OCR依赖；Windows需按文档配置",
-        "risk": "依赖庞杂、安装易失败；解析精度与私有API对照未验证",
-        "next_step": "核查pyproject依赖、partition_pdf实现与Windows安装文档"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
     }
   ]
 }
