@@ -1,30 +1,11 @@
 {
   "schema": 1,
-  "pool_size": 294,
+  "pool_size": 322,
   "shown": 50,
   "capacity": 50,
   "deployment_policy": "user_initiated_only",
   "high_value_candidates": 25,
   "projects": [
-    {
-      "repo_id": 1460385,
-      "name": "scipy/scipy",
-      "url": "https://github.com/scipy/scipy",
-      "score": 98.36,
-      "reviewed_at": "2026-10-16T17:20:19.664109+00:00",
-      "stale": false,
-      "reason": "与科研数据处理、数值计算与可视化强相关。",
-      "codex": {
-        "integration": "library",
-        "priority": "高",
-        "reason": "为科研计算与数据处理提供数值算法底座，支撑分析与可视化。",
-        "overlap": "与已有科研绘图和数据处理能力存在能力交叉，属底层计算库而非现成工具。",
-        "requirements": "Windows可用pip或conda安装；BSD-3-Clause；无API费用。",
-        "risk": "与特定Python版本兼容性需核查，编译依赖可能受限。",
-        "next_step": "核查README中install guide链接与release说明。"
-      },
-      "deployment_advice": "高价值核查候选，等你主动提出安装"
-    },
     {
       "repo_id": 826168160,
       "name": "docling-project/docling",
@@ -83,6 +64,25 @@
       "deployment_advice": "高价值核查候选，等你主动提出安装"
     },
     {
+      "repo_id": 1079456184,
+      "name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "score": 91.23,
+      "reviewed_at": "2026-10-17T08:32:37.801521+00:00",
+      "stale": false,
+      "reason": "与文献、数据处理、科研可视化、引用管理兴趣高度契合。",
+      "codex": {
+        "integration": "skill",
+        "priority": "高",
+        "reason": "为Codex补充成体系的科研领域技能与数据库工作流。",
+        "overlap": "与已有文献检索、写作润色和绘图有交叉；增量在专门科学库与验证约定，待核验。",
+        "requirements": "Python环境、部分数据库凭证；按技能逐项安装；API费用未知。",
+        "risk": "数量大易过载，技能质量与安全性需抽样审查。",
+        "next_step": "核查docs/skills.md目录、单个SKILL.md样例、LICENSE.md与skill-tests工作流。"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
       "repo_id": 1160005002,
       "name": "microsoft/Ontology-Playground",
       "url": "https://github.com/microsoft/Ontology-Playground",
@@ -117,25 +117,6 @@
         "requirements": "需Node.js；Windows可用；包体与浏览器下载占用磁盘；无API费用",
         "risk": "MCP与CLI的调用行为、网络与凭证权限尚未验证",
         "next_step": "核查README中CLI与MCP段落及包名即可，不预先安装"
-      },
-      "deployment_advice": "高价值核查候选，等你主动提出安装"
-    },
-    {
-      "repo_id": 1079456184,
-      "name": "K-Dense-AI/scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "score": 89.92,
-      "reviewed_at": "2026-10-16T13:32:18.211498+00:00",
-      "stale": false,
-      "reason": "高度契合文献、数据处理、科研可视化与知识发现兴趣。",
-      "codex": {
-        "integration": "skill",
-        "priority": "高",
-        "reason": "为Codex补充科学数据库查询、专业包工作流与证据可溯写作技能",
-        "overlap": "与已有文献检索、论文写作、科研绘图等技能明显重叠；专业数据库与领域包工作流可能有增量，需逐技能对照，本机具体组件尚未核验。",
-        "requirements": "Python环境与各技能依赖包，部分数据库需注册或授权，图像生成需OpenRouter密钥",
-        "risk": "177技能质量与安全扫描结果未逐项核实，MIT许可但含第三方引用",
-        "next_step": "核查skills目录下SKILL.md、skill-requirements.toml与安全扫描工作流"
       },
       "deployment_advice": "高价值核查候选，等你主动提出安装"
     },
@@ -197,6 +178,25 @@
       "deployment_advice": "继续观察，暂不建议接入"
     },
     {
+      "repo_id": 1460385,
+      "name": "scipy/scipy",
+      "url": "https://github.com/scipy/scipy",
+      "score": 88.36,
+      "reviewed_at": "2026-10-17T08:33:16.613192+00:00",
+      "stale": false,
+      "reason": "科研计算与数据处理底座，几乎任何科研数据分析和科研可视化流程都会间接依赖。",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "为科研计算与绘图提供底层数值算法支撑。",
+        "overlap": "与已有科研绘图、数据处理能力存在潜在交叉，增量待核验。",
+        "requirements": "Python环境，Windows需匹配wheel；无API费用。",
+        "risk": "版本冲突与子模块编译风险未验证。",
+        "next_step": "核查pyproject或安装文档中的依赖与Windows支持说明。"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
       "repo_id": 15333471,
       "name": "ocrmypdf/OCRmyPDF",
       "url": "https://github.com/ocrmypdf/OCRmyPDF",
@@ -233,6 +233,25 @@
         "next_step": "核查下载页Windows安装包与文档中Zotero集成章节。"
       },
       "deployment_advice": "独立使用或借鉴，不直接部署"
+    },
+    {
+      "repo_id": 853189791,
+      "name": "PDFMathTranslate/PDFMathTranslate",
+      "url": "https://github.com/PDFMathTranslate/PDFMathTranslate",
+      "score": 87.65,
+      "reviewed_at": "2026-10-17T08:33:44.018486+00:00",
+      "stale": false,
+      "reason": "高度贴合文献、PDF与引用管理兴趣。",
+      "codex": {
+        "integration": "cli",
+        "priority": "高",
+        "reason": "为Codex补版式保留的PDF双语翻译，可对接文献阅读。",
+        "overlap": "与已有读论文、PDF处理存在交叉，增量在公式表格保真。",
+        "requirements": "Python 3.11-3.12；翻译服务API Key或本地Ollama。",
+        "risk": "AGPL许可与外部API费用、模型下载网络问题未验证。",
+        "next_step": "核查pdf2zh命令、翻译服务配置与MCP入口文件。"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
     },
     {
       "repo_id": 45646037,
@@ -463,25 +482,6 @@
       "deployment_advice": "独立使用或借鉴，不直接部署"
     },
     {
-      "repo_id": 13428264,
-      "name": "ShareX/ShareX",
-      "url": "https://github.com/ShareX/ShareX",
-      "score": 85.71,
-      "reviewed_at": "2026-10-16T17:16:21.127630+00:00",
-      "stale": false,
-      "reason": "直接服务Windows环境下的效率与素材整理，与科研截图、文档配图场景相关。",
-      "codex": {
-        "integration": "application",
-        "priority": "中",
-        "reason": "为截图、录屏、OCR与文件分享提供一体化桌面工作流",
-        "overlap": "与已有PDF、图像处理和PPT/Word素材准备存在流程交叉，自动化上传为待核验增量",
-        "requirements": "Windows桌面程序，可便携或安装版；GPL-3.0许可；上传目标服务可能产生费用",
-        "risk": "上传目标与自定义脚本权限配置未知",
-        "next_step": "核查官方下载页的便携版与哈希值，确认OCR语言包与上传目标配置"
-      },
-      "deployment_advice": "独立使用或借鉴，不直接部署"
-    },
-    {
       "repo_id": 6041301,
       "name": "sumatrapdfreader/sumatrapdf",
       "url": "https://github.com/sumatrapdfreader/sumatrapdf",
@@ -499,6 +499,25 @@
         "next_step": "核查官方网站Manual页面与readme中AUTHORS、许可证说明。"
       },
       "deployment_advice": "独立使用或借鉴，不直接部署"
+    },
+    {
+      "repo_id": 7994556,
+      "name": "vega/vega",
+      "url": "https://github.com/vega/vega",
+      "score": 85.16,
+      "reviewed_at": "2026-10-17T08:30:04.479382+00:00",
+      "stale": false,
+      "reason": "高度契合科研可视化与可复现输出",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "JSON 声明式可视化语法可辅助生成可复现科研图表",
+        "overlap": "与现有科研绘图交叉，增量是声明式规格与可分享交互视图",
+        "requirements": "Node.js 或浏览器；BSD-3 许可；无需付费 API",
+        "risk": "复杂图表规格学习成本未评估",
+        "next_step": "核查 package.json 与官方 examples、editor 示例"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
     },
     {
       "repo_id": 871373324,
@@ -537,6 +556,25 @@
         "next_step": "核查README安装与服务器启动章节，以及agents相关文件。"
       },
       "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
+      "repo_id": 13428264,
+      "name": "ShareX/ShareX",
+      "url": "https://github.com/ShareX/ShareX",
+      "score": 84.71,
+      "reviewed_at": "2026-10-17T08:33:16.770740+00:00",
+      "stale": false,
+      "reason": "科研截图、图表标注、文档配图与分享的效率工具，通用性强。",
+      "codex": {
+        "integration": "application",
+        "priority": "中",
+        "reason": "为科研文档与演示补充截屏录屏和一键分享能力。",
+        "overlap": "与已有PDF/图片处理能力有潜在交叉，增量待核验。",
+        "requirements": "Windows桌面应用，部分上传需配置第三方服务凭据。",
+        "risk": "上传目标与隐私配置需谨慎，未验证。",
+        "next_step": "核查下载页与隐私政策、上传目标说明。"
+      },
+      "deployment_advice": "独立使用或借鉴，不直接部署"
     },
     {
       "repo_id": 1226123343,
@@ -653,25 +691,6 @@
       "deployment_advice": "独立使用或借鉴，不直接部署"
     },
     {
-      "repo_id": 853189791,
-      "name": "PDFMathTranslate/PDFMathTranslate",
-      "url": "https://github.com/PDFMathTranslate/PDFMathTranslate",
-      "score": 84.15,
-      "reviewed_at": "2026-10-16T13:32:18.208498+00:00",
-      "stale": false,
-      "reason": "直接对应文献与PDF处理兴趣，科研阅读效率提升明显。",
-      "codex": {
-        "integration": "mixed",
-        "priority": "高",
-        "reason": "为Codex补充PDF论文双语翻译并保留公式排版的能力",
-        "overlap": "与已有论文阅读、PDF处理和全文对照阅读流程重叠；保留原版式的翻译输出是否提供增量需实际比较，不能认定本机缺少此能力。",
-        "requirements": "需Python3.11-3.12或Windows安装包，翻译需OpenAI等API密钥或本地Ollama，Windows或用vc_redist.x64",
-        "risk": "AGPL-3.0许可影响二次分发，翻译模型与API费用未验证",
-        "next_step": "核查pdf2zh PyPI包、Windows ZIP资产与Zotero插件仓库是否可用"
-      },
-      "deployment_advice": "高价值核查候选，等你主动提出安装"
-    },
-    {
       "repo_id": 204164353,
       "name": "kestra-io/kestra",
       "url": "https://github.com/kestra-io/kestra",
@@ -710,6 +729,25 @@
       "deployment_advice": "高价值核查候选，等你主动提出安装"
     },
     {
+      "repo_id": 95995403,
+      "name": "lmcinnes/umap",
+      "url": "https://github.com/lmcinnes/umap",
+      "score": 83.34,
+      "reviewed_at": "2026-10-17T08:30:43.225119+00:00",
+      "stale": false,
+      "reason": "科研可视化与高维数据处理高度相关，适合单细胞、聚类结果、嵌入向量降维展示。",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "为Codex增加高维数据降维与二维嵌入可视化能力",
+        "overlap": "与已有科研绘图能力交叉，增量在降维算法本身，具体集成待核验",
+        "requirements": "Python环境及numpy、scipy、scikit-learn、numba依赖",
+        "risk": "依赖numba，Windows下版本兼容与编译未验证",
+        "next_step": "核查pyproject与文档中的依赖版本要求及Windows安装说明"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
       "repo_id": 931354511,
       "name": "oomol-lab/pdf-craft",
       "url": "https://github.com/oomol-lab/pdf-craft",
@@ -729,23 +767,23 @@
       "deployment_advice": "高价值核查候选，等你主动提出安装"
     },
     {
-      "repo_id": 1308263428,
-      "name": "rekursiv-ai/trackinizer",
-      "url": "https://github.com/rekursiv-ai/trackinizer",
-      "score": 82.69,
-      "reviewed_at": "2026-10-16T17:35:27.900461+00:00",
+      "repo_id": 81810486,
+      "name": "antvis/G6",
+      "url": "https://github.com/antvis/G6",
+      "score": 82.68,
+      "reviewed_at": "2026-10-17T08:30:26.375232+00:00",
       "stale": false,
-      "reason": "高度契合知识图谱、文献与实验记录兴趣。",
+      "reason": "与知识图谱、本体关系网络可视化高度相关，适合科研关系数据分析与展示。",
       "codex": {
-        "integration": "cli",
-        "priority": "中",
-        "reason": "把Issue、实验、论文与信念建成可查询的认知图谱",
-        "overlap": "与已有文献与科研绘图交叉，增量在信念—证据关系与变更日志",
-        "requirements": "需uv与Python3.12，默认PGlite或自备Postgres，含pgvector",
-        "risk": "图模型尚早，本地helper需配Claude/Codex CLI",
-        "next_step": "核查docs/api.md与types目录的契约定义"
+        "integration": "library",
+        "priority": "高",
+        "reason": "可为Codex增加知识图谱与关系网络的可视化引擎能力。",
+        "overlap": "与现有科研绘图交叉，增量在关系图布局与交互分析，待核验。",
+        "requirements": "Windows需Node/npm；浏览器渲染；GPU布局需硬件支持；无API费用。",
+        "risk": "布局性能与自定义元素复杂度未验证。",
+        "next_step": "核查package.json依赖、examples示例及布局插件文档。"
       },
-      "deployment_advice": "继续观察，暂不建议接入"
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
     },
     {
       "repo_id": 231283452,
@@ -917,44 +955,6 @@
         "next_step": "核查 docs/python.md 与 OCR 运行时安装说明"
       },
       "deployment_advice": "高价值核查候选，等你主动提出安装"
-    },
-    {
-      "repo_id": 626805178,
-      "name": "langgenius/dify",
-      "url": "https://github.com/langgenius/dify",
-      "score": 81.5,
-      "reviewed_at": "2026-10-16T13:32:18.210499+00:00",
-      "stale": false,
-      "reason": "契合AI与开发自动化兴趣，可用于搭建科研检索问答流程。",
-      "codex": {
-        "integration": "application",
-        "priority": "中",
-        "reason": "为Codex提供可视化编排的Agent工作流与RAG流水线，补充自动化编排能力",
-        "overlap": "已有检索与执行器等能力，缺低代码工作流编排与RAG平台增量",
-        "requirements": "需Docker与Compose v2.24+，最少2核4GiB内存，自托管需向量库配置，License非标准开源",
-        "risk": "许可为Apache2.0附加条件，商用限制未核实；升级Weaviate需分阶段",
-        "next_step": "核查LICENSE与docker/docker-compose.yaml及版本升级说明"
-      },
-      "deployment_advice": "独立使用或借鉴，不直接部署"
-    },
-    {
-      "repo_id": 1203670949,
-      "name": "AgriciDaniel/claude-obsidian",
-      "url": "https://github.com/AgriciDaniel/claude-obsidian",
-      "score": 81.48,
-      "reviewed_at": "2026-10-16T17:33:33.227115+00:00",
-      "stale": false,
-      "reason": "高度契合用户的知识图谱、文献与引用管理兴趣，本地 Markdown 所有权与溯源设计值得关注。",
-      "codex": {
-        "integration": "mixed",
-        "priority": "中",
-        "reason": "可为 Codex 增加本地知识库摄取、溯源引用与知识图谱整理的技能链路。",
-        "overlap": "与 Codex 的文献阅读与写作能力有交叉，本地 vault 溯源与事务写入属潜在增量，待核验。",
-        "requirements": "需要 Python 3、Obsidian 与独立的 vault 目录；网络出口与远程模型需显式同意。",
-        "risk": "Codex 侧技能链接未经本机验证，Windows 路径与权限行为未知。",
-        "next_step": "核查 docs/windows-wsl.md、docs/install-guide.md 与 scripts/setup-multi-agent.sh，确认 Codex 主机支持的实际步骤。"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
     }
   ]
 }

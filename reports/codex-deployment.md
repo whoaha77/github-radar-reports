@@ -9,16 +9,6 @@
 
 ## 高价值核查候选
 
-### [scipy/scipy](projects/1460385.md)
-
-**为什么值得：** 为科研计算与数据处理提供数值算法底座，支撑分析与可视化。
-
-**重叠与增量（未核对安装清单）：** 与已有科研绘图和数据处理能力存在能力交叉，属底层计算库而非现成工具。
-
-**代价与风险：** Windows可用pip或conda安装；BSD-3-Clause；无API费用。；与特定Python版本兼容性需核查，编译依赖可能受限。
-
-**部署前核查：** 核查README中install guide链接与release说明。
-
 ### [docling-project/docling](projects/826168160.md)
 
 **为什么值得：** 统一文档解析与MCP服务，可为文献与知识库提供结构化输入。
@@ -49,6 +39,16 @@
 
 **部署前核查：** 核查LICENSE、Docker镜像标签与API文档鉴权方式
 
+### [K-Dense-AI/scientific-agent-skills](projects/1079456184.md)
+
+**为什么值得：** 为Codex补充成体系的科研领域技能与数据库工作流。
+
+**重叠与增量（未核对安装清单）：** 与已有文献检索、写作润色和绘图有交叉；增量在专门科学库与验证约定，待核验。
+
+**代价与风险：** Python环境、部分数据库凭证；按技能逐项安装；API费用未知。；数量大易过载，技能质量与安全性需抽样审查。
+
+**部署前核查：** 核查docs/skills.md目录、单个SKILL.md样例、LICENSE.md与skill-tests工作流。
+
 ### [microsoft/playwright](projects/221981891.md)
 
 **为什么值得：** 为Codex增添浏览器自动化与端到端网页测试能力
@@ -58,16 +58,6 @@
 **代价与风险：** 需Node.js；Windows可用；包体与浏览器下载占用磁盘；无API费用；MCP与CLI的调用行为、网络与凭证权限尚未验证
 
 **部署前核查：** 核查README中CLI与MCP段落及包名即可，不预先安装
-
-### [K-Dense-AI/scientific-agent-skills](projects/1079456184.md)
-
-**为什么值得：** 为Codex补充科学数据库查询、专业包工作流与证据可溯写作技能
-
-**重叠与增量（未核对安装清单）：** 与已有文献检索、论文写作、科研绘图等技能明显重叠；专业数据库与领域包工作流可能有增量，需逐技能对照，本机具体组件尚未核验。
-
-**代价与风险：** Python环境与各技能依赖包，部分数据库需注册或授权，图像生成需OpenRouter密钥；177技能质量与安全扫描结果未逐项核实，MIT许可但含第三方引用
-
-**部署前核查：** 核查skills目录下SKILL.md、skill-requirements.toml与安全扫描工作流
 
 ### [opendatalab/MinerU](projects/765083837.md)
 
@@ -98,6 +88,16 @@
 **代价与风险：** 需Python、Tesseract与Ghostscript，本地运行无API费用。；Windows安装与语言包配置风险未验证。
 
 **部署前核查：** 核查文档中Windows安装页及中文语言包说明。
+
+### [PDFMathTranslate/PDFMathTranslate](projects/853189791.md)
+
+**为什么值得：** 为Codex补版式保留的PDF双语翻译，可对接文献阅读。
+
+**重叠与增量（未核对安装清单）：** 与已有读论文、PDF处理存在交叉，增量在公式表格保真。
+
+**代价与风险：** Python 3.11-3.12；翻译服务API Key或本地Ollama。；AGPL许可与外部API费用、模型下载网络问题未验证。
+
+**部署前核查：** 核查pdf2zh命令、翻译服务配置与MCP入口文件。
 
 ### [plotly/plotly.js](projects/45646037.md)
 
@@ -209,16 +209,6 @@
 
 **部署前核查：** 核查 SKILL.md、assets 模板与 scripts 下校验器的实际文件。
 
-### [PDFMathTranslate/PDFMathTranslate](projects/853189791.md)
-
-**为什么值得：** 为Codex补充PDF论文双语翻译并保留公式排版的能力
-
-**重叠与增量（未核对安装清单）：** 与已有论文阅读、PDF处理和全文对照阅读流程重叠；保留原版式的翻译输出是否提供增量需实际比较，不能认定本机缺少此能力。
-
-**代价与风险：** 需Python3.11-3.12或Windows安装包，翻译需OpenAI等API密钥或本地Ollama，Windows或用vc_redist.x64；AGPL-3.0许可影响二次分发，翻译模型与API费用未验证
-
-**部署前核查：** 核查pdf2zh PyPI包、Windows ZIP资产与Zotero插件仓库是否可用
-
 ### [kestra-io/kestra](projects/204164353.md)
 
 **为什么值得：** 可编排数据与 AI 流程，并通过 MCP 或 Agent Skills 暴露给 Codex。
@@ -248,6 +238,16 @@
 **代价与风险：** Windows需Python 3.11–3.13与Poppler；本地OCR需CUDA与显存，远程OCR需端点与密钥；扫描质量与版式影响结果；远程OCR会外发页面内容，隐私需评估
 
 **部署前核查：** 核查安装指南中的Poppler步骤、OCR后端文档与许可文件
+
+### [antvis/G6](projects/81810486.md)
+
+**为什么值得：** 可为Codex增加知识图谱与关系网络的可视化引擎能力。
+
+**重叠与增量（未核对安装清单）：** 与现有科研绘图交叉，增量在关系图布局与交互分析，待核验。
+
+**代价与风险：** Windows需Node/npm；浏览器渲染；GPU布局需硬件支持；无API费用。；布局性能与自定义元素复杂度未验证。
+
+**部署前核查：** 核查package.json依赖、examples示例及布局插件文档。
 
 ### [firecrawl/pdf-inspector](projects/1151702019.md)
 

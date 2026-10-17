@@ -3,40 +3,40 @@
   "repository": "whoaha77/github-radar-reports",
   "items": [
     {
-      "repo_id": 86075041,
-      "name": "williamngan/pts",
-      "url": "https://github.com/williamngan/pts",
+      "repo_id": 853189791,
+      "name": "PDFMathTranslate/PDFMathTranslate",
+      "url": "https://github.com/PDFMathTranslate/PDFMathTranslate",
       "kind": "有趣发现",
       "classic": true,
-      "why": "用点和线的数学玩法画出动态艺术，探索性很强",
-      "try_idea": "先看ptsjs.org的demo和starter kit",
-      "reviewed_at": "2026-10-17T08:07:19.927077+00:00",
+      "why": "把英文论文整篇翻成中文还保持原版式，公式图表不乱，做文献调研很省事。",
+      "try_idea": "先拿一篇带公式的arXiv论文跑在线演示，对比公式与表格是否错位。",
+      "reviewed_at": "2026-10-17T08:33:44.018486+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "615407cca264b6b391c178d51db1743e09351789e634fab5cd899566c242af5f"
+      "share_id": "73fc9c21237ecbb652c1478aa3603d63a56d3ca2dc23930eabf30098a79152fd"
     },
     {
-      "repo_id": 1195360525,
-      "name": "calesthio/OpenMontage",
-      "url": "https://github.com/calesthio/OpenMontage",
+      "repo_id": 1219042200,
+      "name": "op7418/guizang-ppt-skill",
+      "url": "https://github.com/op7418/guizang-ppt-skill",
       "kind": "有趣发现",
       "classic": false,
-      "why": "把 AI 编程助手变成视频工作室，贴一条喜欢的短视频就能生成有节奏、有脚本、有成本的制作方案，还带实时分镜看板。",
-      "try_idea": "先看 README 中的成品视频与 Backlot 分镜板截图，再跑一次模拟运行脚本观察流水线运行状态。",
-      "reviewed_at": "2026-10-16T17:33:33.226109+00:00",
+      "why": "把文章变杂志风或瑞士风网页 PPT，还能一键进演讲者模式带观众屏和排练计时，演示场景很实用。",
+      "try_idea": "先看 README 里两套风格的示例截图，再让代理把一篇短文改成 7 页瑞士风。",
+      "reviewed_at": "2026-10-16T17:33:54.320241+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "85f0e6967b4c9b61708b76be185f9eeaa344acca891c9e76071ef56eed546d4b"
+      "share_id": "d438232c16373e0cf993cf791834f8ed9e0757af48ff59a8d6c7160be52efd46"
     },
     {
-      "repo_id": 15333471,
-      "name": "ocrmypdf/OCRmyPDF",
-      "url": "https://github.com/ocrmypdf/OCRmyPDF",
+      "repo_id": 1340749561,
+      "name": "1692775560/dsh-Mimir-Academic-research",
+      "url": "https://github.com/1692775560/dsh-Mimir-Academic-research",
       "kind": "有趣发现",
-      "classic": true,
-      "why": "把扫描版论文一键变成可搜索PDF，还能顺手纠偏、压缩体积，对攒了一堆扫描文献的人来说非常实用。",
-      "try_idea": "看README里--deskew与多语言示例，先拿一份扫描PDF试流程。",
-      "reviewed_at": "2026-10-16T17:19:54.112316+00:00",
+      "classic": false,
+      "why": "它把arXiv找文献、LaTeX边写边编译、实验跑图、组会PPT和GPU服务器任务塞进一个工作台，研究进度还能自动记成日志。",
+      "try_idea": "先看README的九视图截图与22MB完整演示视频，体会从文献到组会PPT的一条流水线。",
+      "reviewed_at": "2026-10-16T17:35:54.927889+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "6d192b1f0dfe6546162d1925345118c07d77964e1435279f863a05f4636da0bb"
+      "share_id": "f1039a92fa90a2712dc48f0405a103f64b4d7310ac372597a149ed65c9086707"
     }
   ],
   "delivery_policy": "Share interesting/useful discoveries; no installation request; deduplicate chat delivery."

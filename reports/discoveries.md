@@ -4,33 +4,33 @@
 
 [历史项目大库](library/README.md) · [Top50](top-50.md) · [部署分析](codex-deployment.md)
 
-## [williamngan/pts](https://github.com/williamngan/pts)
+## [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate)
 
 **老项目回看** · 有趣发现
 
-用点和线的数学玩法画出动态艺术，探索性很强
+把英文论文整篇翻成中文还保持原版式，公式图表不乱，做文献调研很省事。
 
-**可以怎样探索：** 先看ptsjs.org的demo和starter kit
+**可以怎样探索：** 先拿一篇带公式的arXiv论文跑在线演示，对比公式与表格是否错位。
 
 来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
 
-## [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
+## [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill)
 
 有趣发现
 
-把 AI 编程助手变成视频工作室，贴一条喜欢的短视频就能生成有节奏、有脚本、有成本的制作方案，还带实时分镜看板。
+把文章变杂志风或瑞士风网页 PPT，还能一键进演讲者模式带观众屏和排练计时，演示场景很实用。
 
-**可以怎样探索：** 先看 README 中的成品视频与 Backlot 分镜板截图，再跑一次模拟运行脚本观察流水线运行状态。
+**可以怎样探索：** 先看 README 里两套风格的示例截图，再让代理把一篇短文改成 7 页瑞士风。
 
 来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
 
-## [ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)
+## [1692775560/dsh-Mimir-Academic-research](https://github.com/1692775560/dsh-Mimir-Academic-research)
 
-**老项目回看** · 有趣发现
+有趣发现
 
-把扫描版论文一键变成可搜索PDF，还能顺手纠偏、压缩体积，对攒了一堆扫描文献的人来说非常实用。
+它把arXiv找文献、LaTeX边写边编译、实验跑图、组会PPT和GPU服务器任务塞进一个工作台，研究进度还能自动记成日志。
 
-**可以怎样探索：** 看README里--deskew与多语言示例，先拿一份扫描PDF试流程。
+**可以怎样探索：** 先看README的九视图截图与22MB完整演示视频，体会从文献到组会PPT的一条流水线。
 
 来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
 
