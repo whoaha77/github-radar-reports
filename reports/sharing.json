@@ -3,40 +3,40 @@
   "repository": "whoaha77/github-radar-reports",
   "items": [
     {
-      "repo_id": 1288102626,
-      "name": "ai4s-research/open-science",
-      "url": "https://github.com/ai4s-research/open-science",
+      "repo_id": 86075041,
+      "name": "williamngan/pts",
+      "url": "https://github.com/williamngan/pts",
       "kind": "有趣发现",
-      "classic": false,
-      "why": "它把“从一句方向到一篇带图的论文”做成一条可审计流水线，每个点都能追溯到生成它的代码与输入，还能用手机查看跑完的图表，科研复现的浪漫被工程化了。",
-      "try_idea": "先看README的“See it in action”里跨物种图谱与文献PDF两张展示图，理解溯源与引用审校流程。",
-      "reviewed_at": "2026-10-16T17:35:02.050553+00:00",
+      "classic": true,
+      "why": "用点和线的数学玩法画出动态艺术，探索性很强",
+      "try_idea": "先看ptsjs.org的demo和starter kit",
+      "reviewed_at": "2026-10-17T08:07:19.927077+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "50f7947c0607e5b53ce9680de58fc1683c9a289e80b23e73eafd9ce3f7da5461"
+      "share_id": "615407cca264b6b391c178d51db1743e09351789e634fab5cd899566c242af5f"
     },
     {
-      "repo_id": 1389011744,
-      "name": "lemomo-ai/lemo-opuscar",
-      "url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "repo_id": 1195360525,
+      "name": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
       "kind": "有趣发现",
       "classic": false,
-      "why": "把“拍一支风格化短片”变成一句提示词加一个 agent，卫星影像、激光扫描、显微切片都能被拍成有数据的影像。",
-      "try_idea": "先逛官网 gallery 的 Evidence Films，挑一个风格读对应 STYLE.md 看提示词怎么写。",
-      "reviewed_at": "2026-10-16T17:36:40.910652+00:00",
+      "why": "把 AI 编程助手变成视频工作室，贴一条喜欢的短视频就能生成有节奏、有脚本、有成本的制作方案，还带实时分镜看板。",
+      "try_idea": "先看 README 中的成品视频与 Backlot 分镜板截图，再跑一次模拟运行脚本观察流水线运行状态。",
+      "reviewed_at": "2026-10-16T17:33:33.226109+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "d12a796f395ca8dc6f764c4674a470b067d9ab36153737bac763e671a5f2ffda"
+      "share_id": "85f0e6967b4c9b61708b76be185f9eeaa344acca891c9e76071ef56eed546d4b"
     },
     {
-      "repo_id": 1206357666,
-      "name": "jordan-gibbs/hyperresearch",
-      "url": "https://github.com/jordan-gibbs/hyperresearch",
+      "repo_id": 15333471,
+      "name": "ocrmypdf/OCRmyPDF",
+      "url": "https://github.com/ocrmypdf/OCRmyPDF",
       "kind": "有趣发现",
-      "classic": false,
-      "why": "一次提问能拉两百多个来源、把每条引用回查原文、抓出不符或撤稿的段落，还把资料堆进可反复检索的本地文献库。",
-      "try_idea": "先读官网公开样例报告的引用与来源列表，观察 200 多来源如何被逐条核验与聚类。",
-      "reviewed_at": "2026-10-16T17:33:33.229110+00:00",
+      "classic": true,
+      "why": "把扫描版论文一键变成可搜索PDF，还能顺手纠偏、压缩体积，对攒了一堆扫描文献的人来说非常实用。",
+      "try_idea": "看README里--deskew与多语言示例，先拿一份扫描PDF试流程。",
+      "reviewed_at": "2026-10-16T17:19:54.112316+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "ee2265317e899fa4ade76776b0ff6c1b413e78d8e216bf628a916f4387f2287a"
+      "share_id": "6d192b1f0dfe6546162d1925345118c07d77964e1435279f863a05f4636da0bb"
     }
   ],
   "delivery_policy": "Share interesting/useful discoveries; no installation request; deduplicate chat delivery."

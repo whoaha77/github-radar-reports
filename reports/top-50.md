@@ -1,6 +1,6 @@
 # 历史优选 Top 50
 
-累计有 237 个合格项目，本页展示 50 个。
+累计有 294 个合格项目，本页展示 50 个。
 只从本查找器累计分析通过的项目中排序，不是全 GitHub 排名；不足50不凑数。
 
 同一仓库只占一个位置；使用最新有效分析，不取过时的历史最高分。反馈忽略/暂缓/试用失败的项目不入榜。
@@ -22,41 +22,41 @@
 | 10 | [d3/d3](projects/943149.md) | 89.0 | 代码库 | 继续观察，暂不建议接入 | 2026-10-16 |
 | 11 | [ocrmypdf/OCRmyPDF](projects/15333471.md) | 88.1 | 命令行工具 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
 | 12 | [Zettlr/Zettlr](projects/115446081.md) | 87.8 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
-| 13 | [anthropics/skills](projects/1061953414.md) | 87.5 | Skill | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
-| 14 | [run-llama/liteparse](projects/1153982569.md) | 87.2 | 代码库 | 继续观察，暂不建议接入 | 2026-10-16 |
-| 15 | [getzep/graphiti](projects/840056306.md) | 87.0 | 代码库 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
-| 16 | [ThHanke/ontosphere](projects/1049705027.md) | 86.8 | MCP 服务 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
-| 17 | [DeusData/codebase-memory-mcp](projects/1166102148.md) | 86.3 | MCP 服务 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
-| 18 | [ucbepic/docetl](projects/826111692.md) | 86.2 | 代码库 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
-| 19 | [mesa/mesa](projects/24245737.md) | 86.2 | 代码库 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
-| 20 | [apache/airflow](projects/33884891.md) | 85.8 | 混合工具集 | 继续观察，暂不建议接入 | 2026-10-16 |
-| 21 | [synthetic-sciences/openscience](projects/1288402762.md) | 85.7 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
-| 22 | [ShareX/ShareX](projects/13428264.md) | 85.7 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
-| 23 | [sumatrapdfreader/sumatrapdf](projects/6041301.md) | 85.5 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
-| 24 | [shcherbak-ai/contextgem](projects/871373324.md) | 85.1 | 代码库 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
-| 25 | [PrefectHQ/prefect](projects/139199684.md) | 84.8 | 混合工具集 | 继续观察，暂不建议接入 | 2026-10-16 |
-| 26 | [virgiliojr94/book-to-skill](projects/1226123343.md) | 84.6 | 混合工具集 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
-| 27 | [assafelovic/gpt-researcher](projects/639835356.md) | 84.5 | 混合工具集 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
-| 28 | [opendataloader-project/opendataloader-pdf](projects/982587624.md) | 84.4 | 代码库 | 继续观察，暂不建议接入 | 2026-10-16 |
-| 29 | [docling-project/docling-graph](projects/1098317259.md) | 84.4 | 命令行工具 | 继续观察，暂不建议接入 | 2026-10-16 |
-| 30 | [op7418/guizang-ppt-skill](projects/1219042200.md) | 84.4 | Skill | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
-| 31 | [paperless-ngx/paperless-ngx](projects/458648791.md) | 84.3 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
-| 32 | [PDFMathTranslate/PDFMathTranslate](projects/853189791.md) | 84.2 | 混合工具集 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
-| 33 | [kestra-io/kestra](projects/204164353.md) | 83.4 | 混合工具集 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
-| 34 | [jordan-gibbs/hyperresearch](projects/1206357666.md) | 83.4 | Skill | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
-| 35 | [oomol-lab/pdf-craft](projects/931354511.md) | 82.8 | 代码库 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
-| 36 | [rekursiv-ai/trackinizer](projects/1308263428.md) | 82.7 | 命令行工具 | 继续观察，暂不建议接入 | 2026-10-16 |
-| 37 | [excalidraw/excalidraw](projects/231283452.md) | 82.5 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
-| 38 | [QwenLM/qwen-code](projects/1008713177.md) | 82.4 | 命令行工具 | 继续观察，暂不建议接入 | 2026-10-16 |
-| 39 | [readest/readest](projects/871781831.md) | 82.3 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
-| 40 | [colbymchenry/codegraph](projects/1137078255.md) | 81.7 | MCP 服务 | 继续观察，暂不建议接入 | 2026-10-16 |
-| 41 | [firecrawl/pdf-inspector](projects/1151702019.md) | 81.6 | 代码库 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
-| 42 | [langgenius/dify](projects/626805178.md) | 81.5 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
-| 43 | [AgriciDaniel/claude-obsidian](projects/1203670949.md) | 81.5 | 混合工具集 | 继续观察，暂不建议接入 | 2026-10-16 |
-| 44 | [aipoch/open-science](projects/1287804060.md) | 81.4 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
-| 45 | [khoj-ai/khoj](projects/396569538.md) | 81.4 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
-| 46 | [brycewang-stanford/Awesome-Journal-Skills](projects/1248879346.md) | 81.2 | 混合工具集 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
-| 47 | [terminusdb/terminusdb](projects/198466472.md) | 81.1 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
-| 48 | [super-productivity/super-productivity](projects/78243781.md) | 80.7 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
-| 49 | [zjunlp/DeepKE](projects/143090423.md) | 80.6 | 混合工具集 | 继续观察，暂不建议接入 | 2026-10-16 |
-| 50 | [ActivityWatch/activitywatch](projects/57224308.md) | 80.6 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
+| 13 | [plotly/plotly.js](projects/45646037.md) | 87.5 | 代码库 | 高价值核查候选，等你主动提出安装 | 2026-10-17 |
+| 14 | [anthropics/skills](projects/1061953414.md) | 87.5 | Skill | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
+| 15 | [run-llama/liteparse](projects/1153982569.md) | 87.2 | 代码库 | 继续观察，暂不建议接入 | 2026-10-16 |
+| 16 | [plotly/plotly.py](projects/14579099.md) | 87.1 | 代码库 | 继续观察，暂不建议接入 | 2026-10-17 |
+| 17 | [getzep/graphiti](projects/840056306.md) | 87.0 | 代码库 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
+| 18 | [ThHanke/ontosphere](projects/1049705027.md) | 86.8 | MCP 服务 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
+| 19 | [metabase/metabase](projects/30203935.md) | 86.4 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-17 |
+| 20 | [DeusData/codebase-memory-mcp](projects/1166102148.md) | 86.3 | MCP 服务 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
+| 21 | [ucbepic/docetl](projects/826111692.md) | 86.2 | 代码库 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
+| 22 | [mesa/mesa](projects/24245737.md) | 86.2 | 代码库 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
+| 23 | [apache/airflow](projects/33884891.md) | 85.8 | 混合工具集 | 继续观察，暂不建议接入 | 2026-10-16 |
+| 24 | [synthetic-sciences/openscience](projects/1288402762.md) | 85.7 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
+| 25 | [ShareX/ShareX](projects/13428264.md) | 85.7 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
+| 26 | [sumatrapdfreader/sumatrapdf](projects/6041301.md) | 85.5 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
+| 27 | [shcherbak-ai/contextgem](projects/871373324.md) | 85.1 | 代码库 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
+| 28 | [PrefectHQ/prefect](projects/139199684.md) | 84.8 | 混合工具集 | 继续观察，暂不建议接入 | 2026-10-16 |
+| 29 | [virgiliojr94/book-to-skill](projects/1226123343.md) | 84.6 | 混合工具集 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
+| 30 | [assafelovic/gpt-researcher](projects/639835356.md) | 84.5 | 混合工具集 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
+| 31 | [opendataloader-project/opendataloader-pdf](projects/982587624.md) | 84.4 | 代码库 | 继续观察，暂不建议接入 | 2026-10-16 |
+| 32 | [docling-project/docling-graph](projects/1098317259.md) | 84.4 | 命令行工具 | 继续观察，暂不建议接入 | 2026-10-16 |
+| 33 | [op7418/guizang-ppt-skill](projects/1219042200.md) | 84.4 | Skill | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
+| 34 | [paperless-ngx/paperless-ngx](projects/458648791.md) | 84.3 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
+| 35 | [PDFMathTranslate/PDFMathTranslate](projects/853189791.md) | 84.2 | 混合工具集 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
+| 36 | [kestra-io/kestra](projects/204164353.md) | 83.4 | 混合工具集 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
+| 37 | [jordan-gibbs/hyperresearch](projects/1206357666.md) | 83.4 | Skill | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
+| 38 | [oomol-lab/pdf-craft](projects/931354511.md) | 82.8 | 代码库 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
+| 39 | [rekursiv-ai/trackinizer](projects/1308263428.md) | 82.7 | 命令行工具 | 继续观察，暂不建议接入 | 2026-10-16 |
+| 40 | [excalidraw/excalidraw](projects/231283452.md) | 82.5 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
+| 41 | [QwenLM/qwen-code](projects/1008713177.md) | 82.4 | 命令行工具 | 继续观察，暂不建议接入 | 2026-10-16 |
+| 42 | [readest/readest](projects/871781831.md) | 82.3 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
+| 43 | [bokeh/bokeh](projects/3834332.md) | 82.1 | 代码库 | 继续观察，暂不建议接入 | 2026-10-17 |
+| 44 | [Kanaries/pygwalker](projects/602389947.md) | 81.9 | 代码库 | 继续观察，暂不建议接入 | 2026-10-17 |
+| 45 | [isl-org/Open3D](projects/75413130.md) | 81.8 | 代码库 | 继续观察，暂不建议接入 | 2026-10-17 |
+| 46 | [colbymchenry/codegraph](projects/1137078255.md) | 81.7 | MCP 服务 | 继续观察，暂不建议接入 | 2026-10-16 |
+| 47 | [apache/echarts](projects/9185792.md) | 81.7 | 代码库 | 继续观察，暂不建议接入 | 2026-10-17 |
+| 48 | [firecrawl/pdf-inspector](projects/1151702019.md) | 81.6 | 代码库 | 高价值核查候选，等你主动提出安装 | 2026-10-16 |
+| 49 | [langgenius/dify](projects/626805178.md) | 81.5 | 独立应用 | 独立使用或借鉴，不直接部署 | 2026-10-16 |
+| 50 | [AgriciDaniel/claude-obsidian](projects/1203670949.md) | 81.5 | 混合工具集 | 继续观察，暂不建议接入 | 2026-10-16 |

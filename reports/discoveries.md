@@ -4,33 +4,33 @@
 
 [历史项目大库](library/README.md) · [Top50](top-50.md) · [部署分析](codex-deployment.md)
 
-## [ai4s-research/open-science](https://github.com/ai4s-research/open-science)
+## [williamngan/pts](https://github.com/williamngan/pts)
 
-有趣发现
+**老项目回看** · 有趣发现
 
-它把“从一句方向到一篇带图的论文”做成一条可审计流水线，每个点都能追溯到生成它的代码与输入，还能用手机查看跑完的图表，科研复现的浪漫被工程化了。
+用点和线的数学玩法画出动态艺术，探索性很强
 
-**可以怎样探索：** 先看README的“See it in action”里跨物种图谱与文献PDF两张展示图，理解溯源与引用审校流程。
-
-来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
-
-## [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar)
-
-有趣发现
-
-把“拍一支风格化短片”变成一句提示词加一个 agent，卫星影像、激光扫描、显微切片都能被拍成有数据的影像。
-
-**可以怎样探索：** 先逛官网 gallery 的 Evidence Films，挑一个风格读对应 STYLE.md 看提示词怎么写。
+**可以怎样探索：** 先看ptsjs.org的demo和starter kit
 
 来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
 
-## [jordan-gibbs/hyperresearch](https://github.com/jordan-gibbs/hyperresearch)
+## [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
 
 有趣发现
 
-一次提问能拉两百多个来源、把每条引用回查原文、抓出不符或撤稿的段落，还把资料堆进可反复检索的本地文献库。
+把 AI 编程助手变成视频工作室，贴一条喜欢的短视频就能生成有节奏、有脚本、有成本的制作方案，还带实时分镜看板。
 
-**可以怎样探索：** 先读官网公开样例报告的引用与来源列表，观察 200 多来源如何被逐条核验与聚类。
+**可以怎样探索：** 先看 README 中的成品视频与 Backlot 分镜板截图，再跑一次模拟运行脚本观察流水线运行状态。
+
+来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
+
+## [ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)
+
+**老项目回看** · 有趣发现
+
+把扫描版论文一键变成可搜索PDF，还能顺手纠偏、压缩体积，对攒了一堆扫描文献的人来说非常实用。
+
+**可以怎样探索：** 看README里--deskew与多语言示例，先拿一份扫描PDF试流程。
 
 来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
 

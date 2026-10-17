@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "pool_size": 237,
+  "pool_size": 294,
   "shown": 50,
   "capacity": 50,
   "deployment_policy": "user_initiated_only",
@@ -235,6 +235,25 @@
       "deployment_advice": "独立使用或借鉴，不直接部署"
     },
     {
+      "repo_id": 45646037,
+      "name": "plotly/plotly.js",
+      "url": "https://github.com/plotly/plotly.js",
+      "score": 87.53,
+      "reviewed_at": "2026-10-17T08:06:22.424899+00:00",
+      "stale": false,
+      "reason": "高度贴合科研可视化需求，图类型丰富且可用JSON配置。",
+      "codex": {
+        "integration": "library",
+        "priority": "高",
+        "reason": "为科研图表提供交互式、可导出的JavaScript渲染能力。",
+        "overlap": "与已有科研绘图在输出形态上存在交叉，交互渲染增量待核验。",
+        "requirements": "Windows需Node或浏览器；MIT许可，无需API费用。",
+        "risk": "CDN与MathJax外部依赖在离线环境未验证。",
+        "next_step": "核查dist包的加载方式与MathJax示例文件"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
       "repo_id": 1061953414,
       "name": "anthropics/skills",
       "url": "https://github.com/anthropics/skills",
@@ -269,6 +288,25 @@
         "requirements": "Rust或Python/Node绑定，可选Tesseract OCR与外部OCR服务；Apache-2.0许可。",
         "risk": "解析质量在复杂版面上的实际表现与OCR依赖开销尚未验证。",
         "next_step": "核查README基准表与benchmarks、Reproducing章节及绑定文档。"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
+      "repo_id": 14579099,
+      "name": "plotly/plotly.py",
+      "url": "https://github.com/plotly/plotly.py",
+      "score": 87.05,
+      "reviewed_at": "2026-10-17T08:05:50.198821+00:00",
+      "stale": false,
+      "reason": "与科研可视化高度契合，通用性强。",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "补交互式网页图表与仪表盘输出能力。",
+        "overlap": "与已有科研绘图交叉在静态图，交互导出属待核验增量。",
+        "requirements": "Python环境，导出需Kaleido与Chrome，无API费用。",
+        "risk": "依赖体积与导出环境配置风险未验证。",
+        "next_step": "核查README的Kaleido与anywidget说明。"
       },
       "deployment_advice": "继续观察，暂不建议接入"
     },
@@ -309,6 +347,25 @@
         "next_step": "核查README的MCP工具清单、/.well-known/mcp.json清单与LICENSE文件，再看Relay设置文档。"
       },
       "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
+      "repo_id": 30203935,
+      "name": "metabase/metabase",
+      "url": "https://github.com/metabase/metabase",
+      "score": 86.39,
+      "reviewed_at": "2026-10-17T08:06:22.421404+00:00",
+      "stale": false,
+      "reason": "与数据处理、科研可视化、报表高度相关，适合实验数据看板。",
+      "codex": {
+        "integration": "application",
+        "priority": "高",
+        "reason": "提供可交互数据看板与SQL问答，补足分析呈现层。",
+        "overlap": "与已有表格/绘图能力在呈现层面交叉，嵌入与AI问答增量待核验。",
+        "requirements": "Windows可运行服务；需数据库与授权评估。",
+        "risk": "AGPL合规、AI功能费用与数据权限未验证。",
+        "next_step": "核查LICENSE.txt授权范围与安装文档"
+      },
+      "deployment_advice": "独立使用或借鉴，不直接部署"
     },
     {
       "repo_id": 1166102148,
@@ -748,6 +805,63 @@
       "deployment_advice": "独立使用或借鉴，不直接部署"
     },
     {
+      "repo_id": 3834332,
+      "name": "bokeh/bokeh",
+      "url": "https://github.com/bokeh/bokeh",
+      "score": 82.12,
+      "reviewed_at": "2026-10-17T08:07:16.215038+00:00",
+      "stale": false,
+      "reason": "契合科研可视化与数据处理兴趣，成熟经典库。",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "为科研数据提供浏览器交互可视化与仪表盘输出能力",
+        "overlap": "与既有科研绘图能力存在能力交叉，Python库形式可在脚本中直接调用",
+        "requirements": "需Python环境及pip安装，Windows可用；无API费用",
+        "risk": "大版本升级可能引入兼容性问题，未验证",
+        "next_step": "核查安装文档与Python版本要求，并确认与现有绘图工具是否重复"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
+      "repo_id": 602389947,
+      "name": "Kanaries/pygwalker",
+      "url": "https://github.com/Kanaries/pygwalker",
+      "score": 81.91,
+      "reviewed_at": "2026-10-17T08:09:40.354114+00:00",
+      "stale": false,
+      "reason": "高度契合科研数据处理与可视化探索。",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "为数据探索提供可交互拖拽式可视化界面，丰富科研数据分析环节。",
+        "overlap": "与已有科研绘图、Excel/PDF处理存在交叉，增量在交互式探索与看板。",
+        "requirements": "需Python 3与Jupyter，pip/conda安装，可选云计算可能涉费用。",
+        "risk": "Windows下Jupyter与浏览器交互未验证，云计算隐私未评估。",
+        "next_step": "核查README安装说明与computation参数及PyPI发布版本。"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
+      "repo_id": 75413130,
+      "name": "isl-org/Open3D",
+      "url": "https://github.com/isl-org/Open3D",
+      "score": 81.8,
+      "reviewed_at": "2026-10-17T08:07:19.920549+00:00",
+      "stale": false,
+      "reason": "科研可视化与3D数据处理的直接相关工具",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "为科研3D数据可视化与点云处理提供Python库能力",
+        "overlap": "与科研绘图能力交叉，3D点云与网格处理为潜在增量待核验",
+        "requirements": "Python 3.10-3.14 pip包支持Windows 10+ 64位，GPU依赖未知",
+        "risk": "许可为NOASSERTION待确认，大模型GPU依赖未验证",
+        "next_step": "核查LICENSE、Windows轮子及Open3D-ML依赖"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
       "repo_id": 1137078255,
       "name": "colbymchenry/codegraph",
       "url": "https://github.com/colbymchenry/codegraph",
@@ -763,6 +877,25 @@
         "requirements": "Windows可用PowerShell安装，CLI内置运行时，无需Node。",
         "risk": "索引准确性与telemetry行为尚未验证，代码数据本地性需确认。",
         "next_step": "核查README的install.ps1、telemetry章节与codegraph init生成目录。"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
+      "repo_id": 9185792,
+      "name": "apache/echarts",
+      "url": "https://github.com/apache/echarts",
+      "score": 81.66,
+      "reviewed_at": "2026-10-17T08:05:33.032994+00:00",
+      "stale": false,
+      "reason": "与科研可视化和数据处理高度相关，适合做交互式统计图与仪表盘。",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "为科研数据提供可交互网页图表层",
+        "overlap": "与已有科研绘图交叉，增量在浏览器交互与主题定制，待核验",
+        "requirements": "需Node.js或浏览器引入；Windows可用；无API费用",
+        "risk": "复杂大图配置与性能未验证",
+        "next_step": "核查README构建段、examples与option手册入口"
       },
       "deployment_advice": "继续观察，暂不建议接入"
     },
@@ -822,139 +955,6 @@
         "next_step": "核查 docs/windows-wsl.md、docs/install-guide.md 与 scripts/setup-multi-agent.sh，确认 Codex 主机支持的实际步骤。"
       },
       "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 1287804060,
-      "name": "aipoch/open-science",
-      "url": "https://github.com/aipoch/open-science",
-      "score": 81.4,
-      "reviewed_at": "2026-10-16T13:08:37.037843+00:00",
-      "stale": false,
-      "reason": "与文献、PDF、数据处理、科研可视化、可复现研究高度契合，且明确支持Windows，属重点相关项目。",
-      "codex": {
-        "integration": "application",
-        "priority": "高",
-        "reason": "提供文献管理、PDF精读、Python/R执行与可追溯产物，补足Codex缺少的持久研究工作区与证据链",
-        "overlap": "与已有文献检索、读论文、科研绘图及DeepSeek执行器部分重叠，但项目级工作区与溯源为增量",
-        "requirements": "Windows x64安装包可用，需自备模型API Key或订阅，Notebook需本地Python/R环境",
-        "risk": "自述benchmark成绩未经第三方复现，SSH/Slurm配置复杂，1.0版本较新稳定性未验证",
-        "next_step": "核查内置文献与PDF模块是否支持Zotero库导入，及其Skills能否被Codex外部调用"
-      },
-      "deployment_advice": "独立使用或借鉴，不直接部署"
-    },
-    {
-      "repo_id": 396569538,
-      "name": "khoj-ai/khoj",
-      "url": "https://github.com/khoj-ai/khoj",
-      "score": 81.35,
-      "reviewed_at": "2026-10-16T13:14:30.067815+00:00",
-      "stale": false,
-      "reason": "契合科研与效率工具兴趣：可从PDF与文档库做语义检索与问答，支撑文献查阅与知识整理，多端入口（浏览器、Obsidian、Emacs、桌面）。",
-      "codex": {
-        "integration": "application",
-        "priority": "中",
-        "reason": "从本地PDF、Word、Markdown库做语义检索问答，可补充个人文献库的跨文档检索与自动化简报",
-        "overlap": "与已有文献检索和读论文重叠，但覆盖自建文档库、定时自动化与多端访问为增量",
-        "requirements": "Windows需按自托管文档部署Python服务或Docker，本地LLM需算力，云模型需API Key",
-        "risk": "AGPL-3.0传染性许可限制商业内嵌，部署步骤与Windows兼容性未验证，云服务产生费用",
-        "next_step": "核查自托管在Windows的安装方式、是否需要Docker，以及文档索引格式支持范围"
-      },
-      "deployment_advice": "独立使用或借鉴，不直接部署"
-    },
-    {
-      "repo_id": 1248879346,
-      "name": "brycewang-stanford/Awesome-Journal-Skills",
-      "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills",
-      "score": 81.2,
-      "reviewed_at": "2026-10-16T17:35:59.675569+00:00",
-      "stale": false,
-      "reason": "极强对口科研写作与实证流程，覆盖经管与自然科学主流期刊。",
-      "codex": {
-        "integration": "mixed",
-        "priority": "高",
-        "reason": "按目标期刊定制科研写作与投稿流程",
-        "overlap": "与已有论文写作、绘图能力交叉，增量在期刊级规范",
-        "requirements": "技能为Markdown但可能依赖Stata与外部平台，费用未知",
-        "risk": "数量庞大但质量与真实性未逐项验证",
-        "next_step": "核查shared-resources/venue-index.tsv与单个期刊包的SKILL.md"
-      },
-      "deployment_advice": "高价值核查候选，等你主动提出安装"
-    },
-    {
-      "repo_id": 198466472,
-      "name": "terminusdb/terminusdb",
-      "url": "https://github.com/terminusdb/terminusdb",
-      "score": 81.07,
-      "reviewed_at": "2026-10-16T17:23:28.877217+00:00",
-      "stale": false,
-      "reason": "与用户知识图谱、本体、科研数据管理兴趣高度契合。",
-      "codex": {
-        "integration": "application",
-        "priority": "高",
-        "reason": "可为 Codex 增加可版本化的知识图谱存储与本体推理能力。",
-        "overlap": "与已有文献与知识管理能力潜在交叉，图谱版本化与逻辑查询增量待核验。",
-        "requirements": "Docker 环境、管理员密码配置，Apache-2.0，企业功能可能付费。",
-        "risk": "未验证 Windows Docker 运行稳定性与数据迁移风险。",
-        "next_step": "核查 docker-compose.yml 与 .env 中 TERMINUSDB_ADMIN_PASS 配置要求。"
-      },
-      "deployment_advice": "独立使用或借鉴，不直接部署"
-    },
-    {
-      "repo_id": 78243781,
-      "name": "super-productivity/super-productivity",
-      "url": "https://github.com/super-productivity/super-productivity",
-      "score": 80.72,
-      "reviewed_at": "2026-10-16T17:21:39.396229+00:00",
-      "stale": false,
-      "reason": "科研效率与时间追踪高度相关，支持 Windows 桌面端。",
-      "codex": {
-        "integration": "application",
-        "priority": "低",
-        "reason": "提供任务时间盒与工时统计界面，辅助科研节奏管理",
-        "overlap": "与已有执行器定位不同，偏个人任务管理层",
-        "requirements": "Windows 桌面安装包，第三方集成需各自凭据",
-        "risk": "同步服务费用与数据托管位置未验证",
-        "next_step": "核查 README 下载段与 Wiki 同步集成对比页"
-      },
-      "deployment_advice": "独立使用或借鉴，不直接部署"
-    },
-    {
-      "repo_id": 143090423,
-      "name": "zjunlp/DeepKE",
-      "url": "https://github.com/zjunlp/DeepKE",
-      "score": 80.6,
-      "reviewed_at": "2026-10-16T17:23:07.692068+00:00",
-      "stale": false,
-      "reason": "切中知识图谱与本体构建兴趣，科研抽取场景直接相关",
-      "codex": {
-        "integration": "mixed",
-        "priority": "中",
-        "reason": "提供抽取式知识图谱构建样例与LLM抽取流程参考",
-        "overlap": "与读论文、文献检索能力存在场景交叉，抽取工具链尚待核验",
-        "requirements": "Python与PyTorch环境、模型权重下载，Windows路径需反斜杠",
-        "risk": "依赖版本与模型权重较大，安装未验证",
-        "next_step": "核查example目录下LLM与MCP相关说明及requirements文件"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 57224308,
-      "name": "ActivityWatch/activitywatch",
-      "url": "https://github.com/ActivityWatch/activitywatch",
-      "score": 80.57,
-      "reviewed_at": "2026-10-16T17:21:18.262756+00:00",
-      "stale": false,
-      "reason": "与用户效率工具兴趣直接相关，时间数据也可用于量化分析。",
-      "codex": {
-        "integration": "application",
-        "priority": "中",
-        "reason": "提供本机时间与活动数据，可用于效率分析或后续数据处理。",
-        "overlap": "与已有科研与写作能力属不同维度，潜在增量为行为数据，待核验。",
-        "requirements": "Windows 安装包与本地服务；涉及系统活动监控权限。",
-        "risk": "隐私敏感，权限范围与数据存储位置需确认。",
-        "next_step": "查看 releases 页的 Windows 安装方式与 watcher 清单。"
-      },
-      "deployment_advice": "独立使用或借鉴，不直接部署"
     }
   ]
 }

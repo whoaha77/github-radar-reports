@@ -99,6 +99,16 @@
 
 **部署前核查：** 核查文档中Windows安装页及中文语言包说明。
 
+### [plotly/plotly.js](projects/45646037.md)
+
+**为什么值得：** 为科研图表提供交互式、可导出的JavaScript渲染能力。
+
+**重叠与增量（未核对安装清单）：** 与已有科研绘图在输出形态上存在交叉，交互渲染增量待核验。
+
+**代价与风险：** Windows需Node或浏览器；MIT许可，无需API费用。；CDN与MathJax外部依赖在离线环境未验证。
+
+**部署前核查：** 核查dist包的加载方式与MathJax示例文件
+
 ### [anthropics/skills](projects/1061953414.md)
 
 **为什么值得：** 提供技能规范、模板与文档类实现范式，可用于设计自研技能结构。
@@ -248,16 +258,6 @@
 **代价与风险：** Python/Node/Rust 任一环境；OCR 需额外运行库；抽取质量在不同版式下未知
 
 **部署前核查：** 核查 docs/python.md 与 OCR 运行时安装说明
-
-### [brycewang-stanford/Awesome-Journal-Skills](projects/1248879346.md)
-
-**为什么值得：** 按目标期刊定制科研写作与投稿流程
-
-**重叠与增量（未核对安装清单）：** 与已有论文写作、绘图能力交叉，增量在期刊级规范
-
-**代价与风险：** 技能为Markdown但可能依赖Stata与外部平台，费用未知；数量庞大但质量与真实性未逐项验证
-
-**部署前核查：** 核查shared-resources/venue-index.tsv与单个期刊包的SKILL.md
 
 ## 不同类型如何接入
 

@@ -2,49 +2,49 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
-| [ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) | 待分析 | 2022-08-11 | Get Android app updates straight from the source. |
+| [ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) | 已分析 | 2022-08-11 | Get Android app updates straight from the source. |
 | [usebruno/bruno](https://github.com/usebruno/bruno) | 已分析 | 2022-09-27 | Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia) |
 | [dream-num/univer](https://github.com/dream-num/univer) | 已分析 | 2022-09-29 | The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime. |
-| [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev) | 待分析 | 2022-11-30 | Trigger.dev – build and deploy durable AI agents and workflows |
+| [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev) | 已分析 | 2022-11-30 | Trigger.dev – build and deploy durable AI agents and workflows |
 | [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 已分析 | 2023-01-27 | #1 PDF Application on GitHub that lets you edit PDFs on any device anywhere |
 | [varunshenoy/GraphGPT](https://github.com/varunshenoy/GraphGPT) | 已分析 | 2023-01-31 | Extrapolating knowledge graphs from unstructured text using GPT-3 🕵️‍♂️ |
-| [Kanaries/pygwalker](https://github.com/Kanaries/pygwalker) | 待分析 | 2023-02-16 | PyGWalker: Turn your dataframe into an interactive UI for visual analysis |
+| [Kanaries/pygwalker](https://github.com/Kanaries/pygwalker) | 已分析 | 2023-02-16 | PyGWalker: Turn your dataframe into an interactive UI for visual analysis |
 | [Nriver/awesome-trilium](https://github.com/Nriver/awesome-trilium) | 已分析 | 2023-02-24 | A collection of interesting Trilium Notes extensions. Including themes, widgets, scripts, API extensions, etc. Trilium插件 |
 | [freelabz/secator](https://github.com/freelabz/secator) | 已分析 | 2023-02-25 | secator - the pentester's swiss knife |
 | [WASasquatch/was-node-suite-comfyui](https://github.com/WASasquatch/was-node-suite-comfyui) | 已分析 | 2023-03-24 | WAS-NS v3 Reborn; Tools for image processing, filters, masking, text, logic, numbers, latents, files, 3D scenes, and ani |
-| [OpenDriveLab/End-to-end-Autonomous-Driving](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving) | 待分析 | 2023-04-04 | [IEEE T-PAMI 2024] All you need for End-to-end Autonomous Driving |
+| [OpenDriveLab/End-to-end-Autonomous-Driving](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving) | 已分析 | 2023-04-04 | [IEEE T-PAMI 2024] All you need for End-to-end Autonomous Driving |
 | [langgenius/dify](https://github.com/langgenius/dify) | 已分析 | 2023-04-12 | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cl |
-| [claromes/waybacktweets](https://github.com/claromes/waybacktweets) | 待分析 | 2023-05-11 | Archived tweets from the Wayback Machine |
+| [claromes/waybacktweets](https://github.com/claromes/waybacktweets) | 已分析 | 2023-05-11 | Archived tweets from the Wayback Machine |
 | [yasenstar/protege_pizza](https://github.com/yasenstar/protege_pizza) | 已分析 | 2023-05-12 | One‑stop learning hub for ontology engineering with Protégé and pizza.owl. Includes step‑by‑step code snapshots, a full  |
 | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | 已分析 | 2023-05-12 | An autonomous agent that conducts deep research on any data using any LLM providers |
-| [Curated-Awesome-Lists/GPT-Awesome-List-Generator](https://github.com/Curated-Awesome-Lists/GPT-Awesome-List-Generator) | 待分析 | 2023-05-13 | A powerful and automatic awesome list generator leveraging GPT models. Enter your keyword and its description to get a c |
+| [Curated-Awesome-Lists/GPT-Awesome-List-Generator](https://github.com/Curated-Awesome-Lists/GPT-Awesome-List-Generator) | 已分析 | 2023-05-13 | A powerful and automatic awesome list generator leveraging GPT models. Enter your keyword and its description to get a c |
 | [docusealco/docuseal](https://github.com/docusealco/docuseal) | 已分析 | 2023-07-03 | Open source DocuSign alternative. Create, fill, and sign digital documents ✍️ |
 | [sxyazi/yazi](https://github.com/sxyazi/yazi) | 已分析 | 2023-07-08 | 💥 Blazing fast terminal file manager written in Rust, based on async I/O. |
 | [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 已分析 | 2023-07-20 | A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal |
-| [mev-fyi/data](https://github.com/mev-fyi/data) | 待分析 | 2023-09-01 | The open-source repository mev.fyi aggregates research on Maximal Extractable Value (MEV). Explore curated academic pape |
+| [mev-fyi/data](https://github.com/mev-fyi/data) | 已分析 | 2023-09-01 | The open-source repository mev.fyi aggregates research on Maximal Extractable Value (MEV). Explore curated academic pape |
 | [yoheinakajima/instagraph](https://github.com/yoheinakajima/instagraph) | 已分析 | 2023-09-12 | Converts text input or URL into knowledge graph and displays |
 | [rahulnyk/knowledge_graph](https://github.com/rahulnyk/knowledge_graph) | 已分析 | 2023-10-22 | Convert any text to a graph of knowledge. This can be used for Graph Augmented Generation or Knowledge Graph based QnA |
-| [getmaxun/maxun](https://github.com/getmaxun/maxun) | 待分析 | 2023-10-23 | Turn any website into a structured API. Extract, automate, search and monitor the web. |
-| [yang3kc/daily_arxiv_digest](https://github.com/yang3kc/daily_arxiv_digest) | 待分析 | 2023-12-08 | Daily digest of interesting arXiv papers — an unattended LLM pipeline for cron, plus a zero-dependency agent skill your  |
-| [FujiwaraChoki/MoneyPrinter](https://github.com/FujiwaraChoki/MoneyPrinter) | 待分析 | 2024-01-31 | Automate Creation of YouTube Shorts using MoviePy. |
+| [getmaxun/maxun](https://github.com/getmaxun/maxun) | 已分析 | 2023-10-23 | Turn any website into a structured API. Extract, automate, search and monitor the web. |
+| [yang3kc/daily_arxiv_digest](https://github.com/yang3kc/daily_arxiv_digest) | 已分析 | 2023-12-08 | Daily digest of interesting arXiv papers — an unattended LLM pipeline for cron, plus a zero-dependency agent skill your  |
+| [FujiwaraChoki/MoneyPrinter](https://github.com/FujiwaraChoki/MoneyPrinter) | 已分析 | 2024-01-31 | Automate Creation of YouTube Shorts using MoviePy. |
 | [enoch3712/ExtractThinker](https://github.com/enoch3712/ExtractThinker) | 已分析 | 2024-02-01 | ExtractThinker is a Document Intelligence library for LLMs, offering ORM-style interaction for flexible and powerful doc |
 | [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | 已分析 | 2024-02-12 | Automate the process of making money online. |
 | [Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern) | 已分析 | 2024-02-28 | Automate browser based workflows with AI |
 | [opendatalab/MinerU](https://github.com/opendatalab/MinerU) | 已分析 | 2024-02-29 | Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows. |
-| [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent) | 待分析 | 2024-04-03 | Research and development (R&amp;D) is crucial for the enhancement of industrial productivity, especially in the AI era, wher |
-| [latentcat/latentbox](https://github.com/latentcat/latentbox) | 待分析 | 2024-04-05 | A collection of awesome-lists for AI, creativity and art. AI、创意和艺术领域的精选合集。https://latentbox.com |
+| [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent) | 已分析 | 2024-04-03 | Research and development (R&amp;D) is crucial for the enhancement of industrial productivity, especially in the AI era, wher |
+| [latentcat/latentbox](https://github.com/latentcat/latentbox) | 已分析 | 2024-04-05 | A collection of awesome-lists for AI, creativity and art. AI、创意和艺术领域的精选合集。https://latentbox.com |
 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 已分析 | 2024-04-29 | 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source. |
 | [OSU-NLP-Group/HippoRAG](https://github.com/OSU-NLP-Group/HippoRAG) | 已分析 | 2024-05-23 | [NeurIPS'24] HippoRAG is a novel RAG framework inspired by human long-term memory that enables LLMs to continuously inte |
-| [darrenburns/posting](https://github.com/darrenburns/posting) | 待分析 | 2024-05-26 | The modern API client that lives in your terminal. |
+| [darrenburns/posting](https://github.com/darrenburns/posting) | 已分析 | 2024-05-26 | The modern API client that lives in your terminal. |
 | [Topdu/OpenOCR](https://github.com/Topdu/OpenOCR) | 已分析 | 2024-05-31 | OpenOCR: An Open-Source Toolkit for General-OCR Research and Applications, integrates a unified training and evaluation  |
 | [panaversity/learn-agentic-ai](https://github.com/panaversity/learn-agentic-ai) | 已分析 | 2024-06-12 | Learn Agentic AI using Dapr Agentic Cloud Ascent (DACA) Design Pattern and Agent-Native Cloud Technologies: OpenAI Agent |
 | [xerrors/Yuxi](https://github.com/xerrors/Yuxi) | 已分析 | 2024-07-05 | 可私有部署的多租户知识智能体平台：统一 RAG、知识图谱、多智能体、MCP/Skills、沙盒与权限管理。Yuxi = Cloud Agents + Knowledge RAG, Self-hosted knowledge agent pl |
 | [ucbepic/docetl](https://github.com/ucbepic/docetl) | 已分析 | 2024-07-09 | A system for agentic LLM-powered data processing and ETL |
 | [docling-project/docling](https://github.com/docling-project/docling) | 已分析 | 2024-07-09 | Get your documents ready for gen AI |
-| [AI4Science-WestlakeU/research_toolbox](https://github.com/AI4Science-WestlakeU/research_toolbox) | 待分析 | 2024-07-10 | A useful toolbox for research. |
+| [AI4Science-WestlakeU/research_toolbox](https://github.com/AI4Science-WestlakeU/research_toolbox) | 已分析 | 2024-07-10 | A useful toolbox for research. |
 | [trustgraph-ai/trustgraph](https://github.com/trustgraph-ai/trustgraph) | 已分析 | 2024-07-10 | Connect ontology-grounded context graphs with deterministic AI agent governance to enforce business rules before executi |
 | [feder-cr/invisible_dots](https://github.com/feder-cr/invisible_dots) | 已分析 | 2024-08-04 | Open-source, self-hosted alternative to OpenAI Dots, Grok Bot. Built to be undetectable by anti-bot systems. |
-| [chartdb/chartdb](https://github.com/chartdb/chartdb) | 待分析 | 2024-08-05 | Database diagrams editor that allows you to visualize and design your DB with a single query. |
+| [chartdb/chartdb](https://github.com/chartdb/chartdb) | 已分析 | 2024-08-05 | Database diagrams editor that allows you to visualize and design your DB with a single query. |
 | [getzep/graphiti](https://github.com/getzep/graphiti) | 已分析 | 2024-08-08 | Build Real-Time Knowledge Graphs for AI Agents |
 | [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) | 已分析 | 2024-09-06 | [EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/O |
 | [shcherbak-ai/contextgem](https://github.com/shcherbak-ai/contextgem) | 已分析 | 2024-10-11 | Extract structured data and insights from documents using LLMs and decision models |
@@ -72,7 +72,7 @@
 | [anthropics/skills](https://github.com/anthropics/skills) | 已分析 | 2025-09-22 | Public repository for Agent Skills |
 | [obra/superpowers](https://github.com/obra/superpowers) | 已分析 | 2025-10-09 | An agentic skills framework &amp; software development methodology that works. |
 | [getpaseo/paseo](https://github.com/getpaseo/paseo) | 已分析 | 2025-10-13 | Orchestrate multiple coding agents from desktop and mobile |
-| [dexmal/dexbotic](https://github.com/dexmal/dexbotic) | 待分析 | 2025-10-17 | Dexbotic: Open-Source Vision-Language-Action Toolbox |
+| [dexmal/dexbotic](https://github.com/dexmal/dexbotic) | 已分析 | 2025-10-17 | Dexbotic: Open-Source Vision-Language-Action Toolbox |
 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 已分析 | 2025-10-19 | 380 Claude Code skills &amp; agent skills &amp; plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references,  |
 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 已分析 | 2025-10-19 | Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide.  |
 | [superset-sh/superset](https://github.com/superset-sh/superset) | 已分析 | 2025-10-21 | Superset is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription. |

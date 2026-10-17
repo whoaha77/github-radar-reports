@@ -15,15 +15,15 @@
 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 已分析 | 2026-02-19 | Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pa |
 | [hanlulong/awesome-ai-for-economists](https://github.com/hanlulong/awesome-ai-for-economists) | 已分析 | 2026-02-21 | A curated list of AI tools, agent skills, libraries, and resources for economics research, teaching, and policy analysis |
 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 已分析 | 2026-02-24 | High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in mil |
-| [NVIDIA/skills](https://github.com/NVIDIA/skills) | 待分析 | 2026-02-25 | Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical AI, robotics |
+| [NVIDIA/skills](https://github.com/NVIDIA/skills) | 已分析 | 2026-02-25 | Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical AI, robotics |
 | [wdcpclover/ai4paper](https://github.com/wdcpclover/ai4paper) | 已分析 | 2026-02-27 | PDF 全文翻译，保留排版双语对照 · 2.4 亿文献检索一键入库 · 文库知识库问答 · AI 精读论文、综述与思维导图 · 列表直显期刊分区 / 中科院 / JCR / 影响因子 · 免插件网页版 app.ai4paper.pro ·  |
 | [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | 已分析 | 2026-03-01 | PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and g |
 | [EthanYoQ/Invoice-Downloader](https://github.com/EthanYoQ/Invoice-Downloader) | 已分析 | 2026-03-02 | 电子发票整理与报销准备工具：从邮箱批量收集 PDF/OFD/XML 发票，OCR 识别、分类归档并生成 Excel 汇总；提供 Windows/macOS 桌面版与 DSH 插件。 |
 | [googleworkspace/cli](https://github.com/googleworkspace/cli) | 已分析 | 2026-03-02 | Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamicall |
-| [davidmonterocrespo24/velxio](https://github.com/davidmonterocrespo24/velxio) | 待分析 | 2026-03-03 | Emulate Arduino, ESP32 &amp; Raspberry Pi. in your browser. Write code, compile, and run on 19 real boards — Arduino Uno, ES |
+| [davidmonterocrespo24/velxio](https://github.com/davidmonterocrespo24/velxio) | 已分析 | 2026-03-03 | Emulate Arduino, ESP32 &amp; Raspberry Pi. in your browser. Write code, compile, and run on 19 real boards — Arduino Uno, ES |
 | [ZimoLiao/scholaraio](https://github.com/ZimoLiao/scholaraio) | 已分析 | 2026-03-09 | Scholar All-In-One: A research infrastructure for AI agents |
 | [beita6969/ScienceClaw](https://github.com/beita6969/ScienceClaw) | 已分析 | 2026-03-11 | Verifiable program-level self-evolution for AI-for-Science agents: Skills and typed Operators grow from replay-verified  |
-| [nikmcfly/MiroFish-Offline](https://github.com/nikmcfly/MiroFish-Offline) | 待分析 | 2026-03-14 | Offline multi-agent simulation &amp; prediction engine. English fork of MiroFish with Neo4j + Ollama local stack. |
+| [nikmcfly/MiroFish-Offline](https://github.com/nikmcfly/MiroFish-Offline) | 已分析 | 2026-03-14 | Offline multi-agent simulation &amp; prediction engine. English fork of MiroFish with Neo4j + Ollama local stack. |
 | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | 已分析 | 2026-03-15 | Graphs that teach &gt; graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and  |
 | [fallow-rs/fallow](https://github.com/fallow-rs/fallow) | 已分析 | 2026-03-17 | Codebase intelligence for TypeScript and JavaScript. Health, complexity hotspots, duplication, architecture boundaries,  |
 | [K-Dense-AI/k-dense-byok](https://github.com/K-Dense-AI/k-dense-byok) | 已分析 | 2026-03-19 | An AI co-scientist running on your desktop. Claude Science but better. |
@@ -47,7 +47,7 @@
 | [vakovalskii/ontoship](https://github.com/vakovalskii/ontoship) | 已分析 | 2026-06-06 | md+git knowledge base: FTS5 search (bm25+trigram/fuzzy), HTML+graph, code-ontology linter, Claude Code plugin |
 | [Light0305/Light-skills](https://github.com/Light0305/Light-skills) | 已分析 | 2026-06-07 | An AI workflow skill pack for research, competitions, and innovation projects. |
 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 已分析 | 2026-06-12 | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
-| [nolangz/pixel2motion](https://github.com/nolangz/pixel2motion) | 待分析 | 2026-06-12 | AI logo animation skill: turn raster logos into smooth SVG animation, animated HTML demos, GIF/video previews, and motio |
+| [nolangz/pixel2motion](https://github.com/nolangz/pixel2motion) | 已分析 | 2026-06-12 | AI logo animation skill: turn raster logos into smooth SVG animation, animated HTML demos, GIF/video previews, and motio |
 | [mmeyerlein/meclaw](https://github.com/mmeyerlein/meclaw) | 已分析 | 2026-06-16 | Where agents build agents. An open-source Rust framework for complex agentic systems: ontology-grounded, auditable, one  |
 | [KongFangXun/sofagent](https://github.com/KongFangXun/sofagent) | 已分析 | 2026-06-18 | sofagent is an open-source FDE Harness for AI coding agents — on entry, write your business judgment into files (workflo |
 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | 已分析 | 2026-06-18 | A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings |
@@ -63,18 +63,18 @@
 | [synthetic-sciences/openscience](https://github.com/synthetic-sciences/openscience) | 已分析 | 2026-07-03 | The open-source AI workbench for scientific research |
 | [superdesigndev/treg](https://github.com/superdesigndev/treg) | 已分析 | 2026-07-15 | OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn |
 | [owainlewis/machinist](https://github.com/owainlewis/machinist) | 已分析 | 2026-07-16 | Open source software factory infrastructure for advanced AI coding workflows |
-| [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) | 待分析 | 2026-07-16 | A library of creative canvas components. Real HTML with WebGL effects running over it. React, Vue, Svelte, vanilla. |
+| [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) | 已分析 | 2026-07-16 | A library of creative canvas components. Real HTML with WebGL effects running over it. React, Vue, Svelte, vanilla. |
 | [kirodotdev/KiroCrew](https://github.com/kirodotdev/KiroCrew) | 已分析 | 2026-07-16 | A persistent workspace for development work that self-improves and continues beyond one session. |
 | [ZJU-REAL/HugAgentOS](https://github.com/ZJU-REAL/HugAgentOS) | 已分析 | 2026-07-19 | HugAgentOS: The Self-Evolving AgentOS for Ontology-Grounded Trustworthy Reasoning |
 | [rekursiv-ai/trackinizer](https://github.com/rekursiv-ai/trackinizer) | 已分析 | 2026-07-22 | Epistemological database for agent and human efforts, beliefs, and findings. |
 | [agentconnect-md/agentconnect](https://github.com/agentconnect-md/agentconnect) | 已分析 | 2026-07-24 | The open-source, multi-agent alternative to Claude Tag.  @ any agent, wherever work happens, they work alongside your te |
-| [MengTo/kage](https://github.com/MengTo/kage) | 待分析 | 2026-08-08 | An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js. |
+| [MengTo/kage](https://github.com/MengTo/kage) | 已分析 | 2026-08-08 | An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js. |
 | [ldbumble/taskuary](https://github.com/ldbumble/taskuary) | 已分析 | 2026-08-17 | Your work, already underway. A personal AI assistant for your job: mail, chats and tickets become tasks, the agents you  |
 | [larashero3-dotcom/lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone) | 已分析 | 2026-08-20 | 一个基于 283 万字语料统计的去 AI 味 skill · An AI-tone removal skill grounded in a 2.83-million-character corpus study |
 | [cclank/lanshu-create-ai-presenter-video](https://github.com/cclank/lanshu-create-ai-presenter-video) | 已分析 | 2026-08-20 | Provider-neutral Codex Skill for producing verified AI presenter videos from a script and an authorized presenter image. |
 | [1692775560/dsh-Mimir-Academic-research](https://github.com/1692775560/dsh-Mimir-Academic-research) | 已分析 | 2026-08-20 | Mimir — 一站式科研工作台插件：LaTeX 论文边写边编译、arXiv 文献管理、实验追踪、指标图表、GPU 服务器 SSH 任务编排，管理科研全周期。An open-source research workbench plugin  |
 | [totec448-spec/chat-on-steroids](https://github.com/totec448-spec/chat-on-steroids) | 已分析 | 2026-08-22 | Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact &amp; Resume, and durable multi-age |
-| [nateherkai/scroll-craft](https://github.com/nateherkai/scroll-craft) | 待分析 | 2026-08-22 | An agent skill for building premium, immersive, scroll-driven websites. Works with Codex, Claude Code, and other coding  |
+| [nateherkai/scroll-craft](https://github.com/nateherkai/scroll-craft) | 已分析 | 2026-08-22 | An agent skill for building premium, immersive, scroll-driven websites. Works with Codex, Claude Code, and other coding  |
 | [omacom/try-omarchy](https://github.com/omacom/try-omarchy) | 已分析 | 2026-08-23 | Run Omarchy on MacOS without any setup. |
 | [tobi/walgit](https://github.com/tobi/walgit) | 已分析 | 2026-08-23 |  |
 | [typesafe-ai/skills](https://github.com/typesafe-ai/skills) | 已分析 | 2026-08-24 | Agent skills for building with TypeSafe's System One API |
@@ -85,7 +85,7 @@
 | [mexicat/pdoom-video](https://github.com/mexicat/pdoom-video) | 已分析 | 2026-09-24 | Code-rendered music video for "I'm Upping My P(doom)" |
 | [dzhng/jevgrep](https://github.com/dzhng/jevgrep) | 已分析 | 2026-09-26 | Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context. |
 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 已分析 | 2026-09-26 | Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirel |
-| [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) | 待分析 | 2026-09-27 | A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to  |
+| [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) | 已分析 | 2026-09-27 | A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to  |
 | [KingKongRobotics/jumper](https://github.com/KingKongRobotics/jumper) | 已分析 | 2026-09-28 | 🦀 Jumper — an crab robot. |
 | [BlueHeisenberg/SCSKiller](https://github.com/BlueHeisenberg/SCSKiller) | 已分析 | 2026-09-29 | Kill shader compilation stutter before you play. Compiles your games' shaders into the GPU driver's cache ahead of time. |
 | [feder-cr/invisible_playwright_mcp](https://github.com/feder-cr/invisible_playwright_mcp) | 已分析 | 2026-09-29 | Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefox, Pyt |
