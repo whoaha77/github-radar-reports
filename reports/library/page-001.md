@@ -8,6 +8,7 @@
 | [openframeworks/openFrameworks](https://github.com/openframeworks/openFrameworks) | 已分析 | 2009-10-21 | openFrameworks is a community-developed cross platform toolkit for creative coding in C++. |
 | [AutoHotkey/AutoHotkey](https://github.com/AutoHotkey/AutoHotkey) | 已分析 | 2009-11-25 | AutoHotkey - macro-creation and automation-oriented scripting utility for Windows. |
 | [hashicorp/vagrant](https://github.com/hashicorp/vagrant) | 已分析 | 2010-01-21 | Vagrant is a tool for building and distributing development environments. |
+| [stephane/libmodbus](https://github.com/stephane/libmodbus) | 已分析 | 2010-01-21 | A Modbus library for Linux, Mac OS, FreeBSD and Windows |
 | [obophenotype/uberon](https://github.com/obophenotype/uberon) | 已分析 | 2010-03-16 | An ontology of gross anatomy covering metazoa. Works in concert with https://github.com/obophenotype/cell-ontology |
 | [egametang/ET](https://github.com/egametang/ET) | 已分析 | 2010-06-27 | Unity3D Client And C# Server Framework |
 | [The-Powder-Toy/The-Powder-Toy](https://github.com/The-Powder-Toy/The-Powder-Toy) | 已分析 | 2010-07-25 | Written in C++ and using SDL, The Powder Toy is a desktop version of the classic 'falling sand' physics sandbox, it simu |
@@ -17,6 +18,7 @@
 | [d3/d3](https://github.com/d3/d3) | 已分析 | 2010-09-27 | Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada: |
 | [Bash-it/bash-it](https://github.com/Bash-it/bash-it) | 已分析 | 2010-10-02 | A community Bash framework. |
 | [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) | 已分析 | 2010-10-04 | Open Source real-time strategy game engine for early Westwood games such as Command &amp; Conquer: Red Alert written in C# u |
+| [mosra/magnum](https://github.com/mosra/magnum) | 已分析 | 2010-12-19 | Lightweight and modular C++11 graphics middleware for games and data visualization |
 | [libvips/libvips](https://github.com/libvips/libvips) | 已分析 | 2011-01-25 | A fast image processing library with low memory needs. |
 | [mapeditor/tiled](https://github.com/mapeditor/tiled) | 已分析 | 2011-02-27 | Flexible level editor |
 | [scipy/scipy](https://github.com/scipy/scipy) | 已分析 | 2011-03-09 | SciPy library main repository |
@@ -61,6 +63,7 @@
 | [koreader/koreader](https://github.com/koreader/koreader) | 已分析 | 2013-03-24 | An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, P |
 | [apache/echarts](https://github.com/apache/echarts) | 已分析 | 2013-04-03 | Apache ECharts is a powerful, interactive charting and data visualization library for browser |
 | [fogleman/Craft](https://github.com/fogleman/Craft) | 已分析 | 2013-04-09 | A simple Minecraft clone written in C using modern OpenGL (shaders). |
+| [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) | 已分析 | 2013-04-14 | An open source, turn-based strategy game with a high fantasy theme. |
 | [rawgraphs/rawgraphs-app](https://github.com/rawgraphs/rawgraphs-app) | 已分析 | 2013-04-17 | A web interface to create custom vector-based visualizations on top of RAWGraphs core |
 | [ankane/chartkick](https://github.com/ankane/chartkick) | 已分析 | 2013-05-07 | Create beautiful JavaScript charts with one line of Ruby |
 | [openmm/openmm](https://github.com/openmm/openmm) | 已分析 | 2013-05-20 | OpenMM is a toolkit for molecular simulation using high performance GPU code.  |
@@ -69,9 +72,12 @@
 | [su2code/SU2](https://github.com/su2code/SU2) | 已分析 | 2013-06-28 | SU2: An Open-Source Suite for Multiphysics Simulation and Design |
 | [dgarijo/Widoco](https://github.com/dgarijo/Widoco) | 已分析 | 2013-07-15 | Wizard for documenting ontologies. WIDOCO is a step by step generator of HTML templates with the documentation of your o |
 | [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp) | 已分析 | 2013-08-08 | Xournal++ is a handwriting notetaking software with PDF annotation support. Written in C++ with GTK3, supporting Linux ( |
+| [GameServerManagers/LinuxGSM](https://github.com/GameServerManagers/LinuxGSM) | 已分析 | 2013-08-09 | The command-line tool for quick, simple deployment and management of Linux dedicated game servers. |
 | [lammps/lammps](https://github.com/lammps/lammps) | 已分析 | 2013-08-09 | Public development project of the LAMMPS MD software package   |
+| [Provenance-Emu/Provenance](https://github.com/Provenance-Emu/Provenance) | 已分析 | 2013-08-27 | iOS &amp; tvOS multi-emulator frontend, supporting various Atari, Bandai, NEC, Nintendo, Sega, SNK and Sony console systems… |
 | [projectchrono/chrono](https://github.com/projectchrono/chrono) | 已分析 | 2013-09-03 | High-performance C++ library for multiphysics and multibody dynamics simulations |
 | [almatoai/OGIT](https://github.com/almatoai/OGIT) | 已分析 | 2013-09-05 | Almato AI "Open Graph of IT" Ontology Hub |
+| [pyqtgraph/pyqtgraph](https://github.com/pyqtgraph/pyqtgraph) | 已分析 | 2013-09-12 | Fast data visualization and GUI tools for scientific / engineering applications |
 | [recastnavigation/recastnavigation](https://github.com/recastnavigation/recastnavigation) | 已分析 | 2013-09-15 | Industry-standard navigation-mesh toolset for games |
 | [pgmpy/pgmpy](https://github.com/pgmpy/pgmpy) | 已分析 | 2013-09-20 | Python Toolkit for Causal and Probabilistic Reasoning |
 | [svaksha/Julia.jl](https://github.com/svaksha/Julia.jl) | 已分析 | 2013-09-25 | Curated decibans of Julia programming language. |
@@ -86,19 +92,13 @@
 | [ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) | 已分析 | 2013-12-20 | OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched |
 | [spack/spack](https://github.com/spack/spack) | 已分析 | 2014-01-08 | A flexible package manager that supports multiple versions, configurations, platforms, and compilers. |
 | [release-it/release-it](https://github.com/release-it/release-it) | 已分析 | 2014-01-15 | 🚀 Automate versioning and package publishing |
+| [autokey/autokey](https://github.com/autokey/autokey) | 已分析 | 2014-01-31 | AutoKey, a desktop automation utility for Linux and X11. |
+| [ossia/libossia](https://github.com/ossia/libossia) | 已分析 | 2014-02-04 | A modern C++, cross-environment distributed object model for creative coding and interaction scoring |
 | [edmcouncil/fibo](https://github.com/edmcouncil/fibo) | 已分析 | 2014-02-07 | The Financial Industry Business Ontology (FIBO) defines the sets of things that are of interest in financial business ap |
 | [geerlingguy/mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook) | 已分析 | 2014-02-12 | Mac setup and configuration via Ansible. |
 | [idaholab/moose](https://github.com/idaholab/moose) | 已分析 | 2014-02-14 | Multiphysics Object Oriented Simulation Environment |
 | [laserpilot/Installation_Up_4evr](https://github.com/laserpilot/Installation_Up_4evr) | 已分析 | 2014-02-23 | This is an article with tips about how to keep an installation up forever |
 | [gabrielecirulli/2048](https://github.com/gabrielecirulli/2048) | 已分析 | 2014-03-05 | The source code for 2048  |
+| [Strilanc/Quirk](https://github.com/Strilanc/Quirk) | 已分析 | 2014-03-05 | A drag-and-drop quantum circuit simulator that runs in your browser. A toy for exploring and understanding small quantum |
 | [sschmid/Entitas](https://github.com/sschmid/Entitas) | 已分析 | 2014-03-18 | Entitas is a super fast Entity Component System (ECS) Framework specifically made for C# and Unity |
 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 已分析 | 2014-04-01 | An open source re-implementation of RollerCoaster Tycoon 2 🎢 |
-| [NorthwoodsSoftware/GoJS](https://github.com/NorthwoodsSoftware/GoJS) | 已分析 | 2014-04-02 | JavaScript diagramming library for interactive flowcharts, org charts, design tools, planning tools, visual languages. |
-| [itamarst/eliot](https://github.com/itamarst/eliot) | 已分析 | 2014-04-09 | Eliot: the logging system that tells you *why* it happened |
-| [StackStorm/st2](https://github.com/StackStorm/st2) | 已分析 | 2014-04-23 | StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, incident responses, troubleshooting, d |
-| [sbstjn/timesheet.js](https://github.com/sbstjn/timesheet.js) | 已分析 | 2014-05-25 | JavaScript library for HTML5 &amp; CSS3 time sheets |
-| [emptymalei/awesome-research](https://github.com/emptymalei/awesome-research) | 已分析 | 2014-05-26 | :seedling: a curated list of tools to help you with your research/life; I built a front end around this repo, please use |
-| [tpn/pdfs](https://github.com/tpn/pdfs) | 已分析 | 2014-06-16 | Technically-oriented PDF Collection (Papers, Specs, Decks, Manuals, etc) — browse &amp; search it at tpn.github.io/pdfs |
-| [muesli/beehive](https://github.com/muesli/beehive) | 已分析 | 2014-06-23 | A flexible event/agent &amp; automation system with lots of bees 🐝 |
-| [robotframework/robotframework](https://github.com/robotframework/robotframework) | 已分析 | 2014-06-27 | Generic automation framework for acceptance testing and RPA |
-| [4ian/GDevelop](https://github.com/4ian/GDevelop) | 已分析 | 2014-06-29 | 🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone. |

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "pool_size": 573,
+  "pool_size": 611,
   "shown": 50,
   "capacity": 50,
   "deployment_policy": "user_initiated_only",
@@ -919,6 +919,25 @@
       "deployment_advice": "独立使用或借鉴，不直接部署"
     },
     {
+      "repo_id": 12777496,
+      "name": "pyqtgraph/pyqtgraph",
+      "url": "https://github.com/pyqtgraph/pyqtgraph",
+      "score": 83.79,
+      "reviewed_at": "2026-10-17T16:30:18.323287+00:00",
+      "stale": false,
+      "reason": "科研可视化与数据处理高度对口，Windows可用pip或conda安装。",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "为Codex补交互式实时科研绘图与自定义GUI能力",
+        "overlap": "与现有科研绘图在图表输出上交叉，增量在交互界面与实时刷新，待核验",
+        "requirements": "Windows需Python 3.12+、Qt绑定与numpy 2.2+，无API费用",
+        "risk": "License条款与版本约束未核实，大数组渲染性能未知",
+        "next_step": "核查仓库LICENSE文件与pyqtgraph/examples示例入口"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
       "repo_id": 541798154,
       "name": "Unstructured-IO/unstructured",
       "url": "https://github.com/Unstructured-IO/unstructured",
@@ -934,25 +953,6 @@
         "requirements": "Python环境；全文档支持需较重的系统与OCR依赖；Windows需按文档配置",
         "risk": "依赖庞杂、安装易失败；解析精度与私有API对照未验证",
         "next_step": "核查pyproject依赖、partition_pdf实现与Windows安装文档"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 1291410,
-      "name": "libvips/libvips",
-      "url": "https://github.com/libvips/libvips",
-      "score": 83.64,
-      "reviewed_at": "2026-10-17T14:29:57.765971+00:00",
-      "stale": false,
-      "reason": "与PDF处理、科研可视化及大体量图像数据高度相关，并附带Windows二进制。",
-      "codex": {
-        "integration": "library",
-        "priority": "中",
-        "reason": "为批量图像与PDF渲染提供低内存引擎",
-        "overlap": "与已有PDF与绘图能力可能交叉，增量待核验",
-        "requirements": "Windows安装二进制并配置Python绑定",
-        "risk": "原生依赖与格式插件缺失风险未验证",
-        "next_step": "核查releases页面Windows包与pyvips依赖说明"
       },
       "deployment_advice": "继续观察，暂不建议接入"
     }

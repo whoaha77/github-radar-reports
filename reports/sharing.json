@@ -3,40 +3,40 @@
   "repository": "whoaha77/github-radar-reports",
   "items": [
     {
-      "repo_id": 6105714,
-      "name": "pymupdf/PyMuPDF",
-      "url": "https://github.com/pymupdf/PyMuPDF",
+      "repo_id": 1182756,
+      "name": "mosra/magnum",
+      "url": "https://github.com/mosra/magnum",
       "kind": "有趣发现",
       "classic": true,
-      "why": "号称月下载超5000万次的PDF引擎，能把论文直接转成带结构的Markdown喂给大模型，还能抽表格、做标注和脱敏。",
-      "try_idea": "用page.find_tables()把一张PDF表格转成Markdown或Pandas，看看还原度。",
-      "reviewed_at": "2026-10-17T14:30:17.081904+00:00",
+      "why": "想亲手写三维可视化或小游戏时，它是少见的模块化图形底座，单头文件用法也很讨喜。",
+      "try_idea": "先看magnum-examples里的viewer示例，感受加载复杂3D模型的效果。",
+      "reviewed_at": "2026-10-17T16:30:18.313284+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "2beaca1dcee13d96cb749acc96b090f1e2db97b60b4c0b487be472955e0c95fd"
+      "share_id": "665c69c0ce3db2ecadd962ae5494e8bf678e25a4de5997e365be8b120b045b07"
     },
     {
-      "repo_id": 958212587,
-      "name": "growgraph/ontocast",
-      "url": "https://github.com/growgraph/ontocast",
+      "repo_id": 1186078103,
+      "name": "Agentshire/Agentshire",
+      "url": "https://github.com/Agentshire/Agentshire",
       "kind": "有趣发现",
       "classic": false,
-      "why": "把一堆PDF自动变成带本体和出处链接的知识图谱，是知识工作者会眼前一亮的玩法。",
-      "try_idea": "先用自带示例本体跑单篇文档，看Turtle输出与来源标注效果。",
-      "reviewed_at": "2026-10-17T14:33:30.903247+00:00",
+      "why": "把多代理协作变成一座能走能看的小镇，加班太久还会冒出“班味Boss”，可视化思路非常讨喜。",
+      "try_idea": "先看YouTube演示视频里的召唤、协作与烟花流程，再进角色工坊建一个NPC。",
+      "reviewed_at": "2026-10-17T14:34:26.571433+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "5f2fe814c52f032c07c5a4c55ab5a3c62296ffa25a1df0653e08842a043e6ef6"
+      "share_id": "1a26f8296a8e36ea863b47f3a6b29a8f523c52f75ef9855693a393443c740337"
     },
     {
-      "repo_id": 1158430198,
-      "name": "rohitg00/k8sgames",
-      "url": "https://github.com/rohitg00/k8sgames",
+      "repo_id": 1370994072,
+      "name": "infusius/masala",
+      "url": "https://github.com/infusius/masala",
       "kind": "有趣发现",
       "classic": false,
-      "why": "用打游戏的方式敲kubectl修集群故障，3D画布还能拖资源出架构图并导出YAML。",
-      "try_idea": "先打开k8sgames.com/draw，拖几个资源画张架构图再导出PNG。",
-      "reviewed_at": "2026-10-17T14:34:06.485941+00:00",
+      "why": "代理能现场给你写一个PDB查看器或SQLite可视化面板，研究上下文不再切窗口。",
+      "try_idea": "先看截图，试用从新标签页启动一次文献综述模块，观察过程Pane。",
+      "reviewed_at": "2026-10-17T14:35:47.919071+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "890ce0d47072346d4a41d06b47c35228e9d7a4eada76e5c01c56f801e1c02d70"
+      "share_id": "05548f0777a19ef703cb220c8cbd76772ca8117569a13a61c7fded5081466bbf"
     }
   ],
   "delivery_policy": "Share interesting/useful discoveries; no installation request; deduplicate chat delivery."

@@ -2,10 +2,43 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [DistrictDataLabs/yellowbrick](https://github.com/DistrictDataLabs/yellowbrick) | 已分析 | 2016-05-18 | Visual analysis and diagnostic tools to facilitate machine learning model selection. |
+| [antvis/G2](https://github.com/antvis/G2) | 已分析 | 2016-05-26 | 📊 The concise and progressive visualization grammar. |
+| [sofa-framework/sofa](https://github.com/sofa-framework/sofa) | 已分析 | 2016-05-31 | Real-time multi-physics simulation with an emphasis on medical simulation. |
+| [hustcc/echarts-for-react](https://github.com/hustcc/echarts-for-react) | 已分析 | 2016-06-03 | ⛳️  Apache ECharts components for React wrapper. 一个简单的 Apache echarts 的 React 封装。 |
+| [projectstorm/react-diagrams](https://github.com/projectstorm/react-diagrams) | 已分析 | 2016-06-03 | a super simple, no-nonsense diagramming library written in react that just works |
+| [citybound/citybound](https://github.com/citybound/citybound) | 已分析 | 2016-06-04 | A work-in-progress, open-source, multi-player city simulation game. |
+| [RandyGaul/cute_headers](https://github.com/RandyGaul/cute_headers) | 已分析 | 2016-06-05 | Collection of cross-platform one-file C/C++ libraries with no dependencies, primarily used for games |
+| [wix/Detox](https://github.com/wix/Detox) | 已分析 | 2016-06-15 | Gray box end-to-end testing and automation framework for mobile apps |
+| [synthetichealth/synthea](https://github.com/synthetichealth/synthea) | 已分析 | 2016-06-17 | Synthetic Patient Population Simulator |
+| [owlbarn/owl](https://github.com/owlbarn/owl) | 已分析 | 2016-06-20 | Owl - OCaml Scientific Computing @ https://ocaml.xyz |
+| [crsh/citr](https://github.com/crsh/citr) | 已分析 | 2016-06-23 | RStudio Addin to Insert Markdown Citations from a BibTeX file or Zotero |
+| [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | 已分析 | 2016-06-26 | Complete Open Source and Modular solution for MMO |
+| [you-dont-need/You-Dont-Need-JavaScript](https://github.com/you-dont-need/You-Dont-Need-JavaScript) | 已分析 | 2016-07-05 | CSS is powerful, you can do a lot of things without JS. |
+| [PokemonGoF/PokemonGo-Bot](https://github.com/PokemonGoF/PokemonGo-Bot) | 已分析 | 2016-07-20 | The Pokemon Go Bot, baking with community. |
+| [wojtekmaj/react-pdf](https://github.com/wojtekmaj/react-pdf) | 已分析 | 2016-08-01 | Display PDFs in your React app as easily as if they were images. |
+| [wulkano/Kap](https://github.com/wulkano/Kap) | 已分析 | 2016-08-10 | An open-source screen recorder built with web technology |
+| [wrf-model/WRF](https://github.com/wrf-model/WRF) | 已分析 | 2016-08-16 | The official repository for the Weather Research and Forecasting (WRF) model |
+| [jarun/nnn](https://github.com/jarun/nnn) | 已分析 | 2016-08-20 | n³ The unorthodox terminal file manager |
+| [apify/crawlee](https://github.com/apify/crawlee) | 已分析 | 2016-08-26 | Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScri |
+| [antvis/F2](https://github.com/antvis/F2) | 已分析 | 2016-08-29 | 📱📈An elegant, interactive and flexible charting library for mobile. |
+| [qax-os/excelize](https://github.com/qax-os/excelize) | 已分析 | 2016-08-29 | Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets |
+| [reorx/httpstat](https://github.com/reorx/httpstat) | 已分析 | 2016-08-30 | curl statistics made simple |
+| [ondrajz/go-callvis](https://github.com/ondrajz/go-callvis) | 已分析 | 2016-09-03 | Visualize call graph of a Go program using Graphviz |
+| [unrealcv/unrealcv](https://github.com/unrealcv/unrealcv) | 已分析 | 2016-09-08 | UnrealCV: Connecting Computer Vision to Unreal Engine |
+| [DiseaseOntology/SymptomOntology](https://github.com/DiseaseOntology/SymptomOntology) | 已分析 | 2016-09-09 | The symptom ontology was designed around the guiding concept of a symptom being: “A perceived change in function, sensat |
+| [tox-dev/tox](https://github.com/tox-dev/tox) | 已分析 | 2016-09-17 | Command line driven CI frontend and development task automation tool. |
+| [penrose/penrose](https://github.com/penrose/penrose) | 已分析 | 2016-09-22 | Create beautiful diagrams just by typing notation in plain text. |
+| [go-vgo/robotgo](https://github.com/go-vgo/robotgo) | 已分析 | 2016-09-26 | RobotGo, Go Native cross-platform RPA, GUI automation, Auto test and Computer use  @vcaesar |
+| [InstaPy/InstaPy](https://github.com/InstaPy/InstaPy) | 分析受阻 | 2016-09-26 | 📷 Instagram Bot - Tool for automated Instagram interactions |
+| [rmzelle/ref-extractor](https://github.com/rmzelle/ref-extractor) | 分析受阻 | 2016-10-10 | Reference Extractor - Extract Zotero/Mendeley references from Microsoft Word files |
+| [ovh/cds](https://github.com/ovh/cds) | 已分析 | 2016-10-11 | Enterprise-Grade Continuous Delivery &amp; DevOps Automation Open Source Platform |
+| [CCOSTAN/Home-AssistantConfig](https://github.com/CCOSTAN/Home-AssistantConfig) | 已分析 | 2016-10-11 | :house: Home Assistant configuration &amp; Documentation for my Smart House.  Write-ups, videos, part lists, and links throu |
 | [diegomura/react-pdf](https://github.com/diegomura/react-pdf) | 已分析 | 2016-10-18 | 📄  Create PDF files using React |
 | [Kavex/GameDev-Resources](https://github.com/Kavex/GameDev-Resources) | 分析受阻 | 2016-10-30 |  :video_game: :game_die: A wonderful list of Game Development resources. |
 | [terkelg/awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding) | 分析受阻 | 2016-11-01 | Creative Coding: Generative Art, Data visualization, Interaction Design, Resources. |
 | [nucliweb/People-You-Should-Follow-on-CodePen](https://github.com/nucliweb/People-You-Should-Follow-on-CodePen) | 已分析 | 2016-11-14 | People You Should Follow on CodePen |
+| [mapbox/webgl-wind](https://github.com/mapbox/webgl-wind) | 已分析 | 2016-11-16 | Wind power visualization with WebGL particles |
 | [InteractiveComputerGraphics/SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH) | 已分析 | 2016-11-17 | SPlisHSPlasH is an open-source library for the physically-based simulation of fluids. |
 | [APIs-guru/graphql-voyager](https://github.com/APIs-guru/graphql-voyager) | 已分析 | 2016-11-29 | 🛰️ Represent any GraphQL API as an interactive graph |
 | [thingsboard/thingsboard](https://github.com/thingsboard/thingsboard) | 已分析 | 2016-12-01 | All-in-one IoT Platform - Device management, data collection, processing and visualization. |
@@ -24,6 +57,7 @@
 | [css-doodle/css-doodle](https://github.com/css-doodle/css-doodle) | 分析受阻 | 2017-02-14 | A web component for visual art and creative coding |
 | [geocompx/geocompr](https://github.com/geocompx/geocompr) | 已分析 | 2017-03-07 | Geocomputation with R: an open source book |
 | [airbnb/visx](https://github.com/airbnb/visx) | 已分析 | 2017-03-15 | 🐯 visx \| visualization components |
+| [AAChartModel/AAChartKit](https://github.com/AAChartModel/AAChartKit) | 已分析 | 2017-03-17 | 📈📊🚀🚀🚀An elegant modern declarative data visualization chart framework for iOS, iPadOS and macOS. Extremely powerful, sup |
 | [williamngan/pts](https://github.com/williamngan/pts) | 已分析 | 2017-03-24 | A library for visualization and creative-coding |
 | [gonum/gonum](https://github.com/gonum/gonum) | 已分析 | 2017-03-25 | Gonum is a set of numeric libraries for the Go programming language. It contains libraries for matrices, statistics, opt |
 | [TileDB-Inc/TileDB](https://github.com/TileDB-Inc/TileDB) | 已分析 | 2017-03-31 | The Universal Storage Engine |
@@ -54,6 +88,7 @@
 | [colejd/guify](https://github.com/colejd/guify) | 已分析 | 2017-08-11 | A simple GUI for inspecting and changing JavaScript variables |
 | [microsoft/MMdnn](https://github.com/microsoft/MMdnn) | 已分析 | 2017-08-16 | MMdnn is a set of tools to help users inter-operate among different deep learning frameworks. E.g. model conversion and  |
 | [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) | 已分析 | 2017-08-22 | Play with fluids in your browser (works even on mobile) |
+| [markusschanta/awesome-jupyter](https://github.com/markusschanta/awesome-jupyter) | 已分析 | 2017-08-27 | A curated list of awesome Jupyter projects, libraries and resources |
 | [rlguy/Blender-FLIP-Fluids](https://github.com/rlguy/Blender-FLIP-Fluids) | 已分析 | 2017-08-31 | The FLIP Fluids addon is a tool that helps you set up, run, and render high quality liquid fluid effects all within Blen |
 | [nannou-org/nannou](https://github.com/nannou-org/nannou) | 已分析 | 2017-09-01 | A Creative Coding Framework for Rust. |
 | [hmemcpy/milewski-ctfp-pdf](https://github.com/hmemcpy/milewski-ctfp-pdf) | 已分析 | 2017-09-02 | Bartosz Milewski's 'Category Theory for Programmers' unofficial PDF and LaTeX source |
@@ -61,44 +96,9 @@
 | [citation-file-format/citation-file-format](https://github.com/citation-file-format/citation-file-format) | 已分析 | 2017-09-13 | The Citation File Format lets you provide citation metadata for software or datasets in plaintext files that are easy to |
 | [monarch-initiative/mondo](https://github.com/monarch-initiative/mondo) | 已分析 | 2017-09-20 | Mondo Disease Ontology |
 | [quantumlib/OpenFermion](https://github.com/quantumlib/OpenFermion) | 已分析 | 2017-09-21 | Python package for compiling and analyzing quantum algorithms to simulate electronic structures. |
+| [hardkoded/puppeteer-sharp](https://github.com/hardkoded/puppeteer-sharp) | 已分析 | 2017-09-30 | Headless Chrome .NET API |
 | [IridiumIO/CompactGUI](https://github.com/IridiumIO/CompactGUI) | 已分析 | 2017-10-12 | Reduce the space taken up by games and programs on disk by using native Windows APIs |
 | [softwareunderground/awesome-open-geoscience](https://github.com/softwareunderground/awesome-open-geoscience) | 已分析 | 2017-10-18 | Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome |
 | [flame-engine/flame](https://github.com/flame-engine/flame) | 已分析 | 2017-10-22 | A Flutter based game engine. |
 | [eclipse-sumo/sumo](https://github.com/eclipse-sumo/sumo) | 已分析 | 2017-10-27 | Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handl |
-| [vanrez-nez/awesome-glsl](https://github.com/vanrez-nez/awesome-glsl) | 已分析 | 2017-11-14 | :sparkler: Compilation of the best resources to learn programming OpenGL Shaders |
-| [yairm210/Unciv](https://github.com/yairm210/Unciv) | 已分析 | 2017-11-21 | Open-source Android/Desktop remake of Civ V |
-| [kekingcn/kkFileView](https://github.com/kekingcn/kkFileView) | 已分析 | 2017-12-12 | Universal File Online Preview Project based on Spring-Boot |
-| [quantumlib/Cirq](https://github.com/quantumlib/Cirq) | 已分析 | 2017-12-14 | Python framework for creating, editing, and running Noisy Intermediate-Scale Quantum (NISQ) circuits. |
-| [JSBSim-Team/jsbsim](https://github.com/JSBSim-Team/jsbsim) | 已分析 | 2017-12-17 | An open source flight dynamics &amp; control software library |
-| [jyrkioraskari/IFCtoLBD](https://github.com/jyrkioraskari/IFCtoLBD) | 已分析 | 2017-12-21 | IFCtoLBD converts IFC (Industry Foundation Classes STEP formatted files into the Linked Building Data ontologies. |
-| [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) | 已分析 | 2017-12-26 | Your One-Stop Publication Workbench |
-| [crazy-max/diun](https://github.com/crazy-max/diun) | 已分析 | 2017-12-30 | Receive notifications when an image is updated on a Docker registry |
-| [ScottPlot/ScottPlot](https://github.com/ScottPlot/ScottPlot) | 已分析 | 2018-01-04 | Interactive plotting library for .NET |
-| [OpenLoco/OpenLoco](https://github.com/OpenLoco/OpenLoco) | 已分析 | 2018-01-06 | An open source re-implementation of Chris Sawyer's Locomotion |
-| [reHackable/awesome-reMarkable](https://github.com/reHackable/awesome-reMarkable) | 已分析 | 2018-01-19 | A curated list of projects related to the reMarkable tablet |
-| [deepcharles/ruptures](https://github.com/deepcharles/ruptures) | 已分析 | 2018-01-20 | ruptures: change point detection in Python |
-| [AirtestProject/Airtest](https://github.com/AirtestProject/Airtest) | 已分析 | 2018-01-24 | UI Automation Framework for Games and Apps |
-| [0xFA11/MultiplayerNetworkingResources](https://github.com/0xFA11/MultiplayerNetworkingResources) | 已分析 | 2018-01-24 | A curated list of Multiplayer Game Network Programming Resources |
-| [NullArray/AutoSploit](https://github.com/NullArray/AutoSploit) | 已分析 | 2018-01-30 | Automated Mass Exploiter |
-| [runatlantis/atlantis](https://github.com/runatlantis/atlantis) | 已分析 | 2018-02-06 | Terraform Pull Request Automation |
-| [dpilger26/NumCpp](https://github.com/dpilger26/NumCpp) | 已分析 | 2018-02-07 | C++ implementation of the Python Numpy library |
-| [BindsNET/bindsnet](https://github.com/BindsNET/bindsnet) | 已分析 | 2018-02-09 | Simulation of spiking neural networks (SNNs) using PyTorch. |
-| [brentvollebregt/auto-py-to-exe](https://github.com/brentvollebregt/auto-py-to-exe) | 已分析 | 2018-02-09 | Converts .py to .exe using a simple graphical interface  |
-| [cuinjune/Ofelia](https://github.com/cuinjune/Ofelia) | 已分析 | 2018-02-10 | A real-time cross-platform creative coding tool for multimedia development |
-| [openrndr/openrndr](https://github.com/openrndr/openrndr) | 已分析 | 2018-02-20 | OPENRNDR. A Kotlin/JVM library for creative coding, real-time and interactive graphics |
-| [ecomfe/echarts-for-weixin](https://github.com/ecomfe/echarts-for-weixin) | 分析受阻 | 2018-02-26 | 基于 Apache ECharts 的微信小程序图表库 |
-| [vasturiano/force-graph](https://github.com/vasturiano/force-graph) | 已分析 | 2018-02-26 | Force-directed graph rendered on HTML5 canvas |
-| [keplergl/kepler.gl](https://github.com/keplergl/kepler.gl) | 已分析 | 2018-02-28 | Kepler.gl is a powerful open source geospatial analysis tool for large-scale data sets. |
-| [gocn/knowledge](https://github.com/gocn/knowledge) | 已分析 | 2018-03-05 | Go社区的知识图谱，Knowledge Graph |
-| [RealEstateCore/rec](https://github.com/RealEstateCore/rec) | 已分析 | 2018-03-07 | RealEstateCore ontologies. |
-| [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg) | 已分析 | 2018-03-23 | A developer-friendly API for converting many document formats into PDF files, and more! |
-| [valpackett/awesome-gtk](https://github.com/valpackett/awesome-gtk) | 已分析 | 2018-03-24 | List of awesome GTK (3/4) applications |
-| [diasurgical/devilution](https://github.com/diasurgical/devilution) | 已分析 | 2018-04-02 | Diablo devolved - magic behind the 1996 computer game |
-| [rust-ml/linfa](https://github.com/rust-ml/linfa) | 已分析 | 2018-04-05 | A Rust machine learning framework. |
-| [OpenTTD/OpenTTD](https://github.com/OpenTTD/OpenTTD) | 已分析 | 2018-04-06 | OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe |
-| [tommybuonomo/creative-viewpager](https://github.com/tommybuonomo/creative-viewpager) | 已分析 | 2018-05-03 | Creative View Pager easy to use in Android |
-| [nschloe/awesome-scientific-computing](https://github.com/nschloe/awesome-scientific-computing) | 已分析 | 2018-05-07 | :sunglasses: Curated list of awesome software for numerical analysis and scientific computing |
-| [berstend/puppeteer-extra](https://github.com/berstend/puppeteer-extra) | 已分析 | 2018-05-15 | 💯  Teach puppeteer new tricks through plugins. |
-| [mgramin/awesome-db-tools](https://github.com/mgramin/awesome-db-tools) | 已分析 | 2018-05-18 | Everything that makes working with databases easier |
-| [ultralytics/functions-matlab](https://github.com/ultralytics/functions-matlab) | 已分析 | 2018-05-18 | Shared MATLAB utility functions for Ultralytics scientific computing, machine learning, data analysis, geometry, visuali |
-| [d3cod3/Mosaic](https://github.com/d3cod3/Mosaic) | 已分析 | 2018-05-25 | Mosaic, an openFrameworks/ImGui based Visual Patching Creative-Coding Platform |
+| [uber-common/metta](https://github.com/uber-common/metta) | 已分析 | 2017-11-01 | An information security preparedness tool to do adversarial simulation. |
