@@ -129,16 +129,6 @@
 
 **部署前核查：** 核查README安装段所列Neo4j/FalkorDB版本与依赖清单。
 
-### [ThHanke/ontosphere](projects/1049705027.md)
-
-**为什么值得：** 通过MCP暴露43个图谱工具，让Codex可读写RDF、跑OWL推理并取用一致性修复建议。
-
-**重叠与增量（未核对安装清单）：** 与已有科研绘图、知识图谱相关能力交叉在可视化呈现，推理校验与代理编辑溯源属潜在增量，待核验。
-
-**代价与风险：** 走浏览器modelContext接口，需支持WebMCP的浏览器或polyfill；本地无后端。；MCP桥接稳定性、大图推理内存占用与License一致性均未验证。
-
-**部署前核查：** 核查README的MCP工具清单、/.well-known/mcp.json清单与LICENSE文件，再看Relay设置文档。
-
 ### [DeusData/codebase-memory-mcp](projects/1166102148.md)
 
 **为什么值得：** 为Codex补上代码库知识图谱检索、调用链追踪与影响分析，降低大仓库上下文成本。
@@ -248,16 +238,6 @@
 **代价与风险：** Windows需Node/npm；浏览器渲染；GPU布局需硬件支持；无API费用。；布局性能与自定义元素复杂度未验证。
 
 **部署前核查：** 核查package.json依赖、examples示例及布局插件文档。
-
-### [firecrawl/pdf-inspector](projects/1151702019.md)
-
-**为什么值得：** 为 PDF 文献提供快速分类与 Markdown 抽取
-
-**重叠与增量（未核对安装清单）：** 与已有 PDF 处理能力可能交叉，增量待核验
-
-**代价与风险：** Python/Node/Rust 任一环境；OCR 需额外运行库；抽取质量在不同版式下未知
-
-**部署前核查：** 核查 docs/python.md 与 OCR 运行时安装说明
 
 ## 不同类型如何接入
 

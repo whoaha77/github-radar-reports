@@ -11,9 +11,12 @@
 | [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) | 已分析 | 2010-10-04 | Open Source real-time strategy game engine for early Westwood games such as Command &amp; Conquer: Red Alert written in C# u |
 | [mapeditor/tiled](https://github.com/mapeditor/tiled) | 已分析 | 2011-02-27 | Flexible level editor |
 | [scipy/scipy](https://github.com/scipy/scipy) | 已分析 | 2011-03-09 | SciPy library main repository |
+| [pioneerspacesim/pioneer](https://github.com/pioneerspacesim/pioneer) | 已分析 | 2011-04-09 | A game of lonely space adventure |
 | [bulletphysics/bullet3](https://github.com/bulletphysics/bullet3) | 已分析 | 2011-04-12 | Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics,  |
 | [cytoscape/cytoscape.js](https://github.com/cytoscape/cytoscape.js) | 已分析 | 2011-08-23 | Graph theory (network) library for visualisation and analysis |
+| [webdriverio/webdriverio](https://github.com/webdriverio/webdriverio) | 已分析 | 2011-08-30 | Next-gen browser and mobile automation test framework for Node.js |
 | [session-replay-tools/tcpcopy](https://github.com/session-replay-tools/tcpcopy) | 已分析 | 2011-10-14 | An online request replication and TCP stream replay tool, ideal for real testing, performance testing, stability testing |
+| [squizlabs/PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) | 已分析 | 2011-11-03 | PHP_CodeSniffer tokenizes PHP files and detects violations of a defined set of coding standards. |
 | [C4Labs/C4iOS](https://github.com/C4Labs/C4iOS) | 已分析 | 2012-02-17 | C4 is an open-source creative coding framework that harnesses the power of native iOS programming with a simplified API  |
 | [lichess-org/lila](https://github.com/lichess-org/lila) | 已分析 | 2012-02-21 | ♞ lichess.org: the forever free, adless and open source chess server ♞ |
 | [bokeh/bokeh](https://github.com/bokeh/bokeh) | 已分析 | 2012-03-26 | Interactive Data Visualization in the browser, from  Python |
@@ -33,7 +36,9 @@
 | [apache/echarts](https://github.com/apache/echarts) | 已分析 | 2013-04-03 | Apache ECharts is a powerful, interactive charting and data visualization library for browser |
 | [fogleman/Craft](https://github.com/fogleman/Craft) | 已分析 | 2013-04-09 | A simple Minecraft clone written in C using modern OpenGL (shaders). |
 | [rawgraphs/rawgraphs-app](https://github.com/rawgraphs/rawgraphs-app) | 已分析 | 2013-04-17 | A web interface to create custom vector-based visualizations on top of RAWGraphs core |
+| [openmm/openmm](https://github.com/openmm/openmm) | 已分析 | 2013-05-20 | OpenMM is a toolkit for molecular simulation using high performance GPU code.  |
 | [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) | 已分析 | 2013-06-16 | A dead simple 2D game engine for Go |
+| [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp) | 已分析 | 2013-08-08 | Xournal++ is a handwriting notetaking software with PDF annotation support. Written in C++ with GTK3, supporting Linux ( |
 | [lammps/lammps](https://github.com/lammps/lammps) | 已分析 | 2013-08-09 | Public development project of the LAMMPS MD software package   |
 | [projectchrono/chrono](https://github.com/projectchrono/chrono) | 已分析 | 2013-09-03 | High-performance C++ library for multiphysics and multibody dynamics simulations |
 | [pgmpy/pgmpy](https://github.com/pgmpy/pgmpy) | 已分析 | 2013-09-20 | Python Toolkit for Causal and Probabilistic Reasoning |
@@ -47,11 +52,14 @@
 | [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox) | 已分析 | 2013-12-19 | A cross-platform launcher that simply works |
 | [ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) | 已分析 | 2013-12-20 | OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched |
 | [spack/spack](https://github.com/spack/spack) | 已分析 | 2014-01-08 | A flexible package manager that supports multiple versions, configurations, platforms, and compilers. |
+| [release-it/release-it](https://github.com/release-it/release-it) | 已分析 | 2014-01-15 | 🚀 Automate versioning and package publishing |
 | [edmcouncil/fibo](https://github.com/edmcouncil/fibo) | 已分析 | 2014-02-07 | The Financial Industry Business Ontology (FIBO) defines the sets of things that are of interest in financial business ap |
+| [idaholab/moose](https://github.com/idaholab/moose) | 已分析 | 2014-02-14 | Multiphysics Object Oriented Simulation Environment |
 | [gabrielecirulli/2048](https://github.com/gabrielecirulli/2048) | 已分析 | 2014-03-05 | The source code for 2048  |
 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 已分析 | 2014-04-01 | An open source re-implementation of RollerCoaster Tycoon 2 🎢 |
 | [NorthwoodsSoftware/GoJS](https://github.com/NorthwoodsSoftware/GoJS) | 已分析 | 2014-04-02 | JavaScript diagramming library for interactive flowcharts, org charts, design tools, planning tools, visual languages. |
 | [emptymalei/awesome-research](https://github.com/emptymalei/awesome-research) | 已分析 | 2014-05-26 | :seedling: a curated list of tools to help you with your research/life; I built a front end around this repo, please use |
+| [robotframework/robotframework](https://github.com/robotframework/robotframework) | 已分析 | 2014-06-27 | Generic automation framework for acceptance testing and RPA |
 | [4ian/GDevelop](https://github.com/4ian/GDevelop) | 已分析 | 2014-06-29 | 🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone. |
 | [ppy/osu](https://github.com/ppy/osu) | 已分析 | 2014-07-31 | rhythm is just a *click* away! |
 | [rust-ndarray/ndarray](https://github.com/rust-ndarray/ndarray) | 已分析 | 2014-08-04 | ndarray: an N-dimensional array with array views, multidimensional slicing, and efficient operations |
@@ -72,13 +80,17 @@
 | [BOINC/boinc](https://github.com/BOINC/boinc) | 已分析 | 2015-02-03 | Open-source software for volunteer computing and grid computing. |
 | [plotly/dash](https://github.com/plotly/dash) | 已分析 | 2015-04-10 | Data Apps &amp; Dashboards for Python. No JavaScript Required. |
 | [apache/airflow](https://github.com/apache/airflow) | 已分析 | 2015-04-13 | Apache Airflow - A platform to programmatically author, schedule, and monitor workflows |
+| [InteractiveComputerGraphics/PositionBasedDynamics](https://github.com/InteractiveComputerGraphics/PositionBasedDynamics) | 已分析 | 2015-05-05 | PositionBasedDynamics is a library for the physically-based simulation of rigid bodies, deformable solids and fluids. |
 | [dhimmel/obonet](https://github.com/dhimmel/obonet) | 已分析 | 2015-05-17 | OBO-formatted ontologies → networkx (Python 3) |
+| [artilleryio/artillery](https://github.com/artilleryio/artillery) | 已分析 | 2015-05-28 | The complete load testing platform. Everything you need for production-grade load tests. Serverless &amp; distributed. Load  |
 | [obophenotype/cell-ontology](https://github.com/obophenotype/cell-ontology) | 已分析 | 2015-06-04 | An ontology of cell types |
 | [grahamjenson/list_of_recommender_systems](https://github.com/grahamjenson/list_of_recommender_systems) | 已分析 | 2015-06-12 | A List of Recommender Systems and Resources |
 | [obophenotype/upheno](https://github.com/obophenotype/upheno) | 已分析 | 2015-08-19 | The Unified Phenotype Ontology (uPheno) integrates multiple phenotype ontologies into a unified cross-species phenotype  |
+| [ontologyportal/sumo](https://github.com/ontologyportal/sumo) | 已分析 | 2015-09-06 | Suggested Upper Merged Ontology (SUMO) |
 | [sshahine/JFoenix](https://github.com/sshahine/JFoenix) | 已分析 | 2015-09-08 | JavaFX Material Design Library |
 | [DiseaseOntology/HumanDiseaseOntology](https://github.com/DiseaseOntology/HumanDiseaseOntology) | 已分析 | 2015-09-23 | Repository for the Human Disease Ontology. |
 | [JustArchiNET/ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) | 已分析 | 2015-10-25 | C# application with primary purpose of farming Steam cards from multiple accounts simultaneously. |
+| [EpistasisLab/tpot](https://github.com/EpistasisLab/tpot) | 已分析 | 2015-11-03 | A Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming. |
 | [plotly/plotly.js](https://github.com/plotly/plotly.js) | 已分析 | 2015-11-05 | Open-source JavaScript charting library behind Plotly and Dash |
 | [goplus/xgo](https://github.com/goplus/xgo) | 已分析 | 2015-12-12 | XGo is a programming language that reads like plain English. But it's also incredibly powerful — it lets you leverage as |
 | [visgl/deck.gl](https://github.com/visgl/deck.gl) | 已分析 | 2015-12-15 | WebGL2 powered visualization framework |
@@ -90,15 +102,3 @@
 | [jslee02/awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries) | 已分析 | 2016-04-16 | :sunglasses: A curated list of robotics libraries and software |
 | [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch) | 已分析 | 2016-04-27 | The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused. |
 | [dhondta/rpl-attacks](https://github.com/dhondta/rpl-attacks) | 已分析 | 2016-05-08 | RPL attacks framework for simulating WSN with a malicious mote based on Contiki |
-| [cocopon/tweakpane](https://github.com/cocopon/tweakpane) | 已分析 | 2016-05-10 | :control_knobs: Compact GUI for fine-tuning parameters and monitoring value changes |
-| [algorithm-visualizer/algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer) | 已分析 | 2016-05-15 | :fireworks:Interactive Online Platform that Visualizes Algorithms from Code |
-| [antvis/G2](https://github.com/antvis/G2) | 已分析 | 2016-05-26 | 📊 The concise and progressive visualization grammar. |
-| [projectstorm/react-diagrams](https://github.com/projectstorm/react-diagrams) | 已分析 | 2016-06-03 | a super simple, no-nonsense diagramming library written in react that just works |
-| [citybound/citybound](https://github.com/citybound/citybound) | 已分析 | 2016-06-04 | A work-in-progress, open-source, multi-player city simulation game. |
-| [wix/Detox](https://github.com/wix/Detox) | 已分析 | 2016-06-15 | Gray box end-to-end testing and automation framework for mobile apps |
-| [synthetichealth/synthea](https://github.com/synthetichealth/synthea) | 已分析 | 2016-06-17 | Synthetic Patient Population Simulator |
-| [you-dont-need/You-Dont-Need-JavaScript](https://github.com/you-dont-need/You-Dont-Need-JavaScript) | 已分析 | 2016-07-05 | CSS is powerful, you can do a lot of things without JS. |
-| [wulkano/Kap](https://github.com/wulkano/Kap) | 已分析 | 2016-08-10 | An open-source screen recorder built with web technology |
-| [jarun/nnn](https://github.com/jarun/nnn) | 已分析 | 2016-08-20 | n³ The unorthodox terminal file manager |
-| [apify/crawlee](https://github.com/apify/crawlee) | 已分析 | 2016-08-26 | Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScri |
-| [qax-os/excelize](https://github.com/qax-os/excelize) | 已分析 | 2016-08-29 | Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets |

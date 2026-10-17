@@ -4,33 +4,33 @@
 
 [历史项目大库](library/README.md) · [Top50](top-50.md) · [部署分析](codex-deployment.md)
 
-## [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate)
-
-**老项目回看** · 有趣发现
-
-把英文论文整篇翻成中文还保持原版式，公式图表不乱，做文献调研很省事。
-
-**可以怎样探索：** 先拿一篇带公式的arXiv论文跑在线演示，对比公式与表格是否错位。
-
-来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
-
-## [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill)
+## [lllllllama/RigorPilot-Skills](https://github.com/lllllllama/RigorPilot-Skills)
 
 有趣发现
 
-把文章变杂志风或瑞士风网页 PPT，还能一键进演讲者模式带观众屏和排练计时，演示场景很实用。
+给README做可验证的体检报告，绿黄红标出哪些命令真跑通，复现论文不再靠猜。
 
-**可以怎样探索：** 先看 README 里两套风格的示例截图，再让代理把一篇短文改成 7 页瑞士风。
+**可以怎样探索：** 先看micrograd展示的RIGORPILOT_README.md标注效果。
 
 来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
 
-## [1692775560/dsh-Mimir-Academic-research](https://github.com/1692775560/dsh-Mimir-Academic-research)
+## [4thfever/cultivation-world-simulator](https://github.com/4thfever/cultivation-world-simulator)
 
 有趣发现
 
-它把arXiv找文献、LaTeX边写边编译、实验跑图、组会PPT和GPU服务器任务塞进一个工作台，研究进度还能自动记成日志。
+你当天道看一群AI修士勾心斗角、宗门兴衰，还能降天劫或改人心，像活的修仙小说。
 
-**可以怎样探索：** 先看README的九视图截图与22MB完整演示视频，体会从文献到组会PPT的一条流水线。
+**可以怎样探索：** 先看README里的游戏演示GIF和“自主思考”截图，感受涌现叙事。
+
+来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
+
+## [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)
+
+有趣发现
+
+像把Office搬进本地还配了个敢改稿的AI，改动以修订和快照呈现可一键回滚，表格用真公式，文件还能被搜索提问。
+
+**可以怎样探索：** 先看Sheets的AI问答演示：回答里把用到的单元格作为链接引用。
 
 来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
 

@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "pool_size": 322,
+  "pool_size": 397,
   "shown": 50,
   "capacity": 50,
   "deployment_policy": "user_initiated_only",
-  "high_value_candidates": 25,
+  "high_value_candidates": 23,
   "projects": [
     {
       "repo_id": 826168160,
@@ -349,25 +349,6 @@
       "deployment_advice": "高价值核查候选，等你主动提出安装"
     },
     {
-      "repo_id": 1049705027,
-      "name": "ThHanke/ontosphere",
-      "url": "https://github.com/ThHanke/ontosphere",
-      "score": 86.79,
-      "reviewed_at": "2026-10-16T17:29:52.303366+00:00",
-      "stale": false,
-      "reason": "直击本体、知识图谱、语义网与科研数据兴趣，与AI代理协作方式贴合。",
-      "codex": {
-        "integration": "mcp",
-        "priority": "高",
-        "reason": "通过MCP暴露43个图谱工具，让Codex可读写RDF、跑OWL推理并取用一致性修复建议。",
-        "overlap": "与已有科研绘图、知识图谱相关能力交叉在可视化呈现，推理校验与代理编辑溯源属潜在增量，待核验。",
-        "requirements": "走浏览器modelContext接口，需支持WebMCP的浏览器或polyfill；本地无后端。",
-        "risk": "MCP桥接稳定性、大图推理内存占用与License一致性均未验证。",
-        "next_step": "核查README的MCP工具清单、/.well-known/mcp.json清单与LICENSE文件，再看Relay设置文档。"
-      },
-      "deployment_advice": "高价值核查候选，等你主动提出安装"
-    },
-    {
       "repo_id": 30203935,
       "name": "metabase/metabase",
       "url": "https://github.com/metabase/metabase",
@@ -499,6 +480,25 @@
         "next_step": "核查官方网站Manual页面与readme中AUTHORS、许可证说明。"
       },
       "deployment_advice": "独立使用或借鉴，不直接部署"
+    },
+    {
+      "repo_id": 126493684,
+      "name": "gotenberg/gotenberg",
+      "url": "https://github.com/gotenberg/gotenberg",
+      "score": 85.25,
+      "reviewed_at": "2026-10-17T08:51:03.883265+00:00",
+      "stale": false,
+      "reason": "文献PDF与文档处理，高度相关",
+      "codex": {
+        "integration": "cli",
+        "priority": "中",
+        "reason": "批量把HTML、Office文档转PDF并做PDF合并加密",
+        "overlap": "与既有PDF/Word处理能力交叉，可提供批量转换服务",
+        "requirements": "Docker运行，Windows需Docker Desktop；本地端口",
+        "risk": "镜像体积与资源占用、敏感文档上传风险未验证",
+        "next_step": "核查特性列表与文档安装说明，确认Docker环境"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
     },
     {
       "repo_id": 7994556,
@@ -691,6 +691,25 @@
       "deployment_advice": "独立使用或借鉴，不直接部署"
     },
     {
+      "repo_id": 541798154,
+      "name": "Unstructured-IO/unstructured",
+      "url": "https://github.com/Unstructured-IO/unstructured",
+      "score": 83.68,
+      "reviewed_at": "2026-10-17T08:51:55.149203+00:00",
+      "stale": false,
+      "reason": "与文献、PDF处理兴趣高度相关，可作为科研文档入库预处理候选。",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "可为Codex补强复杂版式PDF与多格式文档的结构化抽取",
+        "overlap": "与现有PDF/文献处理能力存在能力交叉，增量在于元素级分块与元数据",
+        "requirements": "Python环境；全文档支持需较重的系统与OCR依赖；Windows需按文档配置",
+        "risk": "依赖庞杂、安装易失败；解析精度与私有API对照未验证",
+        "next_step": "核查pyproject依赖、partition_pdf实现与Windows安装文档"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
       "repo_id": 204164353,
       "name": "kestra-io/kestra",
       "url": "https://github.com/kestra-io/kestra",
@@ -744,6 +763,44 @@
         "requirements": "Python环境及numpy、scipy、scikit-learn、numba依赖",
         "risk": "依赖numba，Windows下版本兼容与编译未验证",
         "next_step": "核查pyproject与文档中的依赖版本要求及Windows安装说明"
+      },
+      "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
+      "repo_id": 467844167,
+      "name": "windingwind/zotero-pdf-translate",
+      "url": "https://github.com/windingwind/zotero-pdf-translate",
+      "score": 83.16,
+      "reviewed_at": "2026-10-17T08:51:38.489699+00:00",
+      "stale": false,
+      "reason": "与文献管理、PDF 阅读兴趣高度契合，直接嵌入 Zotero 阅读流程。",
+      "codex": {
+        "integration": "application",
+        "priority": "中",
+        "reason": "为 Zotero 阅读流程增加选区与批注即译能力。",
+        "overlap": "与已有论文阅读与翻译能力存在交叉，批注联动或为增量。",
+        "requirements": "安装 Zotero 7/8；部分服务需密钥或本地服务。",
+        "risk": "免费服务稳定性与隐私未验证。",
+        "next_step": "核查 manifest 支持版本与各翻译服务配置说明。"
+      },
+      "deployment_advice": "独立使用或借鉴，不直接部署"
+    },
+    {
+      "repo_id": 122945974,
+      "name": "vasturiano/force-graph",
+      "url": "https://github.com/vasturiano/force-graph",
+      "score": 83.16,
+      "reviewed_at": "2026-10-17T08:51:03.881266+00:00",
+      "stale": false,
+      "reason": "知识图谱与科研可视化，高度相关",
+      "codex": {
+        "integration": "library",
+        "priority": "中",
+        "reason": "可生成交互式知识图谱/关系网网页可视化",
+        "overlap": "与既有科研绘图能力交叉，新增交互式图谱呈现",
+        "requirements": "Node/npm或CDN，Windows浏览器可用",
+        "risk": "大图性能与交互复杂度未实测",
+        "next_step": "核查README入门示例与API参考，浏览器打开官方演示"
       },
       "deployment_advice": "继续观察，暂不建议接入"
     },
@@ -862,6 +919,25 @@
       "deployment_advice": "继续观察，暂不建议接入"
     },
     {
+      "repo_id": 1074785178,
+      "name": "alam00000/bentopdf",
+      "url": "https://github.com/alam00000/bentopdf",
+      "score": 81.91,
+      "reviewed_at": "2026-10-17T08:52:52.653439+00:00",
+      "stale": false,
+      "reason": "高度契合PDF处理与效率工具兴趣，适合科研文献整理。",
+      "codex": {
+        "integration": "application",
+        "priority": "中",
+        "reason": "可作为浏览器端PDF批量处理工具，补充本地文档操作",
+        "overlap": "与已有PDF处理能力存在潜在功能交叉，浏览器端隐私化批处理为可能增量，待核验",
+        "requirements": "现代浏览器即可；自托管需Node或Docker；离线需配置WASM",
+        "risk": "AGPL条款与商用限制需注意，AGPL组件经CDN加载",
+        "next_step": "核查README中的Docker Compose部署与WASM配置章节"
+      },
+      "deployment_advice": "独立使用或借鉴，不直接部署"
+    },
+    {
       "repo_id": 602389947,
       "name": "Kanaries/pygwalker",
       "url": "https://github.com/Kanaries/pygwalker",
@@ -879,82 +955,6 @@
         "next_step": "核查README安装说明与computation参数及PyPI发布版本。"
       },
       "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 75413130,
-      "name": "isl-org/Open3D",
-      "url": "https://github.com/isl-org/Open3D",
-      "score": 81.8,
-      "reviewed_at": "2026-10-17T08:07:19.920549+00:00",
-      "stale": false,
-      "reason": "科研可视化与3D数据处理的直接相关工具",
-      "codex": {
-        "integration": "library",
-        "priority": "中",
-        "reason": "为科研3D数据可视化与点云处理提供Python库能力",
-        "overlap": "与科研绘图能力交叉，3D点云与网格处理为潜在增量待核验",
-        "requirements": "Python 3.10-3.14 pip包支持Windows 10+ 64位，GPU依赖未知",
-        "risk": "许可为NOASSERTION待确认，大模型GPU依赖未验证",
-        "next_step": "核查LICENSE、Windows轮子及Open3D-ML依赖"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 1137078255,
-      "name": "colbymchenry/codegraph",
-      "url": "https://github.com/colbymchenry/codegraph",
-      "score": 81.74,
-      "reviewed_at": "2026-10-16T17:31:36.791027+00:00",
-      "stale": false,
-      "reason": "与知识图谱、AI开发自动化兴趣高度相关，本地运行利于隐私。",
-      "codex": {
-        "integration": "mcp",
-        "priority": "中",
-        "reason": "为Agent补充本地代码图谱查询，可能减少检索轮次与上下文消耗。",
-        "overlap": "与已有代码阅读能力存在交叉，增量在预索引与增量同步。",
-        "requirements": "Windows可用PowerShell安装，CLI内置运行时，无需Node。",
-        "risk": "索引准确性与telemetry行为尚未验证，代码数据本地性需确认。",
-        "next_step": "核查README的install.ps1、telemetry章节与codegraph init生成目录。"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 9185792,
-      "name": "apache/echarts",
-      "url": "https://github.com/apache/echarts",
-      "score": 81.66,
-      "reviewed_at": "2026-10-17T08:05:33.032994+00:00",
-      "stale": false,
-      "reason": "与科研可视化和数据处理高度相关，适合做交互式统计图与仪表盘。",
-      "codex": {
-        "integration": "library",
-        "priority": "中",
-        "reason": "为科研数据提供可交互网页图表层",
-        "overlap": "与已有科研绘图交叉，增量在浏览器交互与主题定制，待核验",
-        "requirements": "需Node.js或浏览器引入；Windows可用；无API费用",
-        "risk": "复杂大图配置与性能未验证",
-        "next_step": "核查README构建段、examples与option手册入口"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 1151702019,
-      "name": "firecrawl/pdf-inspector",
-      "url": "https://github.com/firecrawl/pdf-inspector",
-      "score": 81.59,
-      "reviewed_at": "2026-10-16T17:31:57.141148+00:00",
-      "stale": false,
-      "reason": "直接命中 PDF 与文献处理兴趣，检测扫描与文本型以便路由 OCR。",
-      "codex": {
-        "integration": "library",
-        "priority": "高",
-        "reason": "为 PDF 文献提供快速分类与 Markdown 抽取",
-        "overlap": "与已有 PDF 处理能力可能交叉，增量待核验",
-        "requirements": "Python/Node/Rust 任一环境；OCR 需额外运行库",
-        "risk": "抽取质量在不同版式下未知",
-        "next_step": "核查 docs/python.md 与 OCR 运行时安装说明"
-      },
-      "deployment_advice": "高价值核查候选，等你主动提出安装"
     }
   ]
 }

@@ -3,40 +3,40 @@
   "repository": "whoaha77/github-radar-reports",
   "items": [
     {
-      "repo_id": 853189791,
-      "name": "PDFMathTranslate/PDFMathTranslate",
-      "url": "https://github.com/PDFMathTranslate/PDFMathTranslate",
-      "kind": "有趣发现",
-      "classic": true,
-      "why": "把英文论文整篇翻成中文还保持原版式，公式图表不乱，做文献调研很省事。",
-      "try_idea": "先拿一篇带公式的arXiv论文跑在线演示，对比公式与表格是否错位。",
-      "reviewed_at": "2026-10-17T08:33:44.018486+00:00",
-      "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "73fc9c21237ecbb652c1478aa3603d63a56d3ca2dc23930eabf30098a79152fd"
-    },
-    {
-      "repo_id": 1219042200,
-      "name": "op7418/guizang-ppt-skill",
-      "url": "https://github.com/op7418/guizang-ppt-skill",
+      "repo_id": 1195799446,
+      "name": "lllllllama/RigorPilot-Skills",
+      "url": "https://github.com/lllllllama/RigorPilot-Skills",
       "kind": "有趣发现",
       "classic": false,
-      "why": "把文章变杂志风或瑞士风网页 PPT，还能一键进演讲者模式带观众屏和排练计时，演示场景很实用。",
-      "try_idea": "先看 README 里两套风格的示例截图，再让代理把一篇短文改成 7 页瑞士风。",
-      "reviewed_at": "2026-10-16T17:33:54.320241+00:00",
+      "why": "给README做可验证的体检报告，绿黄红标出哪些命令真跑通，复现论文不再靠猜。",
+      "try_idea": "先看micrograd展示的RIGORPILOT_README.md标注效果。",
+      "reviewed_at": "2026-10-17T08:53:32.801088+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "d438232c16373e0cf993cf791834f8ed9e0757af48ff59a8d6c7160be52efd46"
+      "share_id": "fc9994fdc9c50d96ace4295f4b29097251925e13f287826a026c9fb5b4e049d1"
     },
     {
-      "repo_id": 1340749561,
-      "name": "1692775560/dsh-Mimir-Academic-research",
-      "url": "https://github.com/1692775560/dsh-Mimir-Academic-research",
+      "repo_id": 1040174885,
+      "name": "4thfever/cultivation-world-simulator",
+      "url": "https://github.com/4thfever/cultivation-world-simulator",
       "kind": "有趣发现",
       "classic": false,
-      "why": "它把arXiv找文献、LaTeX边写边编译、实验跑图、组会PPT和GPU服务器任务塞进一个工作台，研究进度还能自动记成日志。",
-      "try_idea": "先看README的九视图截图与22MB完整演示视频，体会从文献到组会PPT的一条流水线。",
-      "reviewed_at": "2026-10-16T17:35:54.927889+00:00",
+      "why": "你当天道看一群AI修士勾心斗角、宗门兴衰，还能降天劫或改人心，像活的修仙小说。",
+      "try_idea": "先看README里的游戏演示GIF和“自主思考”截图，感受涌现叙事。",
+      "reviewed_at": "2026-10-17T08:52:34.013398+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "f1039a92fa90a2712dc48f0405a103f64b4d7310ac372597a149ed65c9086707"
+      "share_id": "c730467c7bdff6aebb0261f72b6ff6ae67f86ed6cbae09353739f0d24482e9fb"
+    },
+    {
+      "repo_id": 1318187016,
+      "name": "genspark-ai/genoffice",
+      "url": "https://github.com/genspark-ai/genoffice",
+      "kind": "有趣发现",
+      "classic": false,
+      "why": "像把Office搬进本地还配了个敢改稿的AI，改动以修订和快照呈现可一键回滚，表格用真公式，文件还能被搜索提问。",
+      "try_idea": "先看Sheets的AI问答演示：回答里把用到的单元格作为链接引用。",
+      "reviewed_at": "2026-10-17T08:54:28.462892+00:00",
+      "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
+      "share_id": "a81318e26aa144af5e0a61ca76e17022fba722d93e33f6fd466efdf124d4b4b0"
     }
   ],
   "delivery_policy": "Share interesting/useful discoveries; no installation request; deduplicate chat delivery."
