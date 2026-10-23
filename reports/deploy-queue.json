@@ -1,0 +1,689 @@
+{
+  "schema": 1,
+  "generated_at": "2026-10-23T13:45:57.108444+00:00",
+  "total": 68,
+  "auto": 9,
+  "review": 59,
+  "items": [
+    {
+      "repo_id": 1079456184,
+      "name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "score": 91.2,
+      "integration": "skill",
+      "licence": "MIT",
+      "action": "auto",
+      "reason": "纯技能包 + 许可清晰，可自动部署"
+    },
+    {
+      "repo_id": 1206357666,
+      "name": "jordan-gibbs/hyperresearch",
+      "url": "https://github.com/jordan-gibbs/hyperresearch",
+      "score": 83.4,
+      "integration": "skill",
+      "licence": "MIT",
+      "action": "auto",
+      "reason": "纯技能包 + 许可清晰，可自动部署"
+    },
+    {
+      "repo_id": 1331532226,
+      "name": "lin1111-1/academic-integrity-rewrite",
+      "url": "https://github.com/lin1111-1/academic-integrity-rewrite",
+      "score": 80.2,
+      "integration": "skill",
+      "licence": "MIT",
+      "action": "auto",
+      "reason": "纯技能包 + 许可清晰，可自动部署"
+    },
+    {
+      "repo_id": 1159184254,
+      "name": "hanlulong/econ-writing-skill",
+      "url": "https://github.com/hanlulong/econ-writing-skill",
+      "score": 79.1,
+      "integration": "skill",
+      "licence": "MIT",
+      "action": "auto",
+      "reason": "纯技能包 + 许可清晰，可自动部署"
+    },
+    {
+      "repo_id": 1180917769,
+      "name": "uditgoenka/autoresearch",
+      "url": "https://github.com/uditgoenka/autoresearch",
+      "score": 78.2,
+      "integration": "skill",
+      "licence": "MIT",
+      "action": "auto",
+      "reason": "纯技能包 + 许可清晰，可自动部署"
+    },
+    {
+      "repo_id": 1319373413,
+      "name": "Linwei-Chen/paper-deep-reader-skill",
+      "url": "https://github.com/Linwei-Chen/paper-deep-reader-skill",
+      "score": 77.4,
+      "integration": "skill",
+      "licence": "MIT",
+      "action": "auto",
+      "reason": "纯技能包 + 许可清晰，可自动部署"
+    },
+    {
+      "repo_id": 630824392,
+      "name": "SamurAIGPT/llm-wiki-agent",
+      "url": "https://github.com/SamurAIGPT/llm-wiki-agent",
+      "score": 77.1,
+      "integration": "skill",
+      "licence": "MIT",
+      "action": "auto",
+      "reason": "纯技能包 + 许可清晰，可自动部署"
+    },
+    {
+      "repo_id": 1282340577,
+      "name": "ai4s-research/ai4s-skills",
+      "url": "https://github.com/ai4s-research/ai4s-skills",
+      "score": 76.3,
+      "integration": "skill",
+      "licence": "MIT",
+      "action": "auto",
+      "reason": "纯技能包 + 许可清晰，可自动部署"
+    },
+    {
+      "repo_id": 1200597263,
+      "name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "score": 75.0,
+      "integration": "skill",
+      "licence": "Apache-2.0",
+      "action": "auto",
+      "reason": "纯技能包 + 许可清晰，可自动部署"
+    },
+    {
+      "repo_id": 826168160,
+      "name": "docling-project/docling",
+      "url": "https://github.com/docling-project/docling",
+      "score": 96.2,
+      "integration": "mixed",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 888092115,
+      "name": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "score": 94.0,
+      "integration": "cli",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "cli 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 594155488,
+      "name": "Stirling-Tools/Stirling-PDF",
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "score": 91.9,
+      "integration": "mixed",
+      "licence": "NOASSERTION",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 92974124,
+      "name": "pyvista/pyvista",
+      "url": "https://github.com/pyvista/pyvista",
+      "score": 91.2,
+      "integration": "library",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "library 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 221981891,
+      "name": "microsoft/playwright",
+      "url": "https://github.com/microsoft/playwright",
+      "score": 90.5,
+      "integration": "mixed",
+      "licence": "Apache-2.0",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 765083837,
+      "name": "opendatalab/MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "score": 89.8,
+      "integration": "cli",
+      "licence": "NOASSERTION",
+      "action": "review",
+      "reason": "cli 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 953089294,
+      "name": "54yyyu/zotero-mcp",
+      "url": "https://github.com/54yyyu/zotero-mcp",
+      "score": 89.1,
+      "integration": "mcp",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "mcp 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 15333471,
+      "name": "ocrmypdf/OCRmyPDF",
+      "url": "https://github.com/ocrmypdf/OCRmyPDF",
+      "score": 88.1,
+      "integration": "cli",
+      "licence": "MPL-2.0",
+      "action": "review",
+      "reason": "cli 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 853189791,
+      "name": "PDFMathTranslate/PDFMathTranslate",
+      "url": "https://github.com/PDFMathTranslate/PDFMathTranslate",
+      "score": 87.7,
+      "integration": "cli",
+      "licence": "AGPL-3.0",
+      "action": "review",
+      "reason": "cli 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 45646037,
+      "name": "plotly/plotly.js",
+      "url": "https://github.com/plotly/plotly.js",
+      "score": 87.5,
+      "integration": "library",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "library 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1061953414,
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "score": 87.5,
+      "integration": "skill",
+      "licence": null,
+      "action": "review",
+      "reason": "许可为 未标注，自动装前需人工确认"
+    },
+    {
+      "repo_id": 840056306,
+      "name": "getzep/graphiti",
+      "url": "https://github.com/getzep/graphiti",
+      "score": 87.0,
+      "integration": "library",
+      "licence": "Apache-2.0",
+      "action": "review",
+      "reason": "library 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1166102148,
+      "name": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "score": 86.3,
+      "integration": "mcp",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "mcp 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 826111692,
+      "name": "ucbepic/docetl",
+      "url": "https://github.com/ucbepic/docetl",
+      "score": 86.2,
+      "integration": "library",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "library 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 24245737,
+      "name": "mesa/mesa",
+      "url": "https://github.com/mesa/mesa",
+      "score": 86.2,
+      "integration": "library",
+      "licence": "Apache-2.0",
+      "action": "review",
+      "reason": "library 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 320463703,
+      "name": "dathere/qsv",
+      "url": "https://github.com/dathere/qsv",
+      "score": 86.2,
+      "integration": "cli",
+      "licence": "NOASSERTION",
+      "action": "review",
+      "reason": "cli 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 5797013,
+      "name": "grobidOrg/grobid",
+      "url": "https://github.com/grobidOrg/grobid",
+      "score": 85.9,
+      "integration": "mixed",
+      "licence": "Apache-2.0",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 871373324,
+      "name": "shcherbak-ai/contextgem",
+      "url": "https://github.com/shcherbak-ai/contextgem",
+      "score": 85.1,
+      "integration": "library",
+      "licence": "Apache-2.0",
+      "action": "review",
+      "reason": "library 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1226123343,
+      "name": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "score": 84.6,
+      "integration": "mixed",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1074176989,
+      "name": "Hylouis233/bibverify",
+      "url": "https://github.com/Hylouis233/bibverify",
+      "score": 84.5,
+      "integration": "mixed",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 639835356,
+      "name": "assafelovic/gpt-researcher",
+      "url": "https://github.com/assafelovic/gpt-researcher",
+      "score": 84.5,
+      "integration": "mixed",
+      "licence": "Apache-2.0",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1219042200,
+      "name": "op7418/guizang-ppt-skill",
+      "url": "https://github.com/op7418/guizang-ppt-skill",
+      "score": 84.4,
+      "integration": "skill",
+      "licence": "AGPL-3.0",
+      "action": "review",
+      "reason": "许可为 AGPL-3.0，自动装前需人工确认"
+    },
+    {
+      "repo_id": 94702367,
+      "name": "pdfcpu/pdfcpu",
+      "url": "https://github.com/pdfcpu/pdfcpu",
+      "score": 84.4,
+      "integration": "cli",
+      "licence": "Apache-2.0",
+      "action": "review",
+      "reason": "cli 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 79413341,
+      "name": "dswah/pyGAM",
+      "url": "https://github.com/dswah/pyGAM",
+      "score": 83.5,
+      "integration": "library",
+      "licence": "Apache-2.0",
+      "action": "review",
+      "reason": "library 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 204164353,
+      "name": "kestra-io/kestra",
+      "url": "https://github.com/kestra-io/kestra",
+      "score": 83.4,
+      "integration": "mixed",
+      "licence": "Apache-2.0",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1209893338,
+      "name": "GXL-ai/paperclip",
+      "url": "https://github.com/GXL-ai/paperclip",
+      "score": 83.4,
+      "integration": "mixed",
+      "licence": "Apache-2.0",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 41279279,
+      "name": "jsvine/pdfplumber",
+      "url": "https://github.com/jsvine/pdfplumber",
+      "score": 83.1,
+      "integration": "library",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "library 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 931354511,
+      "name": "oomol-lab/pdf-craft",
+      "url": "https://github.com/oomol-lab/pdf-craft",
+      "score": 82.8,
+      "integration": "library",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "library 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 81810486,
+      "name": "antvis/G6",
+      "url": "https://github.com/antvis/G6",
+      "score": 82.7,
+      "integration": "library",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "library 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 196968829,
+      "name": "man-group/dtale",
+      "url": "https://github.com/man-group/dtale",
+      "score": 82.4,
+      "integration": "library",
+      "licence": "LGPL-2.1",
+      "action": "review",
+      "reason": "library 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1292263276,
+      "name": "KalarisLabs/research-agent-skills",
+      "url": "https://github.com/KalarisLabs/research-agent-skills",
+      "score": 81.8,
+      "integration": "skill",
+      "licence": "NOASSERTION",
+      "action": "review",
+      "reason": "许可为 NOASSERTION，自动装前需人工确认"
+    },
+    {
+      "repo_id": 1151702019,
+      "name": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "score": 81.6,
+      "integration": "library",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "library 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 750550657,
+      "name": "iamgio/quarkdown",
+      "url": "https://github.com/iamgio/quarkdown",
+      "score": 81.4,
+      "integration": "cli",
+      "licence": "GPL-3.0",
+      "action": "review",
+      "reason": "cli 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1248879346,
+      "name": "brycewang-stanford/Awesome-Journal-Skills",
+      "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills",
+      "score": 81.2,
+      "integration": "mixed",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1177921872,
+      "name": "xr843/fojin",
+      "url": "https://github.com/xr843/fojin",
+      "score": 80.4,
+      "integration": "mcp",
+      "licence": "Apache-2.0",
+      "action": "review",
+      "reason": "mcp 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1288102626,
+      "name": "ai4s-research/open-science",
+      "url": "https://github.com/ai4s-research/open-science",
+      "score": 80.0,
+      "integration": "mixed",
+      "licence": "NOASSERTION",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 831872524,
+      "name": "getomni-ai/zerox",
+      "url": "https://github.com/getomni-ai/zerox",
+      "score": 79.7,
+      "integration": "library",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "library 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 751474418,
+      "name": "enoch3712/ExtractThinker",
+      "url": "https://github.com/enoch3712/ExtractThinker",
+      "score": 79.4,
+      "integration": "library",
+      "licence": "Apache-2.0",
+      "action": "review",
+      "reason": "library 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1340749561,
+      "name": "1692775560/dsh-Mimir-Academic-research",
+      "url": "https://github.com/1692775560/dsh-Mimir-Academic-research",
+      "score": 79.0,
+      "integration": "mixed",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 958212587,
+      "name": "growgraph/ontocast",
+      "url": "https://github.com/growgraph/ontocast",
+      "score": 78.7,
+      "integration": "library",
+      "licence": "Apache-2.0",
+      "action": "review",
+      "reason": "library 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1296248129,
+      "name": "drpwchen/paper-fetch",
+      "url": "https://github.com/drpwchen/paper-fetch",
+      "score": 78.7,
+      "integration": "cli",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "cli 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1177129875,
+      "name": "ZimoLiao/scholaraio",
+      "url": "https://github.com/ZimoLiao/scholaraio",
+      "score": 78.5,
+      "integration": "mixed",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 740316987,
+      "name": "microsoft/UFO",
+      "url": "https://github.com/microsoft/UFO",
+      "score": 78.4,
+      "integration": "mixed",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 929121414,
+      "name": "coleam00/Archon",
+      "url": "https://github.com/coleam00/Archon",
+      "score": 78.2,
+      "integration": "mixed",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1200123073,
+      "name": "PiaoyangGuohai1/cli-anything-zotero",
+      "url": "https://github.com/PiaoyangGuohai1/cli-anything-zotero",
+      "score": 78.1,
+      "integration": "cli",
+      "licence": "Apache-2.0",
+      "action": "review",
+      "reason": "cli 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1334924880,
+      "name": "xiehuan123/dsh-deepread",
+      "url": "https://github.com/xiehuan123/dsh-deepread",
+      "score": 78.1,
+      "integration": "mixed",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1318187016,
+      "name": "genspark-ai/genoffice",
+      "url": "https://github.com/genspark-ai/genoffice",
+      "score": 78.0,
+      "integration": "mixed",
+      "licence": "Apache-2.0",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 321932121,
+      "name": "dhondta/zotero-cli",
+      "url": "https://github.com/dhondta/zotero-cli",
+      "score": 77.8,
+      "integration": "cli",
+      "licence": "GPL-3.0",
+      "action": "review",
+      "reason": "cli 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1147798916,
+      "name": "aloth/olcli",
+      "url": "https://github.com/aloth/olcli",
+      "score": 77.7,
+      "integration": "mixed",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 729260816,
+      "name": "yang3kc/daily_arxiv_digest",
+      "url": "https://github.com/yang3kc/daily_arxiv_digest",
+      "score": 77.3,
+      "integration": "mixed",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 33702544,
+      "name": "plotly/dash",
+      "url": "https://github.com/plotly/dash",
+      "score": 77.3,
+      "integration": "library",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "library 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1121438740,
+      "name": "jacob-bd/gemini-notebook-mcp-cli",
+      "url": "https://github.com/jacob-bd/gemini-notebook-mcp-cli",
+      "score": 77.1,
+      "integration": "mixed",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 285134677,
+      "name": "gaogaotiantian/viztracer",
+      "url": "https://github.com/gaogaotiantian/viztracer",
+      "score": 76.8,
+      "integration": "cli",
+      "licence": "Apache-2.0",
+      "action": "review",
+      "reason": "cli 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1136666433,
+      "name": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "score": 76.5,
+      "integration": "skill",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "用途涉及绕过检测/改写，需你明确同意才装"
+    },
+    {
+      "repo_id": 1149807548,
+      "name": "llmsresearch/paperbanana",
+      "url": "https://github.com/llmsresearch/paperbanana",
+      "score": 76.3,
+      "integration": "mcp",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "mcp 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 42411546,
+      "name": "yymao/adstex",
+      "url": "https://github.com/yymao/adstex",
+      "score": 76.1,
+      "integration": "cli",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "cli 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1392498172,
+      "name": "FengZhenfei/carrel",
+      "url": "https://github.com/FengZhenfei/carrel",
+      "score": 75.9,
+      "integration": "mixed",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 1370994072,
+      "name": "infusius/masala",
+      "url": "https://github.com/infusius/masala",
+      "score": 75.9,
+      "integration": "mixed",
+      "licence": "MIT",
+      "action": "review",
+      "reason": "mixed 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    },
+    {
+      "repo_id": 496402151,
+      "name": "EBISPOT/ols4",
+      "url": "https://github.com/EBISPOT/ols4",
+      "score": 75.1,
+      "integration": "mcp",
+      "licence": "Apache-2.0",
+      "action": "review",
+      "reason": "mcp 类型需要按 CLI/MCP/库方式单独接入，不自动装"
+    }
+  ]
+}

@@ -3,40 +3,40 @@
   "repository": "whoaha77/github-radar-reports",
   "items": [
     {
-      "repo_id": 682838902,
-      "name": "sophosia/sophosia",
-      "url": "https://github.com/sophosia/sophosia",
-      "kind": "有趣发现",
-      "classic": true,
-      "why": "把文献、PDF批注、Markdown笔记和Excalidraw画布塞进一个应用，适合喜欢图与文一起织知识网的科研党。",
-      "try_idea": "先看library-page与note-page截图，感受引用与笔记如何串联。",
-      "reviewed_at": "2026-10-17T18:33:35.793491+00:00",
-      "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "fc1836add5ea5af9548fbf2045c0a1380d78255c73dbd16b5700114f65394b2a"
-    },
-    {
-      "repo_id": 1367299537,
-      "name": "Clearailhc/clearai-dsh",
-      "url": "https://github.com/Clearailhc/clearai-dsh",
+      "repo_id": 1292529733,
+      "name": "tigerless-labs/design-harness",
+      "url": "https://github.com/tigerless-labs/design-harness",
       "kind": "有趣发现",
       "classic": false,
-      "why": "把“每条边都要被证据挣来”做成研究循环，假说被驳斥也保留，理念很抓人。",
-      "try_idea": "先看文档中认知循环示意图与冲突读数示例，理解本体如何在提问时先写。",
-      "reviewed_at": "2026-10-17T14:35:47.916097+00:00",
+      "why": "给AI喂论文和半成品想法，它会归档成卡片、连出证据线，最后生成一张手工钉板风画布，让设计理由一眼可见。",
+      "try_idea": "打开官网demo画布，试用五种皮肤并看卡片如何跳回来源。",
+      "reviewed_at": "2026-10-17T08:54:28.384844+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "383d8d858a3bf9587ba1f409f917aa97a34247c78a796a65a82e308702931b25"
+      "share_id": "07a2d16ada8ba297502fe4861ef2596851df5d52f3f3823420c5ac83021afecf"
     },
     {
-      "repo_id": 916009087,
-      "name": "rowboatlabs/rowboat",
-      "url": "https://github.com/rowboatlabs/rowboat",
+      "repo_id": 1414685342,
+      "name": "onehumanbeing/esp32-iphone-agent",
+      "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
       "kind": "有趣发现",
       "classic": false,
-      "why": "给每个人一个带记忆的AI同事，知道你的邮件和会议，还能@它把讨论直接派给Codex写代码，很有未来感。",
-      "try_idea": "先看README里的知识图谱与apps-to-code演示视频，感受工作上下文如何被调用。",
-      "reviewed_at": "2026-10-17T12:33:36.762024+00:00",
+      "why": "七美元的板子加一个手机应用，就让大模型自己点手机设闹钟，还开源了规划器提示词与逐步回放，是很有画面感的computer-use实验。",
+      "try_idea": "先看README的流程示意图与演示视频，重点看它如何处理相对指针校准与失败重试。",
+      "reviewed_at": "2026-10-16T17:36:59.888152+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "17a8d8ee88ef0d028e739b1f2c7743f4ef9f0ae411609d1cced84c5de7a851a5"
+      "share_id": "a92e0e70e11e071914f8c2e97f5e8994ec6c308577cce6baf8ed64c14d89be74"
+    },
+    {
+      "repo_id": 1203670949,
+      "name": "AgriciDaniel/claude-obsidian",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "kind": "有趣发现",
+      "classic": false,
+      "why": "把任何来源丢进收件箱，AI 帮你拆成互相链接、可溯源到原文的笔记，vault 始终是你能直接打开的 Markdown 文件。",
+      "try_idea": "先看 README 中的知识循环图与 Graph view、Canvas 截图，观察一次 wiki-ingest 后的链接结构。",
+      "reviewed_at": "2026-10-16T17:33:33.227115+00:00",
+      "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
+      "share_id": "ee676151e03be944fd2caf7ecf4f9d7fb67b2a8e0d1ea1f7380a953b6994d7a5"
     }
   ],
   "delivery_policy": "Share interesting/useful discoveries; no installation request; deduplicate chat delivery."
