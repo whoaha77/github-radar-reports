@@ -3,40 +3,40 @@
   "repository": "whoaha77/github-radar-reports",
   "items": [
     {
-      "repo_id": 1409590274,
-      "name": "nasqret/labyrinth-exploration",
-      "url": "https://github.com/nasqret/labyrinth-exploration",
+      "repo_id": 682838902,
+      "name": "sophosia/sophosia",
+      "url": "https://github.com/sophosia/sophosia",
       "kind": "有趣发现",
-      "classic": false,
-      "why": "把没有答案的研究画成一张迷宫地图：走过的通道是蓝的，被否掉的死胡同打上锈色斜线，门外的金色是猜想，很有画面感。",
-      "try_idea": "先跑README里的三角形计数示例，打开生成的仪表盘看前沿地图与分级统计。",
-      "reviewed_at": "2026-10-22T07:57:17.561711+00:00",
+      "classic": true,
+      "why": "把文献、PDF批注、Markdown笔记和Excalidraw画布塞进一个应用，适合喜欢图与文一起织知识网的科研党。",
+      "try_idea": "先看library-page与note-page截图，感受引用与笔记如何串联。",
+      "reviewed_at": "2026-10-17T18:33:35.793491+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "876771620bb647432bac0b7d2286e849a1e2931dadfe80ccfa76834136067db1"
+      "share_id": "fc1836add5ea5af9548fbf2045c0a1380d78255c73dbd16b5700114f65394b2a"
     },
     {
-      "repo_id": 1267008278,
-      "name": "hyqzz/Solar-Wanderer",
-      "url": "https://github.com/hyqzz/Solar-Wanderer",
+      "repo_id": 1367299537,
+      "name": "Clearailhc/clearai-dsh",
+      "url": "https://github.com/Clearailhc/clearai-dsh",
       "kind": "有趣发现",
       "classic": false,
-      "why": "点开就能从月球表面一路拉到十万天文单位的奥尔特云，亲眼感受行星此刻的真实位置，教育和装逼俱佳。",
-      "try_idea": "先打开在线站，双击土星拉近到能看见卡西尼缝。",
-      "reviewed_at": "2026-10-23T07:59:55.116477+00:00",
+      "why": "把“每条边都要被证据挣来”做成研究循环，假说被驳斥也保留，理念很抓人。",
+      "try_idea": "先看文档中认知循环示意图与冲突读数示例，理解本体如何在提问时先写。",
+      "reviewed_at": "2026-10-17T14:35:47.916097+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "4a48b438c2e814548ae4fe72595871d6519f1df175ed60dbfad0881bce536abb"
+      "share_id": "383d8d858a3bf9587ba1f409f917aa97a34247c78a796a65a82e308702931b25"
     },
     {
-      "repo_id": 1375615157,
-      "name": "Oldcircle/geo-sleuth",
-      "url": "https://github.com/Oldcircle/geo-sleuth",
+      "repo_id": 916009087,
+      "name": "rowboatlabs/rowboat",
+      "url": "https://github.com/rowboatlabs/rowboat",
       "kind": "有趣发现",
       "classic": false,
-      "why": "没有文字、没有地标，只靠桥墩当尺、阴影当天线、山脊当指纹，就能把照片定位到2米内，像地理侦探游戏。",
-      "try_idea": "先看README里三个案例的分步复盘和天际线叠图，感受几何反推的推理链。",
-      "reviewed_at": "2026-10-22T07:57:17.556982+00:00",
+      "why": "给每个人一个带记忆的AI同事，知道你的邮件和会议，还能@它把讨论直接派给Codex写代码，很有未来感。",
+      "try_idea": "先看README里的知识图谱与apps-to-code演示视频，感受工作上下文如何被调用。",
+      "reviewed_at": "2026-10-17T12:33:36.762024+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "4276bde450b8d1533c6968c47d4c15b18f850d3a638a420c5f6d3c15e4299f0e"
+      "share_id": "17a8d8ee88ef0d028e739b1f2c7743f4ef9f0ae411609d1cced84c5de7a851a5"
     }
   ],
   "delivery_policy": "Share interesting/useful discoveries; no installation request; deduplicate chat delivery."
