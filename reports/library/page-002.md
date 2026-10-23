@@ -2,6 +2,10 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [CorsixTH/CorsixTH](https://github.com/CorsixTH/CorsixTH) | 已分析 | 2013-08-25 | Open source clone of Theme Hospital |
+| [Provenance-Emu/Provenance](https://github.com/Provenance-Emu/Provenance) | 已分析 | 2013-08-27 | iOS &amp; tvOS multi-emulator frontend, supporting various Atari, Bandai, NEC, Nintendo, Sega, SNK and Sony console systems… |
+| [projectchrono/chrono](https://github.com/projectchrono/chrono) | 已分析 | 2013-09-03 | High-performance C++ library for multiphysics and multibody dynamics simulations |
+| [almatoai/OGIT](https://github.com/almatoai/OGIT) | 已分析 | 2013-09-05 | Almato AI "Open Graph of IT" Ontology Hub |
 | [pyqtgraph/pyqtgraph](https://github.com/pyqtgraph/pyqtgraph) | 已分析 | 2013-09-12 | Fast data visualization and GUI tools for scientific / engineering applications |
 | [recastnavigation/recastnavigation](https://github.com/recastnavigation/recastnavigation) | 已分析 | 2013-09-15 | Industry-standard navigation-mesh toolset for games |
 | [pgmpy/pgmpy](https://github.com/pgmpy/pgmpy) | 已分析 | 2013-09-20 | Python Toolkit for Causal and Probabilistic Reasoning |
@@ -17,6 +21,7 @@
 | [simpeg/simpeg](https://github.com/simpeg/simpeg) | 已分析 | 2013-11-26 | Simulation and Parameter Estimation in Geophysics  -  A python package for simulation and gradient based parameter estim |
 | [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox) | 已分析 | 2013-12-19 | A cross-platform launcher that simply works |
 | [ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) | 已分析 | 2013-12-20 | OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched |
+| [OctoLinker/OctoLinker](https://github.com/OctoLinker/OctoLinker) | 已分析 | 2013-12-27 | OctoLinker — Links together, what belongs together |
 | [spack/spack](https://github.com/spack/spack) | 已分析 | 2014-01-08 | A flexible package manager that supports multiple versions, configurations, platforms, and compilers. |
 | [release-it/release-it](https://github.com/release-it/release-it) | 已分析 | 2014-01-15 | 🚀 Automate versioning and package publishing |
 | [thp/urlwatch](https://github.com/thp/urlwatch) | 已分析 | 2014-01-29 | Watch (parts of) webpages and get notified when something changes via e-mail, on your phone or via other means. Highly c |
@@ -39,6 +44,7 @@
 | [ketoo/NoahGameFrame](https://github.com/ketoo/NoahGameFrame) | 已分析 | 2014-05-16 | A fast, scalable, distributed game server engine/framework for C++, include the actor library, network library, can be u |
 | [sbstjn/timesheet.js](https://github.com/sbstjn/timesheet.js) | 已分析 | 2014-05-25 | JavaScript library for HTML5 &amp; CSS3 time sheets |
 | [emptymalei/awesome-research](https://github.com/emptymalei/awesome-research) | 已分析 | 2014-05-26 | :seedling: a curated list of tools to help you with your research/life; I built a front end around this repo, please use |
+| [inducer/loopy](https://github.com/inducer/loopy) | 已分析 | 2014-05-29 | A code generator for array-based code on CPUs and GPUs |
 | [opensim-org/opensim-core](https://github.com/opensim-org/opensim-core) | 已分析 | 2014-06-12 | SimTK OpenSim C++ libraries and command-line applications, and Java/Python wrapping. |
 | [tpn/pdfs](https://github.com/tpn/pdfs) | 已分析 | 2014-06-16 | Technically-oriented PDF Collection (Papers, Specs, Decks, Manuals, etc) — browse &amp; search it at tpn.github.io/pdfs |
 | [muesli/beehive](https://github.com/muesli/beehive) | 已分析 | 2014-06-23 | A flexible event/agent &amp; automation system with lots of bees 🐝 |
@@ -50,6 +56,7 @@
 | [00-Evan/shattered-pixel-dungeon](https://github.com/00-Evan/shattered-pixel-dungeon) | 已分析 | 2014-07-31 | Shattered Pixel Dungeon is an open-source traditional roguelike dungeon crawler with randomized levels and enemies, and  |
 | [rust-ndarray/ndarray](https://github.com/rust-ndarray/ndarray) | 已分析 | 2014-08-04 | ndarray: an N-dimensional array with array views, multidimensional slicing, and efficient operations |
 | [Triple-T/gradle-play-publisher](https://github.com/Triple-T/gradle-play-publisher) | 已分析 | 2014-08-07 | GPP is Android's unofficial release automation Gradle Plugin. It can do anything from building, uploading, and then prom |
+| [usnistgov/fipy](https://github.com/usnistgov/fipy) | 已分析 | 2014-08-25 | FiPy is a Finite Volume PDE solver written in Python |
 | [pdfminer/pdfminer.six](https://github.com/pdfminer/pdfminer.six) | 已分析 | 2014-08-29 | Community maintained fork of pdfminer - we fathom PDF |
 | [OpenXRay/xray-16](https://github.com/OpenXRay/xray-16) | 已分析 | 2014-09-05 | Improved version of the X-Ray Engine, the game engine used in the world-famous S.T.A.L.K.E.R. game series by GSC Game Wo |
 | [dhamaniasad/HeadlessBrowsers](https://github.com/dhamaniasad/HeadlessBrowsers) | 已分析 | 2014-09-12 | A list of (almost) all headless web browsers in existence |
@@ -76,6 +83,7 @@
 | [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) | 已分析 | 2015-01-26 | :iphone: Collaborative List of Open-Source iOS Apps |
 | [taojy123/KeymouseGo](https://github.com/taojy123/KeymouseGo) | 已分析 | 2015-01-31 | 类似按键精灵的鼠标键盘录制和自动化操作 模拟点击和键入 \| automate mouse clicks and keyboard input |
 | [metabase/metabase](https://github.com/metabase/metabase) | 已分析 | 2015-02-02 | The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_cha |
+| [ecomfe/echarts-gl](https://github.com/ecomfe/echarts-gl) | 已分析 | 2015-02-03 | Extension pack for Apache ECharts, providing globe visualization and 3D plots. |
 | [BOINC/boinc](https://github.com/BOINC/boinc) | 已分析 | 2015-02-03 | Open-source software for volunteer computing and grid computing. |
 | [kizniche/Mycodo](https://github.com/kizniche/Mycodo) | 已分析 | 2015-02-05 | An environmental monitoring and regulation system |
 | [cpmech/gosl](https://github.com/cpmech/gosl) | 已分析 | 2015-02-09 | Linear algebra, eigenvalues, FFT, Bessel, elliptic, orthogonal polys, geometry, NURBS, numerical quadrature, 3D transfin |
@@ -90,15 +98,7 @@
 | [weaveworks/scope](https://github.com/weaveworks/scope) | 已分析 | 2015-04-27 | Monitoring, visualisation &amp; management for Docker &amp; Kubernetes |
 | [olistic/warriorjs](https://github.com/olistic/warriorjs) | 已分析 | 2015-04-29 | 🏰 An exciting game of programming and Artificial Intelligence |
 | [InteractiveComputerGraphics/PositionBasedDynamics](https://github.com/InteractiveComputerGraphics/PositionBasedDynamics) | 已分析 | 2015-05-05 | PositionBasedDynamics is a library for the physically-based simulation of rigid bodies, deformable solids and fluids. |
+| [opendatacube/datacube-core](https://github.com/opendatacube/datacube-core) | 已分析 | 2015-05-13 | Open Data Cube analyses continental scale Earth Observation data through time |
 | [dhimmel/obonet](https://github.com/dhimmel/obonet) | 已分析 | 2015-05-17 | OBO-formatted ontologies → networkx (Python 3) |
 | [precice/precice](https://github.com/precice/precice) | 已分析 | 2015-05-22 | A coupling library and ecosystem for partitioned multi-physics and multi-scale simulations, including surface and volume |
 | [pywinauto/pywinauto](https://github.com/pywinauto/pywinauto) | 已分析 | 2015-05-25 | Windows GUI Automation with Python (based on text properties) |
-| [artilleryio/artillery](https://github.com/artilleryio/artillery) | 已分析 | 2015-05-28 | The complete load testing platform. Everything you need for production-grade load tests. Serverless &amp; distributed. Load  |
-| [obophenotype/cell-ontology](https://github.com/obophenotype/cell-ontology) | 已分析 | 2015-06-04 | An ontology of cell types |
-| [GladysAssistant/Gladys](https://github.com/GladysAssistant/Gladys) | 已分析 | 2015-06-05 | A privacy-first, open-source home assistant |
-| [mfem/mfem](https://github.com/mfem/mfem) | 已分析 | 2015-06-11 | Lightweight, general, scalable C++ library for finite element methods |
-| [grahamjenson/list_of_recommender_systems](https://github.com/grahamjenson/list_of_recommender_systems) | 已分析 | 2015-06-12 | A List of Recommender Systems and Resources |
-| [mukyasa/MMCamScanner](https://github.com/mukyasa/MMCamScanner) | 已分析 | 2015-06-16 | Simulation of CamScanner app With Custom Camera and Crop Rect Validation  |
-| [yinkaisheng/Python-UIAutomation-for-Windows](https://github.com/yinkaisheng/Python-UIAutomation-for-Windows) | 已分析 | 2015-06-23 | 🐍Python 3 wrapper of Microsoft UIAutomation. Support UIAutomation for MFC, WindowsForm, WPF, Modern UI(Metro UI), Qt, IE |
-| [nvdv/vprof](https://github.com/nvdv/vprof) | 已分析 | 2015-06-29 | Visual profiler for Python |
-| [hiloteam/Hilo](https://github.com/hiloteam/Hilo) | 已分析 | 2015-07-06 | A Cross-end HTML5 Game development solution |

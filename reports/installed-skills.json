@@ -1,0 +1,731 @@
+{
+  "generated_at": "2026-10-23T13:58:55.449893+00:00",
+  "root_hint": "skills",
+  "total": 43,
+  "by_source": {
+    "radar": 32,
+    "pre-existing": 11
+  },
+  "families": {
+    "图表与展示": 7,
+    "工程与工具": 4,
+    "数据与文档": 7,
+    "文献与引用": 7,
+    "未分类": 1,
+    "科研写作": 3,
+    "科研流程": 4,
+    "统计与分析": 8,
+    "评审与核查": 2
+  },
+  "skills": [
+    {
+      "name": "academic-integrity-rewrite",
+      "dir": "academic-integrity-rewrite",
+      "description": "Revise Chinese or English academic writing for lower unnecessary textual overlap while preserving meaning, evidence, numbers, equations, terminology, and citations. Use for 学术论文降重、查重后修改、重复段落重写、paraphrasing, similarity-report remediation, abstracts, literature reviews, methods, results, discussions, theses, and manuscripts in DOCX, Markdown, or plain text. Do not use to disguise plagiarism, fabricate sources, or evade academic-integrity review.",
+      "family": "科研写作",
+      "source": "radar",
+      "source_repo": "lin1111-1/academic-integrity-rewrite",
+      "commit": "3f4e23beec64352aa4439b997b3699c4525e5ab6",
+      "licence": "MIT",
+      "installed_at": "2026-10-23T13:42:40.978277+00:00",
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ]
+    },
+    {
+      "name": "experiment-suite",
+      "dir": "ai4s-skills--experiment-suite",
+      "description": "Use when the user has a research question and needs a complete experiment package — design document, runnable code, results (measured or simulated with honest provenance), publication-grade figures, structured report. Single-stage, no Python runtime.",
+      "family": "科研流程",
+      "source": "radar",
+      "source_repo": "ai4s-research/ai4s-skills",
+      "commit": "744ab2049a7b52ae726c43313468fd518b330980",
+      "licence": null,
+      "installed_at": "2026-10-23T13:57:22.771141+00:00",
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ]
+    },
+    {
+      "name": "integrity-auditor",
+      "dir": "ai4s-skills--integrity-auditor",
+      "description": "Use when the user wants a paper audited for integrity issues — image misuse, numerical anomalies, logical gaps — and needs a reviewable evidence report. Works on external papers (PDF / DOI / arXiv) and on outputs from a local paper-writer run. Single-stage skill.",
+      "family": "评审与核查",
+      "source": "radar",
+      "source_repo": "ai4s-research/ai4s-skills",
+      "commit": "744ab2049a7b52ae726c43313468fd518b330980",
+      "licence": null,
+      "installed_at": "2026-10-23T13:57:22.771141+00:00",
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ]
+    },
+    {
+      "name": "mindmap-render",
+      "dir": "ai4s-skills--mindmap-render",
+      "description": "Generate beautiful, high-resolution mindmaps from Markdown unordered lists. Outputs interactive HTML, HD PNG, and PDF with colorful branch themes.",
+      "family": "图表与展示",
+      "source": "radar",
+      "source_repo": "ai4s-research/ai4s-skills",
+      "commit": "744ab2049a7b52ae726c43313468fd518b330980",
+      "licence": null,
+      "installed_at": "2026-10-23T13:57:22.771141+00:00",
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ]
+    },
+    {
+      "name": "research-explorer",
+      "dir": "ai4s-skills--research-explorer",
+      "description": "Use when the user has a vague research direction and wants to explore feasible specific topics. Outputs a structured analysis with candidate topics, innovation/feasibility scoring, and a pre-survey of 20–30 representative works. Single-stage, no Python runtime.",
+      "family": "文献与引用",
+      "source": "radar",
+      "source_repo": "ai4s-research/ai4s-skills",
+      "commit": "744ab2049a7b52ae726c43313468fd518b330980",
+      "licence": null,
+      "installed_at": "2026-10-23T13:57:22.771141+00:00",
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ]
+    },
+    {
+      "name": "deepseek-executor",
+      "dir": "deepseek-executor",
+      "description": "Use before substantial document generation, new scripts or multi-file implementation, and for explicit DS delegation. Route to local scripts, Flash or DSH with verifiable delivery; ordinary short replies stay with main.",
+      "family": "工程与工具",
+      "source": "pre-existing",
+      "source_repo": null,
+      "commit": null,
+      "licence": null,
+      "installed_at": null,
+      "frontmatter_keys": [
+        "description",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "defuddle",
+      "dir": "defuddle",
+      "description": "Extract clean Markdown from HTML pages with Defuddle CLI.",
+      "family": "数据与文档",
+      "source": "pre-existing",
+      "source_repo": null,
+      "commit": null,
+      "licence": null,
+      "installed_at": null,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ]
+    },
+    {
+      "name": "econ-write",
+      "dir": "econ-writing-skill",
+      "description": "Expert economics paper writing assistant synthesizing advice from 50+ top guides by Cochrane, McCloskey, Shapiro, Head, Bellemare, Goldin, Glaeser, Kremer, and other leading economists. USE THIS SKILL whenever the user writes, edits, reviews, rewrites, or structures any economics paper, thesis, job market paper, abstract, introduction, conclusion, results section, literature review, or referee response. Also handles LaTeX formatting, presentations, and paper audits. Covers all paper types (applied, theory, structural, mixed) and all sections.",
+      "family": "科研写作",
+      "source": "radar",
+      "source_repo": "hanlulong/econ-writing-skill",
+      "commit": "f2bf7a22c5e3b37921a5e6c73bd1fb380a5e00e8",
+      "licence": "MIT",
+      "installed_at": "2026-10-23T13:44:31.181157+00:00",
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ]
+    },
+    {
+      "name": "github-project-guide",
+      "dir": "github-project-guide",
+      "description": "Match concrete task capability gaps to the user's local GitHub Radar library, compare existing skills, and select useful tools on demand. Use when choosing a tool, seeking reusable implementation, or facing a missing capability in a substantial research, coding, document or automation task. Skip ordinary questions and routine fixes already covered by an available skill.",
+      "family": "工程与工具",
+      "source": "pre-existing",
+      "source_repo": null,
+      "commit": null,
+      "licence": null,
+      "installed_at": null,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ]
+    },
+    {
+      "name": "graphify",
+      "dir": "graphify",
+      "description": "Use for any question about a codebase, its architecture, file relationships, or project content — especially when graphify-out/ exists, where the question should be treated as a graphify query first. Turns any input (code, docs, papers, images, videos) into a persistent knowledge graph with god nodes, community detection, and query/path/explain tools.",
+      "family": "未分类",
+      "source": "radar",
+      "source_repo": "Graphify-Labs/graphify",
+      "commit": "c588b72d936927790a87ad009955078ed40562a3",
+      "licence": "Apache-2.0",
+      "installed_at": "2026-10-23T13:43:01.692327+00:00",
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ]
+    },
+    {
+      "name": "json-canvas",
+      "dir": "json-canvas",
+      "description": "Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.",
+      "family": "数据与文档",
+      "source": "pre-existing",
+      "source_repo": null,
+      "commit": null,
+      "licence": null,
+      "installed_at": null,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ]
+    },
+    {
+      "name": "knap",
+      "dir": "knap",
+      "description": "Render Markdown from templates and structured data using Knap CLI. Use when the user asks to apply a Knap template, turn JSON or CSV data into notes, batch-generate Markdown files, or format Defuddle output into a note.",
+      "family": "数据与文档",
+      "source": "pre-existing",
+      "source_repo": null,
+      "commit": null,
+      "licence": null,
+      "installed_at": null,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ]
+    },
+    {
+      "name": "my-profile",
+      "dir": "my-profile",
+      "description": "Persistent personal context about the user, projects, preferences and writing style. Always load at the start of every conversation; update when explicit preferences, verified progress or reusable lessons emerge.",
+      "family": "工程与工具",
+      "source": "pre-existing",
+      "source_repo": null,
+      "commit": null,
+      "licence": null,
+      "installed_at": null,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ]
+    },
+    {
+      "name": "obsidian-bases",
+      "dir": "obsidian-bases",
+      "description": "Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian.",
+      "family": "数据与文档",
+      "source": "pre-existing",
+      "source_repo": null,
+      "commit": null,
+      "licence": null,
+      "installed_at": null,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ]
+    },
+    {
+      "name": "obsidian-cli",
+      "dir": "obsidian-cli",
+      "description": "Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes, tasks, properties, and more. Also supports plugin and theme development with commands to reload plugins, run JavaScript, capture errors, take screenshots, and inspect the DOM. Use when the user asks to interact with their Obsidian vault, manage notes, search vault content, perform vault operations from the command line, or develop and debug Obsidian plugins and themes.",
+      "family": "数据与文档",
+      "source": "pre-existing",
+      "source_repo": null,
+      "commit": null,
+      "licence": null,
+      "installed_at": null,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ]
+    },
+    {
+      "name": "obsidian-markdown",
+      "dir": "obsidian-markdown",
+      "description": "Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes.",
+      "family": "数据与文档",
+      "source": "pre-existing",
+      "source_repo": null,
+      "commit": null,
+      "licence": null,
+      "installed_at": null,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ]
+    },
+    {
+      "name": "paper-deep-reader",
+      "dir": "paper-deep-reader-skill",
+      "description": "为单篇学术论文生成来源可追溯、图文交错、零背景可进入且具博士级技术深度的中文或英文解读。默认按“一句话总结、背景与动机、核心方法、实验与结果、贡献与影响、结论”六部分成稿，首次出现即解释关键术语，用最小例子讲通机制，并截图、嵌入、逐一解读所有关键图表；兼容有视觉与纯文本环境。用户提供 PDF、URL、DOI、预印本标识、标题或全文并要求论文解读、精读、讲清楚、逐关键图表、方法/公式/实验解释时使用。只问局部问题时可定向回答；不用于全文逐句翻译或多论文综述。",
+      "family": "数据与文档",
+      "source": "radar",
+      "source_repo": "Linwei-Chen/paper-deep-reader-skill",
+      "commit": "4513c20b4701c3096992110657a80e9413bcea16",
+      "licence": "MIT",
+      "installed_at": "2026-10-23T13:42:49.090400+00:00",
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ]
+    },
+    {
+      "name": "paper-reading-coach",
+      "dir": "paper-reading-coach",
+      "description": "按个人偏好跨领域精读论文，充分解释新名词、方法机制、公式和图表，并审核组会/PPT内容的知识铺垫、简洁表达与证据。用于读论文、看不懂术语或符号、追问为什么与怎么做、准备或修改文献汇报；作为教学与内容偏好层，不替代PDF/Word/PPT制作技能。",
+      "family": "图表与展示",
+      "source": "pre-existing",
+      "source_repo": null,
+      "commit": null,
+      "licence": null,
+      "installed_at": null,
+      "frontmatter_keys": [
+        "description",
+        "name"
+      ]
+    },
+    {
+      "name": "reverse-engineer-anything",
+      "dir": "reverse-engineer-anything",
+      "description": "Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets with REA. Use shipped-artifact or requested runtime evidence to explain features, compare versions, decompile code, or guide a reconstruction. Skip REA for ordinary source-repository architecture analysis.",
+      "family": "工程与工具",
+      "source": "pre-existing",
+      "source_repo": null,
+      "commit": null,
+      "licence": null,
+      "installed_at": null,
+      "frontmatter_keys": [
+        "description",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "bgpt-paper-search",
+      "dir": "scientific-agent-skills--bgpt-paper-search",
+      "description": "Searches BGPT scientific papers by topic or DOI and retrieves claim-level evidence extracted from full text, including experiments, reported statistics, scope, limitations, and provenance. Use for literature reviews, evidence synthesis, and finding experimental details beyond abstracts.",
+      "family": "文献与引用",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "citation-management",
+      "dir": "scientific-agent-skills--citation-management",
+      "description": "Comprehensive citation management for academic research. Search OpenAlex, PubMed, and Google Scholar for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be used when you need to find papers, verify citation information, convert DOIs to BibTeX, or ensure reference accuracy in scientific writing.",
+      "family": "文献与引用",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "allowed-tools",
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "exploratory-data-analysis",
+      "dir": "scientific-agent-skills--exploratory-data-analysis",
+      "description": "Performs bounded, local exploratory analysis of explicitly supported scientific files. Supports redacted CSV/TSV/JSON profiles; optional NumPy, HDF5, FASTA/FASTQ, and basic image metadata inspection; missingness/leakage audits; outlier and transformation sensitivity; and rigorous EDA report scaffolds. Other domain formats are reference-only and unknown formats fail closed.",
+      "family": "统计与分析",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "allowed-tools",
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "hypothesis-generation",
+      "dir": "scientific-agent-skills--hypothesis-generation",
+      "description": "Formulates evidence-bounded scientific questions, candidate hypotheses, rival explanations, causal or associational claims, discriminating predictions, measurements, and preregistration-ready analysis plans. Used when turning observations or preliminary findings into transparent, testable research plans without treating hypotheses as facts.",
+      "family": "科研流程",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "latex-posters",
+      "dir": "scientific-agent-skills--latex-posters",
+      "description": "Creates research posters in LaTeX using beamerposter, tikzposter, or baposter. Use for conference posters, academic presentations, multi-column scientific layouts, figure integration, typography, compilation, and PDF preflight.",
+      "family": "图表与展示",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "allowed-tools",
+        "description",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "literature-review",
+      "dir": "scientific-agent-skills--literature-review",
+      "description": "Conducts systematic, scoping, and narrative literature reviews using PubMed, arXiv, bioRxiv, Semantic Scholar, and other appropriate sources. Use for research synthesis, reproducible literature searches, screening, citation checking, or preparing Markdown and PDF reviews. Tracks search coverage, records versus studies, and evidence limitations; supports meta-analysis planning but does not supply a meta-analysis engine.",
+      "family": "文献与引用",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "allowed-tools",
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "markdown-mermaid-writing",
+      "dir": "scientific-agent-skills--markdown-mermaid-writing",
+      "description": "Writes scientific Markdown documentation and Mermaid diagrams for workflows, relationships, timelines, and schemas. Provides syntax references, document templates, accessibility guidance, and version-aware rendering checks. Use when a user requests Markdown, Mermaid, or a text-based structural diagram; quantitative scientific figures require suitable plotting tools.",
+      "family": "图表与展示",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "allowed-tools",
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "matplotlib",
+      "dir": "scientific-agent-skills--matplotlib",
+      "description": "Creates and customizes scientific plots with Matplotlib. Used for fine-grained control over plot elements, novel plot types, and scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots use plotly; for publication-ready multi-panel figures with journal styling, use scientific-visualization.",
+      "family": "图表与展示",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "allowed-tools",
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "networkx",
+      "dir": "scientific-agent-skills--networkx",
+      "description": "Creates, analyzes, and visualizes complex networks and graphs in Python with NetworkX. Use when working with network/graph data structures, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks (random, scale-free, small-world), reading/writing graph file formats, or drawing network topologies. Common applications include social, biological, transportation, and citation networks.",
+      "family": "统计与分析",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "paper-lookup",
+      "dir": "scientific-agent-skills--paper-lookup",
+      "description": "Searches 18 scholarly APIs for papers, preprints, citations, open-access full text, repository records, and journal OA status, and returns results with reproducible provenance. Covers PubMed, PMC, Europe PMC, bioRxiv, medRxiv, arXiv, OpenAlex, Crossref, Semantic Scholar, CORE, Unpaywall, OpenCitations, PubTator3, Zenodo, Figshare, ROR, BioStudies, and DOAJ. Use when searching for papers, citations, DOI/PMID/arXiv lookups, abstracts, full text, open-access PDFs, preprints, citation graphs, author publications, biomedical entity annotations, deposited records (Zenodo, Figshare, BioStudies), institution ROR IDs, or any scholarly literature query. Triggers on mentions of any supported database or requests like \"find papers on X\", \"look up this DOI\", \"who cites this paper\", or \"get me the PDF\".",
+      "family": "文献与引用",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "allowed-tools",
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "peer-review",
+      "dir": "scientific-agent-skills--peer-review",
+      "description": "Prepares evidence-bounded, constructive peer-review drafts and structured manuscript assessments. Supports authorized review of scientific manuscripts, protocols, preprints, or research proposals; reporting-guideline selection; claim–evidence checks; methods, statistics, reproducibility, ethics, figure/table, and citation critique; or revision-response planning.",
+      "family": "文献与引用",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "research-grants",
+      "dir": "scientific-agent-skills--research-grants",
+      "description": "Supports research proposal preparation and review for NSF, NIH, DOE, DARPA, and Taiwan NSTC, including opportunity-specific requirements, aims, review criteria, budgets, broader impacts, forms, and resubmissions. Use for investigator-authored grant development, compliance matrices, and proposal critiques.",
+      "family": "科研流程",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "allowed-tools",
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "research-lookup",
+      "dir": "scientific-agent-skills--research-lookup",
+      "description": "Compiles current scholarly evidence for a scientific manuscript or research brief when the user explicitly asks to gather literature, references, background evidence, competing findings, or a manuscript research packet. Uses Parallel Search by default, Parallel Extract for source retrieval, Parallel Research for explicitly deep/exhaustive work, optional explicit Parallel Chat, and optional Perplexity only when requested or allowed as a failure fallback.",
+      "family": "文献与引用",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "scientific-brainstorming",
+      "dir": "scientific-agent-skills--scientific-brainstorming",
+      "description": "Facilitates evidence-aware scientific ideation with independent generation, structured discussion, explicit assumptions, transparent evaluation, adversarial review, and decision logs. Use for early-stage research brainstorming or prioritizing candidate directions; hand off empirical validation, study design, ethics or regulatory review, and clinical questions to appropriate experts or skills.",
+      "family": "科研流程",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "scientific-critical-thinking",
+      "dir": "scientific-agent-skills--scientific-critical-thinking",
+      "description": "Evaluates scientific claims and evidence quality. Applies to experimental design validity, biases and confounders, statistical interpretation, evidence grading frameworks (GRADE, Cochrane Risk of Bias), and teaching critical analysis. Supports evidence appraisal and identifying flaws; formal peer review writing belongs to peer-review.",
+      "family": "评审与核查",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "allowed-tools",
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "scientific-slides",
+      "dir": "scientific-agent-skills--scientific-slides",
+      "description": "Builds slide decks and presentations for research talks. Used for making PowerPoint slides, conference presentations, seminar talks, research presentations, thesis defense slides, or any scientific talk. Provides slide structure, design templates, timing guidance, and visual validation. Works with PowerPoint and LaTeX Beamer.",
+      "family": "图表与展示",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "allowed-tools",
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "scientific-visualization",
+      "dir": "scientific-agent-skills--scientific-visualization",
+      "description": "Creates and audits truthful, accessible, publication-ready scientific figures with Matplotlib, Seaborn, or Plotly. Use it for figure design, multi-panel layouts, uncertainty and missing-data displays, color/contrast review, image metadata validation, and journal export planning.",
+      "family": "图表与展示",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "allowed-tools",
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "scientific-writing",
+      "dir": "scientific-agent-skills--scientific-writing",
+      "description": "Drafts, revises, and audits scientific manuscripts or reports with explicit evidence provenance, reporting-guideline coverage, authorship accountability, confidentiality controls, and local consistency checks. Use for manuscript sections, references, declarations, tables, figures, or submission preparation when scientific accuracy and traceability matter.",
+      "family": "科研写作",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "scikit-learn",
+      "dir": "scientific-agent-skills--scikit-learn",
+      "description": "Supports machine learning in Python with scikit-learn. Applies when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides comprehensive reference documentation for algorithms, preprocessing techniques, pipelines, and best practices.",
+      "family": "统计与分析",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "allowed-tools",
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "shap",
+      "dir": "scientific-agent-skills--shap",
+      "description": "Explain and audit machine-learning predictions with SHAP. Use for selecting SHAP explainers and maskers, computing and validating feature attributions, handling multi-output explanations, and producing local or global SHAP visualizations.",
+      "family": "统计与分析",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "allowed-tools",
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "statistical-analysis",
+      "dir": "scientific-agent-skills--statistical-analysis",
+      "description": "Guided statistical analysis for research data - test selection, assumption checking, effect sizes, power analysis, Bayesian alternatives, and APA-formatted reporting. Use whenever a user wants to compare groups, test a hypothesis, analyze experimental or survey data, check statistical assumptions, compute required sample sizes, or write up results - even if they never name a specific test. Covers t-tests, ANOVA, chi-square, correlation, regression, non-parametric and Bayesian methods. For low-level model APIs, see the statsmodels and pymc skills.",
+      "family": "统计与分析",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "statistical-power",
+      "dir": "scientific-agent-skills--statistical-power",
+      "description": "Calculates sample sizes and statistical power for study planning. Applies when someone asks \"how many subjects/samples/replicates do I need\", wants an a priori power analysis, a minimum detectable effect (MDE), a power curve, or needs to justify a sample size for a grant, IRB protocol, or pre-registration. Covers closed-form power for t-tests, ANOVA, proportions, correlations, chi-square, and regression, plus simulation-based (Monte Carlo) power for complex designs — logistic/Poisson regression, mixed models, cluster-randomized trials, survival, and interactions. Also handles requests that only mention an effect size, alpha, or \"80% power\" without saying \"power analysis\" explicitly. For laying out the study (randomization, blocking, factorial/DOE, crossover, sequential designs) use experimental-design; for analyzing data already collected and reporting it use statistical-analysis.",
+      "family": "统计与分析",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "allowed-tools",
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "sympy",
+      "dir": "scientific-agent-skills--sympy",
+      "description": "Performs exact symbolic mathematics with SymPy for algebra, calculus, equation solving, symbolic linear algebra, physics, and lambdify or LaTeX code generation. Use when a task needs symbolic results, explicit assumptions, or exact arithmetic; use NumPy or SciPy for purely numerical workloads.",
+      "family": "统计与分析",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "allowed-tools",
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    },
+    {
+      "name": "umap-learn",
+      "dir": "scientific-agent-skills--umap-learn",
+      "description": "Applies UMAP-learn to nonlinear dimensionality reduction, 2D/3D embeddings, clustering preprocessing, supervised or semi-supervised UMAP, DensMAP, AlignedUMAP, and Parametric UMAP workflows.",
+      "family": "统计与分析",
+      "source": "radar",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "licence": null,
+      "installed_at": "2026-10-23T13:56:47.466687+00:00",
+      "frontmatter_keys": [
+        "description",
+        "license",
+        "metadata",
+        "name"
+      ]
+    }
+  ]
+}

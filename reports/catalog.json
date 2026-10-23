@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "pool_size": 764,
+  "pool_size": 817,
   "shown": 50,
   "capacity": 50,
   "deployment_policy": "user_initiated_only",
-  "high_value_candidates": 68,
+  "high_value_candidates": 69,
   "projects": [
     {
       "repo_id": 826168160,

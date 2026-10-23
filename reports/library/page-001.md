@@ -2,6 +2,7 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [git-cola/git-cola](https://github.com/git-cola/git-cola) | 已分析 | 2008-06-10 | git-cola: The highly caffeinated Git GUI |
 | [chef/chef](https://github.com/chef/chef) | 已分析 | 2009-01-15 | Chef Infra, a powerful automation platform that transforms infrastructure into code automating how infrastructure is con |
 | [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 已分析 | 2009-08-28 | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300 |
 | [clientIO/joint](https://github.com/clientIO/joint) | 已分析 | 2009-09-11 | A proven SVG-based JavaScript diagramming library powering exceptional UIs |
@@ -43,6 +44,7 @@
 | [session-replay-tools/tcpcopy](https://github.com/session-replay-tools/tcpcopy) | 已分析 | 2011-10-14 | An online request replication and TCP stream replay tool, ideal for real testing, performance testing, stability testing |
 | [gephi/gephi](https://github.com/gephi/gephi) | 已分析 | 2011-10-22 | Gephi - The Open Graph Viz Platform |
 | [squizlabs/PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) | 已分析 | 2011-11-03 | PHP_CodeSniffer tokenizes PHP files and detects violations of a defined set of coding standards. |
+| [inducer/meshpy](https://github.com/inducer/meshpy) | 已分析 | 2011-11-11 | 2D/3D simplicial mesh generator interface for Python (Triangle, TetGen, gmsh) |
 | [anvaka/VivaGraphJS](https://github.com/anvaka/VivaGraphJS) | 已分析 | 2011-12-17 | Graph drawing library for JavaScript |
 | [moul/assh](https://github.com/moul/assh) | 已分析 | 2011-12-25 | :computer: make your ssh client smarter |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf) | 已分析 | 2012-01-06 | A pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files |
@@ -95,10 +97,8 @@
 | [root-project/root](https://github.com/root-project/root) | 已分析 | 2013-06-27 | The official repository for ROOT: analyzing, storing and visualizing big data, scientifically |
 | [su2code/SU2](https://github.com/su2code/SU2) | 已分析 | 2013-06-28 | SU2: An Open-Source Suite for Multiphysics Simulation and Design |
 | [dgarijo/Widoco](https://github.com/dgarijo/Widoco) | 已分析 | 2013-07-15 | Wizard for documenting ontologies. WIDOCO is a step by step generator of HTML templates with the documentation of your o |
+| [tasks/tasks](https://github.com/tasks/tasks) | 已分析 | 2013-07-18 | Bringing Astrid Tasks back from the dead |
+| [PMEAL/OpenPNM](https://github.com/PMEAL/OpenPNM) | 已分析 | 2013-07-25 | A Python package for performing pore network modeling of porous media |
 | [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp) | 已分析 | 2013-08-08 | Xournal++ is a handwriting notetaking software with PDF annotation support. Written in C++ with GTK3, supporting Linux ( |
 | [GameServerManagers/LinuxGSM](https://github.com/GameServerManagers/LinuxGSM) | 已分析 | 2013-08-09 | The command-line tool for quick, simple deployment and management of Linux dedicated game servers. |
 | [lammps/lammps](https://github.com/lammps/lammps) | 已分析 | 2013-08-09 | Public development project of the LAMMPS MD software package   |
-| [CorsixTH/CorsixTH](https://github.com/CorsixTH/CorsixTH) | 已分析 | 2013-08-25 | Open source clone of Theme Hospital |
-| [Provenance-Emu/Provenance](https://github.com/Provenance-Emu/Provenance) | 已分析 | 2013-08-27 | iOS &amp; tvOS multi-emulator frontend, supporting various Atari, Bandai, NEC, Nintendo, Sega, SNK and Sony console systems… |
-| [projectchrono/chrono](https://github.com/projectchrono/chrono) | 已分析 | 2013-09-03 | High-performance C++ library for multiphysics and multibody dynamics simulations |
-| [almatoai/OGIT](https://github.com/almatoai/OGIT) | 已分析 | 2013-09-05 | Almato AI "Open Graph of IT" Ontology Hub |
