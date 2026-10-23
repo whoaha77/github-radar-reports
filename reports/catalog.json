@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "pool_size": 676,
+  "pool_size": 764,
   "shown": 50,
   "capacity": 50,
   "deployment_policy": "user_initiated_only",
-  "high_value_candidates": 23,
+  "high_value_candidates": 68,
   "projects": [
     {
       "repo_id": 826168160,
@@ -615,6 +615,25 @@
       "deployment_advice": "继续观察，暂不建议接入"
     },
     {
+      "repo_id": 5797013,
+      "name": "grobidOrg/grobid",
+      "url": "https://github.com/grobidOrg/grobid",
+      "score": 85.93,
+      "reviewed_at": "2026-10-19T07:54:03.333755+00:00",
+      "stale": false,
+      "reason": "与文献管理、引用解析、知识抽取高度相关，属科研核心基础设施。",
+      "codex": {
+        "integration": "mixed",
+        "priority": "高",
+        "reason": "为文献PDF转结构化TEI与引用解析增加服务能力",
+        "overlap": "与已有读论文能力交叉，结构化元数据抽取增量待核验",
+        "requirements": "需Java或Docker服务，Windows原生支持不保证，DL模型需Python可选GPU",
+        "risk": "部署体量与模型下载较大，Windows路径未验证",
+        "next_step": "核查Docker镜像说明、服务API文档与Windows兼容说明"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
       "repo_id": 33884891,
       "name": "apache/airflow",
       "url": "https://github.com/apache/airflow",
@@ -934,25 +953,6 @@
         "requirements": "需 Node/npx、可写文件系统；配图需图像生成 API。",
         "risk": "AGPL 许可与第三方脚本行为需审慎核查。",
         "next_step": "核查 SKILL.md、assets 模板与 scripts 下校验器的实际文件。"
-      },
-      "deployment_advice": "高价值核查候选，等你主动提出安装"
-    },
-    {
-      "repo_id": 94702367,
-      "name": "pdfcpu/pdfcpu",
-      "url": "https://github.com/pdfcpu/pdfcpu",
-      "score": 84.4,
-      "reviewed_at": "2026-10-17T14:31:27.751872+00:00",
-      "stale": false,
-      "reason": "高度贴合PDF处理与批量文档操作需求，可作脚本化流水线组件。",
-      "codex": {
-        "integration": "cli",
-        "priority": "高",
-        "reason": "为批量PDF校验、合并、水印提供本地命令行能力",
-        "overlap": "与已有PDF处理能力存在能力交叉，增量在脚本化批处理与校验",
-        "requirements": "需Go构建或下载对应平台二进制，无API费用",
-        "risk": "Windows下可执行文件与字体兼容性未验证",
-        "next_step": "核查README安装链接与pkg/api样例、LICENSE文件"
       },
       "deployment_advice": "高价值核查候选，等你主动提出安装"
     }

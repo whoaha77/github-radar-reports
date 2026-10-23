@@ -3,40 +3,40 @@
   "repository": "whoaha77/github-radar-reports",
   "items": [
     {
-      "repo_id": 1269112987,
-      "name": "jorgepb96/nodus",
-      "url": "https://github.com/jorgepb96/nodus",
+      "repo_id": 1409590274,
+      "name": "nasqret/labyrinth-exploration",
+      "url": "https://github.com/nasqret/labyrinth-exploration",
       "kind": "有趣发现",
       "classic": false,
-      "why": "把参考文献变成可点击的思想图谱和论证分支，还能用Word插件带回可验证引用。",
-      "try_idea": "先逛官网交互演示，看十二主题知识图谱与论证地图。",
-      "reviewed_at": "2026-10-17T18:35:17.395902+00:00",
+      "why": "把没有答案的研究画成一张迷宫地图：走过的通道是蓝的，被否掉的死胡同打上锈色斜线，门外的金色是猜想，很有画面感。",
+      "try_idea": "先跑README里的三角形计数示例，打开生成的仪表盘看前沿地图与分级统计。",
+      "reviewed_at": "2026-10-22T07:57:17.561711+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "81b07a07cc2ba48a3a3f5477fcbd9190119ecab43bbea1d8ee4b1442724567cd"
+      "share_id": "876771620bb647432bac0b7d2286e849a1e2931dadfe80ccfa76834136067db1"
     },
     {
-      "repo_id": 1209893338,
-      "name": "GXL-ai/paperclip",
-      "url": "https://github.com/GXL-ai/paperclip",
+      "repo_id": 1267008278,
+      "name": "hyqzz/Solar-Wanderer",
+      "url": "https://github.com/hyqzz/Solar-Wanderer",
       "kind": "有趣发现",
       "classic": false,
-      "why": "把百万级论文变成目录树，用grep、jq和并行AI阅读器批量问问题，像在命令行里做系统综述。",
-      "try_idea": "先用一条关键词搜索并grep全文，再对结果跑map提炼方法，观察合并输出。",
-      "reviewed_at": "2026-10-17T18:35:17.385371+00:00",
+      "why": "点开就能从月球表面一路拉到十万天文单位的奥尔特云，亲眼感受行星此刻的真实位置，教育和装逼俱佳。",
+      "try_idea": "先打开在线站，双击土星拉近到能看见卡西尼缝。",
+      "reviewed_at": "2026-10-23T07:59:55.116477+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "fcf95823683c9942dc97afba92024e4bb8453380dea80ef8a06972b8e7e1894c"
+      "share_id": "4a48b438c2e814548ae4fe72595871d6519f1df175ed60dbfad0881bce536abb"
     },
     {
-      "repo_id": 1177921872,
-      "name": "xr843/fojin",
-      "url": "https://github.com/xr843/fojin",
+      "repo_id": 1375615157,
+      "name": "Oldcircle/geo-sleuth",
+      "url": "https://github.com/Oldcircle/geo-sleuth",
       "kind": "有趣发现",
       "classic": false,
-      "why": "问一句佛经问题就得到可直接点开的经卷引文，还能并排看汉巴藏三种文本，反幻觉思路值得学。",
-      "try_idea": "先打开live demo提一个问题，看引文抽屉和verify/quote的逐字比对",
-      "reviewed_at": "2026-10-17T18:34:57.147837+00:00",
+      "why": "没有文字、没有地标，只靠桥墩当尺、阴影当天线、山脊当指纹，就能把照片定位到2米内，像地理侦探游戏。",
+      "try_idea": "先看README里三个案例的分步复盘和天际线叠图，感受几何反推的推理链。",
+      "reviewed_at": "2026-10-22T07:57:17.556982+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "dfaa3fb91dd74dec64c57596e674abd58f56a67c1e0cee88cf187166829628b4"
+      "share_id": "4276bde450b8d1533c6968c47d4c15b18f850d3a638a420c5f6d3c15e4299f0e"
     }
   ],
   "delivery_policy": "Share interesting/useful discoveries; no installation request; deduplicate chat delivery."

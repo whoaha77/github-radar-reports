@@ -2,103 +2,103 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [sqshq/sampler](https://github.com/sqshq/sampler) | 已分析 | 2019-01-25 | Tool for shell commands execution, visualization and alerting. Configured with a simple YAML file. |
+| [jonathandinu/ai4artists](https://github.com/jonathandinu/ai4artists) | 已分析 | 2019-01-29 | A list of AI Art courses, tools, libraries, people, and places. |
+| [PixelGuys/Cubyz](https://github.com/PixelGuys/Cubyz) | 已分析 | 2019-02-04 | Voxel sandbox game with a large render distance, procedurally generated content and some cool graphical effects. |
+| [leon-ai/leon](https://github.com/leon-ai/leon) | 已分析 | 2019-02-10 | 🧠 Leon is your open-source personal assistant. |
+| [testcontainers/testcontainers-dotnet](https://github.com/testcontainers/testcontainers-dotnet) | 已分析 | 2019-02-16 | A library to support tests with throwaway instances of Docker containers for all compatible .NET Standard versions. |
+| [EnzymeAD/Enzyme](https://github.com/EnzymeAD/Enzyme) | 已分析 | 2019-02-27 | High-performance automatic differentiation of LLVM and MLIR. |
+| [fastverse/collapse](https://github.com/fastverse/collapse) | 已分析 | 2019-02-27 | Advanced and Fast Data Transformation in R |
+| [msurguy/rad-lines](https://github.com/msurguy/rad-lines) | 已分析 | 2019-02-28 | Beautiful Vector Generator Tool |
+| [liminalpurr/jizhi](https://github.com/liminalpurr/jizhi) | 已分析 | 2019-03-01 | A Chrome/Firefox extension with custom new tab page featuring Chinese poems and P5.js enabled noise waves in traditional |
+| [yanx27/Pointnet_Pointnet2_pytorch](https://github.com/yanx27/Pointnet_Pointnet2_pytorch) | 已分析 | 2019-03-04 | PointNet and PointNet++ implemented by pytorch (pure python) and on ModelNet, ShapeNet and S3DIS. |
+| [alipay/SoloPi](https://github.com/alipay/SoloPi) | 已分析 | 2019-03-14 | SoloPi 自动化测试工具 |
+| [SuperMonster003/Ant-Forest](https://github.com/SuperMonster003/Ant-Forest) | 已分析 | 2019-03-19 | AutoJs6-based ant forest energy auto-collect script (基于 AutoJs6 的蚂蚁森林能量自动收取脚本) |
+| [NeuroDiffGym/neurodiffeq](https://github.com/NeuroDiffGym/neurodiffeq) | 已分析 | 2019-03-28 | A library for solving differential equations using neural networks based on PyTorch, used by multiple research groups ar |
+| [woodpecker-ci/woodpecker](https://github.com/woodpecker-ci/woodpecker) | 已分析 | 2019-04-03 | Woodpecker is a simple, yet powerful CI/CD engine with great extensibility. |
+| [ntegrals/openbrowser](https://github.com/ntegrals/openbrowser) | 已分析 | 2019-04-11 | Let AI agents browse the web. An autonomous toolkit for browser-based AI agents. |
+| [mmmerl/shader-doodle](https://github.com/mmmerl/shader-doodle) | 已分析 | 2019-04-11 | A friendly web-component for writing and rendering shaders. |
+| [HFO4/gameboy.live](https://github.com/HFO4/gameboy.live) | 已分析 | 2019-04-20 | 🕹️ A basic gameboy emulator with terminal "Cloud Gaming" support |
+| [jasonwebb/morphogenesis-resources](https://github.com/jasonwebb/morphogenesis-resources) | 已分析 | 2019-04-23 | Resources on the topic of digital morphogenesis (creating form with code). Includes links to major articles, code repos, |
+| [plotters-rs/plotters](https://github.com/plotters-rs/plotters) | 已分析 | 2019-04-24 | A rust drawing library for high quality data plotting for both WASM and native, statically and realtimely 🦀 📈🚀 |
+| [ranaroussi/quantstats](https://github.com/ranaroussi/quantstats) | 已分析 | 2019-05-01 | Portfolio analytics for quants, written in Python |
+| [splunk/attack_range](https://github.com/splunk/attack_range) | 已分析 | 2019-05-04 | A tool that allows you to create vulnerable instrumented local or cloud environments to simulate attacks against and col |
+| [smartcorelib/smartcore](https://github.com/smartcorelib/smartcore) | 已分析 | 2019-05-08 | A comprehensive library for machine learning and numerical computing. Apply Machine Learning with Rust leveraging first  |
+| [open-rpa/openrpa](https://github.com/open-rpa/openrpa) | 已分析 | 2019-05-09 | Free Open Source Enterprise Grade RPA |
+| [peterdsharpe/AeroSandbox](https://github.com/peterdsharpe/AeroSandbox) | 已分析 | 2019-05-15 | Aircraft design optimization made fast through computational graph transformations (e.g., automatic differentiation). Co |
+| [StanfordVL/iGibson](https://github.com/StanfordVL/iGibson) | 已分析 | 2019-05-21 | A Simulation Environment to train Robots in Large Realistic Interactive Scenes |
+| [lume/glas](https://github.com/lume/glas) | 已分析 | 2019-05-27 | WebGL in WebAssembly with AssemblyScript |
+| [aimhubio/aim](https://github.com/aimhubio/aim) | 已分析 | 2019-05-31 | Aim 💫 — An easy-to-use &amp; supercharged open-source experiment tracker. |
+| [ever-co/ever-gauzy](https://github.com/ever-co/ever-gauzy) | 已分析 | 2019-06-02 | Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co |
+| [autobase-tech/autobase](https://github.com/autobase-tech/autobase) | 已分析 | 2019-06-04 | Automated database platform for PostgreSQL® - Your own DBaaS. |
+| [emmo-repo/EMMOntoPy](https://github.com/emmo-repo/EMMOntoPy) | 已分析 | 2019-06-04 | Library for representing and working with ontologies in Python |
+| [shader-park/shader-park-core](https://github.com/shader-park/shader-park-core) | 已分析 | 2019-06-17 | A JavaScript library for creating real-time 2D and 3D shaders. JS -&gt; Shader. https://shaderpark.com/  https://twitter.co |
+| [jasonwebb/2d-space-colonization-experiments](https://github.com/jasonwebb/2d-space-colonization-experiments) | 已分析 | 2019-06-18 | Visual experiments exploring space colonization as a 2D morphogenesis tool. |
+| [hediet/vscode-debug-visualizer](https://github.com/hediet/vscode-debug-visualizer) | 已分析 | 2019-06-20 | An extension for VS Code that visualizes data during debugging. |
+| [n8n-io/n8n](https://github.com/n8n-io/n8n) | 已分析 | 2019-06-22 | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host  |
+| [ShapeCrawler/ShapeCrawler](https://github.com/ShapeCrawler/ShapeCrawler) | 已分析 | 2019-07-13 | PowerPoint .NET library for reading, modifying, and generating PPTX presentations without Microsoft Office |
+| [man-group/dtale](https://github.com/man-group/dtale) | 已分析 | 2019-07-15 | Visualizer for pandas data structures |
+| [hashintel/hash](https://github.com/hashintel/hash) | 已分析 | 2019-07-15 | 🚀  The open-source, multi-tenant platform for self-building knowledge graphs and simulation |
+| [peter-evans/create-pull-request](https://github.com/peter-evans/create-pull-request) | 已分析 | 2019-07-16 | A GitHub action to create a pull request for changes to your repository in the actions workspace |
+| [whiskyechobravo/kerko](https://github.com/whiskyechobravo/kerko) | 已分析 | 2019-07-16 | A web application component that provides a faceted search interface for bibliographies managed with Zotero. |
+| [rubycdp/ferrum](https://github.com/rubycdp/ferrum) | 已分析 | 2019-07-23 | Headless Chrome Ruby API |
+| [terminusdb/terminusdb](https://github.com/terminusdb/terminusdb) | 已分析 | 2019-07-23 | TerminusDB is a Knowledge Graph Database with Version Control. A distributed, collaborative knowledge graph database des |
+| [georgealways/lil-gui](https://github.com/georgealways/lil-gui) | 已分析 | 2019-07-30 | Makes a floating panel for controllers on the web. Works as a drop-in replacement for dat.gui in most projects. |
+| [SSShooter/mind-elixir-core](https://github.com/SSShooter/mind-elixir-core) | 已分析 | 2019-08-01 | ⚗ Mind Elixir is a JavaScript, framework-agnostic mind map core. |
+| [axa-group/Parsr](https://github.com/axa-group/Parsr) | 已分析 | 2019-08-05 | Transforms PDF, Documents and Images into Enriched Structured Data |
+| [0voice/expert_readed_books](https://github.com/0voice/expert_readed_books) | 已分析 | 2019-08-16 | 2021年最新总结，推荐工程师合适读本，计算机科学，软件技术，创业，思想类，数学类，人物传记书籍 |
+| [OpenRailAssociation/osrd](https://github.com/OpenRailAssociation/osrd) | 已分析 | 2019-08-21 | An open source web application for railway infrastructure design, capacity analysis, timetabling and simulation |
+| [kestra-io/kestra](https://github.com/kestra-io/kestra) | 已分析 | 2019-08-24 | Event Driven Orchestration &amp; Scheduling Platform for Mission Critical Applications |
+| [charliegerard/beat-pose](https://github.com/charliegerard/beat-pose) | 已分析 | 2019-08-27 | Play a Beat Saber clone with hand movements using Tensorflow.js &amp; PoseNet |
+| [Kanaries/Rath](https://github.com/Kanaries/Rath) | 已分析 | 2019-08-28 | Next generation of automated data exploratory analysis and visualization platform. |
+| [Schlaubischlump/LocationSimulator](https://github.com/Schlaubischlump/LocationSimulator) | 已分析 | 2019-08-29 | MacOS application to spoof / fake / mock your iOS / iPadOS or iPhoneSimulator device location.  WatchOS and TvOS are par |
+| [espanso/espanso](https://github.com/espanso/espanso) | 已分析 | 2019-08-30 | A Privacy-first, Cross-platform Text Expander written in Rust |
+| [HaveAGitGat/Tdarr](https://github.com/HaveAGitGat/Tdarr) | 已分析 | 2019-09-13 | Tdarr - Distributed transcode automation using FFmpeg/HandBrake + Audio/Video library analytics + video health checking  |
+| [qawolf/cli](https://github.com/qawolf/cli) | 已分析 | 2019-09-17 | QA Wolf from anywhere — your terminal, your CI, your AI agent. |
+| [jwilber/roughViz](https://github.com/jwilber/roughViz) | 已分析 | 2019-09-18 | Reusable JavaScript library for creating sketchy/hand-drawn styled charts in the browser. |
+| [vict0rsch/PaperMemory](https://github.com/vict0rsch/PaperMemory) | 已分析 | 2019-10-16 | Your browser's reference manager: automatic paper detection (Arxiv, OpenReview &amp; more), publication venue matching and c |
+| [poloclub/cnn-explainer](https://github.com/poloclub/cnn-explainer) | 已分析 | 2019-11-03 | Learning Convolutional Neural Networks with Interactive Visualization. |
+| [Uriopass/Egregoria](https://github.com/Uriopass/Egregoria) | 已分析 | 2019-11-08 | 3D City Builder without a grid |
+| [microsoft/playwright](https://github.com/microsoft/playwright) | 已分析 | 2019-11-15 | Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single A |
+| [tmhglnd/mercury](https://github.com/tmhglnd/mercury) | 已分析 | 2019-11-19 | A human-made, free/open, beginner-friendly, minimal and human-readable language for the live coding of algorithmic elect |
+| [wokwi/avr8js](https://github.com/wokwi/avr8js) | 已分析 | 2019-11-19 | Arduino (8-bit AVR) simulator, written in JavaScript and runs in the browser / Node.js |
+| [taichi-dev/difftaichi](https://github.com/taichi-dev/difftaichi) | 已分析 | 2019-12-03 | 10 differentiable physical simulators built with Taichi differentiable programming (DiffTaichi, ICLR 2020) |
+| [raphaelameaume/fragment](https://github.com/raphaelameaume/fragment) | 已分析 | 2019-12-09 | [alpha] A modern toolkit for creative coding |
+| [buchanae/ink](https://github.com/buchanae/ink) | 分析受阻 | 2019-12-12 | Creative coding in Go |
+| [fand/vfx-js](https://github.com/fand/vfx-js) | 已分析 | 2019-12-14 | WebGL effects made easy. |
+| [ultrafunkamsterdam/undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver) | 已分析 | 2019-12-22 | Custom Selenium Chromedriver \| Zero-Config \| Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / Clou |
+| [polygonjs/polygonjs](https://github.com/polygonjs/polygonjs) | 已分析 | 2019-12-30 | node-based WebGL design tool |
+| [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) | 已分析 | 2020-01-02 | Virtual whiteboard for sketching hand-drawn like diagrams |
+| [lux-org/lux](https://github.com/lux-org/lux) | 已分析 | 2020-01-08 | Automatically visualize your pandas dataframe via a single print! 📊 💡 |
+| [HumanBehaviourChangeProject/ontologies](https://github.com/HumanBehaviourChangeProject/ontologies) | 已分析 | 2020-01-13 | A repository for the BCIO ontology |
+| [go-rod/rod](https://github.com/go-rod/rod) | 已分析 | 2020-01-21 | A Chrome DevTools Protocol driver for web automation and scraping. |
+| [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 已分析 | 2020-01-22 | Connect APIs, remarkably fast.  Free for developers. |
+| [maiyao1988/ExAndroidNativeEmu](https://github.com/maiyao1988/ExAndroidNativeEmu) | 已分析 | 2020-01-27 | An improved version of AndroidNativeEmu,Allow running android elf on PC |
+| [quantumlib/qsim](https://github.com/quantumlib/qsim) | 已分析 | 2020-01-27 | Fast C++ and Python library for state-vector simulation of quantum circuits. |
+| [pyppeteer/pyppeteer](https://github.com/pyppeteer/pyppeteer) | 已分析 | 2020-01-30 | Headless chrome/chromium automation library (unofficial port of puppeteer) |
+| [braph-software/BRAPH-2](https://github.com/braph-software/BRAPH-2) | 已分析 | 2020-02-03 | BRAPH 2.0 is a comprehensive software package for the analysis and visualization of brain connectivity data, offering fl |
+| [google/digitalbuildings](https://github.com/google/digitalbuildings) | 已分析 | 2020-02-14 | Digital Buildings (ontology and SDK) currently being used by Google internally to manage our own buildings. |
+| [imsnif/diskonaut](https://github.com/imsnif/diskonaut) | 已分析 | 2020-02-22 | Terminal disk space navigator 🔭 |
+| [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 已分析 | 2020-02-23 | 🎈 Simple reactive notebooks for Julia |
+| [killop/anything_about_game](https://github.com/killop/anything_about_game) | 已分析 | 2020-02-26 | A wonderful list of Game Development resources. |
+| [alexellis/arkade](https://github.com/alexellis/arkade) | 已分析 | 2020-02-26 | Open Source Marketplace For Developer Tools |
+| [neherlab/covid19_scenarios](https://github.com/neherlab/covid19_scenarios) | 已分析 | 2020-02-29 | Models of COVID-19 outbreak trajectories and hospital demand |
+| [koodo-reader/koodo-reader](https://github.com/koodo-reader/koodo-reader) | 已分析 | 2020-03-05 | A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web |
+| [covid19india/covid19india.github.io](https://github.com/covid19india/covid19india.github.io) | 已分析 | 2020-03-15 | Tracking the impact of COVID-19 in India |
+| [TylerYep/torchinfo](https://github.com/TylerYep/torchinfo) | 已分析 | 2020-03-16 | View model summaries in PyTorch! |
+| [gdsfactory/gdsfactory](https://github.com/gdsfactory/gdsfactory) | 已分析 | 2020-03-26 | A Python library for designing chips (Photonics, Analog, Quantum, MEMS), PCBs, and 3D-printable objects. We aim to make  |
+| [athensresearch/athens](https://github.com/athensresearch/athens) | 已分析 | 2020-03-31 | Athens is no longer maintainted. Athens was an open-source, collaborative knowledge graph, backed by YC W21 |
+| [git-learning-game/oh-my-git](https://github.com/git-learning-game/oh-my-git) | 已分析 | 2020-03-31 | An interactive Git learning game! |
+| [openfootmanager/openfootmanager](https://github.com/openfootmanager/openfootmanager) | 已分析 | 2020-04-04 | An open source soccer/football manager game |
+| [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) | 已分析 | 2020-04-05 | Collection of handy online tools for developers, with great UX.  |
+| [baku89/glisp](https://github.com/baku89/glisp) | 已分析 | 2020-04-07 | Glisp is a Lisp-based design tool that combines generative approaches with traditional design methods, empowering artist |
+| [tobspr-games/shapez.io](https://github.com/tobspr-games/shapez.io) | 已分析 | 2020-04-13 | shapez is an open source base building game on Steam inspired by factorio! |
+| [gazebosim/gz-sim](https://github.com/gazebosim/gz-sim) | 已分析 | 2020-04-15 | Open source robotics simulator. The latest version of Gazebo. |
+| [Flow-Launcher/Flow.Launcher](https://github.com/Flow-Launcher/Flow.Launcher) | 已分析 | 2020-04-21 | :mag: Quick file search &amp; app launcher for Windows with community-made plugins |
+| [voxel51/fiftyone](https://github.com/voxel51/fiftyone) | 已分析 | 2020-04-22 | Refine high-quality datasets and visual AI models |
+| [osrf/gazebo_models](https://github.com/osrf/gazebo_models) | 已分析 | 2020-04-23 | Gazebo database of SDF models. This is a predecessor to https://app.gazebosim.org |
 | [madelinegannon/example-mediapipe-udp](https://github.com/madelinegannon/example-mediapipe-udp) | 已分析 | 2020-04-25 | Connecting openFrameworks to Google MediaPipe Machine Learning Framework over UDP |
 | [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite) | 已分析 | 2020-04-26 | Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-tim |
 | [johnBuffer/AntSimulator](https://github.com/johnBuffer/AntSimulator) | 已分析 | 2020-04-28 | Simple Ants simulator |
-| [6-robot/wpr_simulation](https://github.com/6-robot/wpr_simulation) | 已分析 | 2020-05-05 |  |
-| [Hedgehog-Computing/hedgehog-lab](https://github.com/Hedgehog-Computing/hedgehog-lab) | 已分析 | 2020-05-13 | Run, compile and execute JavaScript for Scientific Computing and Data Visualization TOTALLY TOTALLY TOTALLY in your BROW |
-| [h2oai/wave](https://github.com/h2oai/wave) | 已分析 | 2020-05-16 | Realtime Web Apps and Dashboards for Python and R |
-| [CreativeInquiry/PEmbroider](https://github.com/CreativeInquiry/PEmbroider) | 已分析 | 2020-06-04 | Embroidery Library for Processing |
-| [pthom/hello_imgui](https://github.com/pthom/hello_imgui) | 已分析 | 2020-06-07 | Dear ImGui apps made simple: desktop, mobile, and web from one codebase. Minimal code. Maximally readable. |
-| [dialogic-godot/dialogic](https://github.com/dialogic-godot/dialogic) | 已分析 | 2020-06-07 | 💬 Create Dialogs, Visual Novels, RPGs, and manage Characters with Godot to create your Game! |
-| [naivenaive/EasyPubMed](https://github.com/naivenaive/EasyPubMed) | 已分析 | 2020-06-22 | EasyPubMed is an extension to make new PubMed easy to use |
-| [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) | 已分析 | 2020-06-30 | Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API. |
-| [kangvcar/InfoSpider](https://github.com/kangvcar/InfoSpider) | 已分析 | 2020-07-11 | INFO-SPIDER 是一个集众多数据源于一身的爬虫工具箱🧰，旨在安全快捷的帮助用户拿回自己的数据，工具代码开源，流程透明。支持数据源包括GitHub、QQ邮箱、网易邮箱、阿里邮箱、新浪邮箱、Hotmail邮箱、Outlook邮箱、京东、 |
-| [NaiboWang/EasySpider](https://github.com/NaiboWang/EasySpider) | 已分析 | 2020-07-18 | A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/网页爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智 |
-| [datoviz/datoviz](https://github.com/datoviz/datoviz) | 已分析 | 2020-07-21 | ⚡ Datoviz: high-performance GPU rendering for scientific data visualization |
-| [PAIR-code/lit](https://github.com/PAIR-code/lit) | 已分析 | 2020-07-28 | The Learning Interpretability Tool: Interactively analyze ML models to understand their behavior in an extensible and fr |
-| [red-data-tools/YouPlot](https://github.com/red-data-tools/YouPlot) | 已分析 | 2020-07-28 | A command line tool that draw plots on the terminal. |
-| [gaogaotiantian/viztracer](https://github.com/gaogaotiantian/viztracer) | 已分析 | 2020-08-05 | A debugging and profiling tool that can trace and visualize python code execution |
-| [UnityTechnologies/open-project-1](https://github.com/UnityTechnologies/open-project-1) | 已分析 | 2020-08-10 | Unity Open Project #1: Chop Chop |
-| [arl/statsviz](https://github.com/arl/statsviz) | 已分析 | 2020-08-14 | Visualise Go runtime metrics in real time |
-| [stevenpetryk/mafs](https://github.com/stevenpetryk/mafs) | 已分析 | 2020-08-18 | React components for interactive math |
-| [alandefreitas/matplotplusplus](https://github.com/alandefreitas/matplotplusplus) | 已分析 | 2020-08-29 | Matplot++: A C++ Graphics Library for Data Visualization 📊🗾 |
-| [mengchaoheng/SCUT_thesis](https://github.com/mengchaoheng/SCUT_thesis) | 已分析 | 2020-08-31 | 华南理工大学硕博士学位论文模板(LaTeX)。Latex templates for the thesis of South China University of Technology |
-| [alirezamika/autoscraper](https://github.com/alirezamika/autoscraper) | 已分析 | 2020-08-31 | A Smart, Automatic, Fast and Lightweight Web Scraper for Python |
-| [LingDong-/q5xjs](https://github.com/LingDong-/q5xjs) | 分析受阻 | 2020-09-08 | A small and fast alternative (experimental) implementation of p5.js |
-| [lowlighter/metrics](https://github.com/lowlighter/metrics) | 已分析 | 2020-09-08 | 📊 An infographics generator with 30+ plugins and 300+ options to display stats about your GitHub account and render them |
-| [nakabonne/ali](https://github.com/nakabonne/ali) | 已分析 | 2020-09-12 | Generate HTTP load and plot the results in real-time |
-| [TextAliveJp/textalive-app-api](https://github.com/TextAliveJp/textalive-app-api) | 已分析 | 2020-09-15 | [CHI 2023 Honorable Mention] 音楽に合わせてタイミングよく歌詞が動くWebアプリケーション（リリックアプリ）を開発できるJavaScript API / JavaScript API for developing |
-| [urpflanze-org/urpflanze](https://github.com/urpflanze-org/urpflanze) | 已分析 | 2020-09-23 | A library for developers who want to approach to creative coding, artists who want to approach coding and for those who  |
-| [Unity-Technologies/Unity-Robotics-Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub) | 已分析 | 2020-09-24 | Central repository for tools, tutorials, resources, and documentation for robotics simulation in Unity. |
-| [ChartsCSS/charts.css](https://github.com/ChartsCSS/charts.css) | 已分析 | 2020-09-26 | Open source CSS framework for data visualization. |
-| [alpkeskin/mosint](https://github.com/alpkeskin/mosint) | 已分析 | 2020-09-27 | An automated e-mail OSINT tool |
-| [BIG-MAP/BattINFO](https://github.com/BIG-MAP/BattINFO) | 已分析 | 2020-10-21 | A Battery Interface Ontology based on EMMO |
-| [observablehq/plot](https://github.com/observablehq/plot) | 已分析 | 2020-10-29 | A concise API for exploratory data visualization implementing a layered grammar of graphics |
-| [alyssaxuu/screenity](https://github.com/alyssaxuu/screenity) | 已分析 | 2020-11-01 | The free and privacy-friendly screen recorder with no limits 🎥 |
-| [amandaghassaei/gpu-io](https://github.com/amandaghassaei/gpu-io) | 已分析 | 2020-11-03 | A GPU-accelerated computing library for running physics simulations and other GPGPU computations in a web browser. |
-| [slashback100/presence_simulation](https://github.com/slashback100/presence_simulation) | 已分析 | 2020-11-10 | Home Assistant Presence Simulation |
-| [ankitpokhrel/jira-cli](https://github.com/ankitpokhrel/jira-cli) | 已分析 | 2020-11-22 | 🔥 Feature-rich interactive Jira command line. |
-| [vijishmadhavan/ArtLine](https://github.com/vijishmadhavan/ArtLine) | 已分析 | 2020-11-23 | A Deep Learning based project for creating line art portraits. |
-| [souslesens/souslesensVocables](https://github.com/souslesens/souslesensVocables) | 已分析 | 2020-11-26 | SousLeSensVocables is a set of tools to manage semantic web thesaurii and ontologies (SKOS,OWL,RDF) |
-| [hans/obsidian-citation-plugin](https://github.com/hans/obsidian-citation-plugin) | 已分析 | 2020-12-08 | Obsidian plugin which integrates your academic reference manager with the Obsidian editor. Search your references from w |
-| [dathere/qsv](https://github.com/dathere/qsv) | 已分析 | 2020-12-11 | Blazing-fast Data-Wrangling toolkit |
-| [Kareadita/Kavita](https://github.com/Kareadita/Kavita) | 已分析 | 2020-12-12 | Kavita is a fast, feature rich, cross platform reading server. Built with the goal of being a full solution for all your |
-| [certd/certd](https://github.com/certd/certd) | 已分析 | 2020-12-13 | 开源SSL证书管理工具；全自动证书申请、更新、续期；通配符证书，泛域名证书申请；证书自动化部署到阿里云、腾讯云、主机、群晖、宝塔；https证书，pfx证书，der证书，TLS证书，nginx证书自动续签自动部署 |
-| [dhondta/zotero-cli](https://github.com/dhondta/zotero-cli) | 已分析 | 2020-12-16 | Tinyscript tool for sorting and exporting Zotero references based on pyzotero |
-| [didi/LogicFlow](https://github.com/didi/LogicFlow) | 已分析 | 2020-12-24 | A flow chart editing framework focus on business customization.  专注于业务自定义的流程图编辑框架，支持实现脑图、ER图、UML、工作流等各种图编辑场景。 |
-| [TraceMachina/nativelink](https://github.com/TraceMachina/nativelink) | 已分析 | 2020-12-24 | NativeLink is a Nix-powered, open source, high-performance build cache and remote execution server, compatible with Baze |
-| [PetoiCamp/OpenCat-Quadruped-Robot](https://github.com/PetoiCamp/OpenCat-Quadruped-Robot) | 已分析 | 2021-01-03 | An open source quadruped robot pet framework for developing Boston Dynamics-style four-legged robots that are perfect fo |
-| [QuestPDF/QuestPDF](https://github.com/QuestPDF/QuestPDF) | 已分析 | 2021-01-04 | QuestPDF is a modern library for PDF document generation. Its fluent C# API lets you design complex layouts with clean,  |
-| [livebook-dev/livebook](https://github.com/livebook-dev/livebook) | 已分析 | 2021-01-07 | Automate code &amp; data workflows with interactive Elixir notebooks |
-| [forthespada/CS-Books](https://github.com/forthespada/CS-Books) | 已分析 | 2021-01-10 | 🔥🔥超过1000本的计算机经典书籍、个人笔记资料以及本人在各平台发表文章中所涉及的资源等。书籍资源包括C/C++、Java、Python、Go语言、数据结构与算法、操作系统、后端架构、计算机系统知识、数据库、计算机网络、设计模式、前端、汇编 |
-| [bshoshany/thread-pool](https://github.com/bshoshany/thread-pool) | 已分析 | 2021-01-15 | BS::thread_pool: a fast, lightweight, modern, and easy-to-use C++17 / C++20 / C++23 thread pool library |
-| [ucla-mobility/OpenCDA](https://github.com/ucla-mobility/OpenCDA) | 已分析 | 2021-01-19 | A generalized framework for prototyping full-stack cooperative driving automation applications under CARLA+SUMO. |
-| [micycle1/PGS](https://github.com/micycle1/PGS) | 已分析 | 2021-01-19 | Processing Geometry Suite |
-| [niespodd/browser-fingerprinting](https://github.com/niespodd/browser-fingerprinting) | 已分析 | 2021-01-23 | Analysis of Bot Protection systems with available countermeasures 🚿. How to defeat anti-bot system 👻 and get around brow |
-| [charliegerard/gaze-detection](https://github.com/charliegerard/gaze-detection) | 已分析 | 2021-01-30 | 👀 Use machine learning in JavaScript to detect eye movements and build gaze-controlled experiences. |
-| [packing-box/docker-packing-box](https://github.com/packing-box/docker-packing-box) | 已分析 | 2021-02-05 | Docker image gathering packers and tools for making datasets of packed executables and training machine learning models  |
-| [arklumpus/TreeViewer](https://github.com/arklumpus/TreeViewer) | 已分析 | 2021-02-19 | Cross-platform software to draw phylogenetic trees |
-| [jdxyw/generativeart](https://github.com/jdxyw/generativeart) | 已分析 | 2021-02-26 | Generative Art in Go |
-| [Ceyron/machine-learning-and-simulation](https://github.com/Ceyron/machine-learning-and-simulation) | 已分析 | 2021-02-27 | All the handwritten notes 📝 and source code files 🖥️ used in my YouTube Videos on Machine Learning &amp; Simulation (https:/ |
-| [lissy93/dashy](https://github.com/lissy93/dashy) | 已分析 | 2021-02-28 | 🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor a |
-| [zenustech/zeno](https://github.com/zenustech/zeno) | 已分析 | 2021-03-27 | ZEn NOde system - a simulation &amp; rendering engine in nodes |
-| [streetwriters/notesnook](https://github.com/streetwriters/notesnook) | 已分析 | 2021-04-01 | A fully open source &amp; end-to-end encrypted note taking alternative to Evernote. |
-| [QNLab-USTC/SimQN](https://github.com/QNLab-USTC/SimQN) | 已分析 | 2021-05-14 | A network-layer simulator for the quantum network investigation |
-| [mark-when/markwhen](https://github.com/mark-when/markwhen) | 已分析 | 2021-05-20 | Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links |
-| [motional/nuplan-devkit](https://github.com/motional/nuplan-devkit) | 已分析 | 2021-05-27 | The devkit of the nuPlan dataset. |
-| [golanlevin/DrawingWithMachines](https://github.com/golanlevin/DrawingWithMachines) | 已分析 | 2021-05-27 | Resources for the CMU Drawing with Machines Course |
-| [ContinualAI/continual-learning-papers](https://github.com/ContinualAI/continual-learning-papers) | 已分析 | 2021-06-04 | Continual Learning papers list, curated by ContinualAI |
-| [linearmouse/linearmouse](https://github.com/linearmouse/linearmouse) | 已分析 | 2021-06-10 | The mouse and trackpad utility for Mac. |
-| [six-ddc/plow](https://github.com/six-ddc/plow) | 已分析 | 2021-06-13 | A high-performance HTTP benchmarking tool that includes a real-time web UI and terminal display |
-| [nikolaydubina/go-recipes](https://github.com/nikolaydubina/go-recipes) | 已分析 | 2021-06-26 | 🦩 Tools for Go projects |
-| [edbeeching/godot_rl_agents](https://github.com/edbeeching/godot_rl_agents) | 已分析 | 2021-07-01 | An Open Source package that allows video game creators, AI researchers and hobbyists the opportunity to learn complex be |
-| [packing-box/bintropy](https://github.com/packing-box/bintropy) | 已分析 | 2021-07-03 | Analysis tool for estimating the likelihood that a binary contains compressed or encrypted bytes |
-| [packing-box/peid](https://github.com/packing-box/peid) | 已分析 | 2021-07-06 | Python implementation of the Packed Executable iDentifier (PEiD) |
-| [ahrm/sioyek](https://github.com/ahrm/sioyek) | 已分析 | 2021-07-11 | Sioyek is a PDF viewer with a focus on textbooks and research papers |
-| [materialdigital/core-ontology](https://github.com/materialdigital/core-ontology) | 已分析 | 2021-07-15 | The PMD Core Ontology (PMDco) official release repository |
-| [ComicSparks/pikapika](https://github.com/ComicSparks/pikapika) | 已分析 | 2021-07-27 | A comic browser，support Android / iOS / MacOS / Windows / Linux. |
-| [flxzt/rnote](https://github.com/flxzt/rnote) | 已分析 | 2021-08-05 | Sketch and take handwritten notes. |
-| [jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) | 已分析 | 2021-08-12 | A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR appl |
-| [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | 已分析 | 2021-08-16 | Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, d |
-| [fofapro/fapro](https://github.com/fofapro/fapro) | 已分析 | 2021-09-10 | Fake Protocol Server |
-| [dvanoni/notero](https://github.com/dvanoni/notero) | 已分析 | 2021-09-26 | A Zotero plugin for syncing items and notes into Notion |
-| [automatisch/automatisch](https://github.com/automatisch/automatisch) | 已分析 | 2021-09-30 | The open source Zapier alternative. Build workflow automation without spending time and money. |
-| [AutomaApp/automa](https://github.com/AutomaApp/automa) | 已分析 | 2021-10-02 | A browser extension for automating your browser by connecting blocks |
-| [kekkorider/threejs-audio-reactive-visual](https://github.com/kekkorider/threejs-audio-reactive-visual) | 已分析 | 2021-10-03 | Audio-reactive visual created with ThreeJS |
-| [machineinteractive/skies-adsb](https://github.com/machineinteractive/skies-adsb) | 已分析 | 2021-10-16 | skies-adsb transforms your browser into a real-time 3D air traffic display. Using unfiltered ADS-B data from an RTL-SDR  |
-| [plainhub/plain-app](https://github.com/plainhub/plain-app) | 分析受阻 | 2021-10-17 | 🔥 PlainApp is an open-source app that lets you securely manage your phone from a web browser. Access files, media, conta |
-| [rutvik110/Flutter-Animations](https://github.com/rutvik110/Flutter-Animations) | 已分析 | 2021-10-21 | Exploring "Animations In Flutter", having fun building and writing about them while doing design challenges to see the e |
-| [Farama-Foundation/Gymnasium-Robotics](https://github.com/Farama-Foundation/Gymnasium-Robotics) | 已分析 | 2021-10-25 | A collection of robotics simulation environments for reinforcement learning |
-| [ohsusannamarie/bookmarklet-os](https://github.com/ohsusannamarie/bookmarklet-os) | 已分析 | 2021-11-02 | Browser productivity operating system with 150+ bookmarklets, AI-assisted discovery, collections, workflow modes, visual |
-| [frankwuzp/iptv-cn](https://github.com/frankwuzp/iptv-cn) | 已分析 | 2021-11-21 | Chinese IPTV lists (ipv4) |
-| [SuperMonster003/AutoJs6](https://github.com/SuperMonster003/AutoJs6) | 已分析 | 2021-12-01 | 安卓平台 JavaScript 自动化工具 (Auto.js 二次开发项目) |
-| [StanfordVL/BEHAVIOR-1K](https://github.com/StanfordVL/BEHAVIOR-1K) | 分析受阻 | 2021-12-17 | BEHAVIOR-1K: a platform for accelerating Embodied AI research. Join our Discord for support: https://discord.gg/bccR5vGF |
-| [ange-yaghi/engine-sim](https://github.com/ange-yaghi/engine-sim) | 已分析 | 2021-12-18 | Combustion engine simulator that generates realistic audio. |
-| [wmjordan/PDFPatcher](https://github.com/wmjordan/PDFPatcher) | 已分析 | 2021-12-24 | PDF补丁丁——PDF工具箱，可以编辑书签、剪裁旋转页面、解除限制、提取或合并文档，探查文档结构，提取图片、转成图片等等 |
-| [helenahartmann/awesome-PhD](https://github.com/helenahartmann/awesome-PhD) | 已分析 | 2021-12-24 | All the resources I wish I knew when starting my PhD. This repository is aimed to be a living, constantly developing res |
-| [vogler/free-games-claimer](https://github.com/vogler/free-games-claimer) | 已分析 | 2021-12-27 | Automatically claims free games and DLCs on the Epic Games Store, Amazon Prime Gaming and GOG. |
-| [alyssaxuu/omni](https://github.com/alyssaxuu/omni) | 分析受阻 | 2022-01-10 | The all-in-one tool to supercharge your productivity ⌨️ |
-| [igr/gart](https://github.com/igr/gart) | 已分析 | 2022-01-25 | gënérative ȧrt |
-| [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) | 已分析 | 2022-01-30 | ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML and |
-| [openai/tart](https://github.com/openai/tart) | 已分析 | 2022-02-01 | macOS and Linux VMs on Apple Silicon to use in CI and other automations |
+| [ika-rwth-aachen/Cam2BEV](https://github.com/ika-rwth-aachen/Cam2BEV) | 已分析 | 2020-04-30 | TensorFlow Implementation for Computing a Semantically Segmented Bird's Eye View (BEV) Image Given the Images of Multipl |
+| [fleschutz/PowerShell](https://github.com/fleschutz/PowerShell) | 已分析 | 2020-04-30 | 600+ free PowerShell scripts (.ps1) for Linux, macOS, and Windows. |

@@ -4,33 +4,33 @@
 
 [历史项目大库](library/README.md) · [Top50](top-50.md) · [部署分析](codex-deployment.md)
 
-## [jorgepb96/nodus](https://github.com/jorgepb96/nodus)
+## [nasqret/labyrinth-exploration](https://github.com/nasqret/labyrinth-exploration)
 
 有趣发现
 
-把参考文献变成可点击的思想图谱和论证分支，还能用Word插件带回可验证引用。
+把没有答案的研究画成一张迷宫地图：走过的通道是蓝的，被否掉的死胡同打上锈色斜线，门外的金色是猜想，很有画面感。
 
-**可以怎样探索：** 先逛官网交互演示，看十二主题知识图谱与论证地图。
+**可以怎样探索：** 先跑README里的三角形计数示例，打开生成的仪表盘看前沿地图与分级统计。
 
 来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
 
-## [GXL-ai/paperclip](https://github.com/GXL-ai/paperclip)
+## [hyqzz/Solar-Wanderer](https://github.com/hyqzz/Solar-Wanderer)
 
 有趣发现
 
-把百万级论文变成目录树，用grep、jq和并行AI阅读器批量问问题，像在命令行里做系统综述。
+点开就能从月球表面一路拉到十万天文单位的奥尔特云，亲眼感受行星此刻的真实位置，教育和装逼俱佳。
 
-**可以怎样探索：** 先用一条关键词搜索并grep全文，再对结果跑map提炼方法，观察合并输出。
+**可以怎样探索：** 先打开在线站，双击土星拉近到能看见卡西尼缝。
 
 来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
 
-## [xr843/fojin](https://github.com/xr843/fojin)
+## [Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth)
 
 有趣发现
 
-问一句佛经问题就得到可直接点开的经卷引文，还能并排看汉巴藏三种文本，反幻觉思路值得学。
+没有文字、没有地标，只靠桥墩当尺、阴影当天线、山脊当指纹，就能把照片定位到2米内，像地理侦探游戏。
 
-**可以怎样探索：** 先打开live demo提一个问题，看引文抽屉和verify/quote的逐字比对
+**可以怎样探索：** 先看README里三个案例的分步复盘和天际线叠图，感受几何反推的推理链。
 
 来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。
 

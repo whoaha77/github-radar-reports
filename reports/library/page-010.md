@@ -2,103 +2,103 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
-| [nikmcfly/MiroFish-Offline](https://github.com/nikmcfly/MiroFish-Offline) | 已分析 | 2026-03-14 | Offline multi-agent simulation &amp; prediction engine. English fork of MiroFish with Neo4j + Ollama local stack. |
-| [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | 已分析 | 2026-03-15 | Graphs that teach &gt; graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and  |
-| [AlterLab-IEU/AlterLab-Academic-Skills](https://github.com/AlterLab-IEU/AlterLab-Academic-Skills) | 已分析 | 2026-03-16 | 242 evaluated academic Claude/agent skills across 18 research domains — bioinformatics, cheminformatics, data science, d |
-| [stablyai/orca](https://github.com/stablyai/orca) | 已分析 | 2026-03-17 | Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own su |
-| [fallow-rs/fallow](https://github.com/fallow-rs/fallow) | 已分析 | 2026-03-17 | Codebase intelligence for TypeScript and JavaScript. Health, complexity hotspots, duplication, architecture boundaries,  |
-| [basementstudio/shader-lab](https://github.com/basementstudio/shader-lab) | 已分析 | 2026-03-17 | A powerful toolkit to create, stack, and animate shaders. |
-| [alfonso0512/research-writing-skill](https://github.com/alfonso0512/research-writing-skill) | 已分析 | 2026-03-18 | 🎓 AI 科研论文写作助手 - 30 个 Prompt 模板覆盖论文写作全流程。支持中英文翻译、润色、文献综述、投稿回复、基金申请等。 |
-| [louiszengCN/CarlaAir](https://github.com/louiszengCN/CarlaAir) | 已分析 | 2026-03-19 | CarlaAir: Fly Drones Inside a CARLA World!! A Unified Infrastructure for Air-Ground Embodied Intelligence |
-| [Agentshire/Agentshire](https://github.com/Agentshire/Agentshire) | 已分析 | 2026-03-19 | OpenClaw / QClaw  plugin that visualizes AI agents as 3D NPCs in a game town — with social simulation, a map editor, and |
-| [K-Dense-AI/k-dense-byok](https://github.com/K-Dense-AI/k-dense-byok) | 已分析 | 2026-03-19 | An AI co-scientist running on your desktop. Claude Science but better. |
-| [openwong2kim/wmux](https://github.com/openwong2kim/wmux) | 已分析 | 2026-03-20 | The ADE for AI agents. Automate everything else. Do your true work. |
-| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 已分析 | 2026-03-21 | Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data |
-| [larksuite/cli](https://github.com/larksuite/cli) | 分析受阻 | 2026-03-25 | The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business d |
-| [AThevon/genjutsu](https://github.com/AThevon/genjutsu) | 已分析 | 2026-03-28 | Creative coding skills for Claude Code, claude.ai and Cowork. Motion, micro-interactions and design systems across Web ( |
-| [heymrun/heym](https://github.com/heymrun/heym) | 已分析 | 2026-03-28 | Build agentic systems. Run them with confidence. Orchestrate agents, automate business processes, inspect every executio |
-| [initMAX/zabbix-mcp-server](https://github.com/initMAX/zabbix-mcp-server) | 已分析 | 2026-03-29 | MCP server for the complete Zabbix API - 237 tools, multi-server, OAuth 2.1 + bearer auth, PDF reports, systemd ready. W |
-| [wxyhgk/retain-pdf](https://github.com/wxyhgk/retain-pdf) | 已分析 | 2026-03-29 | 在保留版面、公式与结构的前提下进行 PDF 翻译，适用于科研与技术文档 |
-| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 已分析 | 2026-03-29 | World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and pr |
-| [lllllllama/RigorPilot-Skills](https://github.com/lllllllama/RigorPilot-Skills) | 已分析 | 2026-03-30 | README-first research reproduction skills with bounded execution, auditable evidence, and byte-preserving README annotat |
-| [google/skills](https://github.com/google/skills) | 已分析 | 2026-03-31 | Agent Skills for Google products and technologies |
-| [PiaoyangGuohai1/cli-anything-zotero](https://github.com/PiaoyangGuohai1/cli-anything-zotero) | 已分析 | 2026-04-03 | CLI server for Zotero 7/8/9 — let AI manage your library. 70+ CLI commands for search, import, PDF, BibTeX, notes, and m |
-| [brycewang-stanford/Auto-Empirical-Research-Skills](https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills) | 已分析 | 2026-04-03 | 🔬 A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. \| 精选 23,000+  |
-| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 已分析 | 2026-04-03 | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo |
-| [ileivoivm/inkField](https://github.com/ileivoivm/inkField) | 已分析 | 2026-04-04 | Digital ink painting on WebGL + p5.js — records every gesture as JSON and replays them as time-based generative art. |
-| [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) | 已分析 | 2026-04-06 | 数字生命卡兹克开源的 AI Skills 合集 \| Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer &amp; more — Claude Code,  |
-| [cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis) | 已分析 | 2026-04-06 | The ultimate collection of APIs for building autonomous AI agents — 2,036 production-ready APIs across Agents, AI Models |
-| [xixu-me/awesome-persona-distill-skills](https://github.com/xixu-me/awesome-persona-distill-skills) | 已分析 | 2026-04-06 | Curated list of Agent Skills centered on people, relationships, commemorative scenes, and methodological perspectives |
-| [databrickslabs/ontobricks](https://github.com/databrickslabs/ontobricks) | 已分析 | 2026-04-07 | Transforms Databricks Unity Catalog tables into a knowledge graph, with ontology design and reasoning exposed as tools v |
-| [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) | 已分析 | 2026-04-07 | Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into o |
-| [htlin222/openevidence-mcp](https://github.com/htlin222/openevidence-mcp) | 已分析 | 2026-04-08 | Unofficial OpenEvidence MCP server — query OpenEvidence from Claude Code, Codex, and any MCP client through your own log |
-| [jordan-gibbs/hyperresearch](https://github.com/jordan-gibbs/hyperresearch) | 已分析 | 2026-04-09 | Convert Claude Code or Codex into the most intelligent Deep Research Agent. Collect, search, and synthesize web research |
-| [ModernRelay/omnigraph](https://github.com/ModernRelay/omnigraph) | 已分析 | 2026-04-10 | Object-storage native graph database with branching and typed ontology |
-| [kishormorol/ResearchScope](https://github.com/kishormorol/ResearchScope) | 已分析 | 2026-04-13 | Open-source research intelligence for CS papers — track what matters, who drives it, what to read first, and where the r |
-| [GXL-ai/paperclip](https://github.com/GXL-ai/paperclip) | 已分析 | 2026-04-13 | Paperclip — search, read, and analyze 8M+ biomedical papers from the command line |
-| [OpenSenseNova/SenseNova-Skills](https://github.com/OpenSenseNova/SenseNova-Skills) | 已分析 | 2026-04-14 | Modular SenseNova skills for building AI-powered office assistants and productivity workflows |
-| [tt-a1i/archify](https://github.com/tt-a1i/archify) | 已分析 | 2026-04-15 | Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more. |
-| [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) | 已分析 | 2026-04-16 | 把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills（Distill high-value content from books, long-form videos, podcasts, and more into exe |
-| [tw93/Kami](https://github.com/tw93/Kami) | 已分析 | 2026-04-20 | 👩‍🚒 Good content deserves good paper. Layout rules and templates that let AI agents export PDF, PNG and editable PowerPo |
-| [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 已分析 | 2026-04-21 | A reliable coding agent for complex software engineering tasks. |
-| [wuyoscar/GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill) | 已分析 | 2026-04-22 | GPT Image 2/2.5 prompt gallery, image prompt library, agentic skill, and CLI for OpenAI image generation/editing |
-| [zenstory-ai/oh-story-claudecode](https://github.com/zenstory-ai/oh-story-claudecode) | 已分析 | 2026-04-22 | Claude Code / Codex / OpenCode agent skills for writing Chinese web novels (网文): 扫榜、拆文、写作、去AI味、封面全流程，长篇短篇都支持 \| 13 skills |
-| [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) | 已分析 | 2026-04-23 | AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social cov |
-| [future-agi/future-agi](https://github.com/future-agi/future-agi) | 已分析 | 2026-04-23 | Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals |
-| [0x0funky/agent-sprite-forge](https://github.com/0x0funky/agent-sprite-forge) | 已分析 | 2026-04-23 | Agent Skill for generating 2D sprite sheets and map, transparent PNG frames, and animated GIFs from prompts. |
-| [zhnnky329/MathModeling-skills](https://github.com/zhnnky329/MathModeling-skills) | 已分析 | 2026-04-26 | 面向数学建模竞赛的 Claude Code / Codex Skills ，支持分阶段建模流程与 Python、MATLAB/北太天元代码分支。 |
-| [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) | 已分析 | 2026-04-27 | Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables determinis |
-| [jaccen/Awesome-Gaussian-Skills](https://github.com/jaccen/Awesome-Gaussian-Skills) | 已分析 | 2026-04-28 | 900 arXiv-verified 3DGS methods · 15 AI agent skills · MCP server (34 tools) · open ebook — the AI-native entry to 3D Ga |
-| [wlsdks/ontology-atlas](https://github.com/wlsdks/ontology-atlas) | 已分析 | 2026-04-29 | Understand what your codebase builds, why it is structured that way, and what a change could affect.  One shared Markdow |
-| [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | 已分析 | 2026-05-01 | Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work. |
-| [muxuuu/serenity-skill](https://github.com/muxuuu/serenity-skill) | 已分析 | 2026-05-04 | Serenity-inspired Agent Skill for supply-chain bottleneck stock research |
-| [akhayam99/goodboy](https://github.com/akhayam99/goodboy) | 已分析 | 2026-05-06 | Stop re-explaining yourself |
-| [handbook-academy/engineering-handbook](https://github.com/handbook-academy/engineering-handbook) | 已分析 | 2026-05-11 | Open-source High-Level System Design and Data Structure &amp; Algorithm handbook. CC BY-SA 4.0, Free Forever. |
-| [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 已分析 | 2026-05-13 | A skill to stop your coding agent from burying the answer. ADHD-friendly output. |
-| [Ingar30/reviewer](https://github.com/Ingar30/reviewer) | 已分析 | 2026-05-14 |  |
-| [KunAgent/Kun](https://github.com/KunAgent/Kun) | 已分析 | 2026-05-21 | Local-first AI agent workspace for coding, writing, design, research, and automation — one runtime for desktop GUI and T |
-| [VILA-Lab/FigMirror](https://github.com/VILA-Lab/FigMirror) | 已分析 | 2026-05-22 | An Automated AI Agent Tool for Plotting Your Data in Any Paper's Figure Style. |
-| [menachem-dadon/SmartiAI-Agent-for-Windows](https://github.com/menachem-dadon/SmartiAI-Agent-for-Windows) | 已分析 | 2026-05-24 | A lightweight, blazing-fast AI agent for Windows. Automate your OS via CLI control, built-in tools, MCP tools, custom Py |
-| [brycewang-stanford/Awesome-Journal-Skills](https://github.com/brycewang-stanford/Awesome-Journal-Skills) | 已分析 | 2026-05-25 | Journal-specific Claude Code/Codex skill packs covering mainstream journals — AER, QJE, Nature, Cell, 管理世界, 经济研究 &amp; 200+  |
-| [openbkn-ai/bkn-foundry](https://github.com/openbkn-ai/bkn-foundry) | 已分析 | 2026-05-26 | BKN Foundry is the Ontology back-end foundation of OpenBKN. It transforms ontology-driven business semantics into runtim |
-| [Moh4696/300-free-resource-websites](https://github.com/Moh4696/300-free-resource-websites) | 已分析 | 2026-05-29 | 300 curated free resource websites across 19 categories — every link verified. Honest one-line reviews; freemium and leg |
-| [vakovalskii/ontoship](https://github.com/vakovalskii/ontoship) | 已分析 | 2026-06-06 | md+git knowledge base: FTS5 search (bm25+trigram/fuzzy), HTML+graph, code-ontology linter, Claude Code plugin |
-| [JimLiu/baoyu-design](https://github.com/JimLiu/baoyu-design) | 已分析 | 2026-06-07 | Run Claude Design locally as an Agent Skill — Cursor, Claude Code &amp; more. Produce polished UI mockups, prototypes, decks |
-| [Light0305/Light-skills](https://github.com/Light0305/Light-skills) | 已分析 | 2026-06-07 | An AI workflow skill pack for research, competitions, and innovation projects. |
-| [vanthree31/PaperLens](https://github.com/vanthree31/PaperLens) | 分析受阻 | 2026-06-08 | AI-Powered Research Assistant for Academic Paper Discovery, Analysis, and Citation Intelligence |
-| [ontograph/ontoindex](https://github.com/ontograph/ontoindex) | 已分析 | 2026-06-08 | Code Graph mcp solutions for AI agents with ontology and sentence. Supports extra large  codebases  |
-| [Leonxlnx/lumenshaders](https://github.com/Leonxlnx/lumenshaders) | 已分析 | 2026-06-09 | LUMEN, a generative shader studio. 9 WebGL2 art modes plus synth style blending, perfect-loop animation, gradient sets,  |
-| [chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) | 已分析 | 2026-06-10 | An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, an |
-| [Tianyu199509/DeskBox](https://github.com/Tianyu199509/DeskBox) | 已分析 | 2026-06-11 | A free, open-source Windows desktop organizer with native-feeling WinUI 3 widgets. |
-| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 已分析 | 2026-06-12 | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
-| [nolangz/pixel2motion](https://github.com/nolangz/pixel2motion) | 已分析 | 2026-06-12 | AI logo animation skill: turn raster logos into smooth SVG animation, animated HTML demos, GIF/video previews, and motio |
-| [KorroAi/drunk-claude](https://github.com/KorroAi/drunk-claude) | 已分析 | 2026-06-13 | Intensity slider from tipsy (0.1) to blackout (1.0). 5 moods, 8 creative techniques. Lowers inhibition, not intelligence |
-| [jorgepb96/nodus](https://github.com/jorgepb96/nodus) | 已分析 | 2026-06-14 | Open-source research workspace for connecting sources, evidence, notes and ideas. Built for academic research with Zoter |
-| [mmeyerlein/meclaw](https://github.com/mmeyerlein/meclaw) | 已分析 | 2026-06-16 | Where agents build agents. An open-source Rust framework for complex agentic systems: ontology-grounded, auditable, one  |
-| [internet-court/internet-court-skill](https://github.com/internet-court/internet-court-skill) | 已分析 | 2026-06-16 | The trust layer for agent-to-agent commerce — natural-language mandates, ERC-7710 delegated permissions, x402 payments,  |
-| [KongFangXun/sofagent](https://github.com/KongFangXun/sofagent) | 已分析 | 2026-06-18 | sofagent is an open-source FDE Harness for AI coding agents — on entry, write your business judgment into files (workflo |
-| [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | 已分析 | 2026-06-18 | A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings |
-| [Francis1998/scholar-rag-agent](https://github.com/Francis1998/scholar-rag-agent) | 已分析 | 2026-06-21 | Local-first scientific-literature RAG with a script-free saved-run browser, frozen evidence, and reproducible offline re |
-| [hackmatelabs/hackmate](https://github.com/hackmatelabs/hackmate) | 已分析 | 2026-06-24 | automates the entire process of creating a bootable OpenCore hackintosh USB. No manual config.plist editing, no hunting  |
-| [wangxijie001/yoji](https://github.com/wangxijie001/yoji) | 已分析 | 2026-06-24 | 有情绪的 AI 桌面伴侣 \| 隐私优先 · 语音唤醒 · 协助办公 · MCP 无限扩展 \| An AI desktop companion with emotions — privacy-first, voice wake, office |
-| [davidondrej/skills](https://github.com/davidondrej/skills) | 已分析 | 2026-06-24 | access to david ondrej's personal agent skills |
-| [ai4s-research/ai4s-skills](https://github.com/ai4s-research/ai4s-skills) | 已分析 | 2026-06-27 | Open-source agent skills for AI for Science: topic exploration, literature survey, experiments, paper writing, and integ |
-| [desikankn/discord-reward-claimer](https://github.com/desikankn/discord-reward-claimer) | 已分析 | 2026-06-28 | Automated Discord Quest Reward Collector Tool 2026 |
-| [randyfajar/inbox-watcher-cli](https://github.com/randyfajar/inbox-watcher-cli) | 已分析 | 2026-06-28 | Ultimate 2026 Temporary Email CLI &amp; OTP Auto Extraction Toolkit |
-| [Omarshraf/MangaVolt-Archive-Engine](https://github.com/Omarshraf/MangaVolt-Archive-Engine) | 已分析 | 2026-06-28 | Best MangaFox Downloader Script 2026: Batch Manga Grabber Tool |
-| [barbiez/Nitro-Sniper-Checker](https://github.com/barbiez/Nitro-Sniper-Checker) | 已分析 | 2026-06-28 | Best Discord Nitro Promo Code Validator Tool 2026 |
-| [pocolov/vinyl-to-essence](https://github.com/pocolov/vinyl-to-essence) | 已分析 | 2026-06-28 | Save Spotify Playlists Directly to Local Library 2026 |
-| [tinyhumansai/tinyagents](https://github.com/tinyhumansai/tinyagents) | 已分析 | 2026-06-29 | A small, provider-neutral agent harness written in Rust |
-| [aipoch/open-science](https://github.com/aipoch/open-science) | 已分析 | 2026-07-03 | The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop a |
-| [3441293738/creatorhub](https://github.com/3441293738/creatorhub) | 已分析 | 2026-07-03 | 多平台内容监控·采集·搬运 一个 Web 面板管起抖音 / 小红书 / 快手 |
-| [ai4s-research/open-science](https://github.com/ai4s-research/open-science) | 已分析 | 2026-07-03 | Open Science Desktop — local-first, model-agnostic AI research workbench for macOS, Windows &amp; Linux. Open-source Claude  |
-| [synthetic-sciences/openscience](https://github.com/synthetic-sciences/openscience) | 已分析 | 2026-07-03 | The open-source AI workbench for scientific research |
-| [tigerless-labs/design-harness](https://github.com/tigerless-labs/design-harness) | 已分析 | 2026-07-07 | Feed your agent papers and half-formed ideas — it links them into a system design you can defend. Markdown keeps the rec |
-| [jakubkrehel/skills](https://github.com/jakubkrehel/skills) | 已分析 | 2026-07-10 | A collection of agent skills that help you build great interfaces. |
-| [agiwhitelist/auteur](https://github.com/agiwhitelist/auteur) | 已分析 | 2026-07-11 | The Claude Code skill that directs a website like a film. Commit-sheet, generated assets, build, and an executable anti- |
-| [superdesigndev/treg](https://github.com/superdesigndev/treg) | 已分析 | 2026-07-15 | OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn |
-| [owainlewis/machinist](https://github.com/owainlewis/machinist) | 已分析 | 2026-07-16 | Open source software factory infrastructure for advanced AI coding workflows |
-| [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) | 已分析 | 2026-07-16 | A library of creative canvas components. Real HTML with WebGL effects running over it. React, Vue, Svelte, vanilla. |
-| [kirodotdev/KiroCrew](https://github.com/kirodotdev/KiroCrew) | 已分析 | 2026-07-16 | A persistent workspace for development work that self-improves and continues beyond one session. |
-| [amirmushichge/cinematic-scroll-prompt-kit](https://github.com/amirmushichge/cinematic-scroll-prompt-kit) | 已分析 | 2026-07-17 | Reusable AI prompt and project brief system for cinematic scroll-driven 2.5D websites. |
-| [ZJU-REAL/HugAgentOS](https://github.com/ZJU-REAL/HugAgentOS) | 已分析 | 2026-07-19 | HugAgentOS: The Self-Evolving AgentOS for Ontology-Grounded Trustworthy Reasoning |
+| [golanlevin/p5-single-line-font-resources](https://github.com/golanlevin/p5-single-line-font-resources) | 已分析 | 2024-12-23 | An archive of monoline vector fonts, and p5.js code to render them. |
+| [altunenes/cuneus](https://github.com/altunenes/cuneus) | 已分析 | 2024-12-25 | Engine for creating compute shader apps. easy multi pass pipelines, hot reload, audio/video input via gst, GPU sound and |
+| [simstudioai/sim](https://github.com/simstudioai/sim) | 已分析 | 2025-01-05 | Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders. |
+| [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | 已分析 | 2025-01-13 | AI coworker with memory and collaboration |
+| [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent) | 已分析 | 2025-01-30 | 🤖📐专为数学建模设计的 Agent &amp; skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically comple |
+| [Team-Commonly/commonly](https://github.com/Team-Commonly/commonly) | 已分析 | 2025-02-03 | Open-source room for humans + cross-vendor AI agents. Every agent gets its own name, memory, skills, and workstation. An |
+| [tsinghua-fib-lab/AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety) | 分析受阻 | 2025-02-06 | AgentSociety 2 is a modern, LLM-native agent simulation platform designed for social science research and experimental d |
+| [coleam00/Archon](https://github.com/coleam00/Archon) | 已分析 | 2025-02-07 | The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable. |
+| [Ocean-Industries-Concept-Lab/openbridge-webcomponents](https://github.com/Ocean-Industries-Concept-Lab/openbridge-webcomponents) | 已分析 | 2025-02-11 | OpenBridge design system implemented as Lit-based web components with support for all major frontend frameworks. |
+| [oomol-lab/pdf-craft](https://github.com/oomol-lab/pdf-craft) | 已分析 | 2025-02-12 | PDF craft can convert PDF files into various other formats. This project will focus on processing PDF files of scanned b |
+| [liyupi/ai-guide](https://github.com/liyupi/ai-guide) | 已分析 | 2025-02-13 | 程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Prompt 提示词大全 |
+| [gnovotny/nothing-to-watch](https://github.com/gnovotny/nothing-to-watch) | 已分析 | 2025-03-03 | An experimental webgl gallery that can visualize tens of thousands of film posters as a voronoi diagram |
+| [54yyyu/zotero-mcp](https://github.com/54yyyu/zotero-mcp) | 已分析 | 2025-03-22 | Zotero MCP: Connects your Zotero research library with Claude and other AI assistants via the Model Context Protocol to  |
+| [robert-mcdermott/ai-knowledge-graph](https://github.com/robert-mcdermott/ai-knowledge-graph) | 已分析 | 2025-03-23 | AI Powered Knowledge Graph Generator |
+| [Tavish9/awesome-daily-AI-arxiv](https://github.com/Tavish9/awesome-daily-AI-arxiv) | 已分析 | 2025-03-26 | 🚀 Daily AI Research Digest: Tracking breakthroughs in AI/NLP/CV/Robotics with dynamic updates and paper navigation. |
+| [growgraph/ontocast](https://github.com/growgraph/ontocast) | 已分析 | 2025-03-31 | Agentic Ontology Assisted Framework for Semantic Triple Extraction |
+| [RoboVerseOrg/RoboVerse](https://github.com/RoboVerseOrg/RoboVerse) | 已分析 | 2025-04-04 | RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning |
+| [whaleonearth/MLE-DS-Interview-Prep-Guide](https://github.com/whaleonearth/MLE-DS-Interview-Prep-Guide) | 已分析 | 2025-04-05 | This repo is meant to serve as a detailed guide for Machine Learning/AI interviews. |
+| [snyk/agent-scan](https://github.com/snyk/agent-scan) | 已分析 | 2025-04-07 | Security scanner for AI agents, MCP servers and agent skills. |
+| [Fabric-Project/Fabric](https://github.com/Fabric-Project/Fabric) | 已分析 | 2025-04-28 | Node Creative Coding / 3D / Image Processing tool inspired by Quartz Composer |
+| [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | 已分析 | 2025-05-13 | PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. |
+| [bytedance/Dolphin](https://github.com/bytedance/Dolphin) | 已分析 | 2025-05-13 | The official repo for “Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting”, ACL, 2025. |
+| [artnitolog/awesome-arxiv](https://github.com/artnitolog/awesome-arxiv) | 已分析 | 2025-05-26 | Curated resources for discovering, reading, and working with arXiv papers |
+| [Giats2498/giats-portfolio](https://github.com/Giats2498/giats-portfolio) | 已分析 | 2025-06-01 | Award-winning personal portfolio website by Evangelos Giatsidis built with Next.js, React Three Fiber, and GSAP animatio |
+| [github/awesome-copilot](https://github.com/github/awesome-copilot) | 已分析 | 2025-06-11 | Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot. |
+| [qdhenry/Claude-Command-Suite](https://github.com/qdhenry/Claude-Command-Suite) | 已分析 | 2025-06-13 | Professional slash commands for Claude Code that provide   structured workflows for software development tasks including |
+| [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag) | 已分析 | 2025-06-16 | The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowle |
+| [cyanheads/clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | 已分析 | 2025-06-17 | Search ClinicalTrials.gov trials, retrieve study details and results, and match patients to eligible trials via MCP. STD |
+| [zebbern/claude-code-guide](https://github.com/zebbern/claude-code-guide) | 已分析 | 2025-06-21 | Claude Code Guide - Setup, Commands, workflows, agents, skills &amp; tips-n-tricks from beginner to power user! |
+| [hichipli/CiteBar](https://github.com/hichipli/CiteBar) | 已分析 | 2025-06-23 | Real-time Google Scholar citation tracker in your macOS menu bar. |
+| [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | 已分析 | 2025-06-26 | An open-source AI coding agent that lives in your terminal. |
+| [stevius10/Proxmox-GitOps](https://github.com/stevius10/Proxmox-GitOps) | 已分析 | 2025-07-04 | IaC Automation Framework for Linux Containers (LXC) on Proxmox VE. |
+| [humanbydefinition/textmode.js](https://github.com/humanbydefinition/textmode.js) | 已分析 | 2025-07-14 | textmode.js is a lightweight creative coding library for creating real-time ASCII art on the web. |
+| [memodb-io/Acontext](https://github.com/memodb-io/Acontext) | 已分析 | 2025-07-16 | Agent Skills as a Memory Layer |
+| [gotalab/cc-sdd](https://github.com/gotalab/cc-sdd) | 已分析 | 2025-07-17 | Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for  |
+| [Kestrel-Foundry/KestrelAI](https://github.com/Kestrel-Foundry/KestrelAI) | 已分析 | 2025-07-18 | Long-term Research Assistants with Self-Scheduling |
+| [heypoom/patchies](https://github.com/heypoom/patchies) | 已分析 | 2025-07-19 | Write small programs with tools &amp; libraries you know and patch 'em together. Make interactive widgets, visuals, sounds,  |
+| [traceroot-ai/traceroot](https://github.com/traceroot-ai/traceroot) | 已分析 | 2025-07-22 | TraceRoot - Open Source AI Agent Improvement Platform YC S25 |
+| [vicinaehq/vicinae](https://github.com/vicinaehq/vicinae) | 已分析 | 2025-07-28 | A focused launcher for your desktop - native, fast, extensible |
+| [damionrashford/RivalSearchMCP](https://github.com/damionrashford/RivalSearchMCP) | 分析受阻 | 2025-08-03 | Deterministic research MCP server on FastMCP 3 — 5-engine web search, 9-platform social search, 6 academic DBs, news agg |
+| [tteon/seocho](https://github.com/tteon/seocho) | 已分析 | 2025-08-08 | Ontology-aligned middleware for agentic graph memory. Python SDK, runtime, and reproducible indexing/query experiments. |
+| [ExtractPDF4J/ExtractPDF4J](https://github.com/ExtractPDF4J/ExtractPDF4J) | 已分析 | 2025-08-14 | Java PDF table extraction &amp; OCR library. Extract structured tables from text-based and scanned PDFs using stream, lattic |
+| [4thfever/cultivation-world-simulator](https://github.com/4thfever/cultivation-world-simulator) | 已分析 | 2025-08-18 | 基于 AI Agent 工作流的修仙世界模拟器，旨在还原智能、开放的仙侠世界。\| An open-source Cultivation World Simulator using Agentic Workflow to create a d |
+| [devanshutak25/3d-resources](https://github.com/devanshutak25/3d-resources) | 已分析 | 2025-08-20 | Curated, CC0 reference hub for 3D, VFX, and game dev. 3,400+ tools, assets, and tutorials across 12 sections. Searchable |
+| [supercheck-io/supercheck](https://github.com/supercheck-io/supercheck) | 已分析 | 2025-08-21 | Open-Source Testing, Monitoring, and AI SRE — as Code |
+| [eclaire-labs/eclaire](https://github.com/eclaire-labs/eclaire) | 已分析 | 2025-09-02 | Local-first, open-source AI assistant for your data. Unify tasks, notes, docs, photos, and bookmarks. Private, self-host |
+| [ThHanke/ontosphere](https://github.com/ThHanke/ontosphere) | 已分析 | 2025-09-03 | Browser-based RDF/ontology knowledge graph editor — load RDF from files, URLs or SPARQL endpoints; author nodes and edge |
+| [bibinprathap/VeritasGraph](https://github.com/bibinprathap/VeritasGraph) | 已分析 | 2025-09-06 | VeritasGraph — open-source Knowledge Graph &amp; GraphRAG framework on GitHub. Build multi-hop reasoning, ontology-aware ret |
+| [danielmiessler/LifeOS](https://github.com/danielmiessler/LifeOS) | 已分析 | 2025-09-08 | ⛰️ LifeOS — The universal AI Harness designed to move you from Current to Ideal state in both life and work. |
+| [anthropics/skills](https://github.com/anthropics/skills) | 已分析 | 2025-09-22 | Public repository for Agent Skills |
+| [JerryZLiu/Dayflow](https://github.com/JerryZLiu/Dayflow) | 已分析 | 2025-09-23 | The automatic work journal/time tracker. Privately turns your screen into a timeline of what you actually accomplished.  |
+| [clainstone/cbirds](https://github.com/clainstone/cbirds) | 已分析 | 2025-09-30 | A flock of birds in your terminal: Craig Reynolds' boids, in braille in any terminal and as sprites in Kitty and Ghostty |
+| [NVlabs/alpasim](https://github.com/NVlabs/alpasim) | 已分析 | 2025-10-03 | AlpaSim is an open-source autonomous vehicle simulation platform designed for development and testing of end-to-end AV p |
+| [obra/superpowers](https://github.com/obra/superpowers) | 已分析 | 2025-10-09 | An agentic skills framework &amp; software development methodology that works. |
+| [Hylouis233/bibverify](https://github.com/Hylouis233/bibverify) | 已分析 | 2025-10-11 | Cross-platform BibTeX verification for researchers and AI assistants — CLI, Python API, MCP server, and explainable mult |
+| [browserbase/skills](https://github.com/browserbase/skills) | 已分析 | 2025-10-12 | Browserbase's official collection of agent skills to access the web. |
+| [alam00000/bentopdf](https://github.com/alam00000/bentopdf) | 已分析 | 2025-10-12 | The Privacy First PDF Toolkit |
+| [getpaseo/paseo](https://github.com/getpaseo/paseo) | 已分析 | 2025-10-13 | Orchestrate multiple coding agents from desktop and mobile |
+| [dexmal/dexbotic](https://github.com/dexmal/dexbotic) | 已分析 | 2025-10-17 | Dexbotic: Open-Source Vision-Language-Action Toolbox |
+| [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | 已分析 | 2025-10-17 | Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection |
+| [hivepaas/hivepaas](https://github.com/hivepaas/hivepaas) | 已分析 | 2025-10-18 | Self hosted PaaS solution |
+| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 已分析 | 2025-10-19 | 380 Claude Code skills &amp; agent skills &amp; plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references,  |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 已分析 | 2025-10-19 | Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide.  |
+| [superset-sh/superset](https://github.com/superset-sh/superset) | 已分析 | 2025-10-21 | Superset is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription. |
+| [m4r1k/Eneru](https://github.com/m4r1k/Eneru) | 已分析 | 2025-10-21 | ⚡ UPS monitoring and shutdown orchestration for NUT: multi-UPS policy, VM/container/remote shutdown, TUI, API, Prometheu |
+| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 已分析 | 2025-10-28 | A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex |
+| [yfedoseev/pdf_oxide](https://github.com/yfedoseev/pdf_oxide) | 已分析 | 2025-11-05 | The fastest PDF library for Python and Rust. Text extraction, image extraction, markdown conversion, PDF creation &amp; edit |
+| [soonfx-engine/core](https://github.com/soonfx-engine/core) | 已分析 | 2025-11-07 | 🎮 TypeScript game numeric engine for RPG &amp; strategy games. Zero dependencies, type-safe formula parsing, battle system s |
+| [FirstEverTech/Universal-Intel-Chipset-Updater](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater) | 已分析 | 2025-11-16 | Security-focused tool for automatic Intel chipset INF detection and installation. SHA-256 verified, Intel Authenticode v |
+| [docling-project/docling-graph](https://github.com/docling-project/docling-graph) | 已分析 | 2025-11-17 | Transform unstructured documents into validated, rich and queryable knowledge graphs. |
+| [buyukakyuz/install-nothing](https://github.com/buyukakyuz/install-nothing) | 已分析 | 2025-11-17 | A terminal application that simulates installing things but doesn't actually install anything |
+| [pshenok/server-survival](https://github.com/pshenok/server-survival) | 已分析 | 2025-11-21 | Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling. |
+| [tradecatlabs/vibe-coding-cn](https://github.com/tradecatlabs/vibe-coding-cn) | 已分析 | 2025-11-23 | Vibe Coding 从入门到精通教程｜AI 结对编程工作流｜Prompt、Skill、Workflow、上下文管理、codex实战指南 |
+| [ralforion/orionbelt-ontology-builder](https://github.com/ralforion/orionbelt-ontology-builder) | 已分析 | 2025-11-25 | Browser-based ontology workbench for OWL ontologies and SKOS vocabularies. Streamlit + rdflib, no Java, no Protégé. OWL- |
+| [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips) | 已分析 | 2025-11-28 | 45+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Cla |
+| [gogpu/gg](https://github.com/gogpu/gg) | 已分析 | 2025-12-05 | Enterprise-grade 2D graphics library for Go. Pure Go, zero CGO. Part of GoGPU ecosystem. |
+| [YishenTu/claudian](https://github.com/YishenTu/claudian) | 已分析 | 2025-12-05 | An Obsidian plugin that embeds Claude Code/Codex as an AI collaborator in your vault |
+| [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 已分析 | 2025-12-08 | Vercel's official collection of agent skills |
+| [Arham43-ops/NeoBrutalist](https://github.com/Arham43-ops/NeoBrutalist) | 已分析 | 2025-12-11 | If you like this, must visit other projects and star all repositories |
+| [Th0rgal/orb](https://github.com/Th0rgal/orb) | 已分析 | 2025-12-15 | All your AI providers, machines, and agent harnesses in one place. Formerly sandboxed.sh (now the backend to the Orb cli |
+| [agentskills/agentskills](https://github.com/agentskills/agentskills) | 已分析 | 2025-12-16 | Specification and documentation for Agent Skills |
+| [travisjneuman/.claude](https://github.com/travisjneuman/.claude) | 已分析 | 2025-12-17 | The Ultimate Claude Code Toolkit: 180 skills, 10 agents, 29 commands, 7 hooks, and 81 marketplace repos (11,000+ communi |
+| [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | 已分析 | 2025-12-21 | A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent syst |
+| [libukai/awesome-agent-skills](https://github.com/libukai/awesome-agent-skills) | 已分析 | 2025-12-21 | Agent Skills 终极指南：快速入门、资源推荐、精选技能与实用工具 ｜The Ultimate Guide to Agent Skills: QuickStart, Resources, Features&amp;Toolkit |
+| [jacob-bd/gemini-notebook-mcp-cli](https://github.com/jacob-bd/gemini-notebook-mcp-cli) | 已分析 | 2025-12-23 | Programmatic access to Gemini Notebook - via command-line interface (CLI), Model Context Protocol (MCP) server, and AI a |
+| [frangelbarrera/OSINT-BIBLE](https://github.com/frangelbarrera/OSINT-BIBLE) | 已分析 | 2025-12-24 | Comprehensive 2026 OSINT guide — 450+ tools, AI intelligence, methodologies &amp; ethics across 35 sections for investigatio |
+| [introfini/ZotSeek](https://github.com/introfini/ZotSeek) | 已分析 | 2025-12-26 | AI semantic search for Zotero, with a built-in MCP server for AI agents (Claude Code, Codex). Find papers by meaning. 10 |
+| [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills) | 已分析 | 2025-12-29 | Tutorials, Guides and Agent Skills Directories |
+| [SteveHedden/open-knowledge-graphs](https://github.com/SteveHedden/open-knowledge-graphs) | 已分析 | 2026-01-01 | Open Knowledge Graph Resources is a static, daily-refreshed catalog of ontology and semantic software records sourced fr |
+| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | 已分析 | 2026-01-02 | Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas. |
+| [lishix520/academic-paper-skills](https://github.com/lishix520/academic-paper-skills) | 已分析 | 2026-01-04 | Systematic framework for planning and writing academic papers using Claude Code. Includes strategist (planning) and comp |
+| [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | 已分析 | 2026-01-07 | Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to Gemini Notebook's featur |
+| [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | 已分析 | 2026-01-09 | Teams-first Multi-agent orchestration for Claude Code |
+| [LayerNorm/overlay-web](https://github.com/LayerNorm/overlay-web) | 已分析 | 2026-01-13 | The control plane for your AI employees |
+| [Q00/ouroboros](https://github.com/Q00/ouroboros) | 已分析 | 2026-01-14 | Agent OS: the agent gets smarter on its own. We just hold the line: Interview-gated, staged evaluation, budgeted evoluti |
+| [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | 已分析 | 2026-01-14 | AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation |
+| [vercel-labs/skills](https://github.com/vercel-labs/skills) | 已分析 | 2026-01-14 | The open agent skills tool - npx skills |
+| [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) | 已分析 | 2026-01-16 | A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 已分析 | 2026-01-18 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development f |
+| [blader/humanizer](https://github.com/blader/humanizer) | 已分析 | 2026-01-18 | Agent skill that removes signs of AI-generated writing from text |
