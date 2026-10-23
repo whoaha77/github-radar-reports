@@ -3,40 +3,46 @@
   "repository": "whoaha77/github-radar-reports",
   "items": [
     {
-      "repo_id": 1292529733,
-      "name": "tigerless-labs/design-harness",
-      "url": "https://github.com/tigerless-labs/design-harness",
+      "repo_id": 1195189059,
+      "name": "wxyhgk/retain-pdf",
+      "url": "https://github.com/wxyhgk/retain-pdf",
       "kind": "有趣发现",
       "classic": false,
-      "why": "给AI喂论文和半成品想法，它会归档成卡片、连出证据线，最后生成一张手工钉板风画布，让设计理由一眼可见。",
-      "try_idea": "打开官网demo画布，试用五种皮肤并看卡片如何跳回来源。",
-      "reviewed_at": "2026-10-17T08:54:28.384844+00:00",
+      "playful_hits": 0,
+      "curiosity": 4.2,
+      "why": "PDF 翻译常见痛点是公式和排版被毁，这个项目主打扫描件与行内公式保留，还有原文译文同页对照阅读。",
+      "try_idea": "先看 README 里的翻译效果合集图，对比 SCI 论文、扫描文档与教材三类样本的版式还原。",
+      "reviewed_at": "2026-10-16T17:33:33.224116+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "07a2d16ada8ba297502fe4861ef2596851df5d52f3f3823420c5ac83021afecf"
+      "share_id": "5339b064b6d152b7f0273f48feb569b0b99a4d5d50fa21780ff0a9bc44a58132"
     },
     {
-      "repo_id": 1414685342,
-      "name": "onehumanbeing/esp32-iphone-agent",
-      "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+      "repo_id": 1133901637,
+      "name": "Q00/ouroboros",
+      "url": "https://github.com/Q00/ouroboros",
       "kind": "有趣发现",
       "classic": false,
-      "why": "七美元的板子加一个手机应用，就让大模型自己点手机设闹钟，还开源了规划器提示词与逐步回放，是很有画面感的computer-use实验。",
-      "try_idea": "先看README的流程示意图与演示视频，重点看它如何处理相对指针校准与失败重试。",
-      "reviewed_at": "2026-10-16T17:36:59.888152+00:00",
+      "playful_hits": 0,
+      "curiosity": 4.1,
+      "why": "让代理先被你盘问清楚需求、锁定规格再动手，失败后还能进化重试，像给AI编程装上了操作系统。",
+      "try_idea": "先看README里Codex与Claude Code的访谈演示GIF，感受模糊需求如何被问清。",
+      "reviewed_at": "2026-10-16T17:31:15.636318+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "a92e0e70e11e071914f8c2e97f5e8994ec6c308577cce6baf8ed64c14d89be74"
+      "share_id": "d20e637dda54d200c2209828feeaf8e1a751176463cc591ef4daa2dfd4c76af9"
     },
     {
-      "repo_id": 1203670949,
-      "name": "AgriciDaniel/claude-obsidian",
-      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "repo_id": 826168160,
+      "name": "docling-project/docling",
+      "url": "https://github.com/docling-project/docling",
       "kind": "有趣发现",
-      "classic": false,
-      "why": "把任何来源丢进收件箱，AI 帮你拆成互相链接、可溯源到原文的笔记，vault 始终是你能直接打开的 Markdown 文件。",
-      "try_idea": "先看 README 中的知识循环图与 Graph view、Canvas 截图，观察一次 wiki-ingest 后的链接结构。",
-      "reviewed_at": "2026-10-16T17:33:33.227115+00:00",
+      "classic": true,
+      "playful_hits": 0,
+      "curiosity": 4,
+      "why": "把PDF、PPTX、EPUB甚至视频都统一拆成带结构的DoclingDocument，再一键导出Markdown或JSON，是喂给RAG和知识图谱的“切片机”。",
+      "try_idea": "用CLI把一个arXiv PDF转成Markdown，对比阅读顺序与表格保真度。",
+      "reviewed_at": "2026-10-16T17:26:44.034031+00:00",
       "note": "来自仓库材料与已有分析，尚未亲自运行体验；不是安装请求。",
-      "share_id": "ee676151e03be944fd2caf7ecf4f9d7fb67b2a8e0d1ea1f7380a953b6994d7a5"
+      "share_id": "531e05c473a3b57306f759d3730fd5abaa725024e205c517c266afc762811b37"
     }
   ],
   "delivery_policy": "Share interesting/useful discoveries; no installation request; deduplicate chat delivery."
