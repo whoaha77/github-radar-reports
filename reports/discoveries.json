@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "count": 1319,
+  "count": 1418,
   "items": [
     {
       "repo_id": 86075041,
@@ -483,6 +483,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 45434054,
+      "name": "d-zone-org/d-zone",
+      "url": "https://github.com/d-zone-org/d-zone",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 4,
+      "playful_hits": 4,
+      "score": 38.04464341344584,
+      "why": "聊天越多，画面里的小角色越活跃，把数据变成可看的动画很有趣。",
+      "try_idea": "先访问README给出的在线演示观察角色行为随活动的变化。",
+      "reviewed_at": "2026-10-24T07:53:37.598727+00:00",
+      "share_id": "d3c8702aaf2fb387b299330a0f1738954a956f6811ee78f4c7867c99d13dd427",
+      "published_at": ""
+    },
+    {
       "repo_id": 6520433,
       "name": "smcameron/space-nerds-in-space",
       "url": "https://github.com/smcameron/space-nerds-in-space",
@@ -715,7 +730,7 @@
       "classic": false,
       "curiosity": 4,
       "playful_hits": 3,
-      "score": 78.79239869419148,
+      "score": 78.80966743323988,
       "why": "不装软件在浏览器里就能建知识图谱、跑OWL推理，还让AI代理经MCP直接改图并解释矛盾。",
       "try_idea": "先开在线演示加载一个本体，看推断三元组与不一致修复面板如何联动。",
       "reviewed_at": "2026-10-17T08:54:43.878381+00:00",
@@ -1083,6 +1098,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 1318411646,
+      "name": "MetaCircleAI/ComfyResearch",
+      "url": "https://github.com/MetaCircleAI/ComfyResearch",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 3,
+      "score": 65.53702787975577,
+      "why": "像搭积木一样把数据集、模型、优化器连成图并直接训练，还能看Hessian特征值变化，AI科研可视化很有趣。",
+      "try_idea": "先看在线演示与Edge of Stability CPU模板，理解图如何执行并观测学习动态。",
+      "reviewed_at": "2026-10-24T07:58:22.990736+00:00",
+      "share_id": "06ac903de28775b364489574d1e7347468922c84cfb1ad42713dbb29132a8ae5",
+      "published_at": ""
+    },
+    {
       "repo_id": 38226908,
       "name": "nvdv/vprof",
       "url": "https://github.com/nvdv/vprof",
@@ -1443,6 +1473,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 125554232,
+      "name": "qubole/sparklens",
+      "url": "https://github.com/qubole/sparklens",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 3,
+      "score": 58.54757288996239,
+      "why": "用一次运行的日志就能推算加机器是否划算，把Spark调优从玄学变成可解释的ROI曲线。",
+      "try_idea": "先看README中executor数量与预估耗时对照表。",
+      "reviewed_at": "2026-10-24T07:54:35.634248+00:00",
+      "share_id": "93cbe59fb4adea8e26747de5bf9063fc96172bb801ff0594064d2a346b68a572",
+      "published_at": ""
+    },
+    {
       "repo_id": 12849977,
       "name": "recastnavigation/recastnavigation",
       "url": "https://github.com/recastnavigation/recastnavigation",
@@ -1665,6 +1710,21 @@
       "try_idea": "先逛README的Gȧlléry看各类作品风格，再看Template模板。",
       "reviewed_at": "2026-10-17T16:34:04.550457+00:00",
       "share_id": "24edfb49e85f162284f70241fe6e31e961f8049ee53068cef53a051187693851",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1212416029,
+      "name": "asdfghj1237890/mini-macau",
+      "url": "https://github.com/asdfghj1237890/mini-macau",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 3,
+      "score": 51.60964135744233,
+      "why": "把一座城市的公交、轻轨、渡轮和飞机做成会动的3D沙盘，调时间轴看全天班次，视觉上很解压。",
+      "try_idea": "打开在线站点把速度拉到60倍，看跨海大桥上的车队与候机航班进出港的编排。",
+      "reviewed_at": "2026-10-24T07:57:39.138788+00:00",
+      "share_id": "b6a236d9ee948cbd87e5ad7df30f45efe764c098801b78f872046ec80144dbda",
       "published_at": ""
     },
     {
@@ -1908,6 +1968,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 70338024,
+      "name": "victorfisac/Physac",
+      "url": "https://github.com/victorfisac/Physac",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 3,
+      "score": 41.576336742282336,
+      "why": "几十行C就能让方块碎裂碰撞，单头文件物理引擎很适合做可视化教学小实验。",
+      "try_idea": "先看examples里的碰撞与碎裂演示逻辑，观察顶点信息如何被绘制。",
+      "reviewed_at": "2026-10-24T07:54:18.284956+00:00",
+      "share_id": "dacf67336fd8ed0c834e68b9adf734c3866950df559bf5e796420770ca2bab44",
+      "published_at": ""
+    },
+    {
       "repo_id": 1595156,
       "name": "stuntrally/stuntrally",
       "url": "https://github.com/stuntrally/stuntrally",
@@ -2040,7 +2115,7 @@
       "try_idea": "先翻docs/skill-guides里与可视化或引用管理相关的示例技能，挑一两个看写法。",
       "reviewed_at": "2026-10-17T08:32:37.801521+00:00",
       "share_id": "2f8959eeeb3157b0cd133e966f29d4d13d58c6661f3c8d025990ce7ed2eda44f",
-      "published_at": ""
+      "published_at": "2026-10-23T13:59:47.468228+00:00"
     },
     {
       "repo_id": 92974124,
@@ -2055,7 +2130,7 @@
       "try_idea": "用pyvista plot bunny.stl体验CLI，或看examples gallery挑一个体渲染示例。",
       "reviewed_at": "2026-10-17T18:31:19.658323+00:00",
       "share_id": "7caf80498948498a5513c5a06a14024691df8c7346e84c2ba3bbfeda63ff9a79",
-      "published_at": ""
+      "published_at": "2026-10-23T13:59:47.469240+00:00"
     },
     {
       "repo_id": 1160005002,
@@ -2395,7 +2470,7 @@
       "classic": false,
       "curiosity": 4,
       "playful_hits": 2,
-      "score": 79.12891597845383,
+      "score": 79.15109392278507,
       "why": "它证明一个好知识库只需要Markdown加点索引：1.5秒重建全库、零依赖、图谱自动生成，极客味十足也真能天天用。",
       "try_idea": "先看README里的图谱截图和60秒放大视频，理解从全库到一行文本的四层缩放。",
       "reviewed_at": "2026-10-16T17:34:15.797383+00:00",
@@ -2770,7 +2845,7 @@
       "classic": false,
       "curiosity": 5,
       "playful_hits": 2,
-      "score": 74.80642502755069,
+      "score": 74.84419571587144,
       "why": "把没有答案的研究画成一张迷宫地图：走过的通道是蓝的，被否掉的死胡同打上锈色斜线，门外的金色是猜想，很有画面感。",
       "try_idea": "先跑README里的三角形计数示例，打开生成的仪表盘看前沿地图与分级统计。",
       "reviewed_at": "2026-10-22T07:57:17.561711+00:00",
@@ -3315,6 +3390,21 @@
       "try_idea": "打开程序自带的示例设计，改改尺寸看弹道曲线怎么变。",
       "reviewed_at": "2026-10-17T08:05:15.980311+00:00",
       "share_id": "f4cbe0e8c059a97a70ace9c2043e4612caf192c6aa4408256d8dc49c62dccd1b",
+      "published_at": ""
+    },
+    {
+      "repo_id": 639665187,
+      "name": "yasenstar/protege_pizza",
+      "url": "https://github.com/yasenstar/protege_pizza",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 2,
+      "score": 65.46089784275655,
+      "why": "把披萨本体一路推到知识图谱与可执行知识架构，是本体入门到进阶的少见完整路线。",
+      "try_idea": "先看ebook/markdown中的SKDL阶段章节与推理练习。",
+      "reviewed_at": "2026-10-24T07:58:57.040850+00:00",
+      "share_id": "2ea5eb3a8ad2f7b566aa59d05b417c4c3310441ad6c91021f2883354c17cc15a",
       "published_at": ""
     },
     {
@@ -5208,6 +5298,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 66222010,
+      "name": "GGBRW/BOOLR",
+      "url": "https://github.com/GGBRW/BOOLR",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 2,
+      "score": 46.09730129089054,
+      "why": "拖几个逻辑门就能搭出加法器和计数器，边玩边看懂数字电路。",
+      "try_idea": "先跑README开发命令启动界面，搭一个半加器试试。",
+      "reviewed_at": "2026-10-24T07:53:58.472427+00:00",
+      "share_id": "e42540ba48134cdfd976f160f3767ca95c4a34f6ecae9dc306773586ea4b299e",
+      "published_at": ""
+    },
+    {
       "repo_id": 973892516,
       "name": "Fabric-Project/Fabric",
       "url": "https://github.com/Fabric-Project/Fabric",
@@ -5673,6 +5778,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 301173452,
+      "name": "IRCSS/Compute-Shaders-Fluid-Dynamic-",
+      "url": "https://github.com/IRCSS/Compute-Shaders-Fluid-Dynamic-",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 4,
+      "playful_hits": 2,
+      "score": 39.60280742003471,
+      "why": "在Unity里点鼠标就能搅动染料和雾，伪3D水池效果直观，适合讲GPU并行与水动力学入门。",
+      "try_idea": "先看documentation/FluidSimulationGif.gif和2DFluid场景，再读作者博客的入门解析。",
+      "reviewed_at": "2026-10-24T07:55:18.833391+00:00",
+      "share_id": "10d453ae31c77405cded73997ec7e06bae4b1b283ad721c99f35b1e8423a4f59",
+      "published_at": ""
+    },
+    {
       "repo_id": 38603315,
       "name": "hiloteam/Hilo",
       "url": "https://github.com/hiloteam/Hilo",
@@ -5760,6 +5880,21 @@
       "try_idea": "看imgs目录里的拓扑截图与插件组织仓库，理解它如何把图当交互界面。",
       "reviewed_at": "2026-10-17T12:30:48.592054+00:00",
       "share_id": "a32849fb12bb301faefc7b1911db78b075b0973806389b48ff4d2f7763650ffc",
+      "published_at": ""
+    },
+    {
+      "repo_id": 552626065,
+      "name": "AngelJumbo/lavat",
+      "url": "https://github.com/AngelJumbo/lavat",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 4,
+      "playful_hits": 2,
+      "score": 38.095919287474395,
+      "why": "用文字字符在终端里翻滚出一盏熔岩灯，带派对模式和重力浮力，纯属浪漫工程。",
+      "try_idea": "先看README里的示例GIF与lavat -p3派对模式，感受终端动画效果。",
+      "reviewed_at": "2026-10-24T07:55:37.770708+00:00",
+      "share_id": "c998763399a8faa9c025be3a6866c7dff5a96f118a9cb2b7ca0f1a7ea1a85b01",
       "published_at": ""
     },
     {
@@ -6183,6 +6318,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 62424052,
+      "name": "althonos/pronto",
+      "url": "https://github.com/althonos/pronto",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3.5,
+      "playful_hits": 1,
+      "score": 79.85950456000482,
+      "why": "几行Python就能把庞大生物医学本体读成可检索的字典，还能顺手转成OBO格式。",
+      "try_idea": "先跑README中加载GO本体并按ID取术语的示例，感受层级查询。",
+      "reviewed_at": "2026-10-24T07:53:58.466389+00:00",
+      "share_id": "e18cb902031c17efc204f2ce91fea5188f48695887086aff563866903c51c576",
+      "published_at": ""
+    },
+    {
       "repo_id": 68885535,
       "name": "penrose/penrose",
       "url": "https://github.com/penrose/penrose",
@@ -6510,6 +6660,21 @@
       "try_idea": "先看27秒演示视频和Graph、Belief、Experiment截图，了解图谱如何组织研究问题。",
       "reviewed_at": "2026-10-23T13:59:15.353737+00:00",
       "share_id": "19dbc2660ccfc8d994abb37b47d8276f51004f32bdc6697a28327197b8e45c38",
+      "published_at": ""
+    },
+    {
+      "repo_id": 491560977,
+      "name": "proroklab/VectorizedMultiAgentSimulator",
+      "url": "https://github.com/proroklab/VectorizedMultiAgentSimulator",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 4,
+      "playful_hits": 1,
+      "score": 75.09176003468815,
+      "why": "在终端里跑出成群机器人互相避让、协作的仿真，几万环境并行，像科学玩具。",
+      "try_idea": "先跑Colab笔记本创建waterfall场景，观察批量仿真与渲染效果。",
+      "reviewed_at": "2026-10-24T07:55:37.767711+00:00",
+      "share_id": "be3631013202d215bed7fe004713360edad7ad20c3ad08ad8ecdeffbc7ebba36",
       "published_at": ""
     },
     {
@@ -7503,6 +7668,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 897180458,
+      "name": "kgruiz/PlotNeuralNet",
+      "url": "https://github.com/kgruiz/PlotNeuralNet",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 3,
+      "playful_hits": 1,
+      "score": 65.72556771343947,
+      "why": "把网络结构写成代码再渲染成发表级示意图，比手绘省力且可版本化。",
+      "try_idea": "先看pyexamples里的unet.py或AlexNet示例生成效果。",
+      "reviewed_at": "2026-10-24T07:55:58.735982+00:00",
+      "share_id": "023e588feb1a0eb779f1587c2568b638eb3ecc65267655edfb43c5a30b2ae537",
+      "published_at": ""
+    },
+    {
       "repo_id": 1264478656,
       "name": "plannotator/effective-html",
       "url": "https://github.com/plannotator/effective-html",
@@ -7515,6 +7695,21 @@
       "try_idea": "先看README演示视频，再读html-diagram技能，试让模型画一张论文流程架构图。",
       "reviewed_at": "2026-10-22T07:56:21.106493+00:00",
       "share_id": "e5198170987a87564c491d8bcdaa852a25234af4e256e5e83f11ea892c174df0",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1363423951,
+      "name": "kevinzakka/mjbatch",
+      "url": "https://github.com/kevinzakka/mjbatch",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 1,
+      "score": 65.56780715854546,
+      "why": "五年前的M1笔记本一分钟内让四足机器人学会走路，批量仿真的杠杆感很直观。",
+      "try_idea": "先看examples中cartpole_swingup或go1_joystick的动图与脚本结构",
+      "reviewed_at": "2026-10-24T07:58:44.882782+00:00",
+      "share_id": "8a9bc7c2d266d22ec82022611c17599328d5c0abc66a6130fd84f13b19ec6633",
       "published_at": ""
     },
     {
@@ -7728,6 +7923,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 1154011043,
+      "name": "syzygyhack/open-foundry",
+      "url": "https://github.com/syzygyhack/open-foundry",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 1,
+      "score": 62.70074109023513,
+      "why": "把领域模型一次写成模式，就自动长出API、权限与审计，数字孪生式玩法有深度。",
+      "try_idea": "先跑examples/library-pack的借书动作示例，观察前置条件与版本历史。",
+      "reviewed_at": "2026-10-24T07:56:52.669649+00:00",
+      "share_id": "7376c136d6fcc9906cb820d9f8a7e72ebda03b78ee1784a959d3f79a0483fa99",
+      "published_at": ""
+    },
+    {
       "repo_id": 250169028,
       "name": "gdsfactory/gdsfactory",
       "url": "https://github.com/gdsfactory/gdsfactory",
@@ -7755,6 +7965,21 @@
       "try_idea": "先跑README的PyTorch两行tracker示例或硬件监控命令演示。",
       "reviewed_at": "2026-10-23T13:55:01.722134+00:00",
       "share_id": "32a789668adf9041857384b3472a973b27695be3999a00cb3325de7ac5b6261f",
+      "published_at": ""
+    },
+    {
+      "repo_id": 346185313,
+      "name": "danijar/crafter",
+      "url": "https://github.com/danijar/crafter",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 4,
+      "playful_hits": 1,
+      "score": 62.06351074930494,
+      "why": "一个小小2D生存世界，却把探索、制造、战斗打包成AI能力考试，人类得分50.5%作参照很有意思。",
+      "try_idea": "先装crafter加pygame亲手玩一局，对照得分表看随机智能体与DreamerV3差距。",
+      "reviewed_at": "2026-10-24T07:55:18.837391+00:00",
+      "share_id": "37c13b7f79d0cb25ed2ba76f2b971433e862678a36da453e05d5727ea61ea996",
       "published_at": ""
     },
     {
@@ -7908,6 +8133,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 146776048,
+      "name": "polyfem/polyfem",
+      "url": "https://github.com/polyfem/polyfem",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 1,
+      "score": 60.6110017163168,
+      "why": "开源有限元软件自带图形界面，能把力学仿真做成彩色结果图，科研可视化很有趣。",
+      "try_idea": "先逛官网文档与示例场景，看能否用GUI跑一个简单弹性体案例。",
+      "reviewed_at": "2026-10-24T07:54:35.663869+00:00",
+      "share_id": "1bf97c02cd33b6bab4c730e39af988b5b54c421ae09253aca9f91c90aa3d2193",
+      "published_at": ""
+    },
+    {
       "repo_id": 845337192,
       "name": "certimate-go/certimate",
       "url": "https://github.com/certimate-go/certimate",
@@ -8028,6 +8268,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 1190977461,
+      "name": "EmergenceAI/Emergence-World",
+      "url": "https://github.com/EmergenceAI/Emergence-World",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 5,
+      "playful_hits": 1,
+      "score": 59.616421945848444,
+      "why": "五个平行世界只换底层模型，代理们自己立宪、赚钱、写博客，结果迥异，像AI社会实验。",
+      "try_idea": "先看AWI九项指标定义，再到Replay页看不同世界的行为差异。",
+      "reviewed_at": "2026-10-24T07:57:13.093623+00:00",
+      "share_id": "f43d5802b90162d490bf06785bf9cafb394ab3eb7de1ad53b9f5f5a8842515be",
+      "published_at": ""
+    },
+    {
       "repo_id": 421134917,
       "name": "Farama-Foundation/Gymnasium-Robotics",
       "url": "https://github.com/Farama-Foundation/Gymnasium-Robotics",
@@ -8040,6 +8295,21 @@
       "try_idea": "先看README的FetchReach示例与robotics.farama.org环境演示图。",
       "reviewed_at": "2026-10-17T08:51:21.078963+00:00",
       "share_id": "56184f3f5bddc0fa0c2f0597f7a69557a821c4c53f7f7e706685fdb0dbe3d111",
+      "published_at": ""
+    },
+    {
+      "repo_id": 264718959,
+      "name": "MPh-py/MPh",
+      "url": "https://github.com/MPh-py/MPh",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 1,
+      "score": 59.56351074930494,
+      "why": "让商业仿真软件听Python的话，参数扫描和批量仿真可以脚本化，科研复现性和效率都提升。",
+      "try_idea": "先看文档里加载.mph模型并修改参数的入门示例。",
+      "reviewed_at": "2026-10-24T07:54:56.579920+00:00",
+      "share_id": "1f704c00ba75c7badc0d32342de5b36c0ce6080c907caf44a4cbf140754b5565",
       "published_at": ""
     },
     {
@@ -8238,21 +8508,6 @@
       "published_at": ""
     },
     {
-      "repo_id": 639665187,
-      "name": "yasenstar/protege_pizza",
-      "url": "https://github.com/yasenstar/protege_pizza",
-      "kind": "有趣发现",
-      "classic": true,
-      "curiosity": 3.5,
-      "playful_hits": 1,
-      "score": 57.94543294229517,
-      "why": "用披萨本体这个经典例子把OWL推理讲成可上手的工程流程，配视频与电子书，适合想看本体如何走向知识图谱与可执行智能的人。",
-      "try_idea": "先看README的EKA旅程图和Pizza.owl到知识图谱的演进示意，再翻开源章节找一条限制推理例子。",
-      "reviewed_at": "2026-10-16T17:32:25.832529+00:00",
-      "share_id": "1ad2f0f348195eccbab59681dde9c903748fd71d3e5034301a04d66ae774368c",
-      "published_at": ""
-    },
-    {
       "repo_id": 270155553,
       "name": "pthom/hello_imgui",
       "url": "https://github.com/pthom/hello_imgui",
@@ -8295,6 +8550,21 @@
       "try_idea": "先打开官网Demo或example.html，拖动滑块看实时效果。",
       "reviewed_at": "2026-10-17T12:31:35.315576+00:00",
       "share_id": "80c654ad24ca776461533c1947fd645c3ea241925a3aa9f81c90da67b15418f3",
+      "published_at": ""
+    },
+    {
+      "repo_id": 747946600,
+      "name": "AmberSahdev/Open-Interface",
+      "url": "https://github.com/AmberSahdev/Open-Interface",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 4,
+      "playful_hits": 1,
+      "score": 57.37168873196888,
+      "why": "让LLM自己看屏幕解Wordle、做文档，是很直观的智能体演示。",
+      "try_idea": "先看README里的Wordle与“Write a Web App”演示动图。",
+      "reviewed_at": "2026-10-24T07:55:58.719615+00:00",
+      "share_id": "4703225fdee8282362545421a27fe5532281d31ae9e6605a436b25a8c13c54c6",
       "published_at": ""
     },
     {
@@ -8463,6 +8733,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 397942104,
+      "name": "RobotecAI/ros2-for-unity",
+      "url": "https://github.com/RobotecAI/ros2-for-unity",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 1,
+      "score": 55.60280742003471,
+      "why": "把Unity里的虚拟传感器变成真正的ROS2节点，用ros2 topic就能看到仿真世界在说话，很直观。",
+      "try_idea": "先看README中Talker/Listener示例，理解一键在Unity里创建发布者与订阅者。",
+      "reviewed_at": "2026-10-24T07:55:18.840390+00:00",
+      "share_id": "4cf60ad3f2ec30854213ad60231abc326edd6b6ca603e59aa8b3d6450715c04e",
+      "published_at": ""
+    },
+    {
       "repo_id": 832890903,
       "name": "maximecb/plush",
       "url": "https://github.com/maximecb/plush",
@@ -8598,6 +8883,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 140010231,
+      "name": "vikashplus/robohive",
+      "url": "https://github.com/vikashplus/robohive",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 1,
+      "score": 53.10280742003471,
+      "why": "能在电脑里训练机械手抓东西，仿真环境免费开源，适合好奇机器人学习的人围观。",
+      "try_idea": "先跑Colab示例或看FrankaReachRandom演示视频。",
+      "reviewed_at": "2026-10-24T07:54:35.661868+00:00",
+      "share_id": "d5e2c8619e885f9bcd35dadf3ff23e2c9d1a645610f15ddce637d9badb993ea9",
+      "published_at": ""
+    },
+    {
       "repo_id": 2400938,
       "name": "asmuth/clip",
       "url": "https://github.com/asmuth/clip",
@@ -8643,6 +8943,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 60615913,
+      "name": "aff3ct/aff3ct",
+      "url": "https://github.com/aff3ct/aff3ct",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 1,
+      "score": 52.57208242048511,
+      "why": "用一条命令就能跑出Polar、LDPC等编码在噪声信道下的误码率曲线，像给通信链路做体检。",
+      "try_idea": "先看README中的示例命令与输出表格，理解BER/FER与吞吐指标的读法。",
+      "reviewed_at": "2026-10-24T07:53:58.464389+00:00",
+      "share_id": "412d49935e517f2a54767a9944a5c8ce72a8f4ab0241f6f5e811b0e1b7c9eb13",
+      "published_at": ""
+    },
+    {
       "repo_id": 1172073959,
       "name": "davidmonterocrespo24/velxio",
       "url": "https://github.com/davidmonterocrespo24/velxio",
@@ -8685,6 +9000,21 @@
       "try_idea": "先跑SIMremus100.m看3D路径跟踪动画。",
       "reviewed_at": "2026-10-22T07:54:20.361948+00:00",
       "share_id": "ecff04fb542d062dd0da15dd45e5b767aa8e6170324c5ed1220f4d9c16ef8851",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1005678829,
+      "name": "JacopoPan/aerial-autonomy-stack",
+      "url": "https://github.com/JacopoPan/aerial-autonomy-stack",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 1,
+      "score": 52.1082788646707,
+      "why": "能在仿真城镇里放多架无人机跑YOLO与激光雷达，画面和实验都很酷。",
+      "try_idea": "先看README中的多机仿真截图与sim_run.sh参数说明。",
+      "reviewed_at": "2026-10-24T07:55:58.739982+00:00",
+      "share_id": "4ec21b99e1780fe004b7952eba568575b1f7889f9acdbefdca11e7dc9acd7a54",
       "published_at": ""
     },
     {
@@ -8835,6 +9165,21 @@
       "try_idea": "先读doc/Architecture.md和Usage.md里的用例，理解tcpcopy与intercept的分工。",
       "reviewed_at": "2026-10-16T17:15:58.880561+00:00",
       "share_id": "10f9027a3b9cb37d70226255c0867b15731f8caf398c8cbf5575da3cac2e3c64",
+      "published_at": ""
+    },
+    {
+      "repo_id": 262044260,
+      "name": "Shuffle/Shuffle",
+      "url": "https://github.com/Shuffle/Shuffle",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 1,
+      "score": 50.78257609719059,
+      "why": "把安全工具拼成可视化流水线，拖拽即编排，非安全人也能偷师它的工作流编辑器设计。",
+      "try_idea": "看官方文档里的webhook工作流示例，理解节点编排方式。",
+      "reviewed_at": "2026-10-24T07:54:56.578920+00:00",
+      "share_id": "d377d2735a7799afa85c4a22ebf7cb4d29d9590a564ed3023636f714f7d60ab6",
       "published_at": ""
     },
     {
@@ -9348,6 +9693,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 14244399,
+      "name": "neurokernel/neurokernel",
+      "url": "https://github.com/neurokernel/neurokernel",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 1,
+      "score": 46.0402305895742,
+      "why": "把果蝇大脑拆成模块在多GPU上跑，属于计算神经科学的硬核工程，架构思路本身很有启发。",
+      "try_idea": "先看Neurodriver仓库里的入门示例，理解模块如何拼装成脑模型。",
+      "reviewed_at": "2026-10-24T07:53:17.651575+00:00",
+      "share_id": "1d3f450328c3f597a9bfc2ccf1734aa9a7ec8ce15c968753e9a93b34c5758a0c",
+      "published_at": ""
+    },
+    {
       "repo_id": 47593546,
       "name": "NetHack/NetHack",
       "url": "https://github.com/NetHack/NetHack",
@@ -9630,6 +9990,21 @@
       "try_idea": "打开官方演示页，替换示例数组看时间轴如何排布。",
       "reviewed_at": "2026-10-17T10:30:28.822547+00:00",
       "share_id": "ab8b492bf077130322954fdfa9ea82ae70b9a0434b5a319c9ede38179b444440",
+      "published_at": ""
+    },
+    {
+      "repo_id": 599741698,
+      "name": "btx0424/OmniDrones",
+      "url": "https://github.com/btx0424/OmniDrones",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 1,
+      "score": 43.03875465215228,
+      "why": "能在三维场景里训练多架无人机飞行动作，适合做RL可视化演示与教学素材。",
+      "try_idea": "先看readthedocs文档中的基准任务与可视化示例。",
+      "reviewed_at": "2026-10-24T07:55:58.717515+00:00",
+      "share_id": "0b6dc32743e4752dbff44a85a0919385ce9a625452ecf76e202ac0d82538240f",
       "published_at": ""
     },
     {
@@ -10305,7 +10680,7 @@
       "try_idea": "先用Docker跑一遍，试OCR识别一篇扫描论文再压缩，看输出质量与耗时。",
       "reviewed_at": "2026-10-16T17:25:40.132784+00:00",
       "share_id": "c427b00c50b0cae01b24fcedd803e94ac5a08c83a47ce3f5468d5c72e50d9ca2",
-      "published_at": ""
+      "published_at": "2026-10-23T13:59:47.466435+00:00"
     },
     {
       "repo_id": 221981891,
@@ -10758,6 +11133,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 39348622,
+      "name": "cyanfish/naps2",
+      "url": "https://github.com/cyanfish/naps2",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 83.84012043494627,
+      "why": "把一堆纸质材料变成可检索PDF，操作简单，还能从扫描仪直出OCR文本。",
+      "try_idea": "先用一台常见扫描仪试扫描一页并对比开启OCR前后的搜索效果。",
+      "reviewed_at": "2026-10-24T07:53:37.596485+00:00",
+      "share_id": "4d465a16b71176e247525174cf075f705d38670ad065896cc3861f8506784674",
+      "published_at": ""
+    },
+    {
       "repo_id": 541798154,
       "name": "Unstructured-IO/unstructured",
       "url": "https://github.com/Unstructured-IO/unstructured",
@@ -10920,6 +11310,21 @@
       "try_idea": "先用Web版或下载Windows安装包，试双栏并行阅读与笔记标注。",
       "reviewed_at": "2026-10-16T17:27:04.136234+00:00",
       "share_id": "0949fe6dea0d93be35c0880483500a558bfe41a1b5567a464284ceeb2fc1b26d",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1212023769,
+      "name": "SteveTheKiller/KillerPDF",
+      "url": "https://github.com/SteveTheKiller/KillerPDF",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 82.24422072072244,
+      "why": "Windows上的免费PDF多功能瑞士刀：标注、OCR成可搜索、转图、去密码、命令行批跑，还自带渲染引擎。",
+      "try_idea": "先试命令行--ocr把扫描件变可搜索PDF，或用--to-image批量导出图片看速度与质量。",
+      "reviewed_at": "2026-10-24T07:57:39.137789+00:00",
+      "share_id": "bda4481f88363405a9b7ca83cbdb5da0de5bde5ed1ceb7246fece34c95aed101",
       "published_at": ""
     },
     {
@@ -11130,6 +11535,21 @@
       "try_idea": "先看README里的unread示例，观察新建条目自动加标签的过程。",
       "reviewed_at": "2026-10-23T07:57:28.384650+00:00",
       "share_id": "28359a528dc454869ad596d0625cae66df143b5fd12dd7faa718c4bbaa7caa2b",
+      "published_at": ""
+    },
+    {
+      "repo_id": 13062062,
+      "name": "torakiki/pdfsam",
+      "url": "https://github.com/torakiki/pdfsam",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 80.3334102722398,
+      "why": "论文合并、扫描件拆章、奇数页旋转，拖拽几下就好，还完全开源免费。",
+      "try_idea": "先看README里的合并演示GIF，再试一次拆分加提取页面组合。",
+      "reviewed_at": "2026-10-24T07:53:00.076370+00:00",
+      "share_id": "8ea819f5ad1d04f00095be9d9179eb23087d06d3e7b59298e3eefa33e41cfa09",
       "published_at": ""
     },
     {
@@ -11853,6 +12273,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 1345802690,
+      "name": "deltadbu/WIT-skill",
+      "url": "https://github.com/deltadbu/WIT-skill",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 77.70411998265593,
+      "why": "把写论文从“让AI代写”变成“让AI逼你把问题想清楚”，逻辑审计检查表尤其好玩。",
+      "try_idea": "先看wit/case-studies中的案例，观察它如何拆解一条结果与讨论的逻辑链",
+      "reviewed_at": "2026-10-24T07:58:44.880668+00:00",
+      "share_id": "5ed2f0c476fb590aded0e4394d10bac189f759b67eb37647791061a390a14170",
+      "published_at": ""
+    },
+    {
       "repo_id": 23465887,
       "name": "pdfminer/pdfminer.six",
       "url": "https://github.com/pdfminer/pdfminer.six",
@@ -11988,6 +12423,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 150767713,
+      "name": "danburzo/percollate",
+      "url": "https://github.com/danburzo/percollate",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 77.342901108425,
+      "why": "把论文网页、博客连载一键变成带封面和目录的EPUB/PDF，像给互联网内容装订成书，很适合囤积阅读。",
+      "try_idea": "先试RSS或Atom订阅源直接生成EPUB，观察目录与排版效果。",
+      "reviewed_at": "2026-10-24T07:54:56.571920+00:00",
+      "share_id": "ec1f56c49d41f731faa9fca8edefcd9e82f4ae779f0190ccee39e5bcddb7cddf",
+      "published_at": ""
+    },
+    {
       "repo_id": 1117639997,
       "name": "agentskills/agentskills",
       "url": "https://github.com/agentskills/agentskills",
@@ -12090,6 +12540,21 @@
       "try_idea": "先看README里的CLI示例或Codex设置演示视频，观察从建笔记本到生成音频的完整链路。",
       "reviewed_at": "2026-10-17T14:34:06.476943+00:00",
       "share_id": "0b60d724104178d0920d14b3599b758c66a4eaa3acf344cc246d8b552e1a5b94",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1201775166,
+      "name": "Astro-Han/karpathy-llm-wiki",
+      "url": "https://github.com/Astro-Han/karpathy-llm-wiki",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 76.82693482597165,
+      "why": "让AI替你维护一本会长大的个人维基，新资料自动改写旧页、补交叉引用，还带引用回答问题。",
+      "try_idea": "先看examples里样例wiki页和操作日志，理解Ingest/Query/Lint三操作的产物形态。",
+      "reviewed_at": "2026-10-24T07:57:39.135789+00:00",
+      "share_id": "c54f380ad20a76d378d062dfce34276c6eaa84cee78c7f34994d24434c93fabc",
       "published_at": ""
     },
     {
@@ -12243,6 +12708,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 1382646102,
+      "name": "Eliot5566/JEV-Paper-Radar",
+      "url": "https://github.com/Eliot5566/JEV-Paper-Radar",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 76.11260500153458,
+      "why": "每天用六美分读完全部arXiv，只推值得读的几篇，还能用点赞修正阈值，像私人审稿雷达。",
+      "try_idea": "先运行离线demo看生成的页面与near miss清单结构",
+      "reviewed_at": "2026-10-24T07:58:44.884366+00:00",
+      "share_id": "77cf9f64728bb73640f98942f98c3925d3adce577e7f38439dc6c2632beeb015",
+      "published_at": ""
+    },
+    {
       "repo_id": 64670477,
       "name": "wojtekmaj/react-pdf",
       "url": "https://github.com/wojtekmaj/react-pdf",
@@ -12255,6 +12735,21 @@
       "try_idea": "先打开官方在线 demo 试加载自己的 PDF。",
       "reviewed_at": "2026-10-17T14:31:00.617973+00:00",
       "share_id": "e1bd83947a43222cf29f113025d55547a74303f2c9c7a731f6e76a94afc7039f",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1305527469,
+      "name": "jianzushen/Computational-chemistry-skill",
+      "url": "https://github.com/jianzushen/Computational-chemistry-skill",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 76.08813608870055,
+      "why": "把一句“用CP2K优化结构”变成有审批、有证据链、能写进论文方法段的完整流程，科研人会觉得踏实又有趣。",
+      "try_idea": "先看README完整工作流，再试最小示例确认资料不全时不生成文件。",
+      "reviewed_at": "2026-10-24T07:58:22.986960+00:00",
+      "share_id": "52f4ef384215e9541281d0137709da872ad8a1a23856f739364dc531900f5bd4",
       "published_at": ""
     },
     {
@@ -12300,6 +12795,21 @@
       "try_idea": "先在Overleaf打开空白工程，切换两个出版社编译对比。",
       "reviewed_at": "2026-10-17T08:06:05.344031+00:00",
       "share_id": "c1cfea9421f672c19e29baf0a2e697cb59c0c283350a6dcdc4d166c5541e82c6",
+      "published_at": ""
+    },
+    {
+      "repo_id": 45905736,
+      "name": "ernestojimenezruiz/logmap-matcher",
+      "url": "https://github.com/ernestojimenezruiz/logmap-matcher",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 75.94543294229517,
+      "why": "本体合并的老牌工具，学术引用高，还能在匹配中引入LLM校验。",
+      "try_idea": "先看OAEI评测页面了解它在哪些匹配任务上表现突出。",
+      "reviewed_at": "2026-10-24T07:53:37.599771+00:00",
+      "share_id": "9f2411a7e66bbab8bd019ad041456dc0808605b162f5ebcb62abd5f4fb330d0e",
       "published_at": ""
     },
     {
@@ -12393,6 +12903,36 @@
       "published_at": ""
     },
     {
+      "repo_id": 32497169,
+      "name": "MaastrichtU-IDS/semanticscience",
+      "url": "https://github.com/MaastrichtU-IDS/semanticscience",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 75.21466499286254,
+      "why": "给科研对象、过程、属性一套通用的本体词汇，还能生成子集和比对新旧版本，做知识图谱的人能直接借词表。",
+      "try_idea": "先看README里的diff_ontologies脚本示例，拿两个版本跑出变更清单。",
+      "reviewed_at": "2026-10-24T07:53:17.656890+00:00",
+      "share_id": "a17f7b9971b251164efc95abf41a1533e6f6a8196172b7eb703d5a2d5062c95e",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1218605931,
+      "name": "Moonweave-Research/zotero-reading-flow",
+      "url": "https://github.com/Moonweave-Research/zotero-reading-flow",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 75.11260500153458,
+      "why": "不用再逐个打开PDF找看到哪：Zotero里直接看进度条、状态和“上次读于3小时前”，还有阅读统计数据。",
+      "try_idea": "先看Reading Statistics截图，再给自己的待读列表批量设为To Read看统计可视化。",
+      "reviewed_at": "2026-10-24T07:57:39.140788+00:00",
+      "share_id": "0565e67b67160792ed7367dc398a9b818c38de6a327840e6ff42133d0ab98850",
+      "published_at": ""
+    },
+    {
       "repo_id": 1279934935,
       "name": "OvOhao/auto-paper-collecter",
       "url": "https://github.com/OvOhao/auto-paper-collecter",
@@ -12460,7 +13000,7 @@
       "classic": false,
       "curiosity": 4,
       "playful_hits": 0,
-      "score": 74.76693691115918,
+      "score": 74.82551566336315,
       "why": "把追文献、转PDF、写摘要卡、精读、记日志塞进一个本地面板，还带番茄钟，对写论文的人像一条顺手的流水线。",
       "try_idea": "先看README里的界面截图和SKILL部署向导，判断14个面板里哪几个真能替代现有手工环节。",
       "reviewed_at": "2026-10-22T07:57:17.554982+00:00",
@@ -12480,6 +13020,21 @@
       "try_idea": "先看社区论坛的示例脚本帖，了解一个简单热键脚本能做什么",
       "reviewed_at": "2026-10-16T17:45:00.063011+00:00",
       "share_id": "3bf0d50b534fef5690a3423457a1256a400864cf93a4e27b81065f6b332a92d5",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1335829557,
+      "name": "researchradar/research-radar",
+      "url": "https://github.com/researchradar/research-radar",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 74.65956719323361,
+      "why": "自己搭一个研究雷达，自动抓arXiv与RSS、去重排序并解释为何上榜，长期攒个人研究记忆很有吸引力。",
+      "try_idea": "先跑离线synthetic夹具流程，看Today/Reading/Search页面长什么样。",
+      "reviewed_at": "2026-10-24T07:58:24.246229+00:00",
+      "share_id": "80f82175121261bec5e499c7f765e773b84bd2e8faf97ae1c1a35ad44ad5f6a3",
       "published_at": ""
     },
     {
@@ -12505,11 +13060,26 @@
       "classic": true,
       "curiosity": 4,
       "playful_hits": 0,
-      "score": 74.5847833789965,
+      "score": 74.61235994796778,
       "why": "把散落表格里的电池数据变成带永久IRI、能SPARQL查询的链接数据，是本体落地科研的好样本。",
       "try_idea": "先看教程1的概念notebook和第4篇语义层，理解JSON-LD如何堆叠EMMO类型。",
       "reviewed_at": "2026-10-17T08:51:21.074215+00:00",
       "share_id": "d6f96fd692ef99e63432c2edc5e675d97c523f0b7c9d2d6cc38be42e8f3f121d",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1194333564,
+      "name": "jiadizhunine/deeptutor",
+      "url": "https://github.com/jiadizhunine/deeptutor",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 74.51029995663981,
+      "why": "选导师前先跑一遍AI尽调，追踪学生去向、经费与口碑，输出敢下结论的HTML报告，很实用。",
+      "try_idea": "先打开示例HTML报告，看11个评估维度和导师锐评的呈现方式。",
+      "reviewed_at": "2026-10-24T07:57:14.711215+00:00",
+      "share_id": "c009adffbbb3e760ed62884b4857ea51b8933718204672840414960fdd11b693",
       "published_at": ""
     },
     {
@@ -12648,6 +13218,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 1312196547,
+      "name": "brycewang-stanford/lit-review-agent-tools",
+      "url": "https://github.com/brycewang-stanford/lit-review-agent-tools",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 73.70411998265593,
+      "why": "一张覆盖11类70+工具的文献综述地图，还标注维护状态与许可，按阶段挑工具省时又有探索乐趣。",
+      "try_idea": "先看PICKS.md十大推荐与recipes中的已验证工作流，了解哪些流程真正跑通。",
+      "reviewed_at": "2026-10-24T07:58:22.989124+00:00",
+      "share_id": "f346a322e041260caba9bcd6b01e32e5a8a130386669ef5d555dbed4d8bfbf43",
+      "published_at": ""
+    },
+    {
       "repo_id": 1307568662,
       "name": "AminBlg/SimpleEnglish",
       "url": "https://github.com/AminBlg/SimpleEnglish",
@@ -12765,6 +13350,21 @@
       "try_idea": "先翻README的Skills Overview表格，挑一个与科研或数据处理相关的技能看它的SKILL.md长什么样。",
       "reviewed_at": "2026-10-16T17:30:16.971467+00:00",
       "share_id": "7de05bedc5c37a1bfa8b1aefd23967b159acac0a5e03bc2af40470d6b99a787d",
+      "published_at": ""
+    },
+    {
+      "repo_id": 54141883,
+      "name": "FoodOntology/foodon",
+      "url": "https://github.com/FoodOntology/foodon",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 73.28187021420676,
+      "why": "把食物、营养成分、加工方式都编成可推理的本体，做知识图谱很对味。",
+      "try_idea": "先在EBI OLS或Ontobee里浏览几个常见食品术语看层级结构。",
+      "reviewed_at": "2026-10-24T07:53:37.604770+00:00",
+      "share_id": "1c1fdb1f9dab5bbe32622e5861838d07141dbe423210b7398dd5a069642e5f16",
       "published_at": ""
     },
     {
@@ -13248,6 +13848,36 @@
       "published_at": ""
     },
     {
+      "repo_id": 203449095,
+      "name": "biopragmatics/pyobo",
+      "url": "https://github.com/biopragmatics/pyobo",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 71.28418920538095,
+      "why": "把ChEBI、GO等本体的ID、同义词、跨库引用一网打尽，还能把旧ID自动升级，做数据清洗很省事。",
+      "try_idea": "先试get_filtered_xrefs在ChEBI与PubChem之间做交叉映射。",
+      "reviewed_at": "2026-10-24T07:54:56.576920+00:00",
+      "share_id": "ad26c6eeb418874a01800dfde312e35e4f4f1acb3f43de15e553ff9783c08609",
+      "published_at": ""
+    },
+    {
+      "repo_id": 353360,
+      "name": "vslavik/diff-pdf",
+      "url": "https://github.com/vslavik/diff-pdf",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 71.2737778139676,
+      "why": "改完论文模板后一眼看出两版PDF哪里动了，Ctrl方向键还能平移对齐看纯位移差异，很解压。",
+      "try_idea": "下载Release中的Windows ZIP，用--view对比同一文档两版。",
+      "reviewed_at": "2026-10-24T07:53:00.015802+00:00",
+      "share_id": "4963e6abd714ac98851715a01ac5b82a84146e2be4ded8aae95cc6b20f27653f",
+      "published_at": ""
+    },
+    {
       "repo_id": 3868463,
       "name": "jrnl-org/jrnl",
       "url": "https://github.com/jrnl-org/jrnl",
@@ -13503,6 +14133,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 63081349,
+      "name": "LibrePDF/OpenPDF",
+      "url": "https://github.com/LibrePDF/OpenPDF",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 70.78354294130791,
+      "why": "老牌iText开源分支延续至今，能纯代码拼装表格、加密PDF，还能把网页样式搬进PDF。",
+      "try_idea": "先看pdf-toolbox示例目录里的建表与加密样例。",
+      "reviewed_at": "2026-10-24T07:53:58.469407+00:00",
+      "share_id": "abf14a9aa19bc202bf80067ccf04efc1560fa54d692662c39bd1313e3eea5dc5",
+      "published_at": ""
+    },
+    {
       "repo_id": 1153494379,
       "name": "grinev/opencode-telegram-bot",
       "url": "https://github.com/grinev/opencode-telegram-bot",
@@ -13515,6 +14160,21 @@
       "try_idea": "先看README开头的screencast.gif演示和Bot命令表，感受交互方式。",
       "reviewed_at": "2026-10-16T17:32:19.059296+00:00",
       "share_id": "68fcbd1aadcb4206071fd8829824bd1fd3e9a9806884db5597d2d70098cb08d3",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1297924742,
+      "name": "PangenomeAI/academic-skills-food-nutrition",
+      "url": "https://github.com/PangenomeAI/academic-skills-food-nutrition",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 70.65956719323361,
+      "why": "把从文献综述到PRISMA系统综述、期刊格式与审稿做成成套skill，科研流水线感强。",
+      "try_idea": "先看food-research与PRISMA流程的示例输出与期刊选择器。",
+      "reviewed_at": "2026-10-24T07:58:01.011377+00:00",
+      "share_id": "567e7e4049d3d2201a4bb026ff7a518532614634eddbd1819e68e1308cc77b93",
       "published_at": ""
     },
     {
@@ -13650,6 +14310,21 @@
       "try_idea": "先看README里的autopilot与team演示与阶段profile示例。",
       "reviewed_at": "2026-10-16T17:31:15.634316+00:00",
       "share_id": "8ec880e08f61649006e84db62908698da086609868bf38c595047e96dd55dbf3",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1197197392,
+      "name": "yaojingang/yao-meta-skill",
+      "url": "https://github.com/yaojingang/yao-meta-skill",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 70.36529732002622,
+      "why": "把“写skill”升级为带评测证据和发布门的流水线，像给提示词工程配上CI和审计账本。",
+      "try_idea": "先看Review Studio 2.0的HTML门页预览，感受一页看全意图、触发与证据的形态。",
+      "reviewed_at": "2026-10-24T07:57:38.175332+00:00",
+      "share_id": "6fb9c562c1e48610a8454fed776bc6625f3ea392eac69f90d1e639b65296022a",
       "published_at": ""
     },
     {
@@ -13863,6 +14538,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 483153268,
+      "name": "lookscanned/lookscanned.io",
+      "url": "https://github.com/lookscanned/lookscanned.io",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 69.61308741696703,
+      "why": "几秒把干净电子版变成逼真扫描件，处理全在本地，不发服务器，适合应付要求纸质扫描的场合。",
+      "try_idea": "先在lookscanned.io在线拖一份PDF试不同参数，看倾斜、噪点和对比度效果。",
+      "reviewed_at": "2026-10-24T07:55:18.841390+00:00",
+      "share_id": "c285968dca872ac7992f692487a669c88f6bde2a2333ba882b56738ac81cf0e7",
+      "published_at": ""
+    },
+    {
       "repo_id": 1124920990,
       "name": "heilcheng/awesome-agent-skills",
       "url": "https://github.com/heilcheng/awesome-agent-skills",
@@ -13878,6 +14568,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 962024783,
+      "name": "snyk/agent-scan",
+      "url": "https://github.com/snyk/agent-scan",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 3.5,
+      "playful_hits": 0,
+      "score": 69.5021185244355,
+      "why": "给AI代理和MCP来一次体检，能揪出藏在自然语言里的注入与恶意载荷，挺有安全仪式感。",
+      "try_idea": "先看v0.6演示截图和agent skill扫描示例",
+      "reviewed_at": "2026-10-22T07:55:33.992436+00:00",
+      "share_id": "00cd20d5fea635fe0e418864931cae893a002ae8b197a6e924975177ab46a025",
+      "published_at": ""
+    },
+    {
       "repo_id": 1266797999,
       "name": "DietrichGebert/ponytail",
       "url": "https://github.com/DietrichGebert/ponytail",
@@ -13890,21 +14595,6 @@
       "try_idea": "先看README里的前后对比示例：加日期选择器从335行变10行。",
       "reviewed_at": "2026-10-16T17:34:35.345830+00:00",
       "share_id": "f302c8fb899675d4619f0a386f0a8f7ea38ec5fe33e73491eead923d6a37fdcf",
-      "published_at": ""
-    },
-    {
-      "repo_id": 962024783,
-      "name": "snyk/agent-scan",
-      "url": "https://github.com/snyk/agent-scan",
-      "kind": "有趣发现",
-      "classic": false,
-      "curiosity": 3.5,
-      "playful_hits": 0,
-      "score": 69.4966211075792,
-      "why": "给AI代理和MCP来一次体检，能揪出藏在自然语言里的注入与恶意载荷，挺有安全仪式感。",
-      "try_idea": "先看v0.6演示截图和agent skill扫描示例",
-      "reviewed_at": "2026-10-22T07:55:33.992436+00:00",
-      "share_id": "00cd20d5fea635fe0e418864931cae893a002ae8b197a6e924975177ab46a025",
       "published_at": ""
     },
     {
@@ -13935,6 +14625,36 @@
       "try_idea": "先看README里的HybridParser快速示例与demo GIF，用自己一份带表格的扫描PDF试解析效果。",
       "reviewed_at": "2026-10-16T17:29:52.296363+00:00",
       "share_id": "0d920f15daf76dc88c072044112e6ce05e3616bb299795ae7e5e269e375c9cb5",
+      "published_at": ""
+    },
+    {
+      "repo_id": 7050,
+      "name": "prawnpdf/prawn",
+      "url": "https://github.com/prawnpdf/prawn",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 69.36681459826418,
+      "why": "用几十行Ruby就能画出矢量图形、排版长文并输出带书签和密码的PDF，老牌但依然能打。",
+      "try_idea": "先看manual目录里的示例脚本生成的PDF，感受排版与绘图API。",
+      "reviewed_at": "2026-10-24T07:53:00.013458+00:00",
+      "share_id": "20b585e8fac70221dc3773077994b67fd2ca45ac5adcf88c5e2376e3ccc93045",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1144727401,
+      "name": "cisco-ai-defense/skill-scanner",
+      "url": "https://github.com/cisco-ai-defense/skill-scanner",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 69.33825861548395,
+      "why": "给AI技能做“安检”的思路有话题性，可展示提示注入与数据外泄的检测样例。",
+      "try_idea": "先看其针对技能文件的示例扫描报告与低噪策略配置，理解告警分级。",
+      "reviewed_at": "2026-10-24T07:56:51.255115+00:00",
+      "share_id": "d3d046b6adc495c61c1d81431fd1fabf9a011a84eadf845b4968ad7b4d881f1c",
       "published_at": ""
     },
     {
@@ -14103,6 +14823,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 1325021531,
+      "name": "dbose/modelith",
+      "url": "https://github.com/dbose/modelith",
+      "kind": "实用发现",
+      "classic": false,
+      "curiosity": 0,
+      "playful_hits": 0,
+      "score": 69.01514035219587,
+      "why": "面向dbt团队的本体锚定、git原生数据建模工具：ER建模、生成契约化dbt、逆向仓库与drift检测。",
+      "try_idea": "先看它的示例和演示，想想能给自己的工作或日常省掉哪一步；不用先决定是否安装。",
+      "reviewed_at": "2026-10-17T14:35:30.133872+00:00",
+      "share_id": "2653a20aa50377f3f5139e3088d87366177dc492bbf51b7a496233eeb97d780e",
+      "published_at": ""
+    },
+    {
       "repo_id": 1003530246,
       "name": "cyanheads/clinicaltrialsgov-mcp-server",
       "url": "https://github.com/cyanheads/clinicaltrialsgov-mcp-server",
@@ -14148,18 +14883,18 @@
       "published_at": ""
     },
     {
-      "repo_id": 1325021531,
-      "name": "dbose/modelith",
-      "url": "https://github.com/dbose/modelith",
-      "kind": "实用发现",
+      "repo_id": 1335823455,
+      "name": "chengyi-ai/native-subtitle-quote-image",
+      "url": "https://github.com/chengyi-ai/native-subtitle-quote-image",
+      "kind": "有趣发现",
       "classic": false,
-      "curiosity": 0,
+      "curiosity": 4,
       "playful_hits": 0,
-      "score": 68.90642502755068,
-      "why": "面向dbt团队的本体锚定、git原生数据建模工具：ER建模、生成契约化dbt、逆向仓库与drift检测。",
-      "try_idea": "先看它的示例和演示，想想能给自己的工作或日常省掉哪一步；不用先决定是否安装。",
-      "reviewed_at": "2026-10-17T14:35:30.133872+00:00",
-      "share_id": "2653a20aa50377f3f5139e3088d87366177dc492bbf51b7a496233eeb97d780e",
+      "score": 68.87454959482025,
+      "why": "把一段视频里的金句连原画面字幕一起拼成长图，还严格区分原生字幕与后期字幕，做内容分享很顺手。",
+      "try_idea": "先看examples/gallery中的成品案例，比较原生与脚本两种字幕模式的效果。",
+      "reviewed_at": "2026-10-24T07:58:24.244554+00:00",
+      "share_id": "582c8c8943ef9184742cd8e39488d35cb08a0a88b24dfcd1350e91ef7990a481",
       "published_at": ""
     },
     {
@@ -14215,7 +14950,7 @@
       "classic": false,
       "curiosity": 3,
       "playful_hits": 0,
-      "score": 68.52551566336314,
+      "score": 68.59794000867203,
       "why": "把每周刷顶刊ASAP页面的重复劳动变成自动化周报，课题组用得上。",
       "try_idea": "先给3-5本目标期刊试跑一次，检查去重与首次在线日期是否标注来源。",
       "reviewed_at": "2026-10-22T07:57:01.857881+00:00",
@@ -14250,6 +14985,21 @@
       "try_idea": "先看README里的RDF/TTL本体示例与房间邻接例子，理解拓扑如何转成语义图。",
       "reviewed_at": "2026-10-17T18:33:19.090020+00:00",
       "share_id": "d1f91dbf4395457d15f1dfe29f6fe4dcfa3d3a8cfb7b3f07c2a44501279a40df",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1180257966,
+      "name": "grimmory-tools/grimmory",
+      "url": "https://github.com/grimmory-tools/grimmory",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 68.32173095600774,
+      "why": "自建一个带注释、同步和元数据自动补全的数字书库，把散乱PDF与电子书变成可检索私人图书馆。",
+      "try_idea": "先看README的BookDrop流程：把文件丢进目录自动识别并补全元数据。",
+      "reviewed_at": "2026-10-24T07:57:12.417354+00:00",
+      "share_id": "90e9c716bc3fe6c547d91638b66fbdde545f1372b7167fd3266a85018100e090",
       "published_at": ""
     },
     {
@@ -14358,6 +15108,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 116590428,
+      "name": "spider-rs/spider",
+      "url": "https://github.com/spider-rs/spider",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 67.89276362444488,
+      "why": "同一套代码从单脚本扩到分布式抓取，还有现成MCP入口，适合喂知识库。",
+      "try_idea": "先看examples目录中导出Markdown或JSON的示例",
+      "reviewed_at": "2026-10-24T07:58:44.888110+00:00",
+      "share_id": "70e209b63824e660e41bdc4ff481eccfa2e31b0d39e9f90e67205e35b5267827",
+      "published_at": ""
+    },
+    {
       "repo_id": 128170519,
       "name": "rust-ml/linfa",
       "url": "https://github.com/rust-ml/linfa",
@@ -14370,6 +15135,21 @@
       "try_idea": "先看README算法表，挑linfa-tsne或linfa-clustering的文档示例读一读。",
       "reviewed_at": "2026-10-16T17:32:25.613009+00:00",
       "share_id": "0cae086f97e0e093481c0afe0071a229addfe15949b869fe00e80423f2f4d03c",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1282265183,
+      "name": "larashero3-dotcom/writing-dna-skill",
+      "url": "https://github.com/larashero3-dotcom/writing-dna-skill",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 67.84189081184394,
+      "why": "不论抄哪位的笔感都先“提DNA”：把作者的语言、结构、选题和视觉拆成文档，写前重读五篇原文再动笔。",
+      "try_idea": "先看examples/format-only的目录与模板，再拿自己旧文试一次小规模蒸馏。",
+      "reviewed_at": "2026-10-24T07:57:39.712433+00:00",
+      "share_id": "78c7ec479d5fa1e1ceb2404cf47851005b403c472ca22274dd86a82fe203ef94",
       "published_at": ""
     },
     {
@@ -14553,6 +15333,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 1298724548,
+      "name": "hanlulong/econ-paper-review-skill",
+      "url": "https://github.com/hanlulong/econ-paper-review-skill",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 67.01029995663981,
+      "why": "让agent先扮演严厉审稿人挑刺，给逐条带原文引用的报告与修改清单，投稿前热身很实用。",
+      "try_idea": "打开自带的25条示例审稿PDF看它如何挑出演示稿件错误。",
+      "reviewed_at": "2026-10-24T07:58:01.777811+00:00",
+      "share_id": "895a3a173622a2e8c9c11aed577faed808cf1744deaad8e288770a94fbbe499a",
+      "published_at": ""
+    },
+    {
       "repo_id": 80980931,
       "name": "KaiserY/trpl-zh-cn",
       "url": "https://github.com/KaiserY/trpl-zh-cn",
@@ -14565,6 +15360,21 @@
       "try_idea": "先看在线章节与proofreading_prompt.md的校对提示词。",
       "reviewed_at": "2026-10-22T07:53:44.767805+00:00",
       "share_id": "04beb618351f1f667b3674766272aeed75205f0ab579a8020dd1cda34fdca177",
+      "published_at": ""
+    },
+    {
+      "repo_id": 194841487,
+      "name": "konclude/Konclude",
+      "url": "https://github.com/konclude/Konclude",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 66.96478751964594,
+      "why": "给本体做逻辑体检：分类、一致性、可满足性都能算，是知识图谱背后少见的硬核推理引擎，冷门但有趣。",
+      "try_idea": "用Tests里的家族本体示例跑一次分类，看类层级输出。",
+      "reviewed_at": "2026-10-24T07:54:56.575921+00:00",
+      "share_id": "427efa50e53740582946d3547baa0b3a7cb8e67ceb5c5d6bb953cddce002d8cd",
       "published_at": ""
     },
     {
@@ -14835,6 +15645,21 @@
       "try_idea": "先看README可用钩子表与Docker示例，挑terraform_docs和tflint试用。",
       "reviewed_at": "2026-10-22T07:53:44.761804+00:00",
       "share_id": "d9386831cf3e8c08f6065d80dfb87ff3d2743bb27518fcda09d676a5565d720b",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1305129752,
+      "name": "gura105/operational-ontology",
+      "url": "https://github.com/gura105/operational-ontology",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 66.08451214271295,
+      "why": "把Palantir式的对象、动作、审计与写回概念压缩成可运行小例子，本体爱好者能秒懂。",
+      "try_idea": "跑pnpm demo看取消已发货订单如何被拒绝并写入审计。",
+      "reviewed_at": "2026-10-24T07:58:01.783205+00:00",
+      "share_id": "e8839bf540e13f0b5e3301f2e7865c4e5598b227be2ed92b5479c2c15a2df7f9",
       "published_at": ""
     },
     {
@@ -15318,6 +16143,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 918724743,
+      "name": "embedpdf/embed-pdf-viewer",
+      "url": "https://github.com/embedpdf/embed-pdf-viewer",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 63.82002244257866,
+      "why": "能自己做带高亮、便签、真删除的PDF阅读器，嵌进任何网页。",
+      "try_idea": "先在app.embedpdf.com在线demo试批注与删除功能。",
+      "reviewed_at": "2026-10-24T07:55:58.737982+00:00",
+      "share_id": "8527b0be2cc9aa9b82697e7828b79a4d7299f824b95ac0d2431c5336a861a658",
+      "published_at": ""
+    },
+    {
       "repo_id": 1195360525,
       "name": "calesthio/OpenMontage",
       "url": "https://github.com/calesthio/OpenMontage",
@@ -15423,6 +16263,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 397204262,
+      "name": "jonaslejon/malicious-pdf",
+      "url": "https://github.com/jonaslejon/malicious-pdf",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 63.305845775135886,
+      "why": "让人看到PDF不只是文档，还能偷偷外带数据或触发请求，读完对日常打开附件会多一分警惕。",
+      "try_idea": "先看README测试矩阵里test18的注解注入和test21的整份PDF外传条目。",
+      "reviewed_at": "2026-10-24T07:55:18.838390+00:00",
+      "share_id": "1c9912c6b914af19ff0bee9534744816adf9376b89f4d13d4669254fb0c8dbad",
+      "published_at": ""
+    },
+    {
       "repo_id": 8711354,
       "name": "tabulapdf/tabula",
       "url": "https://github.com/tabulapdf/tabula",
@@ -15435,6 +16290,21 @@
       "try_idea": "下载tabula-win解压后，用一份含表格的论文PDF框选区域试试导出。",
       "reviewed_at": "2026-10-17T14:30:17.083896+00:00",
       "share_id": "e29062dfa5201bcc6331f91f505447a4dc2ffa974f09f8c26aaef609ceca5316",
+      "published_at": ""
+    },
+    {
+      "repo_id": 13639751,
+      "name": "hcfyapp/crx-selection-translate",
+      "url": "https://github.com/hcfyapp/crx-selection-translate",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 63.23379085280152,
+      "why": "看网页随手划词就翻译，覆盖PDF与音视频字幕，读外文资料很省事，老牌扩展长期迭代。",
+      "try_idea": "先试网页全文翻译和截图翻译，看其对学术术语的译文质量。",
+      "reviewed_at": "2026-10-24T07:53:17.649999+00:00",
+      "share_id": "435010a727f04d5048f5100bf74a9a720c0bc61872ac1de40c1db5d99fc43497",
       "published_at": ""
     },
     {
@@ -15675,21 +16545,6 @@
       "try_idea": "先看readme里交互式与CI模式演示动图，了解最小配置。",
       "reviewed_at": "2026-10-17T08:49:58.808930+00:00",
       "share_id": "fa9e29a58f325eaa55b1bfc8cda2db73caeeeccfe72b9f83496c87fb5133951d",
-      "published_at": ""
-    },
-    {
-      "repo_id": 116590428,
-      "name": "spider-rs/spider",
-      "url": "https://github.com/spider-rs/spider",
-      "kind": "有趣发现",
-      "classic": true,
-      "curiosity": 3,
-      "playful_hits": 0,
-      "score": 61.89276362444488,
-      "why": "号称Rust最快爬虫，页面边抓边返回，还能只对需要的页面开Chrome，适合喂RAG。",
-      "try_idea": "先看examples目录里的最小爬取示例与spider_cli用法，感受流式输出。",
-      "reviewed_at": "2026-10-23T07:55:01.026683+00:00",
-      "share_id": "47ff0011c99b273a4f890fa80ebe2a7702f242f0d18b7bb5872f8972adbd80f0",
       "published_at": ""
     },
     {
@@ -16053,6 +16908,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 1161518655,
+      "name": "mahlernim/scholar-relay",
+      "url": "https://github.com/mahlernim/scholar-relay",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 60.225567713439474,
+      "why": "一键把arXiv论文塞进NotebookLM并自动生成音频Overview和思维导图，科研摸鱼利器。",
+      "try_idea": "先用单篇arXiv论文导入，观察自动标题与音频概览生成效果。",
+      "reviewed_at": "2026-10-24T07:56:52.670703+00:00",
+      "share_id": "3f89ef52903346824925c474c26e727b0657e492d15a6ae0f3b8c5cf2601c274",
+      "published_at": ""
+    },
+    {
       "repo_id": 97129580,
       "name": "dhlab-epfl/dhSegment",
       "url": "https://github.com/dhlab-epfl/dhSegment",
@@ -16338,6 +17208,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 123316949,
+      "name": "puppeteer/examples",
+      "url": "https://github.com/puppeteer/examples",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 58.2665533008153,
+      "why": "演示了无头浏览器能做的各种小把戏，从让浏览器说话到生成PDF、玩吃豆人，很适合找灵感。",
+      "try_idea": "先看element-to-pdf.js与crawlsite.js两个示例的产出截图。",
+      "reviewed_at": "2026-10-24T07:54:35.632248+00:00",
+      "share_id": "e1efd2be1467b6a25bff8f866be7e8523027f12f453915af2b24c340fad7fef6",
+      "published_at": ""
+    },
+    {
       "repo_id": 665613753,
       "name": "elie222/inbox-zero",
       "url": "https://github.com/elie222/inbox-zero",
@@ -16473,6 +17358,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 48925653,
+      "name": "Red5d/docker-autocompose",
+      "url": "https://github.com/Red5d/docker-autocompose",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 57.82927829347402,
+      "why": "手搓的容器参数记不住，一键还原成compose文件，救急很好用。",
+      "try_idea": "先对一两个自建容器试用输出并拿docker-compose config校验。",
+      "reviewed_at": "2026-10-24T07:53:37.601771+00:00",
+      "share_id": "e23aa2ab982c7729c61f79908776238ddd41b4e46c9373f44084e8cd23ec7567",
+      "published_at": ""
+    },
+    {
       "repo_id": 27442967,
       "name": "fastlane/fastlane",
       "url": "https://github.com/fastlane/fastlane",
@@ -16500,6 +17400,21 @@
       "try_idea": "先看官网在线试用页面的示例程序",
       "reviewed_at": "2026-10-17T12:30:25.126692+00:00",
       "share_id": "9e519bf231f78ff5b225b8a7c62ae6e0294675b4d7d7ecc959fd6354cf5dad49",
+      "published_at": ""
+    },
+    {
+      "repo_id": 31595609,
+      "name": "mpdf/mpdf",
+      "url": "https://github.com/mpdf/mpdf",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 57.345119255526555,
+      "why": "网页排版一键变PDF，页眉页脚、目录、条码都自带，对做报告模板的人很实用；作者也很坦诚地建议新项目考虑无头Chrome。",
+      "try_idea": "先跑README里的Hello world示例，再加页眉脚注与目录看效果。",
+      "reviewed_at": "2026-10-24T07:53:17.654759+00:00",
+      "share_id": "83f5a4aee3d4c23c743eb4c628e608d70e61ff56f9228516dd7fb2ffcbf0ac3b",
       "published_at": ""
     },
     {
@@ -16638,6 +17553,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 921367,
+      "name": "cobrateam/splinter",
+      "url": "https://github.com/cobrateam/splinter",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 56.878665387660526,
+      "why": "写爬取式重复网页操作时，比裸Selenium清爽得多，还能随时退回原生Selenium。",
+      "try_idea": "看README里的Google搜索示例，替换成自己常用网站试试。",
+      "reviewed_at": "2026-10-24T07:53:00.017802+00:00",
+      "share_id": "2f8781a7939ae6aaedf6ac2191e52ad72b77073d9ab33bc14ac30fdf365f2efe",
+      "published_at": ""
+    },
+    {
       "repo_id": 243213207,
       "name": "alexellis/arkade",
       "url": "https://github.com/alexellis/arkade",
@@ -16650,6 +17580,21 @@
       "try_idea": "先跑 arkade search 搜工具并看 arkade get kubectl 的演示 GIF。",
       "reviewed_at": "2026-10-17T16:33:25.402286+00:00",
       "share_id": "066086156d6da370246f36a6b5b7a5ee76d0b0cec051f5660dddc4f1a77ab7a3",
+      "published_at": ""
+    },
+    {
+      "repo_id": 546016267,
+      "name": "bregman-arie/sre-checklist",
+      "url": "https://github.com/bregman-arie/sre-checklist",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 56.82054192850437,
+      "why": "把SRE团队从职责到Terraform状态的坑逐条列成勾选清单，适合当自查模板。",
+      "try_idea": "先看“SRE Lead”三步成熟度模型，再对照自己的项目找差距。",
+      "reviewed_at": "2026-10-24T07:55:37.769708+00:00",
+      "share_id": "bd8c87303154c292b3ca01c4c7b33ca9ae29b2b1fd81e92e05e3ea7db4022eb8",
       "published_at": ""
     },
     {
@@ -16680,6 +17625,21 @@
       "try_idea": "先看README的oe_ask与oe_article_get示例，理解fire-and-forget流程。",
       "reviewed_at": "2026-10-17T14:34:56.064399+00:00",
       "share_id": "3c3702ac9cd2d8336e6b1ca3982af9f1eb4eca5e14134101436933f04d6cb1ad",
+      "published_at": ""
+    },
+    {
+      "repo_id": 573420887,
+      "name": "opennaslab/kubespider",
+      "url": "https://github.com/opennaslab/kubespider",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 56.682473246477386,
+      "why": "像给家里闲置服务器装一个自动追剧下载管家，浏览器右键就能把任务丢给NAS。",
+      "try_idea": "先看README的Chrome插件右键发送下载示例与架构图，理解源/下载提供者拆分。",
+      "reviewed_at": "2026-10-24T07:55:37.774707+00:00",
+      "share_id": "1a5026769f1dc3176c9a9fa45fbe55d2a29d6247d69c5575e014ebf93546d06d",
       "published_at": ""
     },
     {
@@ -16833,6 +17793,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 1175316550,
+      "name": "Owl-Listener/designer-skills",
+      "url": "https://github.com/Owl-Listener/designer-skills",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 55.9708749621526,
+      "why": "把设计全流程拆成可被代理调用的技能和命令，像给AI一本设计工作手册，结构清晰有趣。",
+      "try_idea": "先看INDEX.md按场景索引技能，再试/designer-toolkit:start-here的路由逻辑。",
+      "reviewed_at": "2026-10-24T07:57:12.413349+00:00",
+      "share_id": "ae9374c553db1a8449bce71e7ad6347ae78654a6e001c86828f2a770658991ce",
+      "published_at": ""
+    },
+    {
       "repo_id": 206254792,
       "name": "zidoro/pomatez",
       "url": "https://github.com/zidoro/pomatez",
@@ -16980,6 +17955,21 @@
       "try_idea": "先看它的示例和演示，想想能给自己的工作或日常省掉哪一步；不用先决定是否安装。",
       "reviewed_at": "2026-10-17T14:35:30.136110+00:00",
       "share_id": "c137b2d1094660ba8a1beb26c885ca2fb76cd250c38f9c8c90015e63151e4577",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1143365458,
+      "name": "sstklen/infinite-gratitude",
+      "url": "https://github.com/sstklen/infinite-gratitude",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 55.01029995663981,
+      "why": "把AI代理当成一村猫轮流叼回研究“礼物”，概念有趣，适合演示多代理并行调研的观感。",
+      "try_idea": "先试“文献综述”场景，让多个代理分头读同一主题的不同论文并汇总对比。",
+      "reviewed_at": "2026-10-24T07:56:51.253012+00:00",
+      "share_id": "637816a61abc8c41adf78975b398540a0eff291dc3a2500761b1f712a97f3769",
       "published_at": ""
     },
     {
@@ -17208,6 +18198,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 1136782037,
+      "name": "addyosmani/web-quality-skills",
+      "url": "https://github.com/addyosmani/web-quality-skills",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 53.949597637601265,
+      "why": "把Lighthouse捉到的性能与无障碍问题变成agent可复现的排查流程，还标明哪些证据是真实用户数据。",
+      "try_idea": "先让它审计一页，看它如何区分现场数据与实验室结论。",
+      "reviewed_at": "2026-10-24T07:56:27.184705+00:00",
+      "share_id": "27f1a7edab2e627cdb370cdc8bb5d34be194d7e0f1a9b99fee7594518f83c955",
+      "published_at": ""
+    },
+    {
       "repo_id": 1412548284,
       "name": "storytold/craft-launcher",
       "url": "https://github.com/storytold/craft-launcher",
@@ -17220,6 +18225,21 @@
       "try_idea": "先看README里的grid与table两种界面截图，再翻Windows MSI发布页确认是否值得装。",
       "reviewed_at": "2026-10-16T17:36:59.886465+00:00",
       "share_id": "5b3a1f9a7db721a8cfd3eb1a498f14ca1aa7a036c4a856221e571a513af815a5",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1135501937,
+      "name": "supabase/agent-skills",
+      "url": "https://github.com/supabase/agent-skills",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 53.930468189976025,
+      "why": "把Postgres调优清单按影响分级塞给agent，写SQL时就先避坑。",
+      "try_idea": "试让它“审查我的表结构性能问题”，看它列出哪些索引建议。",
+      "reviewed_at": "2026-10-24T07:56:26.263209+00:00",
+      "share_id": "a33942500b2330034d54b54d2d92dd2046fc4e402408045e70df1990b476ee41",
       "published_at": ""
     },
     {
@@ -17266,6 +18286,21 @@
       "reviewed_at": "2026-10-16T17:22:23.343455+00:00",
       "share_id": "0683b3f79d0d5fab564fa91dc84cfe32c5e96311993d1b27f46d0d6c40d2c1fa",
       "published_at": "2026-10-16T17:29:21.607780+00:00"
+    },
+    {
+      "repo_id": 1420335009,
+      "name": "caiweihan/jev-account-filter",
+      "url": "https://github.com/caiweihan/jev-account-filter",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 53.65956719323362,
+      "why": "不下载视频、只看标题和缩略图就能从两千多个账号中挑出手语创作者，思路很巧。",
+      "try_idea": "先看README中2140个抖音账号实验的可视化分析页示例",
+      "reviewed_at": "2026-10-24T07:58:44.886514+00:00",
+      "share_id": "53bfdf19064806f43f3e8f03ee469dbe29c9c80dcdc036211d0eeca0ce9be6c9",
+      "published_at": ""
     },
     {
       "repo_id": 930809479,
@@ -17385,6 +18420,51 @@
       "try_idea": "先看它的示例和演示，想想能给自己的工作或日常省掉哪一步；不用先决定是否安装。",
       "reviewed_at": "2026-10-16T13:14:30.070821+00:00",
       "share_id": "8bac0b845026d8435e126cf155cf03c37a5a5085dc39339dccf1554f3109fa24",
+      "published_at": ""
+    },
+    {
+      "repo_id": 4939243,
+      "name": "macbre/phantomas",
+      "url": "https://github.com/macbre/phantomas",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 53.20975284503247,
+      "why": "对着任何网址跑一遍，就吐出事件绑定数、重复CSS选择器等冷门性能指标，像给网站体检。",
+      "try_idea": "先跑examples里的示例脚本，看输出的JSON指标结构。",
+      "reviewed_at": "2026-10-24T07:53:00.071545+00:00",
+      "share_id": "3ed44a4b8f3fd75e70564fde4e6714dd151209dc223731ca86282e21f2d08795",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1282469039,
+      "name": "saidsurucu/trdizin-skill",
+      "url": "https://github.com/saidsurucu/trdizin-skill",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 53.204119982655925,
+      "why": "给科研检索补上一个被忽视的区域性学术库入口，让agent能直接查土耳其论文并读PDF。",
+      "try_idea": "看README里的示例检索与PDF转文本用例，验证土耳其文献覆盖度。",
+      "reviewed_at": "2026-10-24T07:57:58.840572+00:00",
+      "share_id": "325a75dec7bd7b62eea5d4e3238a67baf318cecadc31490898938329276d42ef",
+      "published_at": ""
+    },
+    {
+      "repo_id": 164808485,
+      "name": "dreamans/syncd",
+      "url": "https://github.com/dreamans/syncd",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 53.19622013696048,
+      "why": "自带Web界面和一键上线流程，适合把个人小项目的发布做成流水线，有一种自建简易CI/CD的乐趣。",
+      "try_idea": "先看docs中的构建自定义与部署Hook示例，理解可扩展点。",
+      "reviewed_at": "2026-10-24T07:54:56.573921+00:00",
+      "share_id": "abf5aa53eb12b0671db596ab2157005690a986ef9dc85bbfee7be7d32bd52eab",
       "published_at": ""
     },
     {
@@ -17550,6 +18630,21 @@
       "try_idea": "先看README顶部截图里的Context抽屉与Activity时间线。",
       "reviewed_at": "2026-10-17T12:33:54.531873+00:00",
       "share_id": "dfcb9a01d743f54ccb24f16cf6817d33090d5a8e45957bdf3330715d145c043f",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1146462485,
+      "name": "RKiding/Awesome-finance-skills",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 51.978228738757835,
+      "why": "让AI秒变华尔街分析师，还能画传导链路图，观感和话题度都不错。",
+      "try_idea": "先看其在线演示，观察从新闻到逻辑链再到预测的完整链路。",
+      "reviewed_at": "2026-10-24T07:56:52.667508+00:00",
+      "share_id": "61a9f0d45223b461c40a3aca374c1039404095939818c47d80529214d3ae3194",
       "published_at": ""
     },
     {
@@ -17823,6 +18918,36 @@
       "published_at": ""
     },
     {
+      "repo_id": 1301135370,
+      "name": "0xsline/OpenChatCut",
+      "url": "https://github.com/0xsline/OpenChatCut",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 4,
+      "playful_hits": 0,
+      "score": 49.846491747873614,
+      "why": "让agent在真实多轨时间线上改视频且随时手动继续编辑，创意与工程结合很好玩。",
+      "try_idea": "看产品截图与MCP协作演示，试一句话生成转场和字幕。",
+      "reviewed_at": "2026-10-24T07:58:01.780030+00:00",
+      "share_id": "62569e23868519791b22b7521c9eca5f31c6e1107bf415b2a9529d0fda1610e3",
+      "published_at": ""
+    },
+    {
+      "repo_id": 132446647,
+      "name": "transitive-bullshit/awesome-puppeteer",
+      "url": "https://github.com/transitive-bullshit/awesome-puppeteer",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 49.82424881234663,
+      "why": "一份逛起来很爽的工具地图，藏着把网页变成PDF、GIF、截图的各种小工具。",
+      "try_idea": "先看Rendering and web scraping分节里感兴趣的链接。",
+      "reviewed_at": "2026-10-24T07:54:35.659874+00:00",
+      "share_id": "3921a50160bb1ad0fe3886959c5346f8a5da3b0a22e5f0bc710f0681acadb96a",
+      "published_at": ""
+    },
+    {
       "repo_id": 1138200460,
       "name": "rorkai/App-Store-Connect-CLI",
       "url": "https://github.com/rorkai/App-Store-Connect-CLI",
@@ -17925,6 +19050,21 @@
       "try_idea": "先看README里的快速演示视频和状态栏截图。",
       "reviewed_at": "2026-10-17T12:33:54.524494+00:00",
       "share_id": "2446db5907ff77d262e37cf80eb83bca891921e0f773913478214820eeca7205",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1145879202,
+      "name": "Paramchoudhary/ResumeSkills",
+      "url": "https://github.com/Paramchoudhary/ResumeSkills",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 49.409079969929635,
+      "why": "把求职拆成一整套技能，从ATS到谈薪都有流程，适合分享给找工作的朋友。",
+      "try_idea": "先看resume-ats-optimizer与job-description-analyzer的示例用法。",
+      "reviewed_at": "2026-10-24T07:56:51.976753+00:00",
+      "share_id": "9ec84a95b594451331a4239116692362790ad8c54fbe18e69fb966430a3a503d",
       "published_at": ""
     },
     {
@@ -18033,6 +19173,36 @@
       "published_at": ""
     },
     {
+      "repo_id": 1052758769,
+      "name": "kangise/ecommerce-ai-skills",
+      "url": "https://github.com/kangise/ecommerce-ai-skills",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 49.03406667859756,
+      "why": "把“AI不知道就别编数字”写成硬性护栏，还能当书读、当插件装、当系统跑。",
+      "try_idea": "先看30秒演示提示词，观察它如何拒绝编造销量而追问数据来源。",
+      "reviewed_at": "2026-10-24T07:56:24.940697+00:00",
+      "share_id": "2fb1f073e5def281e806dd059d55c164afa9b9192af5dfe9b19f317d20456e81",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1073337396,
+      "name": "jeremylongshore/tons-of-skills-marketplace",
+      "url": "https://github.com/jeremylongshore/tons-of-skills-marketplace",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 48.915158293991524,
+      "why": "像技能百货市场，可一次浏览上千个agent技能，按任务选包。",
+      "try_idea": "先看官网按“工作任务”划分的打包合集页。",
+      "reviewed_at": "2026-10-24T07:56:24.942834+00:00",
+      "share_id": "93fcbcadef4f4aa1ffa58de2faba0a971dbd33011bc582714d7601af99fe7107",
+      "published_at": ""
+    },
+    {
       "repo_id": 750606898,
       "name": "drshahizan/obsidian",
       "url": "https://github.com/drshahizan/obsidian",
@@ -18108,18 +19278,18 @@
       "published_at": ""
     },
     {
-      "repo_id": 1345508845,
-      "name": "typesafe-ai/skills",
-      "url": "https://github.com/typesafe-ai/skills",
+      "repo_id": 1106846196,
+      "name": "expo/skills",
+      "url": "https://github.com/expo/skills",
       "kind": "有趣发现",
       "classic": false,
-      "curiosity": 3,
+      "curiosity": 2,
       "playful_hits": 0,
-      "score": 48.36849890479295,
-      "why": "把“带类型的判断和概率”做成agent技能，让模型输出可校验的决策而不是模糊文字，思路新鲜。",
-      "try_idea": "先看SKILL.md里的示例，比如把工单按类型分流并给低置信项加人工复核。",
-      "reviewed_at": "2026-10-16T17:36:18.612309+00:00",
-      "share_id": "f189a74e1b4545199bed3cfea1156f990fb5144904aefa0c7d0095d1cd5b3bbb",
+      "score": 48.4545319908497,
+      "why": "官方出手，让agent懂Expo的路由、升级与发布细节，少踩样式与构建坑。",
+      "try_idea": "看“用Router搭带标签与模态的原生界面”示例提示。",
+      "reviewed_at": "2026-10-24T07:56:25.649890+00:00",
+      "share_id": "d81aedbd96f70303624c2c82a02f516e9a2a270c648e83d3a1ad3b430e8c9ea9",
       "published_at": ""
     },
     {
@@ -18195,6 +19365,21 @@
       "try_idea": "翻到“编程工具”一节，看看Cursor、Codex、Claude Code的对比与上手建议。",
       "reviewed_at": "2026-10-17T08:52:33.959713+00:00",
       "share_id": "de0d5f869920e72d9ecfd97fb76bc7f3caa053169eae98cf4e0ad31b00fdb90d",
+      "published_at": ""
+    },
+    {
+      "repo_id": 111245305,
+      "name": "vuesion/vuesion",
+      "url": "https://github.com/vuesion/vuesion",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 47.91576379346799,
+      "why": "一个自带设计系统、测试与代码生成器的Vue样板，看团队工程规范如何落地。",
+      "try_idea": "先看Storybook组件示例与代码生成器目录，感受规范化流程。",
+      "reviewed_at": "2026-10-24T07:54:18.293483+00:00",
+      "share_id": "917763eb9be5bb40e112af838252811aa4c5e758ba7ba79a14b0305a3cb3aa99",
       "published_at": ""
     },
     {
@@ -18378,6 +19563,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 63696142,
+      "name": "LeanerCloud/AutoSpotting",
+      "url": "https://github.com/LeanerCloud/AutoSpotting",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 47.250595476434675,
+      "why": "把已有云主机悄悄换成便宜竞价实例，账单降幅可能很戏剧性。",
+      "try_idea": "先看README功能对比表，理解竞价与按需的取舍。",
+      "reviewed_at": "2026-10-24T07:53:58.471414+00:00",
+      "share_id": "7b1b479bdf0b5afd40a4d7ffd5a0df338b376889d9938e94f46784fe3c2c41bd",
+      "published_at": ""
+    },
+    {
       "repo_id": 178779659,
       "name": "houking-can/PDFConverter",
       "url": "https://github.com/houking-can/PDFConverter",
@@ -18408,6 +19608,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 1345508845,
+      "name": "typesafe-ai/skills",
+      "url": "https://github.com/typesafe-ai/skills",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 46.886838923565634,
+      "why": "让Agent输出带置信度的结构化决策，比自己写提示词更可控，适合做不确定性分流演示。",
+      "try_idea": "先看SKILL.md里如何构造问题与解读概率输出。",
+      "reviewed_at": "2026-10-24T07:58:57.039850+00:00",
+      "share_id": "dccb634b6a1a0751171d10f71496178b35d5f25dd8faefd48251b93541c0bb7b",
+      "published_at": ""
+    },
+    {
       "repo_id": 189829392,
       "name": "ever-co/ever-gauzy",
       "url": "https://github.com/ever-co/ever-gauzy",
@@ -18420,21 +19635,6 @@
       "try_idea": "先看demo.gauzy.co在线演示与桌面计时器截图。",
       "reviewed_at": "2026-10-17T18:32:13.906422+00:00",
       "share_id": "ba68f10b9f7b7a8a22e1263d6de8ee2bf02cfeaf27f43b2cf0038365ce31cc2d",
-      "published_at": ""
-    },
-    {
-      "repo_id": 854084975,
-      "name": "botswin/BotBrowser",
-      "url": "https://github.com/botswin/BotBrowser",
-      "kind": "有趣发现",
-      "classic": true,
-      "curiosity": 3,
-      "playful_hits": 0,
-      "score": 46.84320785373966,
-      "why": "它把浏览器指纹在不同系统上做统一，用 CreepJS 等检测站点验证效果，对隐私研究和自动化浏览器实验的人来说颇具话题性。",
-      "try_idea": "先看文档中的快速示例与检测演示视频，理解 profile 与指纹姿态验证的方式。",
-      "reviewed_at": "2026-10-17T18:33:55.768407+00:00",
-      "share_id": "e152bf42f4c72227630903ba3dd7105030c471d2a41e96b0ca879018aecd77bd",
       "published_at": ""
     },
     {
@@ -18573,6 +19773,36 @@
       "published_at": ""
     },
     {
+      "repo_id": 854084975,
+      "name": "botswin/BotBrowser",
+      "url": "https://github.com/botswin/BotBrowser",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 46.34452290162721,
+      "why": "能让同一指纹画像在Windows、macOS、Linux上完全一致，隐私攻防演示很有话题性。",
+      "try_idea": "先看README里CreepJS与Pixelscan的演示视频链接",
+      "reviewed_at": "2026-10-24T07:58:44.889165+00:00",
+      "share_id": "9763f5f060b60e32995e210426273eadd7da43646eeae0376d8d57f7efc01eb6",
+      "published_at": ""
+    },
+    {
+      "repo_id": 22751672,
+      "name": "tecnickcom/TCPDF",
+      "url": "https://github.com/tecnickcom/TCPDF",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 46.31142909923742,
+      "why": "老牌PHP PDF库的谢幕方式很有意思：新版把自己改成兼容门面，逐方法委派给新引擎，是渐进迁移的好案例。",
+      "try_idea": "看MAPPING.md里公开方法的委派状态表，体会兼容层设计。",
+      "reviewed_at": "2026-10-24T07:53:17.653161+00:00",
+      "share_id": "5fddd26e1ef2f8eb7bed4bc72d66a7ecf2e29e445aed4329d3446760756df619",
+      "published_at": ""
+    },
+    {
       "repo_id": 14098069,
       "name": "justjavac/free-programming-books-zh_CN",
       "url": "https://github.com/justjavac/free-programming-books-zh_CN",
@@ -18675,6 +19905,21 @@
       "try_idea": "先看目录中学习路线与算法部分了解覆盖面。",
       "reviewed_at": "2026-10-22T07:54:51.818871+00:00",
       "share_id": "fb0f0a6e198afb81eb97e3e67cc2e2fbe7585bea6d103775ecadd61b7d6d2837",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1332823511,
+      "name": "Appllama/appllama-skills",
+      "url": "https://github.com/Appllama/appllama-skills",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 45.45626685620103,
+      "why": "让智能体先研究畅销App的设计再动手做界面，还要求在模拟器里逐帧验收，做App的人会觉得有意思。",
+      "try_idea": "先只看appllama-app-design-skill的SKILL.md，了解其反平庸设计与动效标准。",
+      "reviewed_at": "2026-10-24T07:58:23.533297+00:00",
+      "share_id": "f43d459263be6bb6a3e6918dfa7a2d8fdb3856cd8da525ea867eaddb3ed520e5",
       "published_at": ""
     },
     {
@@ -18825,6 +20070,21 @@
       "try_idea": "先看 solve-challenge 编排技能如何把题目分派给各题型技能",
       "reviewed_at": "2026-10-22T07:55:59.660492+00:00",
       "share_id": "8578ce6223c132e8cfd79a22d7fa1d0a3c86bfad89b5759e2f9e7250928155ca",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1138832642,
+      "name": "vuejs-ai/skills",
+      "url": "https://github.com/vuejs-ai/skills",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 43.48970004336019,
+      "why": "实验性但有趣：它用“有技能才通过”的eval筛选规则，还展示同一提示词前后代码差异。",
+      "try_idea": "看todo-app在有无技能下的代码对比，观察shallowRef与composable拆分。",
+      "reviewed_at": "2026-10-24T07:56:27.869256+00:00",
+      "share_id": "36d7f584ef7051786905b60110e4d9dc17f909f9b2be55ab6e8712c764044e15",
       "published_at": ""
     },
     {
@@ -19053,6 +20313,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 1302242606,
+      "name": "hanlulong/econ-auto-research",
+      "url": "https://github.com/hanlulong/econ-auto-research",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 41.15956719323362,
+      "why": "把经济学实证研究拆成识别、预注册、稳健性与自审稿流水线的构想，值得围观讨论。",
+      "try_idea": "读它的差距分析与路线图第2步复现审计设想。",
+      "reviewed_at": "2026-10-24T07:58:01.781608+00:00",
+      "share_id": "da7057942a7133ed3c98f2296cb0e3efc4da011d2cae21975ae99a9d5c850d62",
+      "published_at": ""
+    },
+    {
       "repo_id": 70271182,
       "name": "eracle/OpenOutreach",
       "url": "https://github.com/eracle/OpenOutreach",
@@ -19158,6 +20433,96 @@
       "published_at": ""
     },
     {
+      "repo_id": 146862989,
+      "name": "guanpengchn/awesome-books",
+      "url": "https://github.com/guanpengchn/awesome-books",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 40.317739184403926,
+      "why": "按评分排好的书单，帮人从海量技术书里快速挑出值得精读的那几本。",
+      "try_idea": "先浏览目录里的评分表，挑一本感兴趣的看简介。",
+      "reviewed_at": "2026-10-24T07:54:35.665869+00:00",
+      "share_id": "53ddb6712b8384df1e793967aedd50e433d73fed7033c8c994d39c3cb191be31",
+      "published_at": ""
+    },
+    {
+      "repo_id": 53537497,
+      "name": "codingforentrepreneurs/30-Days-of-Python",
+      "url": "https://github.com/codingforentrepreneurs/30-Days-of-Python",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 40.30829849841939,
+      "why": "想快速补Python与pandas、爬虫手感的人，可以按天打卡当学习节奏。",
+      "try_idea": "直接看官方视频列表里pandas与爬虫两集判断深度是否匹配。",
+      "reviewed_at": "2026-10-24T07:53:37.602771+00:00",
+      "share_id": "26ad947787225589261bd93edf472dbd3e41a3891beb5c062985bdb8a824a1e6",
+      "published_at": ""
+    },
+    {
+      "repo_id": 89676988,
+      "name": "mono0926/LicensePlist",
+      "url": "https://github.com/mono0926/LicensePlist",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 40.30829849841939,
+      "why": "一键把成百依赖的许可证整理成规范文档，iOS团队省事又合规。",
+      "try_idea": "先看acknowledgements.html与csv示例了解输出样式。",
+      "reviewed_at": "2026-10-24T07:54:18.288687+00:00",
+      "share_id": "1aaee630f59162d010ce25622961f6fa299398cc6433a279b674e893c76a47e8",
+      "published_at": ""
+    },
+    {
+      "repo_id": 5409008,
+      "name": "EasyEngine/easyengine",
+      "url": "https://github.com/EasyEngine/easyengine",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 40.17531778205228,
+      "why": "一条命令拉起WordPress加缓存加Let's Encrypt证书，适合想自建博客的人偷师。",
+      "try_idea": "先读site-command的README看命令设计。",
+      "reviewed_at": "2026-10-24T07:53:00.074063+00:00",
+      "share_id": "b77c002eba2a4bb3ed49656221febc15621e0c3fdfe8fdaeba55012a542aed12",
+      "published_at": ""
+    },
+    {
+      "repo_id": 90080868,
+      "name": "saadq/resumake.io",
+      "url": "https://github.com/saadq/resumake.io",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 40.10897832000764,
+      "why": "填表单就产出排版精致的LaTeX简历，虽已退役但源码仍是很好的模板教材。",
+      "try_idea": "翻v2分支的LaTeX模板与表单数据结构，看简历如何被组装。",
+      "reviewed_at": "2026-10-24T07:54:18.290285+00:00",
+      "share_id": "78aeb819f3bfc63cb01f7cf0c7ac5ff1493070d9f392142a62723449e39cfe2a",
+      "published_at": ""
+    },
+    {
+      "repo_id": 558427264,
+      "name": "GrindGold/pdf",
+      "url": "https://github.com/GrindGold/pdf",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 39.867534522850626,
+      "why": "一个Ctrl+F就能翻的经典编程书书架，情怀与实用兼有，但更像资料目录。",
+      "try_idea": "先看目录结构，评估能否整理成像样的电子书索引。",
+      "reviewed_at": "2026-10-24T07:55:37.772707+00:00",
+      "share_id": "7d0d1e531880f50efe1ae5a25d601bf4fb2ed0a557c832b4d2a045f76c558fe5",
+      "published_at": ""
+    },
+    {
       "repo_id": 51094210,
       "name": "google/EarlGrey",
       "url": "https://github.com/google/EarlGrey",
@@ -19200,6 +20565,21 @@
       "try_idea": "先看开发文档与开源脚本示例的API组织。",
       "reviewed_at": "2026-10-23T07:57:08.990379+00:00",
       "share_id": "73f82be994a2709b1a4a208dcf5464a3ae3d7f4d24710d4c752d869f78ee41d4",
+      "published_at": ""
+    },
+    {
+      "repo_id": 1186202698,
+      "name": "NarratorAI-Studio/narrator-ai-cli-skill",
+      "url": "https://github.com/NarratorAI-Studio/narrator-ai-cli-skill",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 3,
+      "playful_hits": 0,
+      "score": 39.47371071055389,
+      "why": "一句话就能让AI挑模板、配乐、配音、生成解说视频，把复杂剪辑流程变成对话，挺新奇。",
+      "try_idea": "先看SKILL.md里的两条工作流路径和内置模板列表。",
+      "reviewed_at": "2026-10-24T07:57:13.092572+00:00",
+      "share_id": "cd04ca20ec0239dc53d47971da598fdc9c43f93523e04ead059dde17e6662589",
       "published_at": ""
     },
     {
@@ -19338,6 +20718,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 1178985852,
+      "name": "twostraws/Swift-Agent-Skills",
+      "url": "https://github.com/twostraws/Swift-Agent-Skills",
+      "kind": "有趣发现",
+      "classic": false,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 37.930170575114865,
+      "why": "把散落社区的Swift技能整理成一张地图，还专门提醒先读代码再信任作者，态度有趣。",
+      "try_idea": "先看SwiftUI与Swift Testing两个分类下的条目，了解技能组织方式。",
+      "reviewed_at": "2026-10-24T07:57:12.416358+00:00",
+      "share_id": "9395d745bf86decff33805bd854efe7c9f511e97318d00f6b3d3ce9d8b4ce925",
+      "published_at": ""
+    },
+    {
       "repo_id": 98737787,
       "name": "draftdev/startup-marketing-checklist",
       "url": "https://github.com/draftdev/startup-marketing-checklist",
@@ -19350,6 +20745,21 @@
       "try_idea": "先翻marketing-checklist.md，挑两条写进自己项目的发布计划。",
       "reviewed_at": "2026-10-17T14:31:44.238475+00:00",
       "share_id": "fbfb996ed1c17cf206a67f4769095984b2ce42f04510ae98152b659689817454",
+      "published_at": ""
+    },
+    {
+      "repo_id": 751000531,
+      "name": "run-llama/llama_cloud_services",
+      "url": "https://github.com/run-llama/llama_cloud_services",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 37.261262488041,
+      "why": "把PDF、PPT转成结构化数据的思路，对论文数据抽取有启发。",
+      "try_idea": "先看仓库README中的迁移指引与新包说明。",
+      "reviewed_at": "2026-10-24T07:55:58.720800+00:00",
+      "share_id": "359002e3127f337e0f9a21f26929230e7c3e1308eda1dad6eb0220e6f043be06",
       "published_at": ""
     },
     {
@@ -19413,6 +20823,21 @@
       "published_at": ""
     },
     {
+      "repo_id": 85435841,
+      "name": "home-assistant/apps",
+      "url": "https://github.com/home-assistant/apps",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 36.702819503850876,
+      "why": "把家里灯光、NAS、数据库都装进一个Docker应用库，适合自动化发烧友探索。",
+      "try_idea": "先看Samba与Z-Wave JS的组件说明，理解附加组件如何扩展配置。",
+      "reviewed_at": "2026-10-24T07:54:18.287094+00:00",
+      "share_id": "bc40b858e3e65ef9ebab8e47c592d7491d595c647b9e00ce5683ea2177c4aefb",
+      "published_at": ""
+    },
+    {
       "repo_id": 120768790,
       "name": "automagica/automagica",
       "url": "https://github.com/automagica/automagica",
@@ -19458,6 +20883,36 @@
       "published_at": ""
     },
     {
+      "repo_id": 66618435,
+      "name": "hadyang/interview",
+      "url": "https://github.com/hadyang/interview",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 1,
+      "playful_hits": 0,
+      "score": 35.86987016528178,
+      "why": "一份整理得整齐的Java面试笔记站点，可顺手学它的知识组织方式。",
+      "try_idea": "先浏览在线预览页的目录结构，借其组织思路整理自己的笔记。",
+      "reviewed_at": "2026-10-24T07:53:58.474437+00:00",
+      "share_id": "91730684bb25c1f8d36e71930eb8cfd7445aef90ab9e6db1026e750cef018447",
+      "published_at": ""
+    },
+    {
+      "repo_id": 486848551,
+      "name": "VermiIIi0n/fuckZHS",
+      "url": "https://github.com/VermiIIi0n/fuckZHS",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 35.79379289828505,
+      "why": "把“刷课”这种枯燥流程变成一条命令行，还自带终端二维码登录，技术上有黑色幽默的趣味。",
+      "try_idea": "先看README的运行示例截图与--fetch拉清单用法，了解其登录与任务编排设计。",
+      "reviewed_at": "2026-10-24T07:55:37.765707+00:00",
+      "share_id": "1b03aa9adaab3d4111ca7cc6c68062914c5b5e7723246488a8c3ad042693dbb8",
+      "published_at": ""
+    },
+    {
       "repo_id": 41792133,
       "name": "davepwsmith/zotpick-applescript",
       "url": "https://github.com/davepwsmith/zotpick-applescript",
@@ -19500,6 +20955,21 @@
       "try_idea": "先读功能列表中Domainrecon模块，理解攻击面枚举思路。",
       "reviewed_at": "2026-10-22T07:54:04.901120+00:00",
       "share_id": "56c09bb98eaa0462fa01dc888e8effb54e9f633ba7d5bda4f2b8947c57729b6a",
+      "published_at": ""
+    },
+    {
+      "repo_id": 93960104,
+      "name": "linsa-io/alfred-workflows",
+      "url": "https://github.com/linsa-io/alfred-workflows",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 2,
+      "playful_hits": 0,
+      "score": 34.38808959183615,
+      "why": "一份脑洞清单，看别人如何用键盘唤出一切，能把效率念头撑大。",
+      "try_idea": "先翻Learn与Productivity分类，找文献与搜索相关的灵感。",
+      "reviewed_at": "2026-10-24T07:54:18.291891+00:00",
+      "share_id": "357a81689d337bd3d0dbb5866f7abef2ccd4e8fc8cc8568f1dd4de4a20bb93db",
       "published_at": ""
     },
     {
@@ -19680,6 +21150,21 @@
       "try_idea": "先看General Libraries里的Connected Papers引文可视化",
       "reviewed_at": "2026-10-23T13:57:14.675389+00:00",
       "share_id": "f99b615e6e3753fc4171f7e8a50ad9d21307c0d63c0983895256c32ce1bc8aee",
+      "published_at": ""
+    },
+    {
+      "repo_id": 327347160,
+      "name": "tangtangcoding/C-C-",
+      "url": "https://github.com/tangtangcoding/C-C-",
+      "kind": "有趣发现",
+      "classic": true,
+      "curiosity": 1,
+      "playful_hits": 0,
+      "score": 26.336025943283666,
+      "why": "像一张高校计算机课程攻略地图，适合想系统补基础的人顺藤摸瓜。",
+      "try_idea": "先点开浙江大学课程攻略共享计划的在线页面看目录结构。",
+      "reviewed_at": "2026-10-24T07:55:18.835392+00:00",
+      "share_id": "e2b5daaf3c7b293d08680884eeda642929aa4bc9107118305030231490f7e98f",
       "published_at": ""
     },
     {

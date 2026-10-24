@@ -2,11 +2,13 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [prawnpdf/prawn](https://github.com/prawnpdf/prawn) | 已分析 | 2008-04-04 | Fast, Nimble PDF Writer for Ruby |
 | [git-cola/git-cola](https://github.com/git-cola/git-cola) | 已分析 | 2008-06-10 | git-cola: The highly caffeinated Git GUI |
 | [chef/chef](https://github.com/chef/chef) | 已分析 | 2009-01-15 | Chef Infra, a powerful automation platform that transforms infrastructure into code automating how infrastructure is con |
 | [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 已分析 | 2009-08-28 | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300 |
 | [clientIO/joint](https://github.com/clientIO/joint) | 已分析 | 2009-09-11 | A proven SVG-based JavaScript diagramming library powering exceptional UIs |
 | [openframeworks/openFrameworks](https://github.com/openframeworks/openFrameworks) | 已分析 | 2009-10-21 | openFrameworks is a community-developed cross platform toolkit for creative coding in C++. |
+| [vslavik/diff-pdf](https://github.com/vslavik/diff-pdf) | 已分析 | 2009-10-28 | A simple tool for visually comparing two PDF files |
 | [danvk/dygraphs](https://github.com/danvk/dygraphs) | 已分析 | 2009-11-24 | Interactive visualizations of time series using JavaScript and the HTML canvas tag |
 | [AutoHotkey/AutoHotkey](https://github.com/AutoHotkey/AutoHotkey) | 已分析 | 2009-11-25 | AutoHotkey - macro-creation and automation-oriented scripting utility for Windows. |
 | [hashicorp/vagrant](https://github.com/hashicorp/vagrant) | 已分析 | 2010-01-21 | Vagrant is a tool for building and distributing development environments. |
@@ -17,6 +19,7 @@
 | [InsightSoftwareConsortium/ITK](https://github.com/InsightSoftwareConsortium/ITK) | 已分析 | 2010-07-27 | Insight Toolkit (ITK) -- Official Repository.  ITK builds on a proven, spatially-oriented architecture for processing, s |
 | [unknown-horizons/unknown-horizons](https://github.com/unknown-horizons/unknown-horizons) | 已分析 | 2010-08-23 | Unknown Horizons official code repository |
 | [rundeck/rundeck](https://github.com/rundeck/rundeck) | 已分析 | 2010-09-03 | Enable Self-Service Operations: Give specific users access to your existing tools, services, and scripts |
+| [cobrateam/splinter](https://github.com/cobrateam/splinter) | 已分析 | 2010-09-18 | splinter - python test framework for web applications  |
 | [automeris-io/WebPlotDigitizer](https://github.com/automeris-io/WebPlotDigitizer) | 已分析 | 2010-09-25 | Computer vision assisted tool to extract numerical data from plot images. |
 | [d3/d3](https://github.com/d3/d3) | 已分析 | 2010-09-27 | Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada: |
 | [Bash-it/bash-it](https://github.com/Bash-it/bash-it) | 已分析 | 2010-10-02 | A community Bash framework. |
@@ -60,7 +63,9 @@
 | [ddemidov/vexcl](https://github.com/ddemidov/vexcl) | 已分析 | 2012-05-29 | VexCL is a C++ vector expression template library for OpenCL/CUDA/OpenMP |
 | [qpdf/qpdf](https://github.com/qpdf/qpdf) | 已分析 | 2012-06-03 | qpdf: A content-preserving PDF document transformer |
 | [dc-js/dc.js](https://github.com/dc-js/dc.js) | 已分析 | 2012-06-19 | Multi-Dimensional charting built to work natively with crossfilter rendered with d3.js |
+| [macbre/phantomas](https://github.com/macbre/phantomas) | 已分析 | 2012-07-07 | Headless Chromium-based web performance metrics collector and monitoring tool |
 | [libgdx/libgdx](https://github.com/libgdx/libgdx) | 已分析 | 2012-08-10 | Desktop/Android/HTML5/iOS Java game development framework |
+| [EasyEngine/easyengine](https://github.com/EasyEngine/easyengine) | 已分析 | 2012-08-14 | Command-line control panel for Nginx Server to manage WordPress sites running on Nginx, PHP, MySQL, and Let's Encrypt |
 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 已分析 | 2012-08-30 | The main repository for the development of the evolution game Thrive.  |
 | [grobidOrg/grobid](https://github.com/grobidOrg/grobid) | 已分析 | 2012-09-13 | A machine learning software for extracting information from scholarly documents |
 | [libMesh/libmesh](https://github.com/libMesh/libmesh) | 已分析 | 2012-09-18 | libMesh github repository |
@@ -97,8 +102,3 @@
 | [root-project/root](https://github.com/root-project/root) | 已分析 | 2013-06-27 | The official repository for ROOT: analyzing, storing and visualizing big data, scientifically |
 | [su2code/SU2](https://github.com/su2code/SU2) | 已分析 | 2013-06-28 | SU2: An Open-Source Suite for Multiphysics Simulation and Design |
 | [dgarijo/Widoco](https://github.com/dgarijo/Widoco) | 已分析 | 2013-07-15 | Wizard for documenting ontologies. WIDOCO is a step by step generator of HTML templates with the documentation of your o |
-| [tasks/tasks](https://github.com/tasks/tasks) | 已分析 | 2013-07-18 | Bringing Astrid Tasks back from the dead |
-| [PMEAL/OpenPNM](https://github.com/PMEAL/OpenPNM) | 已分析 | 2013-07-25 | A Python package for performing pore network modeling of porous media |
-| [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp) | 已分析 | 2013-08-08 | Xournal++ is a handwriting notetaking software with PDF annotation support. Written in C++ with GTK3, supporting Linux ( |
-| [GameServerManagers/LinuxGSM](https://github.com/GameServerManagers/LinuxGSM) | 已分析 | 2013-08-09 | The command-line tool for quick, simple deployment and management of Linux dedicated game servers. |
-| [lammps/lammps](https://github.com/lammps/lammps) | 已分析 | 2013-08-09 | Public development project of the LAMMPS MD software package   |

@@ -2,6 +2,18 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [rlguy/GridFluidSim3D](https://github.com/rlguy/GridFluidSim3D) | 已分析 | 2015-04-07 | A PIC/FLIP fluid simulation based on the methods found in Robert Bridson's "Fluid Simulation for Computer Graphics" |
+| [plotly/dash](https://github.com/plotly/dash) | 已分析 | 2015-04-10 | Data Apps &amp; Dashboards for Python. No JavaScript Required. |
+| [apache/airflow](https://github.com/apache/airflow) | 已分析 | 2015-04-13 | Apache Airflow - A platform to programmatically author, schedule, and monitor workflows |
+| [obophenotype/bio-attribute-ontology](https://github.com/obophenotype/bio-attribute-ontology) | 已分析 | 2015-04-14 | source files for OBA (Ontology of Biological Attributes) |
+| [weaveworks/scope](https://github.com/weaveworks/scope) | 已分析 | 2015-04-27 | Monitoring, visualisation &amp; management for Docker &amp; Kubernetes |
+| [olistic/warriorjs](https://github.com/olistic/warriorjs) | 已分析 | 2015-04-29 | 🏰 An exciting game of programming and Artificial Intelligence |
+| [InteractiveComputerGraphics/PositionBasedDynamics](https://github.com/InteractiveComputerGraphics/PositionBasedDynamics) | 已分析 | 2015-05-05 | PositionBasedDynamics is a library for the physically-based simulation of rigid bodies, deformable solids and fluids. |
+| [opendatacube/datacube-core](https://github.com/opendatacube/datacube-core) | 已分析 | 2015-05-13 | Open Data Cube analyses continental scale Earth Observation data through time |
+| [dhimmel/obonet](https://github.com/dhimmel/obonet) | 已分析 | 2015-05-17 | OBO-formatted ontologies → networkx (Python 3) |
+| [precice/precice](https://github.com/precice/precice) | 已分析 | 2015-05-22 | A coupling library and ecosystem for partitioned multi-physics and multi-scale simulations, including surface and volume |
+| [habitat-sh/habitat](https://github.com/habitat-sh/habitat) | 分析受阻 | 2015-05-22 | Modern applications with built-in automation |
+| [pywinauto/pywinauto](https://github.com/pywinauto/pywinauto) | 已分析 | 2015-05-25 | Windows GUI Automation with Python (based on text properties) |
 | [artilleryio/artillery](https://github.com/artilleryio/artillery) | 已分析 | 2015-05-28 | The complete load testing platform. Everything you need for production-grade load tests. Serverless &amp; distributed. Load  |
 | [graphistry/pygraphistry](https://github.com/graphistry/pygraphistry) | 已分析 | 2015-06-02 | PyGraphistry is a Python library to quickly load, shape, embed, and explore big graphs with the GPU-accelerated Graphist |
 | [obophenotype/cell-ontology](https://github.com/obophenotype/cell-ontology) | 已分析 | 2015-06-04 | An ontology of cell types |
@@ -14,6 +26,7 @@
 | [nvdv/vprof](https://github.com/nvdv/vprof) | 已分析 | 2015-06-29 | Visual profiler for Python |
 | [hiloteam/Hilo](https://github.com/hiloteam/Hilo) | 已分析 | 2015-07-06 | A Cross-end HTML5 Game development solution |
 | [OpenIntroStat/ims](https://github.com/OpenIntroStat/ims) | 已分析 | 2015-07-13 | 📚 Introduction to Modern Statistics - A college-level open-source textbook with a modern approach highlighting multivari |
+| [cyanfish/naps2](https://github.com/cyanfish/naps2) | 已分析 | 2015-07-19 | Scan documents to PDF and more, as simply as possible. |
 | [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader) | 已分析 | 2015-07-21 | A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations  |
 | [hal9ai/awesome-dataviz](https://github.com/hal9ai/awesome-dataviz) | 已分析 | 2015-07-21 | A curated list of awesome data visualization libraries and resources. |
 | [matsim-org/matsim-libs](https://github.com/matsim-org/matsim-libs) | 已分析 | 2015-07-28 | Multi-Agent Transport Simulation |
@@ -32,8 +45,10 @@
 | [pdfarranger/pdfarranger](https://github.com/pdfarranger/pdfarranger) | 已分析 | 2015-10-21 | Small python-gtk application, which helps the user to merge or split PDF documents and rotate, crop and rearrange their  |
 | [JustArchiNET/ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) | 已分析 | 2015-10-25 | C# application with primary purpose of farming Steam cards from multiple accounts simultaneously. |
 | [cogciprocate/ocl](https://github.com/cogciprocate/ocl) | 已分析 | 2015-10-31 | OpenCL for Rust |
+| [d-zone-org/d-zone](https://github.com/d-zone-org/d-zone) | 已分析 | 2015-11-03 | An ambient life simulation driven by user activity within a Discord server |
 | [EpistasisLab/tpot](https://github.com/EpistasisLab/tpot) | 已分析 | 2015-11-03 | A Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming. |
 | [plotly/plotly.js](https://github.com/plotly/plotly.js) | 已分析 | 2015-11-05 | Open-source JavaScript charting library behind Plotly and Dash |
+| [ernestojimenezruiz/logmap-matcher](https://github.com/ernestojimenezruiz/logmap-matcher) | 已分析 | 2015-11-10 | LogMap: An Ontology Alignment and Alignment Repair System |
 | [dbrizov/Unity-WaterBuoyancy](https://github.com/dbrizov/Unity-WaterBuoyancy) | 已分析 | 2015-11-16 | Water Buoyancy Simulation for Unity |
 | [trilinos/Trilinos](https://github.com/trilinos/Trilinos) | 已分析 | 2015-11-16 | Primary repository for the Trilinos Project |
 | [thomaspark/flexboxfroggy](https://github.com/thomaspark/flexboxfroggy) | 已分析 | 2015-11-24 | A game for learning CSS flexbox 🐸 |
@@ -47,6 +62,7 @@
 | [visgl/deck.gl](https://github.com/visgl/deck.gl) | 已分析 | 2015-12-15 | WebGL2 powered visualization framework |
 | [onlylemi/processing-android-capture](https://github.com/onlylemi/processing-android-capture) | 已分析 | 2015-12-17 | AndroidCapture For Processing |
 | [jtablesaw/tablesaw](https://github.com/jtablesaw/tablesaw) | 已分析 | 2016-01-01 | Java dataframe and visualization library |
+| [Red5d/docker-autocompose](https://github.com/Red5d/docker-autocompose) | 已分析 | 2016-01-02 | Generate a docker-compose yaml definition from a running container |
 | [konvajs/react-konva](https://github.com/konvajs/react-konva) | 已分析 | 2016-01-03 | React components for the Konva 2d canvas library. Build interactive graphics, design editors, and whiteboards with JSX. |
 | [egeerardyn/awesome-LaTeX](https://github.com/egeerardyn/awesome-LaTeX) | 已分析 | 2016-01-06 | Curated list of LaTeX awesomeness |
 | [xwmx/nb](https://github.com/xwmx/nb) | 分析受阻 | 2016-01-12 | CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versi |
@@ -60,7 +76,9 @@
 | [Xunius/Menotexport](https://github.com/Xunius/Menotexport) | 已分析 | 2016-02-24 | Python solution to export annotations from your Mendeley library. |
 | [lpil/sonic-pi-tool](https://github.com/lpil/sonic-pi-tool) | 已分析 | 2016-03-03 | 🎻 Controlling Sonic Pi from the command line |
 | [Juris-M/citeproc-js](https://github.com/Juris-M/citeproc-js) | 分析受阻 | 2016-03-04 | A JavaScript implementation of the Citation Style Language (CSL) https://citeproc-js.readthedocs.io |
+| [codingforentrepreneurs/30-Days-of-Python](https://github.com/codingforentrepreneurs/30-Days-of-Python) | 已分析 | 2016-03-09 | Learn Python for the next 30 (or so) Days.  |
 | [yenchenlin/DeepLearningFlappyBird](https://github.com/yenchenlin/DeepLearningFlappyBird) | 已分析 | 2016-03-15 | Flappy Bird hack using Deep Reinforcement Learning (Deep Q-learning). |
+| [FoodOntology/foodon](https://github.com/FoodOntology/foodon) | 已分析 | 2016-03-17 | The core repository for the FOODON food ontology project. This holds the key classes of the ontology; larger files and t |
 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 已分析 | 2016-03-24 | ✨ The fundamental numerical library for JavaScript and TypeScript. ✨                    ⭐️ Star to support our work! |
 | [agronholm/apscheduler](https://github.com/agronholm/apscheduler) | 已分析 | 2016-03-27 | Task scheduling library for Python |
 | [acados/acados](https://github.com/acados/acados) | 已分析 | 2016-04-05 | Fast and embedded solvers for nonlinear optimal control and nonlinear model predictive control |
@@ -82,23 +100,5 @@
 | [projectstorm/react-diagrams](https://github.com/projectstorm/react-diagrams) | 已分析 | 2016-06-03 | a super simple, no-nonsense diagramming library written in react that just works |
 | [citybound/citybound](https://github.com/citybound/citybound) | 已分析 | 2016-06-04 | A work-in-progress, open-source, multi-player city simulation game. |
 | [RandyGaul/cute_headers](https://github.com/RandyGaul/cute_headers) | 已分析 | 2016-06-05 | Collection of cross-platform one-file C/C++ libraries with no dependencies, primarily used for games |
+| [aff3ct/aff3ct](https://github.com/aff3ct/aff3ct) | 已分析 | 2016-06-07 | Fast multi-thread FEC simulator &amp; library of efficient digital communication algorithms for SDR. |
 | [wix/Detox](https://github.com/wix/Detox) | 已分析 | 2016-06-15 | Gray box end-to-end testing and automation framework for mobile apps |
-| [synthetichealth/synthea](https://github.com/synthetichealth/synthea) | 已分析 | 2016-06-17 | Synthetic Patient Population Simulator |
-| [owlbarn/owl](https://github.com/owlbarn/owl) | 已分析 | 2016-06-20 | Owl - OCaml Scientific Computing @ https://ocaml.xyz |
-| [Geant4/geant4](https://github.com/Geant4/geant4) | 已分析 | 2016-06-21 | Geant4 toolkit for the simulation of the passage of particles through matter - NIM A 506 (2003) 250-303 |
-| [crsh/citr](https://github.com/crsh/citr) | 已分析 | 2016-06-23 | RStudio Addin to Insert Markdown Citations from a BibTeX file or Zotero |
-| [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | 已分析 | 2016-06-26 | Complete Open Source and Modular solution for MMO |
-| [you-dont-need/You-Dont-Need-JavaScript](https://github.com/you-dont-need/You-Dont-Need-JavaScript) | 已分析 | 2016-07-05 | CSS is powerful, you can do a lot of things without JS. |
-| [Facepunch/Facepunch.Steamworks](https://github.com/Facepunch/Facepunch.Steamworks) | 已分析 | 2016-07-06 | Another fucking c# Steamworks implementation |
-| [PokemonGoF/PokemonGo-Bot](https://github.com/PokemonGoF/PokemonGo-Bot) | 已分析 | 2016-07-20 | The Pokemon Go Bot, baking with community. |
-| [JasonKessler/scattertext](https://github.com/JasonKessler/scattertext) | 已分析 | 2016-07-21 | Beautiful visualizations of how language differs among document types. |
-| [wojtekmaj/react-pdf](https://github.com/wojtekmaj/react-pdf) | 已分析 | 2016-08-01 | Display PDFs in your React app as easily as if they were images. |
-| [smuyyh/BookReader](https://github.com/smuyyh/BookReader) | 已分析 | 2016-08-03 | :closed_book:  "任阅" 网络小说阅读器，3D翻页效果、txt/pdf/epub书籍阅读、Wifi传书~ |
-| [wulkano/Kap](https://github.com/wulkano/Kap) | 已分析 | 2016-08-10 | An open-source screen recorder built with web technology |
-| [wrf-model/WRF](https://github.com/wrf-model/WRF) | 已分析 | 2016-08-16 | The official repository for the Weather Research and Forecasting (WRF) model |
-| [jarun/nnn](https://github.com/jarun/nnn) | 已分析 | 2016-08-20 | n³ The unorthodox terminal file manager |
-| [apify/crawlee](https://github.com/apify/crawlee) | 已分析 | 2016-08-26 | Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScri |
-| [antvis/F2](https://github.com/antvis/F2) | 已分析 | 2016-08-29 | 📱📈An elegant, interactive and flexible charting library for mobile. |
-| [qax-os/excelize](https://github.com/qax-os/excelize) | 已分析 | 2016-08-29 | Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets |
-| [reorx/httpstat](https://github.com/reorx/httpstat) | 已分析 | 2016-08-30 | curl statistics made simple |
-| [ondrajz/go-callvis](https://github.com/ondrajz/go-callvis) | 已分析 | 2016-09-03 | Visualize call graph of a Go program using Graphviz |

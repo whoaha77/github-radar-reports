@@ -549,6 +549,16 @@
 
 **部署前核查：** 核查pyproject依赖、creds.txt权限逻辑与GPT可选依赖
 
+### [deltadbu/WIT-skill](projects/1345802690.md)
+
+**为什么值得：** 为科研写作提供提问生成、证据对齐与论文逻辑审计的思维脚手架能力
+
+**重叠与增量（未核对安装清单）：** 与已有论文写作润色、读论文能力有交叉，增量在假设竞争与Results/Discussion分层推理
+
+**代价与风险：** 需支持SKILL.md的Agent Skills；Windows下或用参考文档直接提示；无需API费用；未验证技能在Codex中的加载方式与CAS内容是否冲突；拆分许可边界需核对
+
+**部署前核查：** 核查wit/SKILL.md与wit/references下的框架文档，确认可加载性
+
 ### [aloth/olcli](projects/1147798916.md)
 
 **为什么值得：** 为 Codex 增加 Overleaf 项目拉推同步、远程编译与 latexdiff 修订输出。
@@ -608,6 +618,16 @@
 **代价与风险：** Windows上需要Python或uv、Google账号，并依赖外部服务，可能有配额限制。；登录凭据存储与账号策略尚未验证，项目的云端服务接口可能变动。
 
 **部署前核查：** 核查README中`nlm setup`所涉及的技能安装路径、MCP配置文件及`docs/AUTHENTICATION.md`凭据说明。
+
+### [Astro-Han/karpathy-llm-wiki](projects/1201775166.md)
+
+**为什么值得：** 为Codex加知识编译层：源料沉淀成可引用wiki页并做一致性检查。
+
+**重叠与增量（未核对安装清单）：** 与读论文、文献检索能力交叉明显；增量在于持久化跨链与lint流程，需核验。
+
+**代价与风险：** 复制SKILL.md等文件到skill目录，可能需Python脚本支持。；摄取与lint效果未验证，脚本在Windows兼容未知，语料版权需自控。
+
+**部署前核查：** 核查SKILL.md、scripts目录与examples示例，确认依赖与许可。
 
 ### [gaogaotiantian/viztracer](projects/285134677.md)
 

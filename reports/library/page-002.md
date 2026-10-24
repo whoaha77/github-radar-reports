@@ -2,6 +2,11 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [tasks/tasks](https://github.com/tasks/tasks) | 已分析 | 2013-07-18 | Bringing Astrid Tasks back from the dead |
+| [PMEAL/OpenPNM](https://github.com/PMEAL/OpenPNM) | 已分析 | 2013-07-25 | A Python package for performing pore network modeling of porous media |
+| [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp) | 已分析 | 2013-08-08 | Xournal++ is a handwriting notetaking software with PDF annotation support. Written in C++ with GTK3, supporting Linux ( |
+| [GameServerManagers/LinuxGSM](https://github.com/GameServerManagers/LinuxGSM) | 已分析 | 2013-08-09 | The command-line tool for quick, simple deployment and management of Linux dedicated game servers. |
+| [lammps/lammps](https://github.com/lammps/lammps) | 已分析 | 2013-08-09 | Public development project of the LAMMPS MD software package   |
 | [CorsixTH/CorsixTH](https://github.com/CorsixTH/CorsixTH) | 已分析 | 2013-08-25 | Open source clone of Theme Hospital |
 | [Provenance-Emu/Provenance](https://github.com/Provenance-Emu/Provenance) | 已分析 | 2013-08-27 | iOS &amp; tvOS multi-emulator frontend, supporting various Atari, Bandai, NEC, Nintendo, Sega, SNK and Sony console systems… |
 | [projectchrono/chrono](https://github.com/projectchrono/chrono) | 已分析 | 2013-09-03 | High-performance C++ library for multiphysics and multibody dynamics simulations |
@@ -9,14 +14,17 @@
 | [pyqtgraph/pyqtgraph](https://github.com/pyqtgraph/pyqtgraph) | 已分析 | 2013-09-12 | Fast data visualization and GUI tools for scientific / engineering applications |
 | [recastnavigation/recastnavigation](https://github.com/recastnavigation/recastnavigation) | 已分析 | 2013-09-15 | Industry-standard navigation-mesh toolset for games |
 | [pgmpy/pgmpy](https://github.com/pgmpy/pgmpy) | 已分析 | 2013-09-20 | Python Toolkit for Causal and Probabilistic Reasoning |
+| [torakiki/pdfsam](https://github.com/torakiki/pdfsam) | 已分析 | 2013-09-24 | PDFsam, a desktop application to split, merge, mix, rotate PDF files and extract pages |
 | [svaksha/Julia.jl](https://github.com/svaksha/Julia.jl) | 已分析 | 2013-09-25 | Curated decibans of Julia programming language. |
 | [ShareX/ShareX](https://github.com/ShareX/ShareX) | 已分析 | 2013-10-08 | ShareX is a free and open-source application that enables users to capture or record any area of their screen with a sin |
 | [ossia/score](https://github.com/ossia/score) | 已分析 | 2013-10-15 | ossia score, an interactive sequencer for the intermedia arts |
+| [hcfyapp/crx-selection-translate](https://github.com/hcfyapp/crx-selection-translate) | 已分析 | 2013-10-17 | 一站式划词 / 截图 / 网页全文 / 音视频 AI 翻译扩展。 |
 | [geneontology/go-site](https://github.com/geneontology/go-site) | 已分析 | 2013-10-24 | A collection of metadata, tools, and files associated with the Gene Ontology public web presence. |
 | [graememcc/micropolisJS](https://github.com/graememcc/micropolisJS) | 已分析 | 2013-10-27 | A port of Micropolis to JS/HTML5 |
 | [getredash/redash](https://github.com/getredash/redash) | 已分析 | 2013-10-28 | Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data. |
 | [SFTtech/openage](https://github.com/SFTtech/openage) | 已分析 | 2013-11-03 | Clone of the Age of Empires II engine 🚀  |
 | [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) | 已分析 | 2013-11-04 | :books: 免费的计算机编程类中文书籍，欢迎投稿 |
+| [neurokernel/neurokernel](https://github.com/neurokernel/neurokernel) | 已分析 | 2013-11-08 | Neurokernel Project |
 | [plotly/plotly.py](https://github.com/plotly/plotly.py) | 已分析 | 2013-11-21 | The interactive graphing library for Python :sparkles: |
 | [simpeg/simpeg](https://github.com/simpeg/simpeg) | 已分析 | 2013-11-26 | Simulation and Parameter Estimation in Geophysics  -  A python package for simulation and gradient based parameter estim |
 | [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox) | 已分析 | 2013-12-19 | A cross-platform launcher that simply works |
@@ -56,6 +64,7 @@
 | [00-Evan/shattered-pixel-dungeon](https://github.com/00-Evan/shattered-pixel-dungeon) | 已分析 | 2014-07-31 | Shattered Pixel Dungeon is an open-source traditional roguelike dungeon crawler with randomized levels and enemies, and  |
 | [rust-ndarray/ndarray](https://github.com/rust-ndarray/ndarray) | 已分析 | 2014-08-04 | ndarray: an N-dimensional array with array views, multidimensional slicing, and efficient operations |
 | [Triple-T/gradle-play-publisher](https://github.com/Triple-T/gradle-play-publisher) | 已分析 | 2014-08-07 | GPP is Android's unofficial release automation Gradle Plugin. It can do anything from building, uploading, and then prom |
+| [tecnickcom/TCPDF](https://github.com/tecnickcom/TCPDF) | 已分析 | 2014-08-08 | Deprecated: PHP PDF library, superseded by tc-lib-pdf (https://github.com/tecnickcom/tc-lib-pdf) |
 | [usnistgov/fipy](https://github.com/usnistgov/fipy) | 已分析 | 2014-08-25 | FiPy is a Finite Volume PDE solver written in Python |
 | [pdfminer/pdfminer.six](https://github.com/pdfminer/pdfminer.six) | 已分析 | 2014-08-29 | Community maintained fork of pdfminer - we fathom PDF |
 | [OpenXRay/xray-16](https://github.com/OpenXRay/xray-16) | 已分析 | 2014-09-05 | Improved version of the X-Ray Engine, the game engine used in the world-famous S.T.A.L.K.E.R. game series by GSC Game Wo |
@@ -88,17 +97,8 @@
 | [kizniche/Mycodo](https://github.com/kizniche/Mycodo) | 已分析 | 2015-02-05 | An environmental monitoring and regulation system |
 | [cpmech/gosl](https://github.com/cpmech/gosl) | 已分析 | 2015-02-09 | Linear algebra, eigenvalues, FFT, Bessel, elliptic, orthogonal polys, geometry, NURBS, numerical quadrature, 3D transfin |
 | [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | 已分析 | 2015-02-19 | Open-Source Unified Vulnerability Management, DevSecOps &amp; ASPM |
+| [mpdf/mpdf](https://github.com/mpdf/mpdf) | 已分析 | 2015-03-03 | PHP library generating PDF files from UTF-8 encoded HTML |
 | [endless-sky/endless-sky](https://github.com/endless-sky/endless-sky) | 已分析 | 2015-03-14 | Space exploration, trading, and combat game. |
+| [MaastrichtU-IDS/semanticscience](https://github.com/MaastrichtU-IDS/semanticscience) | 已分析 | 2015-03-19 | The Semanticscience Integrated Ontology (SIO) provides a simple, integrated ontology of types and relations for rich des |
 | [ory/dockertest](https://github.com/ory/dockertest) | 已分析 | 2015-03-19 | Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work. |
 | [AlmasB/FXGL](https://github.com/AlmasB/FXGL) | 已分析 | 2015-03-23 | Java / JavaFX / Kotlin Game Library (Engine) |
-| [rlguy/GridFluidSim3D](https://github.com/rlguy/GridFluidSim3D) | 已分析 | 2015-04-07 | A PIC/FLIP fluid simulation based on the methods found in Robert Bridson's "Fluid Simulation for Computer Graphics" |
-| [plotly/dash](https://github.com/plotly/dash) | 已分析 | 2015-04-10 | Data Apps &amp; Dashboards for Python. No JavaScript Required. |
-| [apache/airflow](https://github.com/apache/airflow) | 已分析 | 2015-04-13 | Apache Airflow - A platform to programmatically author, schedule, and monitor workflows |
-| [obophenotype/bio-attribute-ontology](https://github.com/obophenotype/bio-attribute-ontology) | 已分析 | 2015-04-14 | source files for OBA (Ontology of Biological Attributes) |
-| [weaveworks/scope](https://github.com/weaveworks/scope) | 已分析 | 2015-04-27 | Monitoring, visualisation &amp; management for Docker &amp; Kubernetes |
-| [olistic/warriorjs](https://github.com/olistic/warriorjs) | 已分析 | 2015-04-29 | 🏰 An exciting game of programming and Artificial Intelligence |
-| [InteractiveComputerGraphics/PositionBasedDynamics](https://github.com/InteractiveComputerGraphics/PositionBasedDynamics) | 已分析 | 2015-05-05 | PositionBasedDynamics is a library for the physically-based simulation of rigid bodies, deformable solids and fluids. |
-| [opendatacube/datacube-core](https://github.com/opendatacube/datacube-core) | 已分析 | 2015-05-13 | Open Data Cube analyses continental scale Earth Observation data through time |
-| [dhimmel/obonet](https://github.com/dhimmel/obonet) | 已分析 | 2015-05-17 | OBO-formatted ontologies → networkx (Python 3) |
-| [precice/precice](https://github.com/precice/precice) | 已分析 | 2015-05-22 | A coupling library and ecosystem for partitioned multi-physics and multi-scale simulations, including surface and volume |
-| [pywinauto/pywinauto](https://github.com/pywinauto/pywinauto) | 已分析 | 2015-05-25 | Windows GUI Automation with Python (based on text properties) |
