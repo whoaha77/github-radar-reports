@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "pool_size": 870,
+  "pool_size": 902,
   "shown": 50,
   "capacity": 50,
   "deployment_policy": "user_initiated_only",
-  "high_value_candidates": 71,
+  "high_value_candidates": 73,
   "projects": [
     {
       "repo_id": 826168160,
@@ -252,6 +252,25 @@
         "next_step": "核查README链接的官方文档与示例库入口"
       },
       "deployment_advice": "继续观察，暂不建议接入"
+    },
+    {
+      "repo_id": 110261047,
+      "name": "marcomusy/vedo",
+      "url": "https://github.com/marcomusy/vedo",
+      "score": 88.71,
+      "reviewed_at": "2026-10-25T07:55:03.120406+00:00",
+      "stale": false,
+      "reason": "直击科研可视化，支持DICOM、体渲染与出版级图表。",
+      "codex": {
+        "integration": "library",
+        "priority": "高",
+        "reason": "基于VTK的3D科研可视化与分析，补三维网格、体数据渲染能力",
+        "overlap": "与科研绘图交叉，三维网格与体数据为潜在增量",
+        "requirements": "pip安装，依赖VTK与图形驱动；Windows可交互窗口需显卡支持",
+        "risk": "大体积数据性能与显存占用未知，GUI依赖未验证",
+        "next_step": "核查setup依赖与examples/notebooks示例，确认Windows渲染后端"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
     },
     {
       "repo_id": 1460385,
@@ -936,25 +955,6 @@
         "next_step": "核查pyproject或requirements依赖、.env.example所需密钥与vlm可选依赖安装方式"
       },
       "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 1219042200,
-      "name": "op7418/guizang-ppt-skill",
-      "url": "https://github.com/op7418/guizang-ppt-skill",
-      "score": 84.4,
-      "reviewed_at": "2026-10-16T17:33:54.320241+00:00",
-      "stale": false,
-      "reason": "高度契合科研汇报与效率工具需求，且声明同时支持 Claude Code 与 Codex。",
-      "codex": {
-        "integration": "skill",
-        "priority": "高",
-        "reason": "为 Codex 增加单文件 HTML 幻灯片与演讲者模式生成链路。",
-        "overlap": "与已有 PPT 生成能力存在功能交叉，HTML 与排练模式为潜在增量。",
-        "requirements": "需 Node/npx、可写文件系统；配图需图像生成 API。",
-        "risk": "AGPL 许可与第三方脚本行为需审慎核查。",
-        "next_step": "核查 SKILL.md、assets 模板与 scripts 下校验器的实际文件。"
-      },
-      "deployment_advice": "高价值核查候选，等你主动提出安装"
     }
   ]
 }

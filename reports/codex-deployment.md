@@ -89,6 +89,16 @@
 
 **部署前核查：** 核查快速开始中的Zotero设置、安装命令、技能安装说明与MIT许可文件
 
+### [marcomusy/vedo](projects/110261047.md)
+
+**为什么值得：** 基于VTK的3D科研可视化与分析，补三维网格、体数据渲染能力
+
+**重叠与增量（未核对安装清单）：** 与科研绘图交叉，三维网格与体数据为潜在增量
+
+**代价与风险：** pip安装，依赖VTK与图形驱动；Windows可交互窗口需显卡支持；大体积数据性能与显存占用未知，GUI依赖未验证
+
+**部署前核查：** 核查setup依赖与examples/notebooks示例，确认Windows渲染后端
+
 ### [ocrmypdf/OCRmyPDF](projects/15333471.md)
 
 **为什么值得：** 为扫描文献批量补OCR文本层，提升检索与复制可用性。
@@ -668,6 +678,16 @@
 **代价与风险：** 需Python、LaTeX与本地技能目录；无强制API费用；引用真实性与图表质量仅为作者主张，安装脚本Windows支持未验证
 
 **部署前核查：** 核查skills/*/SKILL.md、tools/validate_skills.py与examples/fno-burgers产物
+
+### [eseifert/altero](projects/51662900.md)
+
+**为什么值得：** 可为引用管理与文献库同步提供自托管后端，强化科研数据自主掌控。
+
+**重叠与增量（未核对安装清单）：** 与Codex现有文献检索和引用管理能力交叉明显，自托管增量待核验。
+
+**代价与风险：** 需Docker或Python 3.14、SQLite或PostgreSQL，Windows宜用Docker；无API费用。；beta稳定性、数据迁移不可逆与AGPL义务均未验证。
+
+**部署前核查：** 核查docker/compose.yaml、CHANGELOG与docs/client-compatibility.md。
 
 ### [yymao/adstex](projects/42411546.md)
 

@@ -2,6 +2,15 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [openmm/openmm](https://github.com/openmm/openmm) | 已分析 | 2013-05-20 | OpenMM is a toolkit for molecular simulation using high performance GPU code.  |
+| [pissang/claygl](https://github.com/pissang/claygl) | 已分析 | 2013-05-21 | A WebGL graphic library for building scalable Web3D applications |
+| [DanielChappuis/reactphysics3d](https://github.com/DanielChappuis/reactphysics3d) | 已分析 | 2013-05-24 | Open source C++ physics engine library in 3D |
+| [opengaming/osgameclones](https://github.com/opengaming/osgameclones) | 已分析 | 2013-05-27 | Open Source Clones of Popular Games |
+| [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) | 已分析 | 2013-06-16 | A dead simple 2D game engine for Go |
+| [barryvdh/laravel-dompdf](https://github.com/barryvdh/laravel-dompdf) | 已分析 | 2013-06-23 | A DOMPDF Wrapper for Laravel |
+| [root-project/root](https://github.com/root-project/root) | 已分析 | 2013-06-27 | The official repository for ROOT: analyzing, storing and visualizing big data, scientifically |
+| [su2code/SU2](https://github.com/su2code/SU2) | 已分析 | 2013-06-28 | SU2: An Open-Source Suite for Multiphysics Simulation and Design |
+| [dgarijo/Widoco](https://github.com/dgarijo/Widoco) | 已分析 | 2013-07-15 | Wizard for documenting ontologies. WIDOCO is a step by step generator of HTML templates with the documentation of your o |
 | [tasks/tasks](https://github.com/tasks/tasks) | 已分析 | 2013-07-18 | Bringing Astrid Tasks back from the dead |
 | [PMEAL/OpenPNM](https://github.com/PMEAL/OpenPNM) | 已分析 | 2013-07-25 | A Python package for performing pore network modeling of porous media |
 | [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp) | 已分析 | 2013-08-08 | Xournal++ is a handwriting notetaking software with PDF annotation support. Written in C++ with GTK3, supporting Linux ( |
@@ -26,7 +35,9 @@
 | [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) | 已分析 | 2013-11-04 | :books: 免费的计算机编程类中文书籍，欢迎投稿 |
 | [neurokernel/neurokernel](https://github.com/neurokernel/neurokernel) | 已分析 | 2013-11-08 | Neurokernel Project |
 | [plotly/plotly.py](https://github.com/plotly/plotly.py) | 已分析 | 2013-11-21 | The interactive graphing library for Python :sparkles: |
+| [SuperTux/supertux](https://github.com/SuperTux/supertux) | 已分析 | 2013-11-23 | SuperTux source code |
 | [simpeg/simpeg](https://github.com/simpeg/simpeg) | 已分析 | 2013-11-26 | Simulation and Parameter Estimation in Geophysics  -  A python package for simulation and gradient based parameter estim |
+| [DeaDBeeF-Player/deadbeef](https://github.com/DeaDBeeF-Player/deadbeef) | 已分析 | 2013-12-16 | DeaDBeeF Player |
 | [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox) | 已分析 | 2013-12-19 | A cross-platform launcher that simply works |
 | [ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) | 已分析 | 2013-12-20 | OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched |
 | [OctoLinker/OctoLinker](https://github.com/OctoLinker/OctoLinker) | 已分析 | 2013-12-27 | OctoLinker — Links together, what belongs together |
@@ -75,6 +86,7 @@
 | [tio/tio](https://github.com/tio/tio) | 已分析 | 2014-09-27 | A serial device I/O tool |
 | [vaexio/vaex](https://github.com/vaexio/vaex) | 已分析 | 2014-09-27 | Out-of-Core hybrid Apache Arrow/NumPy DataFrame for Python, ML, visualization and exploration of big tabular data at a b |
 | [Hammerspoon/hammerspoon](https://github.com/Hammerspoon/hammerspoon) | 已分析 | 2014-10-08 | Staggeringly powerful macOS desktop automation with Lua |
+| [cjcliffe/CubicSDR](https://github.com/cjcliffe/CubicSDR) | 已分析 | 2014-10-26 | Cross-Platform Software-Defined Radio Application |
 | [arrayfire/arrayfire](https://github.com/arrayfire/arrayfire) | 已分析 | 2014-10-28 | ArrayFire: a general purpose GPU library. |
 | [haifengl/smile](https://github.com/haifengl/smile) | 已分析 | 2014-11-20 | Statistical Machine Intelligence &amp; Learning Engine |
 | [vega/vega-lite](https://github.com/vega/vega-lite) | 已分析 | 2014-11-20 | A concise grammar of interactive graphics, built on Vega. |
@@ -90,15 +102,3 @@
 | [adnanh/webhook](https://github.com/adnanh/webhook) | 已分析 | 2015-01-12 | webhook is a lightweight incoming webhook server to run shell commands |
 | [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | 已分析 | 2015-01-18 | :page_facing_up: Awesome CV is LaTeX template for your outstanding job application |
 | [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) | 已分析 | 2015-01-26 | :iphone: Collaborative List of Open-Source iOS Apps |
-| [taojy123/KeymouseGo](https://github.com/taojy123/KeymouseGo) | 已分析 | 2015-01-31 | 类似按键精灵的鼠标键盘录制和自动化操作 模拟点击和键入 \| automate mouse clicks and keyboard input |
-| [metabase/metabase](https://github.com/metabase/metabase) | 已分析 | 2015-02-02 | The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_cha |
-| [ecomfe/echarts-gl](https://github.com/ecomfe/echarts-gl) | 已分析 | 2015-02-03 | Extension pack for Apache ECharts, providing globe visualization and 3D plots. |
-| [BOINC/boinc](https://github.com/BOINC/boinc) | 已分析 | 2015-02-03 | Open-source software for volunteer computing and grid computing. |
-| [kizniche/Mycodo](https://github.com/kizniche/Mycodo) | 已分析 | 2015-02-05 | An environmental monitoring and regulation system |
-| [cpmech/gosl](https://github.com/cpmech/gosl) | 已分析 | 2015-02-09 | Linear algebra, eigenvalues, FFT, Bessel, elliptic, orthogonal polys, geometry, NURBS, numerical quadrature, 3D transfin |
-| [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | 已分析 | 2015-02-19 | Open-Source Unified Vulnerability Management, DevSecOps &amp; ASPM |
-| [mpdf/mpdf](https://github.com/mpdf/mpdf) | 已分析 | 2015-03-03 | PHP library generating PDF files from UTF-8 encoded HTML |
-| [endless-sky/endless-sky](https://github.com/endless-sky/endless-sky) | 已分析 | 2015-03-14 | Space exploration, trading, and combat game. |
-| [MaastrichtU-IDS/semanticscience](https://github.com/MaastrichtU-IDS/semanticscience) | 已分析 | 2015-03-19 | The Semanticscience Integrated Ontology (SIO) provides a simple, integrated ontology of types and relations for rich des |
-| [ory/dockertest](https://github.com/ory/dockertest) | 已分析 | 2015-03-19 | Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work. |
-| [AlmasB/FXGL](https://github.com/AlmasB/FXGL) | 已分析 | 2015-03-23 | Java / JavaFX / Kotlin Game Library (Engine) |

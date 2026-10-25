@@ -2,6 +2,22 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [taojy123/KeymouseGo](https://github.com/taojy123/KeymouseGo) | 已分析 | 2015-01-31 | 类似按键精灵的鼠标键盘录制和自动化操作 模拟点击和键入 \| automate mouse clicks and keyboard input |
+| [metabase/metabase](https://github.com/metabase/metabase) | 已分析 | 2015-02-02 | The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_cha |
+| [ecomfe/echarts-gl](https://github.com/ecomfe/echarts-gl) | 已分析 | 2015-02-03 | Extension pack for Apache ECharts, providing globe visualization and 3D plots. |
+| [BOINC/boinc](https://github.com/BOINC/boinc) | 已分析 | 2015-02-03 | Open-source software for volunteer computing and grid computing. |
+| [kizniche/Mycodo](https://github.com/kizniche/Mycodo) | 已分析 | 2015-02-05 | An environmental monitoring and regulation system |
+| [cpmech/gosl](https://github.com/cpmech/gosl) | 已分析 | 2015-02-09 | Linear algebra, eigenvalues, FFT, Bessel, elliptic, orthogonal polys, geometry, NURBS, numerical quadrature, 3D transfin |
+| [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | 已分析 | 2015-02-19 | Open-Source Unified Vulnerability Management, DevSecOps &amp; ASPM |
+| [mpdf/mpdf](https://github.com/mpdf/mpdf) | 已分析 | 2015-03-03 | PHP library generating PDF files from UTF-8 encoded HTML |
+| [SolidZORO/zpix-pixel-font](https://github.com/SolidZORO/zpix-pixel-font) | 已分析 | 2015-03-13 | Zpix (最像素) is a pixel font (中文像素字体), supporting English, Chinese (Simplified + Traditional) and Japanese. |
+| [dyn4j/dyn4j](https://github.com/dyn4j/dyn4j) | 已分析 | 2015-03-14 | Java Collision Detection and Physics Engine |
+| [endless-sky/endless-sky](https://github.com/endless-sky/endless-sky) | 已分析 | 2015-03-14 | Space exploration, trading, and combat game. |
+| [MaastrichtU-IDS/semanticscience](https://github.com/MaastrichtU-IDS/semanticscience) | 已分析 | 2015-03-19 | The Semanticscience Integrated Ontology (SIO) provides a simple, integrated ontology of types and relations for rich des |
+| [ory/dockertest](https://github.com/ory/dockertest) | 已分析 | 2015-03-19 | Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work. |
+| [tomlooman/EpicSurvivalGame](https://github.com/tomlooman/EpicSurvivalGame) | 已分析 | 2015-03-20 | Third-person Survival Game for Unreal Engine (Sample Project) |
+| [AlmasB/FXGL](https://github.com/AlmasB/FXGL) | 已分析 | 2015-03-23 | Java / JavaFX / Kotlin Game Library (Engine) |
+| [TUDelft-CNS-ATM/bluesky](https://github.com/TUDelft-CNS-ATM/bluesky) | 已分析 | 2015-04-01 | The open source air traffic simulator |
 | [rlguy/GridFluidSim3D](https://github.com/rlguy/GridFluidSim3D) | 已分析 | 2015-04-07 | A PIC/FLIP fluid simulation based on the methods found in Robert Bridson's "Fluid Simulation for Computer Graphics" |
 | [plotly/dash](https://github.com/plotly/dash) | 已分析 | 2015-04-10 | Data Apps &amp; Dashboards for Python. No JavaScript Required. |
 | [apache/airflow](https://github.com/apache/airflow) | 已分析 | 2015-04-13 | Apache Airflow - A platform to programmatically author, schedule, and monitor workflows |
@@ -33,8 +49,11 @@
 | [dkfans/keeperfx](https://github.com/dkfans/keeperfx) | 已分析 | 2015-08-17 | Open source remake and Fan Expansion of Dungeon Keeper. |
 | [davyxu/cellnet](https://github.com/davyxu/cellnet) | 已分析 | 2015-08-18 | High performance, simple, extensible golang open source network library |
 | [obophenotype/upheno](https://github.com/obophenotype/upheno) | 已分析 | 2015-08-19 | The Unified Phenotype Ontology (uPheno) integrates multiple phenotype ontologies into a unified cross-species phenotype  |
+| [Calinou/awesome-gamedev](https://github.com/Calinou/awesome-gamedev) | 已分析 | 2015-08-20 | A collection of free software and free culture resources for making amazing games. (mirror) |
 | [jsvine/pdfplumber](https://github.com/jsvine/pdfplumber) | 已分析 | 2015-08-24 | Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables. |
+| [JuliaPlots/Plots.jl](https://github.com/JuliaPlots/Plots.jl) | 分析受阻 | 2015-08-25 | Powerful convenience for Julia visualizations and data analysis |
 | [davepwsmith/zotpick-applescript](https://github.com/davepwsmith/zotpick-applescript) | 已分析 | 2015-09-02 | Leverage Better-BibTeX's citation picker in Scrivener |
+| [deck-of-cards/deck-of-cards](https://github.com/deck-of-cards/deck-of-cards) | 已分析 | 2015-09-02 | Deck of Cards (old version) |
 | [ontologyportal/sumo](https://github.com/ontologyportal/sumo) | 已分析 | 2015-09-06 | Suggested Upper Merged Ontology (SUMO) |
 | [sshahine/JFoenix](https://github.com/sshahine/JFoenix) | 已分析 | 2015-09-08 | JavaFX Material Design Library |
 | [yymao/adstex](https://github.com/yymao/adstex) | 已分析 | 2015-09-13 | Automated generation of NASA ADS bibtex entries directly from citation keys in your TeX source files |
@@ -68,6 +87,7 @@
 | [xwmx/nb](https://github.com/xwmx/nb) | 分析受阻 | 2016-01-12 | CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versi |
 | [ggez/ggez](https://github.com/ggez/ggez) | 已分析 | 2016-01-30 | Rust library to create a Good Game Easily |
 | [google/EarlGrey](https://github.com/google/EarlGrey) | 已分析 | 2016-02-04 | :tea: iOS UI Automation Test Framework |
+| [inlife/nexrender](https://github.com/inlife/nexrender) | 已分析 | 2016-02-10 | 📹  Data-driven render automation for After Effects |
 | [eseifert/altero](https://github.com/eseifert/altero) | 已分析 | 2016-02-13 | Self-hosted sync server for Zotero — keep libraries, groups, notes and attachments on your own infrastructure using the  |
 | [christabor/flask_jsondash](https://github.com/christabor/flask_jsondash) | 已分析 | 2016-02-18 | :snake: :bar_chart: :chart_with_upwards_trend: Build complex dashboards without any front-end code. Use your own endpoin |
 | [uber/react-vis](https://github.com/uber/react-vis) | 已分析 | 2016-02-22 | Data Visualization Components |
@@ -79,26 +99,6 @@
 | [codingforentrepreneurs/30-Days-of-Python](https://github.com/codingforentrepreneurs/30-Days-of-Python) | 已分析 | 2016-03-09 | Learn Python for the next 30 (or so) Days.  |
 | [yenchenlin/DeepLearningFlappyBird](https://github.com/yenchenlin/DeepLearningFlappyBird) | 已分析 | 2016-03-15 | Flappy Bird hack using Deep Reinforcement Learning (Deep Q-learning). |
 | [FoodOntology/foodon](https://github.com/FoodOntology/foodon) | 已分析 | 2016-03-17 | The core repository for the FOODON food ontology project. This holds the key classes of the ontology; larger files and t |
+| [Yalantis/Horizon](https://github.com/Yalantis/Horizon) | 已分析 | 2016-03-22 | Horizon - Simple visual equaliser for Android |
 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 已分析 | 2016-03-24 | ✨ The fundamental numerical library for JavaScript and TypeScript. ✨                    ⭐️ Star to support our work! |
 | [agronholm/apscheduler](https://github.com/agronholm/apscheduler) | 已分析 | 2016-03-27 | Task scheduling library for Python |
-| [acados/acados](https://github.com/acados/acados) | 已分析 | 2016-04-05 | Fast and embedded solvers for nonlinear optimal control and nonlinear model predictive control |
-| [FlaUI/FlaUI](https://github.com/FlaUI/FlaUI) | 已分析 | 2016-04-13 | UI automation library for .Net |
-| [jslee02/awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries) | 已分析 | 2016-04-16 | :sunglasses: A curated list of robotics libraries and software |
-| [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch) | 已分析 | 2016-04-27 | The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused. |
-| [PierfrancescoSoffritti/doodles](https://github.com/PierfrancescoSoffritti/doodles) | 已分析 | 2016-04-30 | Web Experiments I do for fun. |
-| [Magic-Unique/HXImage](https://github.com/Magic-Unique/HXImage) | 已分析 | 2016-05-02 | A automatically reference manager for icon image. |
-| [reactchartjs/react-chartjs-2](https://github.com/reactchartjs/react-chartjs-2) | 已分析 | 2016-05-06 | React components for Chart.js, the most popular charting library |
-| [dhondta/rpl-attacks](https://github.com/dhondta/rpl-attacks) | 已分析 | 2016-05-08 | RPL attacks framework for simulating WSN with a malicious mote based on Contiki |
-| [cocopon/tweakpane](https://github.com/cocopon/tweakpane) | 已分析 | 2016-05-10 | :control_knobs: Compact GUI for fine-tuning parameters and monitoring value changes |
-| [algorithm-visualizer/algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer) | 已分析 | 2016-05-15 | :fireworks:Interactive Online Platform that Visualizes Algorithms from Code |
-| [specter119/RefTools](https://github.com/specter119/RefTools) | 已分析 | 2016-05-16 | 文献管理软件的使用与配置 |
-| [DistrictDataLabs/yellowbrick](https://github.com/DistrictDataLabs/yellowbrick) | 已分析 | 2016-05-18 | Visual analysis and diagnostic tools to facilitate machine learning model selection. |
-| [Netflix/vizceral](https://github.com/Netflix/vizceral) | 已分析 | 2016-05-25 | WebGL visualization for displaying animated traffic graphs |
-| [antvis/G2](https://github.com/antvis/G2) | 已分析 | 2016-05-26 | 📊 The concise and progressive visualization grammar. |
-| [sofa-framework/sofa](https://github.com/sofa-framework/sofa) | 已分析 | 2016-05-31 | Real-time multi-physics simulation with an emphasis on medical simulation. |
-| [hustcc/echarts-for-react](https://github.com/hustcc/echarts-for-react) | 已分析 | 2016-06-03 | ⛳️  Apache ECharts components for React wrapper. 一个简单的 Apache echarts 的 React 封装。 |
-| [projectstorm/react-diagrams](https://github.com/projectstorm/react-diagrams) | 已分析 | 2016-06-03 | a super simple, no-nonsense diagramming library written in react that just works |
-| [citybound/citybound](https://github.com/citybound/citybound) | 已分析 | 2016-06-04 | A work-in-progress, open-source, multi-player city simulation game. |
-| [RandyGaul/cute_headers](https://github.com/RandyGaul/cute_headers) | 已分析 | 2016-06-05 | Collection of cross-platform one-file C/C++ libraries with no dependencies, primarily used for games |
-| [aff3ct/aff3ct](https://github.com/aff3ct/aff3ct) | 已分析 | 2016-06-07 | Fast multi-thread FEC simulator &amp; library of efficient digital communication algorithms for SDR. |
-| [wix/Detox](https://github.com/wix/Detox) | 已分析 | 2016-06-15 | Gray box end-to-end testing and automation framework for mobile apps |
