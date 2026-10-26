@@ -16,7 +16,8 @@ DS 金额不限额，保留用量、估算费用与未知调用记录。
 
 ## 最新报告与历史
 
-- **最新** [20261025-155229-c7cfd162](archive/github-report-20261025-155229-c7cfd162.md)
+- **最新** [20261026-215223-35d44bfa](archive/github-report-20261026-215223-35d44bfa.md)
+- [20261025-155229-c7cfd162](archive/github-report-20261025-155229-c7cfd162.md)
 - [20261024-155225-5bf5eb49](archive/github-report-20261024-155225-5bf5eb49.md)
 - [20261023-215225-85ab5ea6](archive/github-report-20261023-215225-85ab5ea6.md)
 - [20261018-022927-79fc8fcc](archive/github-report-20261018-022927-79fc8fcc.md)

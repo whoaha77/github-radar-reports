@@ -2,6 +2,19 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [sylvainhalle/PaperShell](https://github.com/sylvainhalle/PaperShell) | 已分析 | 2014-11-20 | Nice and flexible template environment for papers written in LaTeX |
+| [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons) | 已分析 | 2014-11-22 | Adds file type icons to Vim plugins such as: NERDTree, vim-airline, CtrlP, unite, Denite, lightline, vim-startify and ma |
+| [haddocking/pdb-tools](https://github.com/haddocking/pdb-tools) | 已分析 | 2014-11-27 | A dependency-free cross-platform swiss army knife for PDB files. |
+| [gem5/gem5](https://github.com/gem5/gem5) | 已分析 | 2014-12-02 | The official repository for the gem5 computer-system architecture simulator. |
+| [fastlane/fastlane](https://github.com/fastlane/fastlane) | 已分析 | 2014-12-02 | 🚀 The easiest way to automate building and releasing your iOS and Android apps |
+| [creativescala/doodle](https://github.com/creativescala/doodle) | 已分析 | 2014-12-10 | Compositional vector graphics in Scala / Scala.JS |
+| [chrisvoncsefalvay/learn-julia-the-hard-way](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way) | 已分析 | 2014-12-11 | Learn Julia the hard way! |
+| [pharmai/plip](https://github.com/pharmai/plip) | 已分析 | 2014-12-16 | Protein-Ligand Interaction Profiler - Analyze and visualize non-covalent protein-ligand interactions in PDB files accord |
+| [mlpack/mlpack](https://github.com/mlpack/mlpack) | 已分析 | 2014-12-17 | mlpack: a fast, header-only C++ machine learning library |
+| [rich-iannone/DiagrammeR](https://github.com/rich-iannone/DiagrammeR) | 已分析 | 2014-12-28 | Graph and network visualization using tabular data in R |
+| [adnanh/webhook](https://github.com/adnanh/webhook) | 已分析 | 2015-01-12 | webhook is a lightweight incoming webhook server to run shell commands |
+| [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | 已分析 | 2015-01-18 | :page_facing_up: Awesome CV is LaTeX template for your outstanding job application |
+| [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) | 已分析 | 2015-01-26 | :iphone: Collaborative List of Open-Source iOS Apps |
 | [taojy123/KeymouseGo](https://github.com/taojy123/KeymouseGo) | 已分析 | 2015-01-31 | 类似按键精灵的鼠标键盘录制和自动化操作 模拟点击和键入 \| automate mouse clicks and keyboard input |
 | [metabase/metabase](https://github.com/metabase/metabase) | 已分析 | 2015-02-02 | The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_cha |
 | [ecomfe/echarts-gl](https://github.com/ecomfe/echarts-gl) | 已分析 | 2015-02-03 | Extension pack for Apache ECharts, providing globe visualization and 3D plots. |
@@ -41,6 +54,7 @@
 | [yinkaisheng/Python-UIAutomation-for-Windows](https://github.com/yinkaisheng/Python-UIAutomation-for-Windows) | 已分析 | 2015-06-23 | 🐍Python 3 wrapper of Microsoft UIAutomation. Support UIAutomation for MFC, WindowsForm, WPF, Modern UI(Metro UI), Qt, IE |
 | [nvdv/vprof](https://github.com/nvdv/vprof) | 已分析 | 2015-06-29 | Visual profiler for Python |
 | [hiloteam/Hilo](https://github.com/hiloteam/Hilo) | 已分析 | 2015-07-06 | A Cross-end HTML5 Game development solution |
+| [jyguyomarch/awesome-productivity](https://github.com/jyguyomarch/awesome-productivity) | 已分析 | 2015-07-07 | A curated list of delightful productivity resources. |
 | [OpenIntroStat/ims](https://github.com/OpenIntroStat/ims) | 已分析 | 2015-07-13 | 📚 Introduction to Modern Statistics - A college-level open-source textbook with a modern approach highlighting multivari |
 | [cyanfish/naps2](https://github.com/cyanfish/naps2) | 已分析 | 2015-07-19 | Scan documents to PDF and more, as simply as possible. |
 | [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader) | 已分析 | 2015-07-21 | A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations  |
@@ -80,25 +94,11 @@
 | [evelinag/StarWars-social-network](https://github.com/evelinag/StarWars-social-network) | 已分析 | 2015-12-15 | The Star Wars social network |
 | [visgl/deck.gl](https://github.com/visgl/deck.gl) | 已分析 | 2015-12-15 | WebGL2 powered visualization framework |
 | [onlylemi/processing-android-capture](https://github.com/onlylemi/processing-android-capture) | 已分析 | 2015-12-17 | AndroidCapture For Processing |
+| [nuttyartist/notes](https://github.com/nuttyartist/notes) | 已分析 | 2015-12-25 | Fast and beautiful note-taking app written in C++. Write down your thoughts. |
 | [jtablesaw/tablesaw](https://github.com/jtablesaw/tablesaw) | 已分析 | 2016-01-01 | Java dataframe and visualization library |
 | [Red5d/docker-autocompose](https://github.com/Red5d/docker-autocompose) | 已分析 | 2016-01-02 | Generate a docker-compose yaml definition from a running container |
 | [konvajs/react-konva](https://github.com/konvajs/react-konva) | 已分析 | 2016-01-03 | React components for the Konva 2d canvas library. Build interactive graphics, design editors, and whiteboards with JSX. |
 | [egeerardyn/awesome-LaTeX](https://github.com/egeerardyn/awesome-LaTeX) | 已分析 | 2016-01-06 | Curated list of LaTeX awesomeness |
 | [xwmx/nb](https://github.com/xwmx/nb) | 分析受阻 | 2016-01-12 | CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versi |
+| [blitzpp/blitz](https://github.com/blitzpp/blitz) | 已分析 | 2016-01-19 | Blitz++ Multi-Dimensional Array Library for C++ |
 | [ggez/ggez](https://github.com/ggez/ggez) | 已分析 | 2016-01-30 | Rust library to create a Good Game Easily |
-| [google/EarlGrey](https://github.com/google/EarlGrey) | 已分析 | 2016-02-04 | :tea: iOS UI Automation Test Framework |
-| [inlife/nexrender](https://github.com/inlife/nexrender) | 已分析 | 2016-02-10 | 📹  Data-driven render automation for After Effects |
-| [eseifert/altero](https://github.com/eseifert/altero) | 已分析 | 2016-02-13 | Self-hosted sync server for Zotero — keep libraries, groups, notes and attachments on your own infrastructure using the  |
-| [christabor/flask_jsondash](https://github.com/christabor/flask_jsondash) | 已分析 | 2016-02-18 | :snake: :bar_chart: :chart_with_upwards_trend: Build complex dashboards without any front-end code. Use your own endpoin |
-| [uber/react-vis](https://github.com/uber/react-vis) | 已分析 | 2016-02-22 | Data Visualization Components |
-| [bradley/Blotter](https://github.com/bradley/Blotter) | 已分析 | 2016-02-22 | A JavaScript API for drawing unconventional text effects on the web. |
-| [passbolt/passbolt_api](https://github.com/passbolt/passbolt_api) | 已分析 | 2016-02-23 | Passbolt Community Edition (CE) API. The JSON API for the open source password manager for teams! |
-| [Xunius/Menotexport](https://github.com/Xunius/Menotexport) | 已分析 | 2016-02-24 | Python solution to export annotations from your Mendeley library. |
-| [lpil/sonic-pi-tool](https://github.com/lpil/sonic-pi-tool) | 已分析 | 2016-03-03 | 🎻 Controlling Sonic Pi from the command line |
-| [Juris-M/citeproc-js](https://github.com/Juris-M/citeproc-js) | 分析受阻 | 2016-03-04 | A JavaScript implementation of the Citation Style Language (CSL) https://citeproc-js.readthedocs.io |
-| [codingforentrepreneurs/30-Days-of-Python](https://github.com/codingforentrepreneurs/30-Days-of-Python) | 已分析 | 2016-03-09 | Learn Python for the next 30 (or so) Days.  |
-| [yenchenlin/DeepLearningFlappyBird](https://github.com/yenchenlin/DeepLearningFlappyBird) | 已分析 | 2016-03-15 | Flappy Bird hack using Deep Reinforcement Learning (Deep Q-learning). |
-| [FoodOntology/foodon](https://github.com/FoodOntology/foodon) | 已分析 | 2016-03-17 | The core repository for the FOODON food ontology project. This holds the key classes of the ontology; larger files and t |
-| [Yalantis/Horizon](https://github.com/Yalantis/Horizon) | 已分析 | 2016-03-22 | Horizon - Simple visual equaliser for Android |
-| [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 已分析 | 2016-03-24 | ✨ The fundamental numerical library for JavaScript and TypeScript. ✨                    ⭐️ Star to support our work! |
-| [agronholm/apscheduler](https://github.com/agronholm/apscheduler) | 已分析 | 2016-03-27 | Task scheduling library for Python |

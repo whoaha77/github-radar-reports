@@ -17,6 +17,7 @@
 | [ajstarks/svgo](https://github.com/ajstarks/svgo) | 已分析 | 2010-03-05 | Go Language Library for SVG generation |
 | [obophenotype/uberon](https://github.com/obophenotype/uberon) | 已分析 | 2010-03-16 | An ontology of gross anatomy covering metazoa. Works in concert with https://github.com/obophenotype/cell-ontology |
 | [egametang/ET](https://github.com/egametang/ET) | 已分析 | 2010-06-27 | Unity3D Client And C# Server Framework |
+| [gem/oq-engine](https://github.com/gem/oq-engine) | 已分析 | 2010-06-28 | OpenQuake Engine: a software for Seismic Hazard and Risk Analysis |
 | [The-Powder-Toy/The-Powder-Toy](https://github.com/The-Powder-Toy/The-Powder-Toy) | 已分析 | 2010-07-25 | Written in C++ and using SDL, The Powder Toy is a desktop version of the classic 'falling sand' physics sandbox, it simu |
 | [InsightSoftwareConsortium/ITK](https://github.com/InsightSoftwareConsortium/ITK) | 已分析 | 2010-07-27 | Insight Toolkit (ITK) -- Official Repository.  ITK builds on a proven, spatially-oriented architecture for processing, s |
 | [unknown-horizons/unknown-horizons](https://github.com/unknown-horizons/unknown-horizons) | 已分析 | 2010-08-23 | Unknown Horizons official code repository |
@@ -43,6 +44,7 @@
 | [shadow/shadow](https://github.com/shadow/shadow) | 已分析 | 2011-05-17 | Shadow is a discrete-event network simulator that directly executes real application code, enabling you to simulate dist |
 | [gatling/gatling](https://github.com/gatling/gatling) | 已分析 | 2011-05-31 | Modern Load Testing as Code |
 | [Kozea/WeasyPrint](https://github.com/Kozea/WeasyPrint) | 已分析 | 2011-08-09 | The awesome document factory |
+| [lucastheis/django-publications](https://github.com/lucastheis/django-publications) | 已分析 | 2011-08-12 | A Django app for managing scientific publications. |
 | [cytoscape/cytoscape.js](https://github.com/cytoscape/cytoscape.js) | 已分析 | 2011-08-23 | Graph theory (network) library for visualisation and analysis |
 | [webdriverio/webdriverio](https://github.com/webdriverio/webdriverio) | 已分析 | 2011-08-30 | Next-gen browser and mobile automation test framework for Node.js |
 | [asmuth/clip](https://github.com/asmuth/clip) | 已分析 | 2011-09-16 | Create charts from the command line |
@@ -100,5 +102,3 @@
 | [fogleman/Craft](https://github.com/fogleman/Craft) | 已分析 | 2013-04-09 | A simple Minecraft clone written in C using modern OpenGL (shaders). |
 | [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) | 已分析 | 2013-04-14 | An open source, turn-based strategy game with a high fantasy theme. |
 | [rawgraphs/rawgraphs-app](https://github.com/rawgraphs/rawgraphs-app) | 已分析 | 2013-04-17 | A web interface to create custom vector-based visualizations on top of RAWGraphs core |
-| [ankane/chartkick](https://github.com/ankane/chartkick) | 已分析 | 2013-05-07 | Create beautiful JavaScript charts with one line of Ruby |
-| [Pulover/PuloversMacroCreator](https://github.com/Pulover/PuloversMacroCreator) | 已分析 | 2013-05-13 | Automation Utility - Recorder &amp; Script Generator |

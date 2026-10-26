@@ -629,6 +629,16 @@
 
 **部署前核查：** 核查README中`nlm setup`所涉及的技能安装路径、MCP配置文件及`docs/AUTHENTICATION.md`凭据说明。
 
+### [brianmanderson/Dicom_RT_and_Images_to_Mask](projects/180198858.md)
+
+**为什么值得：** 可把DICOM影像与RT结构批量转成NIfTI与NumPy，扩展医学影像数据处理。
+
+**重叠与增量（未核对安装清单）：** 与已有PDF、数据处理能力交叉，增量在DICOM到掩膜与匿名化导出。
+
+**代价与风险：** Python 3.10–3.13，pip安装；Windows兼容未验证，需自备数据。；作者明示非临床设备，写回RT结构有风险；GPL许可。
+
+**部署前核查：** 核查PyPI版本、Examples笔记本与COMMISSIONING文档。
+
 ### [Astro-Han/karpathy-llm-wiki](projects/1201775166.md)
 
 **为什么值得：** 为Codex加知识编译层：源料沉淀成可引用wiki页并做一致性检查。
@@ -718,6 +728,16 @@
 **代价与风险：** Windows需Node、pnpm、uv与已登录Codex CLI或OpenAI Key；早期版本，Windows权限提示频繁，结果展示不全
 
 **部署前核查：** 核查apps/server/.env.example与模块MCP入口文件
+
+### [AutoViML/AutoViz](projects/197432079.md)
+
+**为什么值得：** 为数据探索增加批量自动出图与数据质量检查。
+
+**重叠与增量（未核对安装清单）：** 与现有科研绘图、Excel/PDF处理有交叉，自动EDA批量成图是潜在增量。
+
+**代价与风险：** Python环境+pip，Windows可用；依赖较多，无需API费用。；大表抽样默认值、图表格式可选，实际稳定性未验证。
+
+**部署前核查：** 核查setup.py/requirements文件与Python版本对应关系。
 
 ### [EBISPOT/ols4](projects/496402151.md)
 

@@ -2,7 +2,25 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [google/EarlGrey](https://github.com/google/EarlGrey) | 已分析 | 2016-02-04 | :tea: iOS UI Automation Test Framework |
+| [inlife/nexrender](https://github.com/inlife/nexrender) | 已分析 | 2016-02-10 | 📹  Data-driven render automation for After Effects |
+| [eseifert/altero](https://github.com/eseifert/altero) | 已分析 | 2016-02-13 | Self-hosted sync server for Zotero — keep libraries, groups, notes and attachments on your own infrastructure using the  |
+| [christabor/flask_jsondash](https://github.com/christabor/flask_jsondash) | 已分析 | 2016-02-18 | :snake: :bar_chart: :chart_with_upwards_trend: Build complex dashboards without any front-end code. Use your own endpoin |
+| [uber/react-vis](https://github.com/uber/react-vis) | 已分析 | 2016-02-22 | Data Visualization Components |
+| [bradley/Blotter](https://github.com/bradley/Blotter) | 已分析 | 2016-02-22 | A JavaScript API for drawing unconventional text effects on the web. |
+| [passbolt/passbolt_api](https://github.com/passbolt/passbolt_api) | 已分析 | 2016-02-23 | Passbolt Community Edition (CE) API. The JSON API for the open source password manager for teams! |
+| [Xunius/Menotexport](https://github.com/Xunius/Menotexport) | 已分析 | 2016-02-24 | Python solution to export annotations from your Mendeley library. |
+| [lpil/sonic-pi-tool](https://github.com/lpil/sonic-pi-tool) | 已分析 | 2016-03-03 | 🎻 Controlling Sonic Pi from the command line |
+| [Juris-M/citeproc-js](https://github.com/Juris-M/citeproc-js) | 分析受阻 | 2016-03-04 | A JavaScript implementation of the Citation Style Language (CSL) https://citeproc-js.readthedocs.io |
+| [codingforentrepreneurs/30-Days-of-Python](https://github.com/codingforentrepreneurs/30-Days-of-Python) | 已分析 | 2016-03-09 | Learn Python for the next 30 (or so) Days.  |
+| [yenchenlin/DeepLearningFlappyBird](https://github.com/yenchenlin/DeepLearningFlappyBird) | 已分析 | 2016-03-15 | Flappy Bird hack using Deep Reinforcement Learning (Deep Q-learning). |
+| [FoodOntology/foodon](https://github.com/FoodOntology/foodon) | 已分析 | 2016-03-17 | The core repository for the FOODON food ontology project. This holds the key classes of the ontology; larger files and t |
+| [Yalantis/Horizon](https://github.com/Yalantis/Horizon) | 已分析 | 2016-03-22 | Horizon - Simple visual equaliser for Android |
+| [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 已分析 | 2016-03-24 | ✨ The fundamental numerical library for JavaScript and TypeScript. ✨                    ⭐️ Star to support our work! |
+| [Juris-M/zotero-odf-scan-plugin](https://github.com/Juris-M/zotero-odf-scan-plugin) | 已分析 | 2016-03-26 | RTF/ODF-Scan for Zotero add-on |
+| [agronholm/apscheduler](https://github.com/agronholm/apscheduler) | 已分析 | 2016-03-27 | Task scheduling library for Python |
 | [acados/acados](https://github.com/acados/acados) | 已分析 | 2016-04-05 | Fast and embedded solvers for nonlinear optimal control and nonlinear model predictive control |
+| [neo4j-contrib/neovis.js](https://github.com/neo4j-contrib/neovis.js) | 已分析 | 2016-04-06 | Neo4j + vis.js = neovis.js. Graph visualizations in the browser with data from Neo4j. |
 | [FlaUI/FlaUI](https://github.com/FlaUI/FlaUI) | 已分析 | 2016-04-13 | UI automation library for .Net |
 | [jslee02/awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries) | 已分析 | 2016-04-16 | :sunglasses: A curated list of robotics libraries and software |
 | [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch) | 已分析 | 2016-04-27 | The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused. |
@@ -57,8 +75,10 @@
 | [go-vgo/robotgo](https://github.com/go-vgo/robotgo) | 已分析 | 2016-09-26 | RobotGo, Go Native cross-platform RPA, GUI automation, Auto test and Computer use  @vcaesar |
 | [InstaPy/InstaPy](https://github.com/InstaPy/InstaPy) | 分析受阻 | 2016-09-26 | 📷 Instagram Bot - Tool for automated Instagram interactions |
 | [antonbabenko/pre-commit-terraform](https://github.com/antonbabenko/pre-commit-terraform) | 已分析 | 2016-09-27 | pre-commit git hooks to take care of Terraform configurations 🇺🇦 |
+| [ContextLab/hypertools](https://github.com/ContextLab/hypertools) | 已分析 | 2016-09-27 | A Python toolbox for gaining geometric insights into high-dimensional data |
 | [ONLYOFFICE/DesktopEditors](https://github.com/ONLYOFFICE/DesktopEditors) | 已分析 | 2016-10-03 | Open-source office suite pack that comprises all the tools you need to work with documents, spreadsheets, presentations, |
 | [eracle/OpenOutreach](https://github.com/eracle/OpenOutreach) | 已分析 | 2016-10-07 | Open-source AI agent for B2B lead generation — describe your product, it finds the people who fit, explains why each one |
+| [hoothin/UserScripts](https://github.com/hoothin/UserScripts) | 已分析 | 2016-10-08 | Greasemonkey scripts ( Pagetual / Picviewer CE+ / DownloadAllContent ) 油猴腳本集 ユーザースクリプト集 |
 | [victorfisac/Physac](https://github.com/victorfisac/Physac) | 已分析 | 2016-10-08 | 2D physics header-only library for videogames developed in C using raylib library. |
 | [rmzelle/ref-extractor](https://github.com/rmzelle/ref-extractor) | 分析受阻 | 2016-10-10 | Reference Extractor - Extract Zotero/Mendeley references from Microsoft Word files |
 | [oliverschwendener/ueli](https://github.com/oliverschwendener/ueli) | 已分析 | 2016-10-11 | Cross-Platform Keystroke Launcher |
@@ -71,34 +91,14 @@
 | [Kavex/GameDev-Resources](https://github.com/Kavex/GameDev-Resources) | 分析受阻 | 2016-10-30 |  :video_game: :game_die: A wonderful list of Game Development resources. |
 | [terkelg/awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding) | 分析受阻 | 2016-11-01 | Creative Coding: Generative Art, Data visualization, Interaction Design, Resources. |
 | [raghakot/keras-vis](https://github.com/raghakot/keras-vis) | 已分析 | 2016-11-11 | Neural network visualization toolkit for keras |
+| [keplr-io/quiver](https://github.com/keplr-io/quiver) | 已分析 | 2016-11-13 | Interactive convnet features visualization for Keras |
 | [nucliweb/People-You-Should-Follow-on-CodePen](https://github.com/nucliweb/People-You-Should-Follow-on-CodePen) | 已分析 | 2016-11-14 | People You Should Follow on CodePen |
 | [mapbox/webgl-wind](https://github.com/mapbox/webgl-wind) | 已分析 | 2016-11-16 | Wind power visualization with WebGL particles |
 | [jlpaca/toybox](https://github.com/jlpaca/toybox) | 已分析 | 2016-11-17 | a collection of computational playthings. |
 | [InteractiveComputerGraphics/SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH) | 已分析 | 2016-11-17 | SPlisHSPlasH is an open-source library for the physically-based simulation of fluids. |
 | [Tencent/behaviac](https://github.com/Tencent/behaviac) | 已分析 | 2016-11-21 | behaviac is a framework of the game AI development, and it also can be used as a rapid game prototype design tool. behav |
 | [APIs-guru/graphql-voyager](https://github.com/APIs-guru/graphql-voyager) | 已分析 | 2016-11-29 | 🛰️ Represent any GraphQL API as an interactive graph |
+| [mschroen/Science.md](https://github.com/mschroen/Science.md) | 已分析 | 2016-11-29 | An easy framework for drafting scientific documents: Write (Markdown), Compile (PDF, Word, HTML), Share. |
 | [thingsboard/thingsboard](https://github.com/thingsboard/thingsboard) | 已分析 | 2016-12-01 | All-in-one IoT Platform - Device management, data collection, processing and visualization. |
 | [isl-org/Open3D](https://github.com/isl-org/Open3D) | 已分析 | 2016-12-02 | Open3D: A Modern Library for 3D Data Processing |
 | [gregtatum/sessions](https://github.com/gregtatum/sessions) | 已分析 | 2016-12-16 | A series of creative coding sessions |
-| [P5-wrapper/react](https://github.com/P5-wrapper/react) | 已分析 | 2016-12-21 | A wrapper component that allows you to utilise P5 sketches within React apps. |
-| [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 已分析 | 2017-01-06 | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes |
-| [heroiclabs/nakama](https://github.com/heroiclabs/nakama) | 已分析 | 2017-01-13 | Scalable open-source game backend server: multiplayer, matchmaking, leaderboards, chat, and social features for games. |
-| [dswah/pyGAM](https://github.com/dswah/pyGAM) | 已分析 | 2017-01-19 | [CONTRIBUTORS WELCOME] Generalized Additive Models in Python |
-| [enigo-rs/enigo](https://github.com/enigo-rs/enigo) | 已分析 | 2017-01-27 | Cross platform input simulation in Rust |
-| [arendst/Tasmota](https://github.com/arendst/Tasmota) | 已分析 | 2017-01-28 | Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation us |
-| [lmmentel/awesome-python-chemistry](https://github.com/lmmentel/awesome-python-chemistry) | 已分析 | 2017-01-30 | A curated list of Python packages related to chemistry  |
-| [salomonelli/best-resume-ever](https://github.com/salomonelli/best-resume-ever) | 已分析 | 2017-01-30 | :necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever! Made with Vu |
-| [reiinakano/scikit-plot](https://github.com/reiinakano/scikit-plot) | 已分析 | 2017-02-04 | An intuitive library to add plotting functionality to scikit-learn objects. |
-| [KaiserY/trpl-zh-cn](https://github.com/KaiserY/trpl-zh-cn) | 已分析 | 2017-02-05 | Rust 程序设计语言（2024 edition 施工完毕） |
-| [SciML/Catalyst.jl](https://github.com/SciML/Catalyst.jl) | 已分析 | 2017-02-06 | Chemical reaction network and systems biology interface for scientific machine learning (SciML). High performance, GPU-p |
-| [karatelabs/karate](https://github.com/karatelabs/karate) | 已分析 | 2017-02-07 | Test Automation Made Simple |
-| [antvis/G6](https://github.com/antvis/G6) | 已分析 | 2017-02-13 | ♾ A Graph Visualization Framework in JavaScript. |
-| [css-doodle/css-doodle](https://github.com/css-doodle/css-doodle) | 分析受阻 | 2017-02-14 | A web component for visual art and creative coding |
-| [Wandmalfarbe/pandoc-latex-template](https://github.com/Wandmalfarbe/pandoc-latex-template) | 已分析 | 2017-02-20 | A pandoc LaTeX template to convert markdown files to PDF or LaTeX. |
-| [zcreativelabs/react-simple-maps](https://github.com/zcreativelabs/react-simple-maps) | 已分析 | 2017-03-03 | Composable SVG map charts for data visualization in React |
-| [geocompx/geocompr](https://github.com/geocompx/geocompr) | 已分析 | 2017-03-07 | Geocomputation with R: an open source book |
-| [airbnb/visx](https://github.com/airbnb/visx) | 已分析 | 2017-03-15 | 🐯 visx \| visualization components |
-| [nteract/semiotic](https://github.com/nteract/semiotic) | 已分析 | 2017-03-16 | React data visualization library for streaming, networks, and AI-assisted development |
-| [AAChartModel/AAChartKit](https://github.com/AAChartModel/AAChartKit) | 已分析 | 2017-03-17 | 📈📊🚀🚀🚀An elegant modern declarative data visualization chart framework for iOS, iPadOS and macOS. Extremely powerful, sup |
-| [home-assistant/apps](https://github.com/home-assistant/apps) | 已分析 | 2017-03-18 | :heavy_plus_sign: Docker add-ons for Home Assistant |
-| [ohmybash/oh-my-bash](https://github.com/ohmybash/oh-my-bash) | 分析受阻 | 2017-03-19 | A delightful community-driven framework for managing your bash configuration, and an auto-update tool so that makes it e |
