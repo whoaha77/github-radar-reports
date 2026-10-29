@@ -2,6 +2,14 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [semantic-release/semantic-release](https://github.com/semantic-release/semantic-release) | 已分析 | 2014-09-15 | 📦🚀 Fully automated version management and package publishing |
+| [cristicbz/rust-doom](https://github.com/cristicbz/rust-doom) | 已分析 | 2014-09-18 | A Doom Renderer written in Rust. |
+| [mesa/mesa](https://github.com/mesa/mesa) | 已分析 | 2014-09-19 | Mesa is an open-source Python library for agent-based modeling, ideal for simulating complex systems and exploring emerg |
+| [interactiveimmersivehq/Introduction-to-touchdesigner](https://github.com/interactiveimmersivehq/Introduction-to-touchdesigner) | 已分析 | 2014-09-26 | Open source introductory manual for Derivative TouchDesigner 088 |
+| [tio/tio](https://github.com/tio/tio) | 已分析 | 2014-09-27 | A serial device I/O tool |
+| [vaexio/vaex](https://github.com/vaexio/vaex) | 已分析 | 2014-09-27 | Out-of-Core hybrid Apache Arrow/NumPy DataFrame for Python, ML, visualization and exploration of big tabular data at a b |
+| [Hammerspoon/hammerspoon](https://github.com/Hammerspoon/hammerspoon) | 已分析 | 2014-10-08 | Staggeringly powerful macOS desktop automation with Lua |
+| [cjcliffe/CubicSDR](https://github.com/cjcliffe/CubicSDR) | 已分析 | 2014-10-26 | Cross-Platform Software-Defined Radio Application |
 | [arrayfire/arrayfire](https://github.com/arrayfire/arrayfire) | 已分析 | 2014-10-28 | ArrayFire: a general purpose GPU library. |
 | [haifengl/smile](https://github.com/haifengl/smile) | 已分析 | 2014-11-20 | Statistical Machine Intelligence &amp; Learning Engine |
 | [vega/vega-lite](https://github.com/vega/vega-lite) | 已分析 | 2014-11-20 | A concise grammar of interactive graphics, built on Vega. |
@@ -33,6 +41,7 @@
 | [endless-sky/endless-sky](https://github.com/endless-sky/endless-sky) | 已分析 | 2015-03-14 | Space exploration, trading, and combat game. |
 | [cloudsimplus/cloudsimplus](https://github.com/cloudsimplus/cloudsimplus) | 已分析 | 2015-03-18 | State-of-the-art Framework 🏗 for Cloud Computing ⛅️ Simulation: a modern, full-featured, easier-to-use, highly extensibl |
 | [MaastrichtU-IDS/semanticscience](https://github.com/MaastrichtU-IDS/semanticscience) | 已分析 | 2015-03-19 | The Semanticscience Integrated Ontology (SIO) provides a simple, integrated ontology of types and relations for rich des |
+| [jkbrzt/cointrol](https://github.com/jkbrzt/cointrol) | 已分析 | 2015-03-19 | ฿ Bitcoin trading bot with a real-time dashboard for Bitstamp. |
 | [ory/dockertest](https://github.com/ory/dockertest) | 已分析 | 2015-03-19 | Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work. |
 | [tomlooman/EpicSurvivalGame](https://github.com/tomlooman/EpicSurvivalGame) | 已分析 | 2015-03-20 | Third-person Survival Game for Unreal Engine (Sample Project) |
 | [AlmasB/FXGL](https://github.com/AlmasB/FXGL) | 已分析 | 2015-03-23 | Java / JavaFX / Kotlin Game Library (Engine) |
@@ -45,6 +54,7 @@
 | [olistic/warriorjs](https://github.com/olistic/warriorjs) | 已分析 | 2015-04-29 | 🏰 An exciting game of programming and Artificial Intelligence |
 | [InteractiveComputerGraphics/PositionBasedDynamics](https://github.com/InteractiveComputerGraphics/PositionBasedDynamics) | 已分析 | 2015-05-05 | PositionBasedDynamics is a library for the physically-based simulation of rigid bodies, deformable solids and fluids. |
 | [opendatacube/datacube-core](https://github.com/opendatacube/datacube-core) | 已分析 | 2015-05-13 | Open Data Cube analyses continental scale Earth Observation data through time |
+| [gismo/gismo](https://github.com/gismo/gismo) | 已分析 | 2015-05-14 | G+Smo (pronounced gismo or gizmo) is a C++ library for isogeometric analysis (IGA). Geometry plus simulation modules aim |
 | [dhimmel/obonet](https://github.com/dhimmel/obonet) | 已分析 | 2015-05-17 | OBO-formatted ontologies → networkx (Python 3) |
 | [precice/precice](https://github.com/precice/precice) | 已分析 | 2015-05-22 | A coupling library and ecosystem for partitioned multi-physics and multi-scale simulations, including surface and volume |
 | [habitat-sh/habitat](https://github.com/habitat-sh/habitat) | 分析受阻 | 2015-05-22 | Modern applications with built-in automation |
@@ -71,16 +81,19 @@
 | [obophenotype/upheno](https://github.com/obophenotype/upheno) | 已分析 | 2015-08-19 | The Unified Phenotype Ontology (uPheno) integrates multiple phenotype ontologies into a unified cross-species phenotype  |
 | [Calinou/awesome-gamedev](https://github.com/Calinou/awesome-gamedev) | 已分析 | 2015-08-20 | A collection of free software and free culture resources for making amazing games. (mirror) |
 | [jsvine/pdfplumber](https://github.com/jsvine/pdfplumber) | 已分析 | 2015-08-24 | Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables. |
+| [guillaumeblanc/ozz-animation](https://github.com/guillaumeblanc/ozz-animation) | 已分析 | 2015-08-24 | Open source c++ skeletal animation library and toolset |
 | [JuliaPlots/Plots.jl](https://github.com/JuliaPlots/Plots.jl) | 分析受阻 | 2015-08-25 | Powerful convenience for Julia visualizations and data analysis |
 | [davepwsmith/zotpick-applescript](https://github.com/davepwsmith/zotpick-applescript) | 已分析 | 2015-09-02 | Leverage Better-BibTeX's citation picker in Scrivener |
 | [deck-of-cards/deck-of-cards](https://github.com/deck-of-cards/deck-of-cards) | 已分析 | 2015-09-02 | Deck of Cards (old version) |
 | [ontologyportal/sumo](https://github.com/ontologyportal/sumo) | 已分析 | 2015-09-06 | Suggested Upper Merged Ontology (SUMO) |
 | [sshahine/JFoenix](https://github.com/sshahine/JFoenix) | 已分析 | 2015-09-08 | JavaFX Material Design Library |
+| [jmathai/elodie](https://github.com/jmathai/elodie) | 已分析 | 2015-09-09 | An EXIF-based photo assistant, organizer  and workflow automation tool. |
 | [yymao/adstex](https://github.com/yymao/adstex) | 已分析 | 2015-09-13 | Automated generation of NASA ADS bibtex entries directly from citation keys in your TeX source files |
 | [DiseaseOntology/HumanDiseaseOntology](https://github.com/DiseaseOntology/HumanDiseaseOntology) | 已分析 | 2015-09-23 | Repository for the Human Disease Ontology. |
 | [openhpc/ohpc](https://github.com/openhpc/ohpc) | 已分析 | 2015-09-28 | OpenHPC Integration, Packaging, and Test Repo |
 | [danger/danger](https://github.com/danger/danger) | 已分析 | 2015-09-29 | 🚫 Stop saying "you forgot to …" in code review (in Ruby) |
 | [gprMax/gprMax](https://github.com/gprMax/gprMax) | 已分析 | 2015-09-30 | gprMax is open source software that simulates electromagnetic wave propagation using the Finite-Difference Time-Domain F |
+| [YarnSpinnerTool/YarnSpinner](https://github.com/YarnSpinnerTool/YarnSpinner) | 已分析 | 2015-10-03 | The core compiler and engine-agnostic components for Yarn Spinner, the friendly dialogue tool. |
 | [pdfarranger/pdfarranger](https://github.com/pdfarranger/pdfarranger) | 已分析 | 2015-10-21 | Small python-gtk application, which helps the user to merge or split PDF documents and rotate, crop and rearrange their  |
 | [JustArchiNET/ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) | 已分析 | 2015-10-25 | C# application with primary purpose of farming Steam cards from multiple accounts simultaneously. |
 | [cogciprocate/ocl](https://github.com/cogciprocate/ocl) | 已分析 | 2015-10-31 | OpenCL for Rust |
@@ -89,16 +102,3 @@
 | [plotly/plotly.js](https://github.com/plotly/plotly.js) | 已分析 | 2015-11-05 | Open-source JavaScript charting library behind Plotly and Dash |
 | [ernestojimenezruiz/logmap-matcher](https://github.com/ernestojimenezruiz/logmap-matcher) | 已分析 | 2015-11-10 | LogMap: An Ontology Alignment and Alignment Repair System |
 | [dbrizov/Unity-WaterBuoyancy](https://github.com/dbrizov/Unity-WaterBuoyancy) | 已分析 | 2015-11-16 | Water Buoyancy Simulation for Unity |
-| [trilinos/Trilinos](https://github.com/trilinos/Trilinos) | 已分析 | 2015-11-16 | Primary repository for the Trilinos Project |
-| [thomaspark/flexboxfroggy](https://github.com/thomaspark/flexboxfroggy) | 已分析 | 2015-11-24 | A game for learning CSS flexbox 🐸 |
-| [aliyun/aliyun-oss-csharp-sdk](https://github.com/aliyun/aliyun-oss-csharp-sdk) | 已分析 | 2015-11-27 | Aliyun OSS SDK for C# |
-| [eliasts/Ocean_Community_Next_Gen](https://github.com/eliasts/Ocean_Community_Next_Gen) | 已分析 | 2015-12-05 | Next gen iteration of the unity community ocean shader |
-| [guarinogabriel/Mac-CLI](https://github.com/guarinogabriel/Mac-CLI) | 已分析 | 2015-12-07 |  macOS command line tool for developers – The ultimate tool to manage your Mac. It provides a huge set of command line  |
-| [NetHack/NetHack](https://github.com/NetHack/NetHack) | 已分析 | 2015-12-08 | Official NetHack Git Repository |
-| [scikit-video/scikit-video](https://github.com/scikit-video/scikit-video) | 已分析 | 2015-12-09 | Video Processing in Python |
-| [goplus/xgo](https://github.com/goplus/xgo) | 已分析 | 2015-12-12 | XGo is a programming language that reads like plain English. But it's also incredibly powerful — it lets you leverage as |
-| [evelinag/StarWars-social-network](https://github.com/evelinag/StarWars-social-network) | 已分析 | 2015-12-15 | The Star Wars social network |
-| [visgl/deck.gl](https://github.com/visgl/deck.gl) | 已分析 | 2015-12-15 | WebGL2 powered visualization framework |
-| [onlylemi/processing-android-capture](https://github.com/onlylemi/processing-android-capture) | 已分析 | 2015-12-17 | AndroidCapture For Processing |
-| [nuttyartist/notes](https://github.com/nuttyartist/notes) | 已分析 | 2015-12-25 | Fast and beautiful note-taking app written in C++. Write down your thoughts. |
-| [jtablesaw/tablesaw](https://github.com/jtablesaw/tablesaw) | 已分析 | 2016-01-01 | Java dataframe and visualization library |

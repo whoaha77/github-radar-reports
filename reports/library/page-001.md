@@ -16,6 +16,7 @@
 | [stephane/libmodbus](https://github.com/stephane/libmodbus) | 已分析 | 2010-01-21 | A Modbus library for Linux, Mac OS, FreeBSD and Windows |
 | [ajstarks/svgo](https://github.com/ajstarks/svgo) | 已分析 | 2010-03-05 | Go Language Library for SVG generation |
 | [obophenotype/uberon](https://github.com/obophenotype/uberon) | 已分析 | 2010-03-16 | An ontology of gross anatomy covering metazoa. Works in concert with https://github.com/obophenotype/cell-ontology |
+| [teeworlds/teeworlds](https://github.com/teeworlds/teeworlds) | 已分析 | 2010-06-02 | A retro multiplayer shooter |
 | [egametang/ET](https://github.com/egametang/ET) | 已分析 | 2010-06-27 | Unity3D Client And C# Server Framework |
 | [gem/oq-engine](https://github.com/gem/oq-engine) | 已分析 | 2010-06-28 | OpenQuake Engine: a software for Seismic Hazard and Risk Analysis |
 | [The-Powder-Toy/The-Powder-Toy](https://github.com/The-Powder-Toy/The-Powder-Toy) | 已分析 | 2010-07-25 | Written in C++ and using SDL, The Powder Toy is a desktop version of the classic 'falling sand' physics sandbox, it simu |
@@ -72,6 +73,7 @@
 | [ddemidov/vexcl](https://github.com/ddemidov/vexcl) | 已分析 | 2012-05-29 | VexCL is a C++ vector expression template library for OpenCL/CUDA/OpenMP |
 | [qpdf/qpdf](https://github.com/qpdf/qpdf) | 已分析 | 2012-06-03 | qpdf: A content-preserving PDF document transformer |
 | [dc-js/dc.js](https://github.com/dc-js/dc.js) | 已分析 | 2012-06-19 | Multi-Dimensional charting built to work natively with crossfilter rendered with d3.js |
+| [datawrapper/datawrapper](https://github.com/datawrapper/datawrapper) | 已分析 | 2012-07-06 | Utility functions developed for Datawrapper |
 | [macbre/phantomas](https://github.com/macbre/phantomas) | 已分析 | 2012-07-07 | Headless Chromium-based web performance metrics collector and monitoring tool |
 | [pybuilder/pybuilder](https://github.com/pybuilder/pybuilder) | 已分析 | 2012-07-23 | Software build automation tool for Python. |
 | [libgdx/libgdx](https://github.com/libgdx/libgdx) | 已分析 | 2012-08-10 | Desktop/Android/HTML5/iOS Java game development framework |
@@ -100,5 +102,3 @@
 | [vispy/vispy](https://github.com/vispy/vispy) | 已分析 | 2013-03-21 | Main repository for Vispy |
 | [lambdamusic/Ontospy](https://github.com/lambdamusic/Ontospy) | 已分析 | 2013-03-22 | Python library and command-line interface for inspecting and visualizing RDF models aka ontologies. |
 | [koreader/koreader](https://github.com/koreader/koreader) | 已分析 | 2013-03-24 | An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, P |
-| [apache/echarts](https://github.com/apache/echarts) | 已分析 | 2013-04-03 | Apache ECharts is a powerful, interactive charting and data visualization library for browser |
-| [fogleman/Craft](https://github.com/fogleman/Craft) | 已分析 | 2013-04-09 | A simple Minecraft clone written in C using modern OpenGL (shaders). |

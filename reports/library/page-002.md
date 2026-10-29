@@ -2,6 +2,8 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [apache/echarts](https://github.com/apache/echarts) | 已分析 | 2013-04-03 | Apache ECharts is a powerful, interactive charting and data visualization library for browser |
+| [fogleman/Craft](https://github.com/fogleman/Craft) | 已分析 | 2013-04-09 | A simple Minecraft clone written in C using modern OpenGL (shaders). |
 | [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) | 已分析 | 2013-04-14 | An open source, turn-based strategy game with a high fantasy theme. |
 | [rawgraphs/rawgraphs-app](https://github.com/rawgraphs/rawgraphs-app) | 已分析 | 2013-04-17 | A web interface to create custom vector-based visualizations on top of RAWGraphs core |
 | [ankane/chartkick](https://github.com/ankane/chartkick) | 已分析 | 2013-05-07 | Create beautiful JavaScript charts with one line of Ruby |
@@ -19,6 +21,7 @@
 | [dgarijo/Widoco](https://github.com/dgarijo/Widoco) | 已分析 | 2013-07-15 | Wizard for documenting ontologies. WIDOCO is a step by step generator of HTML templates with the documentation of your o |
 | [tasks/tasks](https://github.com/tasks/tasks) | 已分析 | 2013-07-18 | Bringing Astrid Tasks back from the dead |
 | [PMEAL/OpenPNM](https://github.com/PMEAL/OpenPNM) | 已分析 | 2013-07-25 | A Python package for performing pore network modeling of porous media |
+| [autopkg/autopkg](https://github.com/autopkg/autopkg) | 已分析 | 2013-08-06 | Automating packaging and software distribution on macOS. |
 | [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp) | 已分析 | 2013-08-08 | Xournal++ is a handwriting notetaking software with PDF annotation support. Written in C++ with GTK3, supporting Linux ( |
 | [GameServerManagers/LinuxGSM](https://github.com/GameServerManagers/LinuxGSM) | 已分析 | 2013-08-09 | The command-line tool for quick, simple deployment and management of Linux dedicated game servers. |
 | [lammps/lammps](https://github.com/lammps/lammps) | 已分析 | 2013-08-09 | Public development project of the LAMMPS MD software package   |
@@ -38,7 +41,9 @@
 | [geneontology/go-site](https://github.com/geneontology/go-site) | 已分析 | 2013-10-24 | A collection of metadata, tools, and files associated with the Gene Ontology public web presence. |
 | [graememcc/micropolisJS](https://github.com/graememcc/micropolisJS) | 已分析 | 2013-10-27 | A port of Micropolis to JS/HTML5 |
 | [getredash/redash](https://github.com/getredash/redash) | 已分析 | 2013-10-28 | Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data. |
+| [beego/bee](https://github.com/beego/bee) | 已分析 | 2013-10-30 | Bee is a tool for helping develop with beego app framework. |
 | [SFTtech/openage](https://github.com/SFTtech/openage) | 已分析 | 2013-11-03 | Clone of the Age of Empires II engine 🚀  |
+| [piqnt/stage.js](https://github.com/piqnt/stage.js) | 已分析 | 2013-11-03 | 2D HTML5 rendering and layout engine for game development |
 | [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) | 已分析 | 2013-11-04 | :books: 免费的计算机编程类中文书籍，欢迎投稿 |
 | [BMClab/BMC](https://github.com/BMClab/BMC) | 已分析 | 2013-11-05 | Notes on Scientific Computing for Biomechanics and Motor Control |
 | [letoram/arcan](https://github.com/letoram/arcan) | 已分析 | 2013-11-08 | The owls are not what they seem. |
@@ -47,6 +52,7 @@
 | [SuperTux/supertux](https://github.com/SuperTux/supertux) | 已分析 | 2013-11-23 | SuperTux source code |
 | [simpeg/simpeg](https://github.com/simpeg/simpeg) | 已分析 | 2013-11-26 | Simulation and Parameter Estimation in Geophysics  -  A python package for simulation and gradient based parameter estim |
 | [DeaDBeeF-Player/deadbeef](https://github.com/DeaDBeeF-Player/deadbeef) | 已分析 | 2013-12-16 | DeaDBeeF Player |
+| [BinaryMuse/planetary.js](https://github.com/BinaryMuse/planetary.js) | 已分析 | 2013-12-19 | :earth_americas: Awesome interactive globes for the web |
 | [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox) | 已分析 | 2013-12-19 | A cross-platform launcher that simply works |
 | [ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) | 已分析 | 2013-12-20 | OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched |
 | [OctoLinker/OctoLinker](https://github.com/OctoLinker/OctoLinker) | 已分析 | 2013-12-27 | OctoLinker — Links together, what belongs together |
@@ -73,6 +79,7 @@
 | [StackStorm/st2](https://github.com/StackStorm/st2) | 已分析 | 2014-04-23 | StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, incident responses, troubleshooting, d |
 | [island-org/island](https://github.com/island-org/island) | 已分析 | 2014-04-24 | Lightweight and low-level creative coding toolkits in C. |
 | [VIDA-NYU/reprozip](https://github.com/VIDA-NYU/reprozip) | 已分析 | 2014-05-06 | ReproZip is a tool that simplifies the process of creating reproducible experiments from command-line executions, a freq |
+| [jupyter-widgets/ipyleaflet](https://github.com/jupyter-widgets/ipyleaflet) | 已分析 | 2014-05-07 | A Jupyter - Leaflet.js bridge |
 | [git-town/git-town](https://github.com/git-town/git-town) | 已分析 | 2014-05-15 | Git branches made easy |
 | [ketoo/NoahGameFrame](https://github.com/ketoo/NoahGameFrame) | 已分析 | 2014-05-16 | A fast, scalable, distributed game server engine/framework for C++, include the actor library, network library, can be u |
 | [sbstjn/timesheet.js](https://github.com/sbstjn/timesheet.js) | 已分析 | 2014-05-25 | JavaScript library for HTML5 &amp; CSS3 time sheets |
@@ -95,10 +102,3 @@
 | [pdfminer/pdfminer.six](https://github.com/pdfminer/pdfminer.six) | 已分析 | 2014-08-29 | Community maintained fork of pdfminer - we fathom PDF |
 | [OpenXRay/xray-16](https://github.com/OpenXRay/xray-16) | 已分析 | 2014-09-05 | Improved version of the X-Ray Engine, the game engine used in the world-famous S.T.A.L.K.E.R. game series by GSC Game Wo |
 | [dhamaniasad/HeadlessBrowsers](https://github.com/dhamaniasad/HeadlessBrowsers) | 已分析 | 2014-09-12 | A list of (almost) all headless web browsers in existence |
-| [semantic-release/semantic-release](https://github.com/semantic-release/semantic-release) | 已分析 | 2014-09-15 | 📦🚀 Fully automated version management and package publishing |
-| [mesa/mesa](https://github.com/mesa/mesa) | 已分析 | 2014-09-19 | Mesa is an open-source Python library for agent-based modeling, ideal for simulating complex systems and exploring emerg |
-| [interactiveimmersivehq/Introduction-to-touchdesigner](https://github.com/interactiveimmersivehq/Introduction-to-touchdesigner) | 已分析 | 2014-09-26 | Open source introductory manual for Derivative TouchDesigner 088 |
-| [tio/tio](https://github.com/tio/tio) | 已分析 | 2014-09-27 | A serial device I/O tool |
-| [vaexio/vaex](https://github.com/vaexio/vaex) | 已分析 | 2014-09-27 | Out-of-Core hybrid Apache Arrow/NumPy DataFrame for Python, ML, visualization and exploration of big tabular data at a b |
-| [Hammerspoon/hammerspoon](https://github.com/Hammerspoon/hammerspoon) | 已分析 | 2014-10-08 | Staggeringly powerful macOS desktop automation with Lua |
-| [cjcliffe/CubicSDR](https://github.com/cjcliffe/CubicSDR) | 已分析 | 2014-10-26 | Cross-Platform Software-Defined Radio Application |

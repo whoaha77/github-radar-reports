@@ -269,6 +269,16 @@
 
 **部署前核查：** 核查README安装链接与pkg/api样例、LICENSE文件
 
+### [MatthewReid854/reliability](projects/198305660.md)
+
+**为什么值得：** 为可靠性/生存分析提供Weibull拟合、删失数据与概率图等统计建模能力。
+
+**重叠与增量（未核对安装清单）：** 与已有科研绘图、数据处理能力存在画图交叉；增量在专业分布建模与拟合检验，待核验。
+
+**代价与风险：** Windows下需Python与科学计算依赖，可pip安装，无API费用。；Windows图形交互、版本依赖与LGPL许可约束未经实测。
+
+**部署前核查：** 核查PyPI版本说明、依赖清单及Windows安装注意事项。
+
 ### [dswah/pyGAM](projects/79413341.md)
 
 **为什么值得：** 为Codex增加可解释非线性回归与效应图分析能力。
@@ -539,6 +549,16 @@
 
 **部署前核查：** 核查AGENTS.md与.agents/skills/目录及scholaraio setup的配置项。
 
+### [geekplux/markvis](projects/95999191.md)
+
+**为什么值得：** 让AI直接输出可渲染的数据图表，增强报告与笔记可视化。
+
+**重叠与增量（未核对安装清单）：** 与科研绘图、文档处理能力存在交叉，文本内嵌图表为待核验增量。
+
+**代价与风险：** Node/npm；浏览器或Markdown站点；GitHub需bake步骤。；图表覆盖度与中文显示未验证。
+
+**部署前核查：** 核查skills/markvis/SKILL.md与docs/prompt.md指令格式。
+
 ### [microsoft/UFO](projects/740316987.md)
 
 **为什么值得：** 可为Codex增加Windows桌面GUI自动化与跨设备任务编排能力
@@ -618,16 +638,6 @@
 **代价与风险：** 需配置远程MCP地址与OAuth登录或API Key，涉及订阅额度。；依赖第三方服务的可用性与限额策略，长期稳定性未验证。
 
 **部署前核查：** 核查config.toml写法与docs.consensus.app的MCP说明。
-
-### [dhondta/zotero-cli](projects/321932121.md)
-
-**为什么值得：** 为Codex补充Zotero引用排序、筛选、导出与本地问答能力
-
-**重叠与增量（未核对安装清单）：** 与已有文献检索、PDF处理存在交叉，增量在PageRank排序与批量导出待核验
-
-**代价与风险：** Python与pyzotero，需Zotero Web API密钥；可选GPT依赖需本地模型；GPL-3.0许可，凭据缓存路径与共享库访问权限未验证
-
-**部署前核查：** 核查pyproject依赖、creds.txt权限逻辑与GPT可选依赖
 
 ### [deltadbu/WIT-skill](projects/1345802690.md)
 
@@ -769,16 +779,6 @@
 
 **部署前核查：** 核查skills/*/SKILL.md、tools/validate_skills.py与examples/fno-burgers产物
 
-### [eseifert/altero](projects/51662900.md)
-
-**为什么值得：** 可为引用管理与文献库同步提供自托管后端，强化科研数据自主掌控。
-
-**重叠与增量（未核对安装清单）：** 与Codex现有文献检索和引用管理能力交叉明显，自托管增量待核验。
-
-**代价与风险：** 需Docker或Python 3.14、SQLite或PostgreSQL，Windows宜用Docker；无API费用。；beta稳定性、数据迁移不可逆与AGPL义务均未验证。
-
-**部署前核查：** 核查docker/compose.yaml、CHANGELOG与docs/client-compatibility.md。
-
 ### [yymao/adstex](projects/42411546.md)
 
 **为什么值得：** 从TeX引用键自动生成并更新BibTeX条目，补文献条目获取环节
@@ -798,6 +798,16 @@
 **代价与风险：** Windows需WSL2+Docker，模型端点与API Key；部署重，模型与存储资源需求未验证
 
 **部署前核查：** 核查deploy.sh、config/knowledge-base.env与carrel-search SKILL.md
+
+### [antvis/AVA](projects/231330802.md)
+
+**为什么值得：** 提供自然语言数据分析、图表推荐与HTML生成，并可作Agent skill调用。
+
+**重叠与增量（未核对安装清单）：** 与已有科研绘图、数据处理及执行器能力存在交叉；增量在问题建议与图表规格生成，待核验。
+
+**代价与风险：** 需Node.js 22.13+与LLM API Key，agent/CLI流程文档限macOS/Linux。；beta版本、Windows支持与API费用未验证，skill安装需另行确认。
+
+**部署前核查：** 核查package.json、Windows相关说明及agent-skill文档中的组件边界。
 
 ### [infusius/masala](projects/1370994072.md)
 
