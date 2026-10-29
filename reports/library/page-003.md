@@ -2,8 +2,12 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [arrayfire/arrayfire](https://github.com/arrayfire/arrayfire) | 已分析 | 2014-10-28 | ArrayFire: a general purpose GPU library. |
+| [haifengl/smile](https://github.com/haifengl/smile) | 已分析 | 2014-11-20 | Statistical Machine Intelligence &amp; Learning Engine |
+| [vega/vega-lite](https://github.com/vega/vega-lite) | 已分析 | 2014-11-20 | A concise grammar of interactive graphics, built on Vega. |
 | [sylvainhalle/PaperShell](https://github.com/sylvainhalle/PaperShell) | 已分析 | 2014-11-20 | Nice and flexible template environment for papers written in LaTeX |
 | [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons) | 已分析 | 2014-11-22 | Adds file type icons to Vim plugins such as: NERDTree, vim-airline, CtrlP, unite, Denite, lightline, vim-startify and ma |
+| [ICA-EGAD/RiC-O](https://github.com/ICA-EGAD/RiC-O) | 已分析 | 2014-11-26 | ICA Records in Contexts-Ontology (ICA RiC-O) GitHub repository web pages |
 | [haddocking/pdb-tools](https://github.com/haddocking/pdb-tools) | 已分析 | 2014-11-27 | A dependency-free cross-platform swiss army knife for PDB files. |
 | [gem5/gem5](https://github.com/gem5/gem5) | 已分析 | 2014-12-02 | The official repository for the gem5 computer-system architecture simulator. |
 | [fastlane/fastlane](https://github.com/fastlane/fastlane) | 已分析 | 2014-12-02 | 🚀 The easiest way to automate building and releasing your iOS and Android apps |
@@ -23,9 +27,11 @@
 | [cpmech/gosl](https://github.com/cpmech/gosl) | 已分析 | 2015-02-09 | Linear algebra, eigenvalues, FFT, Bessel, elliptic, orthogonal polys, geometry, NURBS, numerical quadrature, 3D transfin |
 | [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | 已分析 | 2015-02-19 | Open-Source Unified Vulnerability Management, DevSecOps &amp; ASPM |
 | [mpdf/mpdf](https://github.com/mpdf/mpdf) | 已分析 | 2015-03-03 | PHP library generating PDF files from UTF-8 encoded HTML |
+| [MmgTools/mmg](https://github.com/MmgTools/mmg) | 已分析 | 2015-03-11 | open source software for bidimensional and tridimensional remeshing |
 | [SolidZORO/zpix-pixel-font](https://github.com/SolidZORO/zpix-pixel-font) | 已分析 | 2015-03-13 | Zpix (最像素) is a pixel font (中文像素字体), supporting English, Chinese (Simplified + Traditional) and Japanese. |
 | [dyn4j/dyn4j](https://github.com/dyn4j/dyn4j) | 已分析 | 2015-03-14 | Java Collision Detection and Physics Engine |
 | [endless-sky/endless-sky](https://github.com/endless-sky/endless-sky) | 已分析 | 2015-03-14 | Space exploration, trading, and combat game. |
+| [cloudsimplus/cloudsimplus](https://github.com/cloudsimplus/cloudsimplus) | 已分析 | 2015-03-18 | State-of-the-art Framework 🏗 for Cloud Computing ⛅️ Simulation: a modern, full-featured, easier-to-use, highly extensibl |
 | [MaastrichtU-IDS/semanticscience](https://github.com/MaastrichtU-IDS/semanticscience) | 已分析 | 2015-03-19 | The Semanticscience Integrated Ontology (SIO) provides a simple, integrated ontology of types and relations for rich des |
 | [ory/dockertest](https://github.com/ory/dockertest) | 已分析 | 2015-03-19 | Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work. |
 | [tomlooman/EpicSurvivalGame](https://github.com/tomlooman/EpicSurvivalGame) | 已分析 | 2015-03-20 | Third-person Survival Game for Unreal Engine (Sample Project) |
@@ -96,9 +102,3 @@
 | [onlylemi/processing-android-capture](https://github.com/onlylemi/processing-android-capture) | 已分析 | 2015-12-17 | AndroidCapture For Processing |
 | [nuttyartist/notes](https://github.com/nuttyartist/notes) | 已分析 | 2015-12-25 | Fast and beautiful note-taking app written in C++. Write down your thoughts. |
 | [jtablesaw/tablesaw](https://github.com/jtablesaw/tablesaw) | 已分析 | 2016-01-01 | Java dataframe and visualization library |
-| [Red5d/docker-autocompose](https://github.com/Red5d/docker-autocompose) | 已分析 | 2016-01-02 | Generate a docker-compose yaml definition from a running container |
-| [konvajs/react-konva](https://github.com/konvajs/react-konva) | 已分析 | 2016-01-03 | React components for the Konva 2d canvas library. Build interactive graphics, design editors, and whiteboards with JSX. |
-| [egeerardyn/awesome-LaTeX](https://github.com/egeerardyn/awesome-LaTeX) | 已分析 | 2016-01-06 | Curated list of LaTeX awesomeness |
-| [xwmx/nb](https://github.com/xwmx/nb) | 分析受阻 | 2016-01-12 | CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versi |
-| [blitzpp/blitz](https://github.com/blitzpp/blitz) | 已分析 | 2016-01-19 | Blitz++ Multi-Dimensional Array Library for C++ |
-| [ggez/ggez](https://github.com/ggez/ggez) | 已分析 | 2016-01-30 | Rust library to create a Good Game Easily |

@@ -2,6 +2,12 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [Red5d/docker-autocompose](https://github.com/Red5d/docker-autocompose) | 已分析 | 2016-01-02 | Generate a docker-compose yaml definition from a running container |
+| [konvajs/react-konva](https://github.com/konvajs/react-konva) | 已分析 | 2016-01-03 | React components for the Konva 2d canvas library. Build interactive graphics, design editors, and whiteboards with JSX. |
+| [egeerardyn/awesome-LaTeX](https://github.com/egeerardyn/awesome-LaTeX) | 已分析 | 2016-01-06 | Curated list of LaTeX awesomeness |
+| [xwmx/nb](https://github.com/xwmx/nb) | 分析受阻 | 2016-01-12 | CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versi |
+| [blitzpp/blitz](https://github.com/blitzpp/blitz) | 已分析 | 2016-01-19 | Blitz++ Multi-Dimensional Array Library for C++ |
+| [ggez/ggez](https://github.com/ggez/ggez) | 已分析 | 2016-01-30 | Rust library to create a Good Game Easily |
 | [google/EarlGrey](https://github.com/google/EarlGrey) | 已分析 | 2016-02-04 | :tea: iOS UI Automation Test Framework |
 | [inlife/nexrender](https://github.com/inlife/nexrender) | 已分析 | 2016-02-10 | 📹  Data-driven render automation for After Effects |
 | [eseifert/altero](https://github.com/eseifert/altero) | 已分析 | 2016-02-13 | Self-hosted sync server for Zotero — keep libraries, groups, notes and attachments on your own infrastructure using the  |
@@ -9,7 +15,9 @@
 | [uber/react-vis](https://github.com/uber/react-vis) | 已分析 | 2016-02-22 | Data Visualization Components |
 | [bradley/Blotter](https://github.com/bradley/Blotter) | 已分析 | 2016-02-22 | A JavaScript API for drawing unconventional text effects on the web. |
 | [passbolt/passbolt_api](https://github.com/passbolt/passbolt_api) | 已分析 | 2016-02-23 | Passbolt Community Edition (CE) API. The JSON API for the open source password manager for teams! |
+| [wntrblm/nox](https://github.com/wntrblm/nox) | 已分析 | 2016-02-24 | Flexible test automation for Python |
 | [Xunius/Menotexport](https://github.com/Xunius/Menotexport) | 已分析 | 2016-02-24 | Python solution to export annotations from your Mendeley library. |
+| [OpenKore/openkore](https://github.com/OpenKore/openkore) | 已分析 | 2016-02-28 | A free/open source client and automation tool for Ragnarok Online |
 | [lpil/sonic-pi-tool](https://github.com/lpil/sonic-pi-tool) | 已分析 | 2016-03-03 | 🎻 Controlling Sonic Pi from the command line |
 | [Juris-M/citeproc-js](https://github.com/Juris-M/citeproc-js) | 分析受阻 | 2016-03-04 | A JavaScript implementation of the Citation Style Language (CSL) https://citeproc-js.readthedocs.io |
 | [codingforentrepreneurs/30-Days-of-Python](https://github.com/codingforentrepreneurs/30-Days-of-Python) | 已分析 | 2016-03-09 | Learn Python for the next 30 (or so) Days.  |
@@ -51,6 +59,7 @@
 | [you-dont-need/You-Dont-Need-JavaScript](https://github.com/you-dont-need/You-Dont-Need-JavaScript) | 已分析 | 2016-07-05 | CSS is powerful, you can do a lot of things without JS. |
 | [Facepunch/Facepunch.Steamworks](https://github.com/Facepunch/Facepunch.Steamworks) | 已分析 | 2016-07-06 | Another fucking c# Steamworks implementation |
 | [LibrePDF/OpenPDF](https://github.com/LibrePDF/OpenPDF) | 已分析 | 2016-07-11 | OpenPDF is an open-source Java library for creating, editing, rendering, and encrypting PDF documents, as well as genera |
+| [USEPA/WNTR](https://github.com/USEPA/WNTR) | 已分析 | 2016-07-13 | An EPANET compatible python package to simulate and analyze water distribution networks under disaster scenarios. |
 | [LeanerCloud/AutoSpotting](https://github.com/LeanerCloud/AutoSpotting) | 已分析 | 2016-07-19 | Saves up to 90% of AWS EC2 costs by automating the use of spot instances on existing AutoScaling groups. Installs in min |
 | [PokemonGoF/PokemonGo-Bot](https://github.com/PokemonGoF/PokemonGo-Bot) | 已分析 | 2016-07-20 | The Pokemon Go Bot, baking with community. |
 | [JasonKessler/scattertext](https://github.com/JasonKessler/scattertext) | 已分析 | 2016-07-21 | Beautiful visualizations of how language differs among document types. |
@@ -93,12 +102,3 @@
 | [raghakot/keras-vis](https://github.com/raghakot/keras-vis) | 已分析 | 2016-11-11 | Neural network visualization toolkit for keras |
 | [keplr-io/quiver](https://github.com/keplr-io/quiver) | 已分析 | 2016-11-13 | Interactive convnet features visualization for Keras |
 | [nucliweb/People-You-Should-Follow-on-CodePen](https://github.com/nucliweb/People-You-Should-Follow-on-CodePen) | 已分析 | 2016-11-14 | People You Should Follow on CodePen |
-| [mapbox/webgl-wind](https://github.com/mapbox/webgl-wind) | 已分析 | 2016-11-16 | Wind power visualization with WebGL particles |
-| [jlpaca/toybox](https://github.com/jlpaca/toybox) | 已分析 | 2016-11-17 | a collection of computational playthings. |
-| [InteractiveComputerGraphics/SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH) | 已分析 | 2016-11-17 | SPlisHSPlasH is an open-source library for the physically-based simulation of fluids. |
-| [Tencent/behaviac](https://github.com/Tencent/behaviac) | 已分析 | 2016-11-21 | behaviac is a framework of the game AI development, and it also can be used as a rapid game prototype design tool. behav |
-| [APIs-guru/graphql-voyager](https://github.com/APIs-guru/graphql-voyager) | 已分析 | 2016-11-29 | 🛰️ Represent any GraphQL API as an interactive graph |
-| [mschroen/Science.md](https://github.com/mschroen/Science.md) | 已分析 | 2016-11-29 | An easy framework for drafting scientific documents: Write (Markdown), Compile (PDF, Word, HTML), Share. |
-| [thingsboard/thingsboard](https://github.com/thingsboard/thingsboard) | 已分析 | 2016-12-01 | All-in-one IoT Platform - Device management, data collection, processing and visualization. |
-| [isl-org/Open3D](https://github.com/isl-org/Open3D) | 已分析 | 2016-12-02 | Open3D: A Modern Library for 3D Data Processing |
-| [gregtatum/sessions](https://github.com/gregtatum/sessions) | 已分析 | 2016-12-16 | A series of creative coding sessions |

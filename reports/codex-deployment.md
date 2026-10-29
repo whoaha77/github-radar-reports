@@ -109,6 +109,16 @@
 
 **部署前核查：** 核查文档中Windows安装页及中文语言包说明。
 
+### [pikepdf/pikepdf](projects/103577933.md)
+
+**为什么值得：** 为 PDF 修复、合并、元数据与图片提取提供脚本化能力。
+
+**重叠与增量（未核对安装清单）：** 与现有 PDF 读写处理存在交叉，增量在低层对象与加密，待核验。
+
+**代价与风险：** 需 Python 环境，Windows 可用预编译 wheel，无需编译器。；数字签名加密不支持，版本依赖需核实。
+
+**部署前核查：** 核查 PyPI 上 Windows wheel 的 Python 版本支持范围。
+
 ### [PDFMathTranslate/PDFMathTranslate](projects/853189791.md)
 
 **为什么值得：** 为Codex补版式保留的PDF双语翻译，可对接文献阅读。
@@ -339,6 +349,16 @@
 
 **部署前核查：** 核查LICENSE、安装文档与quickstart笔记本中的渲染依赖说明。
 
+### [papersgpt/papersgpt-for-zotero](projects/892394936.md)
+
+**为什么值得：** Zotero全库检索、多PDF对比与文献雷达，可补本地知识库检索
+
+**重叠与增量（未核对安装清单）：** 与已有文献检索和读论文能力交叉，增量在整库索引与MCP接入待核验
+
+**代价与风险：** 需Zotero 7+与插件xpi，云模型需API费用，本地模型需显存；宣传模型名异常，性能基准为作者自测，AGPL传播义务需注意
+
+**部署前核查：** 核查SKILL.md、benchmark.md与插件xpi安装说明
+
 ### [man-group/dtale](projects/196968829.md)
 
 **为什么值得：** 为pandas数据提供一键交互式EDA、图表与代码导出能力。
@@ -368,6 +388,16 @@
 **代价与风险：** Python/Node/Rust 任一环境；OCR 需额外运行库；抽取质量在不同版式下未知
 
 **部署前核查：** 核查 docs/python.md 与 OCR 运行时安装说明
+
+### [MAGA2010/data-master](projects/1423182804.md)
+
+**为什么值得：** 为数据分析增加可审计出报表、清洗决策显式化和敏感性检验能力。
+
+**重叠与增量（未核对安装清单）：** 与已有PDF/Excel处理和科研绘图有交叉，但侧重可复现审计链与清洗透明化，增量在审计门禁。
+
+**代价与风险：** Windows需Node.js 20+与Python 3.11+，setup会下载Python依赖；MIT许可；无API费用描述。；README称可在Windows运行但未实测；统计门禁正确性和依赖下载范围未验证。
+
+**部署前核查：** 核查SKILL.md、package.json、pyproject与EVALUATION.md及cleaning规则目录。
 
 ### [iamgio/quarkdown](projects/750550657.md)
 
@@ -399,6 +429,26 @@
 
 **部署前核查：** 核查mcp-server/README.md与/api/verify/quote行为，确认许可证范围
 
+### [oldantique/zotkit](projects/1297198645.md)
+
+**为什么值得：** 给Codex提供无头Zotero读写、BibTeX导出与附件上载能力。
+
+**重叠与增量（未核对安装清单）：** 与已有引用管理与PDF处理交叉，WebDAV直传与标签规范强制可能是增量，待核验。
+
+**代价与风险：** 需Python3.11+、Zotero Web API Key，附件需WebDAV或Storage配置。；写操作误伤库、标签规范误配置与API限流风险待验证。
+
+**部署前核查：** 核查AGENTS.md、conventions.example.toml与zotkit doctor的诊断项。
+
+### [hanlulong/econ-slides-skill](projects/1301463756.md)
+
+**为什么值得：** 为Codex增论文到学术报告与演讲脚本生成及版面校验能力。
+
+**重叠与增量（未核对安装清单）：** 与已有PPT/论文写作交叉，增量在Beamer学术叙事与验证循环。
+
+**代价与风险：** 需Python、XeLaTeX、PyMuPDF与Skills目录。；Windows编译链与中文排版未验证。
+
+**部署前核查：** 核查SKILL.md、scripts下compile_deck.py与check_deck.py。
+
 ### [lin1111-1/academic-integrity-rewrite](projects/1331532226.md)
 
 **为什么值得：** 为Codex提供保留数字、单位、公式与引文的学术改写与本地审计
@@ -408,16 +458,6 @@
 **代价与风险：** Python 3.10+与Git；Skill复制到.agents/skills，无第三方依赖；审计仅报变更不判对错，叙述式引文不识别需人工回查
 
 **部署前核查：** 核查skills/academic-integrity-rewrite/SKILL.md与scripts/audit_revision.py，及examples用例
-
-### [ai4s-research/open-science](projects/1288102626.md)
-
-**为什么值得：** 本地面向科研的AI工作台，整合智能体、MCP、技能、可复现产物与溯源，与文献、绘图、实验分析兴趣高度契合
-
-**重叠与增量（未核对安装清单）：** 与已有文献检索、读论文、绘图、PDF处理能力存在交叉，其可审计溯源、运行记录、MCP连接器与本地优先架构属潜在增量，待核验
-
-**代价与风险：** Tauri桌面应用，支持Windows；需自带模型与API Key，可能产生费用；许可为NOASSERTION需核对；技能与MCP连接器需逐个配置；许可证非标准MIT（README徽章称MIT但元数据为Other），模型费用、科学连接器可用性与安全性未验证
-
-**部署前核查：** 核查packages/sdk、内置ai4s-agent技能、MCP连接器与LICENSE文件，确认Windows安装包与OpenCode侧车版本
 
 ### [getomni-ai/zerox](projects/831872524.md)
 
@@ -459,6 +499,16 @@
 
 **部署前核查：** 核查README的Quickstart、版本兼容表、配置项与技术栈，确认Windows与LaTeX引擎方案。
 
+### [jxtse/auto-paper-harvester](projects/1073391794.md)
+
+**为什么值得：** 按DOI批量抓取合法全文PDF，可补文献获取与语料构建
+
+**重叠与增量（未核对安装清单）：** 与已有文献检索能力交叉，增量在出版商TDM与浏览器回退待核验
+
+**代价与风险：** Python 3.9+或发行包，需联系邮箱与可选API密钥，Windows有x64包；第三方站点抓取合规性与反爬触发风险，密钥安全需谨慎
+
+**部署前核查：** 核查SKILL.md安装流程、docs/RATE_LIMITS.md与.env.example
+
 ### [growgraph/ontocast](projects/958212587.md)
 
 **为什么值得：** 为Codex增加文档到知识图谱的本体化抽取与校验能力
@@ -498,6 +548,16 @@
 **代价与风险：** Python3.10/3.11、Windows；LLM API密钥；Galaxy需多设备与网络；GUI代理误操作风险、API费用与Galaxy成熟度均未验证
 
 **部署前核查：** 核查ufo目录README、requirements与快速开始文档
+
+### [HututuWorks/sci-diagram-pptx](projects/1327657718.md)
+
+**为什么值得：** 为Codex增加论文图示到原生可编辑PPTX的重建能力。
+
+**重叠与增量（未核对安装清单）：** 与已有科研绘图、PPT处理能力存在潜在交叉，增量在拓扑保真与可追溯构建。
+
+**代价与风险：** 需宿主装Node 20+、Python 3.10+、LibreOffice与poppler，Windows适配待查。；生成脚本按任务代码对待，隔离与依赖固定均未验证。
+
+**部署前核查：** 核查skills/sci-diagram-pptx/SKILL.md与宿主依赖声明文件。
 
 ### [coleam00/Archon](projects/929121414.md)
 
@@ -548,6 +608,16 @@
 **代价与风险：** Windows安装包或CLI；需自备模型Key，存在API费用；AI修改正确性、计费与隐私未验证，MCP权限范围未知
 
 **部署前核查：** 核查releases中的Windows安装包、genoffice CLI说明与MCP服务器配置
+
+### [Consensus-NLP/consensus-mcp](projects/1341872734.md)
+
+**为什么值得：** 为Codex增加带研究设计与期刊质量过滤的文献检索。
+
+**重叠与增量（未核对安装清单）：** 与已有文献检索能力交叉，增量在元数据过滤与证据排序。
+
+**代价与风险：** 需配置远程MCP地址与OAuth登录或API Key，涉及订阅额度。；依赖第三方服务的可用性与限额策略，长期稳定性未验证。
+
+**部署前核查：** 核查config.toml写法与docs.consensus.app的MCP说明。
 
 ### [dhondta/zotero-cli](projects/321932121.md)
 
@@ -659,6 +729,16 @@
 
 **部署前核查：** 核查README的pip安装与vizviewer用法。
 
+### [Mangluu/overleaf-comments-export](projects/1241629649.md)
+
+**为什么值得：** 把Overleaf评论变成可被agent按id处理的结构化文件。
+
+**重叠与增量（未核对安装清单）：** 与已有读论文、写作润色能力交叉，评论溯源与增量差异为待核验增量。
+
+**代价与风险：** 需Python 3.10以上或浏览器扩展，以及Overleaf项目访问权。；需读取登录会话，自托管Overleaf兼容性需核实。
+
+**部署前核查：** 核查pip包元数据、browser-extension/README的权限声明与release中的Windows包。
+
 ### [blader/humanizer](projects/1136666433.md)
 
 **为什么值得：** 为文本改写增加AI特征检测与去腔调流程，可辅助写作润色环节。
@@ -728,6 +808,16 @@
 **代价与风险：** Windows需Node、pnpm、uv与已登录Codex CLI或OpenAI Key；早期版本，Windows权限提示频繁，结果展示不全
 
 **部署前核查：** 核查apps/server/.env.example与模块MCP入口文件
+
+### [deusyu/translate-book](projects/1182353280.md)
+
+**为什么值得：** 为Codex增加整书翻译与多格式重构的并行流水线能力。
+
+**重叠与增量（未核对安装清单）：** 与已有PDF文档处理和写作润色交叉；整书分块协调属潜在增量，待核验。
+
+**代价与风险：** Python3、Calibre、Pandoc、pypandoc；Windows可用性待验证；模型API费用。；外部二进制依赖与环境差异；整书成本与质量未验证。
+
+**部署前核查：** 核查scripts/convert.py、scripts/merge_and_build.py与各SKILL.md依赖声明。
 
 ### [AutoViML/AutoViz](projects/197432079.md)
 

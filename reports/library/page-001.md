@@ -50,6 +50,7 @@
 | [asmuth/clip](https://github.com/asmuth/clip) | 已分析 | 2011-09-16 | Create charts from the command line |
 | [dartsim/dart](https://github.com/dartsim/dart) | 已分析 | 2011-09-19 | DART: Dynamic Animation and Robotics Toolkit |
 | [session-replay-tools/tcpcopy](https://github.com/session-replay-tools/tcpcopy) | 已分析 | 2011-10-14 | An online request replication and TCP stream replay tool, ideal for real testing, performance testing, stability testing |
+| [datopian/portaljs](https://github.com/datopian/portaljs) | 已分析 | 2011-10-14 | 🌀 AI-native framework for building data portals. Scaffold a full portal from a brief and load datasets in minutes with a |
 | [gephi/gephi](https://github.com/gephi/gephi) | 已分析 | 2011-10-22 | Gephi - The Open Graph Viz Platform |
 | [squizlabs/PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) | 已分析 | 2011-11-03 | PHP_CodeSniffer tokenizes PHP files and detects violations of a defined set of coding standards. |
 | [inducer/meshpy](https://github.com/inducer/meshpy) | 已分析 | 2011-11-11 | 2D/3D simplicial mesh generator interface for Python (Triangle, TetGen, gmsh) |
@@ -58,6 +59,7 @@
 | [moul/assh](https://github.com/moul/assh) | 已分析 | 2011-12-25 | :computer: make your ssh client smarter |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf) | 已分析 | 2012-01-06 | A pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files |
 | [ArashPartow/exprtk](https://github.com/ArashPartow/exprtk) | 已分析 | 2012-01-28 | C++ Mathematical Expression Parsing And Evaluation Library   https://www.partow.net/programming/exprtk/index.html |
+| [dtmilano/AndroidViewClient](https://github.com/dtmilano/AndroidViewClient) | 已分析 | 2012-02-02 | Android ViewServer and ADB client |
 | [DynamoDS/Dynamo](https://github.com/DynamoDS/Dynamo) | 已分析 | 2012-02-09 | Open Source Graphical Programming for Computational Design and Automation |
 | [C4Labs/C4iOS](https://github.com/C4Labs/C4iOS) | 已分析 | 2012-02-17 | C4 is an open-source creative coding framework that harnesses the power of native iOS programming with a simplified API  |
 | [lichess-org/lila](https://github.com/lichess-org/lila) | 已分析 | 2012-02-21 | ♞ lichess.org: the forever free, adless and open source chess server ♞ |
@@ -100,5 +102,3 @@
 | [koreader/koreader](https://github.com/koreader/koreader) | 已分析 | 2013-03-24 | An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, P |
 | [apache/echarts](https://github.com/apache/echarts) | 已分析 | 2013-04-03 | Apache ECharts is a powerful, interactive charting and data visualization library for browser |
 | [fogleman/Craft](https://github.com/fogleman/Craft) | 已分析 | 2013-04-09 | A simple Minecraft clone written in C using modern OpenGL (shaders). |
-| [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) | 已分析 | 2013-04-14 | An open source, turn-based strategy game with a high fantasy theme. |
-| [rawgraphs/rawgraphs-app](https://github.com/rawgraphs/rawgraphs-app) | 已分析 | 2013-04-17 | A web interface to create custom vector-based visualizations on top of RAWGraphs core |

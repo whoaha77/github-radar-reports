@@ -2,8 +2,11 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) | 已分析 | 2013-04-14 | An open source, turn-based strategy game with a high fantasy theme. |
+| [rawgraphs/rawgraphs-app](https://github.com/rawgraphs/rawgraphs-app) | 已分析 | 2013-04-17 | A web interface to create custom vector-based visualizations on top of RAWGraphs core |
 | [ankane/chartkick](https://github.com/ankane/chartkick) | 已分析 | 2013-05-07 | Create beautiful JavaScript charts with one line of Ruby |
 | [Pulover/PuloversMacroCreator](https://github.com/Pulover/PuloversMacroCreator) | 已分析 | 2013-05-13 | Automation Utility - Recorder &amp; Script Generator |
+| [alanshaw/markdown-pdf](https://github.com/alanshaw/markdown-pdf) | 已分析 | 2013-05-17 |  :page_facing_up: Markdown to PDF converter |
 | [openmm/openmm](https://github.com/openmm/openmm) | 已分析 | 2013-05-20 | OpenMM is a toolkit for molecular simulation using high performance GPU code.  |
 | [pissang/claygl](https://github.com/pissang/claygl) | 已分析 | 2013-05-21 | A WebGL graphic library for building scalable Web3D applications |
 | [DanielChappuis/reactphysics3d](https://github.com/DanielChappuis/reactphysics3d) | 已分析 | 2013-05-24 | Open source C++ physics engine library in 3D |
@@ -99,6 +102,3 @@
 | [vaexio/vaex](https://github.com/vaexio/vaex) | 已分析 | 2014-09-27 | Out-of-Core hybrid Apache Arrow/NumPy DataFrame for Python, ML, visualization and exploration of big tabular data at a b |
 | [Hammerspoon/hammerspoon](https://github.com/Hammerspoon/hammerspoon) | 已分析 | 2014-10-08 | Staggeringly powerful macOS desktop automation with Lua |
 | [cjcliffe/CubicSDR](https://github.com/cjcliffe/CubicSDR) | 已分析 | 2014-10-26 | Cross-Platform Software-Defined Radio Application |
-| [arrayfire/arrayfire](https://github.com/arrayfire/arrayfire) | 已分析 | 2014-10-28 | ArrayFire: a general purpose GPU library. |
-| [haifengl/smile](https://github.com/haifengl/smile) | 已分析 | 2014-11-20 | Statistical Machine Intelligence &amp; Learning Engine |
-| [vega/vega-lite](https://github.com/vega/vega-lite) | 已分析 | 2014-11-20 | A concise grammar of interactive graphics, built on Vega. |

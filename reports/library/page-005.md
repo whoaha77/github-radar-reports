@@ -2,6 +2,16 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [mapbox/webgl-wind](https://github.com/mapbox/webgl-wind) | 已分析 | 2016-11-16 | Wind power visualization with WebGL particles |
+| [jlpaca/toybox](https://github.com/jlpaca/toybox) | 已分析 | 2016-11-17 | a collection of computational playthings. |
+| [InteractiveComputerGraphics/SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH) | 已分析 | 2016-11-17 | SPlisHSPlasH is an open-source library for the physically-based simulation of fluids. |
+| [Tencent/behaviac](https://github.com/Tencent/behaviac) | 已分析 | 2016-11-21 | behaviac is a framework of the game AI development, and it also can be used as a rapid game prototype design tool. behav |
+| [APIs-guru/graphql-voyager](https://github.com/APIs-guru/graphql-voyager) | 已分析 | 2016-11-29 | 🛰️ Represent any GraphQL API as an interactive graph |
+| [mschroen/Science.md](https://github.com/mschroen/Science.md) | 已分析 | 2016-11-29 | An easy framework for drafting scientific documents: Write (Markdown), Compile (PDF, Word, HTML), Share. |
+| [thingsboard/thingsboard](https://github.com/thingsboard/thingsboard) | 已分析 | 2016-12-01 | All-in-one IoT Platform - Device management, data collection, processing and visualization. |
+| [isl-org/Open3D](https://github.com/isl-org/Open3D) | 已分析 | 2016-12-02 | Open3D: A Modern Library for 3D Data Processing |
+| [python-bonobo/bonobo](https://github.com/python-bonobo/bonobo) | 已分析 | 2016-12-09 | Extract Transform Load for Python 3.5+ |
+| [gregtatum/sessions](https://github.com/gregtatum/sessions) | 已分析 | 2016-12-16 | A series of creative coding sessions |
 | [P5-wrapper/react](https://github.com/P5-wrapper/react) | 已分析 | 2016-12-21 | A wrapper component that allows you to utilise P5 sketches within React apps. |
 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 已分析 | 2017-01-06 | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes |
 | [heroiclabs/nakama](https://github.com/heroiclabs/nakama) | 已分析 | 2017-01-13 | Scalable open-source game backend server: multiplayer, matchmaking, leaderboards, chat, and social features for games. |
@@ -11,6 +21,7 @@
 | [enigo-rs/enigo](https://github.com/enigo-rs/enigo) | 已分析 | 2017-01-27 | Cross platform input simulation in Rust |
 | [arendst/Tasmota](https://github.com/arendst/Tasmota) | 已分析 | 2017-01-28 | Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation us |
 | [lmmentel/awesome-python-chemistry](https://github.com/lmmentel/awesome-python-chemistry) | 已分析 | 2017-01-30 | A curated list of Python packages related to chemistry  |
+| [jongallant/LiquidSimulator](https://github.com/jongallant/LiquidSimulator) | 已分析 | 2017-01-30 | Cellular Automaton 2D Liquid Simulator for Unity |
 | [salomonelli/best-resume-ever](https://github.com/salomonelli/best-resume-ever) | 已分析 | 2017-01-30 | :necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever! Made with Vu |
 | [reiinakano/scikit-plot](https://github.com/reiinakano/scikit-plot) | 已分析 | 2017-02-04 | An intuitive library to add plotting functionality to scikit-learn objects. |
 | [KaiserY/trpl-zh-cn](https://github.com/KaiserY/trpl-zh-cn) | 已分析 | 2017-02-05 | Rust 程序设计语言（2024 edition 施工完毕） |
@@ -19,6 +30,7 @@
 | [antvis/G6](https://github.com/antvis/G6) | 已分析 | 2017-02-13 | ♾ A Graph Visualization Framework in JavaScript. |
 | [css-doodle/css-doodle](https://github.com/css-doodle/css-doodle) | 分析受阻 | 2017-02-14 | A web component for visual art and creative coding |
 | [Wandmalfarbe/pandoc-latex-template](https://github.com/Wandmalfarbe/pandoc-latex-template) | 已分析 | 2017-02-20 | A pandoc LaTeX template to convert markdown files to PDF or LaTeX. |
+| [obi-ontology/obi](https://github.com/obi-ontology/obi) | 已分析 | 2017-02-27 | The Ontology for Biomedical Investigations |
 | [zcreativelabs/react-simple-maps](https://github.com/zcreativelabs/react-simple-maps) | 已分析 | 2017-03-03 | Composable SVG map charts for data visualization in React |
 | [geocompx/geocompr](https://github.com/geocompx/geocompr) | 已分析 | 2017-03-07 | Geocomputation with R: an open source book |
 | [airbnb/visx](https://github.com/airbnb/visx) | 已分析 | 2017-03-15 | 🐯 visx \| visualization components |
@@ -75,11 +87,13 @@
 | [draftdev/startup-marketing-checklist](https://github.com/draftdev/startup-marketing-checklist) | 已分析 | 2017-07-29 | A checklist of tactics for marketing your startup. |
 | [spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy) | 分析受阻 | 2017-07-31 | 🐳 Matrix (An open network for secure, decentralized communication) server setup using Ansible and Docker |
 | [lonng/nano](https://github.com/lonng/nano) | 已分析 | 2017-08-02 | Lightweight, facility, high performance golang based game server framework |
+| [esbenp/pdf-bot](https://github.com/esbenp/pdf-bot) | 已分析 | 2017-08-08 | 🤖 A Node queue API for generating PDFs using headless Chrome. Comes with a CLI, S3 storage and webhooks for notifying su |
 | [dh-tech/awesome-digital-humanities](https://github.com/dh-tech/awesome-digital-humanities) | 已分析 | 2017-08-08 | Software for humanities scholars using quantitative or computational methods. |
 | [colejd/guify](https://github.com/colejd/guify) | 已分析 | 2017-08-11 | A simple GUI for inspecting and changing JavaScript variables |
 | [optiland/optiland](https://github.com/optiland/optiland) | 已分析 | 2017-08-15 | Comprehensive optical design, optimization, and analysis in Python, including GPU-accelerated and differentiable ray tra |
 | [microsoft/MMdnn](https://github.com/microsoft/MMdnn) | 已分析 | 2017-08-16 | MMdnn is a set of tools to help users inter-operate among different deep learning frameworks. E.g. model conversion and  |
 | [bvschaik/julius](https://github.com/bvschaik/julius) | 已分析 | 2017-08-19 | An open source re-implementation of Caesar III |
+| [caj2pdf/caj2pdf](https://github.com/caj2pdf/caj2pdf) | 已分析 | 2017-08-20 | Convert CAJ (China Academic Journals) files to PDF. 转换中国知网 CAJ 格式文献为 PDF。佛系转换，成功与否，皆是玄学。 |
 | [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) | 已分析 | 2017-08-22 | Play with fluids in your browser (works even on mobile) |
 | [markusschanta/awesome-jupyter](https://github.com/markusschanta/awesome-jupyter) | 已分析 | 2017-08-27 | A curated list of awesome Jupyter projects, libraries and resources |
 | [simupy/simupy](https://github.com/simupy/simupy) | 已分析 | 2017-08-29 | A framework for modeling and simulating dynamical systems |
@@ -88,17 +102,3 @@
 | [hmemcpy/milewski-ctfp-pdf](https://github.com/hmemcpy/milewski-ctfp-pdf) | 已分析 | 2017-09-02 | Bartosz Milewski's 'Category Theory for Programmers' unofficial PDF and LaTeX source |
 | [Hopding/pdf-lib](https://github.com/Hopding/pdf-lib) | 已分析 | 2017-09-04 | Create and modify PDF documents in any JavaScript environment |
 | [microlinkhq/browserless](https://github.com/microlinkhq/browserless) | 已分析 | 2017-09-06 | The headless Chrome/Chromium driver on top of Puppeteer. Take screenshots, generate PDFs, extract text and HTML with a p |
-| [iandol/bookends-tools](https://github.com/iandol/bookends-tools) | 已分析 | 2017-09-09 | Alfred Workflow to Integrate with Bookends, an academic reference manager/bibliography tool for macOS |
-| [citation-file-format/citation-file-format](https://github.com/citation-file-format/citation-file-format) | 已分析 | 2017-09-13 | The Citation File Format lets you provide citation metadata for software or datasets in plaintext files that are easy to |
-| [monarch-initiative/mondo](https://github.com/monarch-initiative/mondo) | 已分析 | 2017-09-20 | Mondo Disease Ontology |
-| [React-Sight/React-Sight](https://github.com/React-Sight/React-Sight) | 已分析 | 2017-09-20 | Visualization tool for React, with support for Fiber, Router (v4), and Redux |
-| [quantumlib/OpenFermion](https://github.com/quantumlib/OpenFermion) | 已分析 | 2017-09-21 | Python package for compiling and analyzing quantum algorithms to simulate electronic structures. |
-| [wbierbower/awesome-physics](https://github.com/wbierbower/awesome-physics) | 已分析 | 2017-09-23 | 🌌 A collaborative list of awesome software for exploring Physics concepts |
-| [chaostoolkit/chaostoolkit](https://github.com/chaostoolkit/chaostoolkit) | 已分析 | 2017-09-24 | Chaos Engineering Toolkit &amp; Orchestration for Developers |
-| [MakieOrg/Makie.jl](https://github.com/MakieOrg/Makie.jl) | 已分析 | 2017-09-25 | Interactive data visualizations and plotting in Julia |
-| [alvarcarto/url-to-pdf-api](https://github.com/alvarcarto/url-to-pdf-api) | 已分析 | 2017-09-28 | Web page PDF/PNG rendering done right. Self-hosted service for rendering receipts, invoices, or any content. |
-| [hardkoded/puppeteer-sharp](https://github.com/hardkoded/puppeteer-sharp) | 已分析 | 2017-09-30 | Headless Chrome .NET API |
-| [llnl/sundials](https://github.com/llnl/sundials) | 已分析 | 2017-10-05 | Official development repository for SUNDIALS - a SUite of Nonlinear and DIfferential/ALgebraic equation Solvers. Pull re |
-| [laochiangx/Common.Utility](https://github.com/laochiangx/Common.Utility) | 已分析 | 2017-10-10 | Various helper class |
-| [IridiumIO/CompactGUI](https://github.com/IridiumIO/CompactGUI) | 已分析 | 2017-10-12 | Reduce the space taken up by games and programs on disk by using native Windows APIs |
-| [meetfranz/franz](https://github.com/meetfranz/franz) | 已分析 | 2017-10-13 | Franz is a free messaging app for services like WhatsApp, Slack, Messenger and many more. |

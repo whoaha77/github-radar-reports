@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "pool_size": 949,
+  "pool_size": 1011,
   "shown": 50,
   "capacity": 50,
   "deployment_policy": "user_initiated_only",
-  "high_value_candidates": 75,
+  "high_value_candidates": 84,
   "projects": [
     {
       "repo_id": 826168160,
@@ -307,6 +307,44 @@
         "requirements": "需Python、Tesseract与Ghostscript，本地运行无API费用。",
         "risk": "Windows安装与语言包配置风险未验证。",
         "next_step": "核查文档中Windows安装页及中文语言包说明。"
+      },
+      "deployment_advice": "高价值核查候选，等你主动提出安装"
+    },
+    {
+      "repo_id": 577121582,
+      "name": "MuiseDestiny/zotero-reference",
+      "url": "https://github.com/MuiseDestiny/zotero-reference",
+      "score": 87.9,
+      "reviewed_at": "2026-10-29T07:56:23.108366+00:00",
+      "stale": false,
+      "reason": "高度贴合文献与引用管理兴趣，直接增强Zotero阅读工作流。",
+      "codex": {
+        "integration": "application",
+        "priority": "中",
+        "reason": "为文献阅读流程补充参考文献抓取与条目关联",
+        "overlap": "与已有文献检索、PDF处理交叉，增量待核验",
+        "requirements": "需Zotero本体与插件安装；AI功能需Token",
+        "risk": "版本兼容与插件冲突未验证",
+        "next_step": "核查manifest.json的Zotero版本范围与release说明"
+      },
+      "deployment_advice": "独立使用或借鉴，不直接部署"
+    },
+    {
+      "repo_id": 103577933,
+      "name": "pikepdf/pikepdf",
+      "url": "https://github.com/pikepdf/pikepdf",
+      "score": 87.9,
+      "reviewed_at": "2026-10-29T07:54:30.337227+00:00",
+      "stale": false,
+      "reason": "直击科研 PDF 处理，可脚本化批量整理文献与元数据。",
+      "codex": {
+        "integration": "library",
+        "priority": "高",
+        "reason": "为 PDF 修复、合并、元数据与图片提取提供脚本化能力。",
+        "overlap": "与现有 PDF 读写处理存在交叉，增量在低层对象与加密，待核验。",
+        "requirements": "需 Python 环境，Windows 可用预编译 wheel，无需编译器。",
+        "risk": "数字签名加密不支持，版本依赖需核实。",
+        "next_step": "核查 PyPI 上 Windows wheel 的 Python 版本支持范围。"
       },
       "deployment_advice": "高价值核查候选，等你主动提出安装"
     },
@@ -917,44 +955,6 @@
         "next_step": "核查requirements.txt依赖、main.py入口与MCP配置示例的有效性"
       },
       "deployment_advice": "高价值核查候选，等你主动提出安装"
-    },
-    {
-      "repo_id": 982587624,
-      "name": "opendataloader-project/opendataloader-pdf",
-      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
-      "score": 84.45,
-      "reviewed_at": "2026-10-16T17:32:26.193096+00:00",
-      "stale": false,
-      "reason": "直接对应文献与PDF处理兴趣，可服务RAG与引用定位。",
-      "codex": {
-        "integration": "library",
-        "priority": "中",
-        "reason": "PDF转Markdown/JSON带坐标，补版面与表格解析",
-        "overlap": "与已有PDF处理能力交叉，版面与坐标输出为潜在增量",
-        "requirements": "需Java 11+与Python 3.10+；混合模式需额外服务；企业功能收费未知",
-        "risk": "基准成绩为作者自报，Windows下JVM调用与混合服务稳定性待核验",
-        "next_step": "核查README中Java依赖、hybrid模式服务命令与LangChain集成说明"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
-    },
-    {
-      "repo_id": 1098317259,
-      "name": "docling-project/docling-graph",
-      "url": "https://github.com/docling-project/docling-graph",
-      "score": 84.44,
-      "reviewed_at": "2026-10-16T17:33:49.868412+00:00",
-      "stale": false,
-      "reason": "面向文献PDF处理、知识图谱与本体抽取，与科研知识管理兴趣高度相关。",
-      "codex": {
-        "integration": "cli",
-        "priority": "中",
-        "reason": "为Codex补充文档转知识图谱的抽取与可视化能力",
-        "overlap": "与已有PDF处理、科研绘图有交叉，图结构与溯源为本机待核验增量",
-        "requirements": "Python 3.10+，需LLM或VLM后端，远程API可能产生费用，Windows可跑但GPU与模型下载待核验",
-        "risk": "README自述功能未经测试验证，模型抽取准确性与API成本未知",
-        "next_step": "核查pyproject或requirements依赖、.env.example所需密钥与vlm可选依赖安装方式"
-      },
-      "deployment_advice": "继续观察，暂不建议接入"
     }
   ]
 }
