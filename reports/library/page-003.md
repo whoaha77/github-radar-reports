@@ -2,6 +2,16 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [ppy/osu](https://github.com/ppy/osu) | 已分析 | 2014-07-31 | rhythm is just a *click* away! |
+| [00-Evan/shattered-pixel-dungeon](https://github.com/00-Evan/shattered-pixel-dungeon) | 已分析 | 2014-07-31 | Shattered Pixel Dungeon is an open-source traditional roguelike dungeon crawler with randomized levels and enemies, and  |
+| [rust-ndarray/ndarray](https://github.com/rust-ndarray/ndarray) | 已分析 | 2014-08-04 | ndarray: an N-dimensional array with array views, multidimensional slicing, and efficient operations |
+| [Triple-T/gradle-play-publisher](https://github.com/Triple-T/gradle-play-publisher) | 已分析 | 2014-08-07 | GPP is Android's unofficial release automation Gradle Plugin. It can do anything from building, uploading, and then prom |
+| [tecnickcom/TCPDF](https://github.com/tecnickcom/TCPDF) | 已分析 | 2014-08-08 | Deprecated: PHP PDF library, superseded by tc-lib-pdf (https://github.com/tecnickcom/tc-lib-pdf) |
+| [MRPT/mvsim](https://github.com/MRPT/mvsim) | 已分析 | 2014-08-10 | Vehicle and mobile robotics simulator. C++ &amp; Python API. Use it as a standalone application or via ROS 1 or ROS 2 |
+| [usnistgov/fipy](https://github.com/usnistgov/fipy) | 已分析 | 2014-08-25 | FiPy is a Finite Volume PDE solver written in Python |
+| [pdfminer/pdfminer.six](https://github.com/pdfminer/pdfminer.six) | 已分析 | 2014-08-29 | Community maintained fork of pdfminer - we fathom PDF |
+| [OpenXRay/xray-16](https://github.com/OpenXRay/xray-16) | 已分析 | 2014-09-05 | Improved version of the X-Ray Engine, the game engine used in the world-famous S.T.A.L.K.E.R. game series by GSC Game Wo |
+| [dhamaniasad/HeadlessBrowsers](https://github.com/dhamaniasad/HeadlessBrowsers) | 已分析 | 2014-09-12 | A list of (almost) all headless web browsers in existence |
 | [semantic-release/semantic-release](https://github.com/semantic-release/semantic-release) | 已分析 | 2014-09-15 | 📦🚀 Fully automated version management and package publishing |
 | [cristicbz/rust-doom](https://github.com/cristicbz/rust-doom) | 已分析 | 2014-09-18 | A Doom Renderer written in Rust. |
 | [mesa/mesa](https://github.com/mesa/mesa) | 已分析 | 2014-09-19 | Mesa is an open-source Python library for agent-based modeling, ideal for simulating complex systems and exploring emerg |
@@ -34,9 +44,12 @@
 | [kizniche/Mycodo](https://github.com/kizniche/Mycodo) | 已分析 | 2015-02-05 | An environmental monitoring and regulation system |
 | [cpmech/gosl](https://github.com/cpmech/gosl) | 已分析 | 2015-02-09 | Linear algebra, eigenvalues, FFT, Bessel, elliptic, orthogonal polys, geometry, NURBS, numerical quadrature, 3D transfin |
 | [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | 已分析 | 2015-02-19 | Open-Source Unified Vulnerability Management, DevSecOps &amp; ASPM |
+| [xmikos/qspectrumanalyzer](https://github.com/xmikos/qspectrumanalyzer) | 已分析 | 2015-03-02 | Spectrum analyzer for multiple SDR platforms (PyQtGraph based GUI for soapy_power, hackrf_sweep, rtl_power, rx_power and |
 | [mpdf/mpdf](https://github.com/mpdf/mpdf) | 已分析 | 2015-03-03 | PHP library generating PDF files from UTF-8 encoded HTML |
+| [sharkdp/cube-composer](https://github.com/sharkdp/cube-composer) | 已分析 | 2015-03-09 | A puzzle game inspired by functional programming |
 | [MmgTools/mmg](https://github.com/MmgTools/mmg) | 已分析 | 2015-03-11 | open source software for bidimensional and tridimensional remeshing |
 | [SolidZORO/zpix-pixel-font](https://github.com/SolidZORO/zpix-pixel-font) | 已分析 | 2015-03-13 | Zpix (最像素) is a pixel font (中文像素字体), supporting English, Chinese (Simplified + Traditional) and Japanese. |
+| [artisan-roaster-scope/artisan](https://github.com/artisan-roaster-scope/artisan) | 已分析 | 2015-03-13 | artisan scope: the world's most trusted roasting software |
 | [dyn4j/dyn4j](https://github.com/dyn4j/dyn4j) | 已分析 | 2015-03-14 | Java Collision Detection and Physics Engine |
 | [endless-sky/endless-sky](https://github.com/endless-sky/endless-sky) | 已分析 | 2015-03-14 | Space exploration, trading, and combat game. |
 | [cloudsimplus/cloudsimplus](https://github.com/cloudsimplus/cloudsimplus) | 已分析 | 2015-03-18 | State-of-the-art Framework 🏗 for Cloud Computing ⛅️ Simulation: a modern, full-featured, easier-to-use, highly extensibl |
@@ -52,6 +65,7 @@
 | [obophenotype/bio-attribute-ontology](https://github.com/obophenotype/bio-attribute-ontology) | 已分析 | 2015-04-14 | source files for OBA (Ontology of Biological Attributes) |
 | [weaveworks/scope](https://github.com/weaveworks/scope) | 已分析 | 2015-04-27 | Monitoring, visualisation &amp; management for Docker &amp; Kubernetes |
 | [olistic/warriorjs](https://github.com/olistic/warriorjs) | 已分析 | 2015-04-29 | 🏰 An exciting game of programming and Artificial Intelligence |
+| [eralchemy/eralchemy](https://github.com/eralchemy/eralchemy) | 已分析 | 2015-04-29 | Entity Relation Diagrams generation tool |
 | [InteractiveComputerGraphics/PositionBasedDynamics](https://github.com/InteractiveComputerGraphics/PositionBasedDynamics) | 已分析 | 2015-05-05 | PositionBasedDynamics is a library for the physically-based simulation of rigid bodies, deformable solids and fluids. |
 | [opendatacube/datacube-core](https://github.com/opendatacube/datacube-core) | 已分析 | 2015-05-13 | Open Data Cube analyses continental scale Earth Observation data through time |
 | [gismo/gismo](https://github.com/gismo/gismo) | 已分析 | 2015-05-14 | G+Smo (pronounced gismo or gizmo) is a C++ library for isogeometric analysis (IGA). Geometry plus simulation modules aim |
@@ -73,6 +87,7 @@
 | [jyguyomarch/awesome-productivity](https://github.com/jyguyomarch/awesome-productivity) | 已分析 | 2015-07-07 | A curated list of delightful productivity resources. |
 | [OpenIntroStat/ims](https://github.com/OpenIntroStat/ims) | 已分析 | 2015-07-13 | 📚 Introduction to Modern Statistics - A college-level open-source textbook with a modern approach highlighting multivari |
 | [cyanfish/naps2](https://github.com/cyanfish/naps2) | 已分析 | 2015-07-19 | Scan documents to PDF and more, as simply as possible. |
+| [cneben/QuickQanava](https://github.com/cneben/QuickQanava) | 已分析 | 2015-07-19 | :link: C++17 network / graph visualization library - Qt6 / QML node editor. |
 | [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader) | 已分析 | 2015-07-21 | A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations  |
 | [hal9ai/awesome-dataviz](https://github.com/hal9ai/awesome-dataviz) | 已分析 | 2015-07-21 | A curated list of awesome data visualization libraries and resources. |
 | [matsim-org/matsim-libs](https://github.com/matsim-org/matsim-libs) | 已分析 | 2015-07-28 | Multi-Agent Transport Simulation |
@@ -87,18 +102,3 @@
 | [deck-of-cards/deck-of-cards](https://github.com/deck-of-cards/deck-of-cards) | 已分析 | 2015-09-02 | Deck of Cards (old version) |
 | [ontologyportal/sumo](https://github.com/ontologyportal/sumo) | 已分析 | 2015-09-06 | Suggested Upper Merged Ontology (SUMO) |
 | [sshahine/JFoenix](https://github.com/sshahine/JFoenix) | 已分析 | 2015-09-08 | JavaFX Material Design Library |
-| [jmathai/elodie](https://github.com/jmathai/elodie) | 已分析 | 2015-09-09 | An EXIF-based photo assistant, organizer  and workflow automation tool. |
-| [yymao/adstex](https://github.com/yymao/adstex) | 已分析 | 2015-09-13 | Automated generation of NASA ADS bibtex entries directly from citation keys in your TeX source files |
-| [DiseaseOntology/HumanDiseaseOntology](https://github.com/DiseaseOntology/HumanDiseaseOntology) | 已分析 | 2015-09-23 | Repository for the Human Disease Ontology. |
-| [openhpc/ohpc](https://github.com/openhpc/ohpc) | 已分析 | 2015-09-28 | OpenHPC Integration, Packaging, and Test Repo |
-| [danger/danger](https://github.com/danger/danger) | 已分析 | 2015-09-29 | 🚫 Stop saying "you forgot to …" in code review (in Ruby) |
-| [gprMax/gprMax](https://github.com/gprMax/gprMax) | 已分析 | 2015-09-30 | gprMax is open source software that simulates electromagnetic wave propagation using the Finite-Difference Time-Domain F |
-| [YarnSpinnerTool/YarnSpinner](https://github.com/YarnSpinnerTool/YarnSpinner) | 已分析 | 2015-10-03 | The core compiler and engine-agnostic components for Yarn Spinner, the friendly dialogue tool. |
-| [pdfarranger/pdfarranger](https://github.com/pdfarranger/pdfarranger) | 已分析 | 2015-10-21 | Small python-gtk application, which helps the user to merge or split PDF documents and rotate, crop and rearrange their  |
-| [JustArchiNET/ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) | 已分析 | 2015-10-25 | C# application with primary purpose of farming Steam cards from multiple accounts simultaneously. |
-| [cogciprocate/ocl](https://github.com/cogciprocate/ocl) | 已分析 | 2015-10-31 | OpenCL for Rust |
-| [d-zone-org/d-zone](https://github.com/d-zone-org/d-zone) | 已分析 | 2015-11-03 | An ambient life simulation driven by user activity within a Discord server |
-| [EpistasisLab/tpot](https://github.com/EpistasisLab/tpot) | 已分析 | 2015-11-03 | A Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming. |
-| [plotly/plotly.js](https://github.com/plotly/plotly.js) | 已分析 | 2015-11-05 | Open-source JavaScript charting library behind Plotly and Dash |
-| [ernestojimenezruiz/logmap-matcher](https://github.com/ernestojimenezruiz/logmap-matcher) | 已分析 | 2015-11-10 | LogMap: An Ontology Alignment and Alignment Repair System |
-| [dbrizov/Unity-WaterBuoyancy](https://github.com/dbrizov/Unity-WaterBuoyancy) | 已分析 | 2015-11-16 | Water Buoyancy Simulation for Unity |

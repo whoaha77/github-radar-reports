@@ -2,7 +2,11 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [vispy/vispy](https://github.com/vispy/vispy) | 已分析 | 2013-03-21 | Main repository for Vispy |
+| [lambdamusic/Ontospy](https://github.com/lambdamusic/Ontospy) | 已分析 | 2013-03-22 | Python library and command-line interface for inspecting and visualizing RDF models aka ontologies. |
+| [koreader/koreader](https://github.com/koreader/koreader) | 已分析 | 2013-03-24 | An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, P |
 | [apache/echarts](https://github.com/apache/echarts) | 已分析 | 2013-04-03 | Apache ECharts is a powerful, interactive charting and data visualization library for browser |
+| [JACoders/OpenJK](https://github.com/JACoders/OpenJK) | 已分析 | 2013-04-04 | Community effort to maintain and improve Jedi Academy (SP &amp; MP) + Jedi Outcast (SP only) released by Raven Software |
 | [fogleman/Craft](https://github.com/fogleman/Craft) | 已分析 | 2013-04-09 | A simple Minecraft clone written in C using modern OpenGL (shaders). |
 | [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) | 已分析 | 2013-04-14 | An open source, turn-based strategy game with a high fantasy theme. |
 | [rawgraphs/rawgraphs-app](https://github.com/rawgraphs/rawgraphs-app) | 已分析 | 2013-04-17 | A web interface to create custom vector-based visualizations on top of RAWGraphs core |
@@ -15,9 +19,11 @@
 | [opengaming/osgameclones](https://github.com/opengaming/osgameclones) | 已分析 | 2013-05-27 | Open Source Clones of Popular Games |
 | [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) | 已分析 | 2013-06-16 | A dead simple 2D game engine for Go |
 | [barryvdh/laravel-dompdf](https://github.com/barryvdh/laravel-dompdf) | 已分析 | 2013-06-23 | A DOMPDF Wrapper for Laravel |
+| [stepmania/stepmania](https://github.com/stepmania/stepmania) | 已分析 | 2013-06-24 | Advanced rhythm game for Windows, Linux and OS X. Designed for both home and arcade use. |
 | [root-project/root](https://github.com/root-project/root) | 已分析 | 2013-06-27 | The official repository for ROOT: analyzing, storing and visualizing big data, scientifically |
 | [su2code/SU2](https://github.com/su2code/SU2) | 已分析 | 2013-06-28 | SU2: An Open-Source Suite for Multiphysics Simulation and Design |
 | [ruby-numo/numo-narray](https://github.com/ruby-numo/numo-narray) | 已分析 | 2013-07-11 | Ruby/Numo::NArray - New NArray class library |
+| [jarikomppa/soloud](https://github.com/jarikomppa/soloud) | 已分析 | 2013-07-15 | Free, easy, portable audio engine for games |
 | [dgarijo/Widoco](https://github.com/dgarijo/Widoco) | 已分析 | 2013-07-15 | Wizard for documenting ontologies. WIDOCO is a step by step generator of HTML templates with the documentation of your o |
 | [tasks/tasks](https://github.com/tasks/tasks) | 已分析 | 2013-07-18 | Bringing Astrid Tasks back from the dead |
 | [PMEAL/OpenPNM](https://github.com/PMEAL/OpenPNM) | 已分析 | 2013-07-25 | A Python package for performing pore network modeling of porous media |
@@ -25,6 +31,7 @@
 | [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp) | 已分析 | 2013-08-08 | Xournal++ is a handwriting notetaking software with PDF annotation support. Written in C++ with GTK3, supporting Linux ( |
 | [GameServerManagers/LinuxGSM](https://github.com/GameServerManagers/LinuxGSM) | 已分析 | 2013-08-09 | The command-line tool for quick, simple deployment and management of Linux dedicated game servers. |
 | [lammps/lammps](https://github.com/lammps/lammps) | 已分析 | 2013-08-09 | Public development project of the LAMMPS MD software package   |
+| [pydy/pydy](https://github.com/pydy/pydy) | 已分析 | 2013-08-16 | Multibody dynamics tool kit. |
 | [CorsixTH/CorsixTH](https://github.com/CorsixTH/CorsixTH) | 已分析 | 2013-08-25 | Open source clone of Theme Hospital |
 | [Provenance-Emu/Provenance](https://github.com/Provenance-Emu/Provenance) | 已分析 | 2013-08-27 | iOS &amp; tvOS multi-emulator frontend, supporting various Atari, Bandai, NEC, Nintendo, Sega, SNK and Sony console systems… |
 | [projectchrono/chrono](https://github.com/projectchrono/chrono) | 已分析 | 2013-09-03 | High-performance C++ library for multiphysics and multibody dynamics simulations |
@@ -38,6 +45,7 @@
 | [ShareX/ShareX](https://github.com/ShareX/ShareX) | 已分析 | 2013-10-08 | ShareX is a free and open-source application that enables users to capture or record any area of their screen with a sin |
 | [ossia/score](https://github.com/ossia/score) | 已分析 | 2013-10-15 | ossia score, an interactive sequencer for the intermedia arts |
 | [hcfyapp/crx-selection-translate](https://github.com/hcfyapp/crx-selection-translate) | 已分析 | 2013-10-17 | 一站式划词 / 截图 / 网页全文 / 音视频 AI 翻译扩展。 |
+| [effekseer/Effekseer](https://github.com/effekseer/Effekseer) | 已分析 | 2013-10-19 |  |
 | [geneontology/go-site](https://github.com/geneontology/go-site) | 已分析 | 2013-10-24 | A collection of metadata, tools, and files associated with the Gene Ontology public web presence. |
 | [graememcc/micropolisJS](https://github.com/graememcc/micropolisJS) | 已分析 | 2013-10-27 | A port of Micropolis to JS/HTML5 |
 | [getredash/redash](https://github.com/getredash/redash) | 已分析 | 2013-10-28 | Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data. |
@@ -74,6 +82,7 @@
 | [sschmid/Entitas](https://github.com/sschmid/Entitas) | 已分析 | 2014-03-18 | Entitas is a super fast Entity Component System (ECS) Framework specifically made for C# and Unity |
 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 已分析 | 2014-04-01 | An open source re-implementation of RollerCoaster Tycoon 2 🎢 |
 | [NorthwoodsSoftware/GoJS](https://github.com/NorthwoodsSoftware/GoJS) | 已分析 | 2014-04-02 | JavaScript diagramming library for interactive flowcharts, org charts, design tools, planning tools, visual languages. |
+| [appium/java-client](https://github.com/appium/java-client) | 已分析 | 2014-04-04 | Java language binding for writing Appium Tests, conforms to W3C WebDriver Protocol |
 | [vcmi/vcmi](https://github.com/vcmi/vcmi) | 已分析 | 2014-04-06 | Open-source engine for Heroes of Might and Magic III |
 | [itamarst/eliot](https://github.com/itamarst/eliot) | 已分析 | 2014-04-09 | Eliot: the logging system that tells you *why* it happened |
 | [StackStorm/st2](https://github.com/StackStorm/st2) | 已分析 | 2014-04-23 | StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, incident responses, troubleshooting, d |
@@ -93,12 +102,3 @@
 | [E3SM-Project/E3SM](https://github.com/E3SM-Project/E3SM) | 已分析 | 2014-07-03 | Energy Exascale Earth System Model source code.  NOTE:  use "maint" branches for your work.  Head of master is not valid |
 | [chapel-lang/chapel](https://github.com/chapel-lang/chapel) | 已分析 | 2014-07-09 | a Productive Parallel Programming Language |
 | [dealii/dealii](https://github.com/dealii/dealii) | 已分析 | 2014-07-17 | The development repository for the deal.II finite element library |
-| [ppy/osu](https://github.com/ppy/osu) | 已分析 | 2014-07-31 | rhythm is just a *click* away! |
-| [00-Evan/shattered-pixel-dungeon](https://github.com/00-Evan/shattered-pixel-dungeon) | 已分析 | 2014-07-31 | Shattered Pixel Dungeon is an open-source traditional roguelike dungeon crawler with randomized levels and enemies, and  |
-| [rust-ndarray/ndarray](https://github.com/rust-ndarray/ndarray) | 已分析 | 2014-08-04 | ndarray: an N-dimensional array with array views, multidimensional slicing, and efficient operations |
-| [Triple-T/gradle-play-publisher](https://github.com/Triple-T/gradle-play-publisher) | 已分析 | 2014-08-07 | GPP is Android's unofficial release automation Gradle Plugin. It can do anything from building, uploading, and then prom |
-| [tecnickcom/TCPDF](https://github.com/tecnickcom/TCPDF) | 已分析 | 2014-08-08 | Deprecated: PHP PDF library, superseded by tc-lib-pdf (https://github.com/tecnickcom/tc-lib-pdf) |
-| [usnistgov/fipy](https://github.com/usnistgov/fipy) | 已分析 | 2014-08-25 | FiPy is a Finite Volume PDE solver written in Python |
-| [pdfminer/pdfminer.six](https://github.com/pdfminer/pdfminer.six) | 已分析 | 2014-08-29 | Community maintained fork of pdfminer - we fathom PDF |
-| [OpenXRay/xray-16](https://github.com/OpenXRay/xray-16) | 已分析 | 2014-09-05 | Improved version of the X-Ray Engine, the game engine used in the world-famous S.T.A.L.K.E.R. game series by GSC Game Wo |
-| [dhamaniasad/HeadlessBrowsers](https://github.com/dhamaniasad/HeadlessBrowsers) | 已分析 | 2014-09-12 | A list of (almost) all headless web browsers in existence |

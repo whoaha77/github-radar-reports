@@ -2,6 +2,22 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [jmathai/elodie](https://github.com/jmathai/elodie) | 已分析 | 2015-09-09 | An EXIF-based photo assistant, organizer  and workflow automation tool. |
+| [yymao/adstex](https://github.com/yymao/adstex) | 已分析 | 2015-09-13 | Automated generation of NASA ADS bibtex entries directly from citation keys in your TeX source files |
+| [DiseaseOntology/HumanDiseaseOntology](https://github.com/DiseaseOntology/HumanDiseaseOntology) | 已分析 | 2015-09-23 | Repository for the Human Disease Ontology. |
+| [openhpc/ohpc](https://github.com/openhpc/ohpc) | 已分析 | 2015-09-28 | OpenHPC Integration, Packaging, and Test Repo |
+| [danger/danger](https://github.com/danger/danger) | 已分析 | 2015-09-29 | 🚫 Stop saying "you forgot to …" in code review (in Ruby) |
+| [gprMax/gprMax](https://github.com/gprMax/gprMax) | 已分析 | 2015-09-30 | gprMax is open source software that simulates electromagnetic wave propagation using the Finite-Difference Time-Domain F |
+| [YarnSpinnerTool/YarnSpinner](https://github.com/YarnSpinnerTool/YarnSpinner) | 已分析 | 2015-10-03 | The core compiler and engine-agnostic components for Yarn Spinner, the friendly dialogue tool. |
+| [zz85/space-radar](https://github.com/zz85/space-radar) | 已分析 | 2015-10-17 | Fast Disk And Memory Space Visualization App for Mac, Windows and Ubuntu |
+| [pdfarranger/pdfarranger](https://github.com/pdfarranger/pdfarranger) | 已分析 | 2015-10-21 | Small python-gtk application, which helps the user to merge or split PDF documents and rotate, crop and rearrange their  |
+| [JustArchiNET/ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) | 已分析 | 2015-10-25 | C# application with primary purpose of farming Steam cards from multiple accounts simultaneously. |
+| [cogciprocate/ocl](https://github.com/cogciprocate/ocl) | 已分析 | 2015-10-31 | OpenCL for Rust |
+| [d-zone-org/d-zone](https://github.com/d-zone-org/d-zone) | 已分析 | 2015-11-03 | An ambient life simulation driven by user activity within a Discord server |
+| [EpistasisLab/tpot](https://github.com/EpistasisLab/tpot) | 已分析 | 2015-11-03 | A Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming. |
+| [plotly/plotly.js](https://github.com/plotly/plotly.js) | 已分析 | 2015-11-05 | Open-source JavaScript charting library behind Plotly and Dash |
+| [ernestojimenezruiz/logmap-matcher](https://github.com/ernestojimenezruiz/logmap-matcher) | 已分析 | 2015-11-10 | LogMap: An Ontology Alignment and Alignment Repair System |
+| [dbrizov/Unity-WaterBuoyancy](https://github.com/dbrizov/Unity-WaterBuoyancy) | 已分析 | 2015-11-16 | Water Buoyancy Simulation for Unity |
 | [trilinos/Trilinos](https://github.com/trilinos/Trilinos) | 已分析 | 2015-11-16 | Primary repository for the Trilinos Project |
 | [thomaspark/flexboxfroggy](https://github.com/thomaspark/flexboxfroggy) | 已分析 | 2015-11-24 | A game for learning CSS flexbox 🐸 |
 | [aliyun/aliyun-oss-csharp-sdk](https://github.com/aliyun/aliyun-oss-csharp-sdk) | 已分析 | 2015-11-27 | Aliyun OSS SDK for C# |
@@ -42,9 +58,13 @@
 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 已分析 | 2016-03-24 | ✨ The fundamental numerical library for JavaScript and TypeScript. ✨                    ⭐️ Star to support our work! |
 | [Juris-M/zotero-odf-scan-plugin](https://github.com/Juris-M/zotero-odf-scan-plugin) | 已分析 | 2016-03-26 | RTF/ODF-Scan for Zotero add-on |
 | [agronholm/apscheduler](https://github.com/agronholm/apscheduler) | 已分析 | 2016-03-27 | Task scheduling library for Python |
+| [ashfinal/awesome-hammerspoon](https://github.com/ashfinal/awesome-hammerspoon) | 已分析 | 2016-03-28 | awesome configuration for Hammerspoon. |
 | [acados/acados](https://github.com/acados/acados) | 已分析 | 2016-04-05 | Fast and embedded solvers for nonlinear optimal control and nonlinear model predictive control |
 | [neo4j-contrib/neovis.js](https://github.com/neo4j-contrib/neovis.js) | 已分析 | 2016-04-06 | Neo4j + vis.js = neovis.js. Graph visualizations in the browser with data from Neo4j. |
+| [Bithack/principia](https://github.com/Bithack/principia) | 已分析 | 2016-04-07 | Open source physics-based sandbox game with electronic circuitry, mechanics, robots, puzzles, Lua scripting and more. |
+| [Raathigesh/dazzle](https://github.com/Raathigesh/dazzle) | 已分析 | 2016-04-09 | :rocket: Dashboards made easy in React JS. |
 | [FlaUI/FlaUI](https://github.com/FlaUI/FlaUI) | 已分析 | 2016-04-13 | UI automation library for .Net |
+| [superunitybuild/buildtool](https://github.com/superunitybuild/buildtool) | 已分析 | 2016-04-14 | A powerful automation tool for quickly and easily generating builds with Unity. |
 | [jslee02/awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries) | 已分析 | 2016-04-16 | :sunglasses: A curated list of robotics libraries and software |
 | [geekofweek/homeassistant](https://github.com/geekofweek/homeassistant) | 已分析 | 2016-04-20 | Example Home Assistant Configs |
 | [sezna/nps](https://github.com/sezna/nps) | 已分析 | 2016-04-25 | NPM Package Scripts -- All the benefits of npm scripts without the cost of a bloated package.json and limits of json |
@@ -69,6 +89,7 @@
 | [aff3ct/aff3ct](https://github.com/aff3ct/aff3ct) | 已分析 | 2016-06-07 | Fast multi-thread FEC simulator &amp; library of efficient digital communication algorithms for SDR. |
 | [wix/Detox](https://github.com/wix/Detox) | 已分析 | 2016-06-15 | Gray box end-to-end testing and automation framework for mobile apps |
 | [synthetichealth/synthea](https://github.com/synthetichealth/synthea) | 已分析 | 2016-06-17 | Synthetic Patient Population Simulator |
+| [sdlpal/sdlpal](https://github.com/sdlpal/sdlpal) | 已分析 | 2016-06-19 | SDL-based reimplementation of the classic Chinese-language RPG known as PAL. |
 | [owlbarn/owl](https://github.com/owlbarn/owl) | 已分析 | 2016-06-20 | Owl - OCaml Scientific Computing @ https://ocaml.xyz |
 | [Geant4/geant4](https://github.com/Geant4/geant4) | 已分析 | 2016-06-21 | Geant4 toolkit for the simulation of the passage of particles through matter - NIM A 506 (2003) 250-303 |
 | [SmileiPIC/Smilei](https://github.com/SmileiPIC/Smilei) | 已分析 | 2016-06-23 | Particle-in-cell code for plasma simulation |
@@ -81,24 +102,3 @@
 | [LibrePDF/OpenPDF](https://github.com/LibrePDF/OpenPDF) | 已分析 | 2016-07-11 | OpenPDF is an open-source Java library for creating, editing, rendering, and encrypting PDF documents, as well as genera |
 | [USEPA/WNTR](https://github.com/USEPA/WNTR) | 已分析 | 2016-07-13 | An EPANET compatible python package to simulate and analyze water distribution networks under disaster scenarios. |
 | [LeanerCloud/AutoSpotting](https://github.com/LeanerCloud/AutoSpotting) | 已分析 | 2016-07-19 | Saves up to 90% of AWS EC2 costs by automating the use of spot instances on existing AutoScaling groups. Installs in min |
-| [PokemonGoF/PokemonGo-Bot](https://github.com/PokemonGoF/PokemonGo-Bot) | 已分析 | 2016-07-20 | The Pokemon Go Bot, baking with community. |
-| [JasonKessler/scattertext](https://github.com/JasonKessler/scattertext) | 已分析 | 2016-07-21 | Beautiful visualizations of how language differs among document types. |
-| [wojtekmaj/react-pdf](https://github.com/wojtekmaj/react-pdf) | 已分析 | 2016-08-01 | Display PDFs in your React app as easily as if they were images. |
-| [smuyyh/BookReader](https://github.com/smuyyh/BookReader) | 已分析 | 2016-08-03 | :closed_book:  "任阅" 网络小说阅读器，3D翻页效果、txt/pdf/epub书籍阅读、Wifi传书~ |
-| [wulkano/Kap](https://github.com/wulkano/Kap) | 已分析 | 2016-08-10 | An open-source screen recorder built with web technology |
-| [wrf-model/WRF](https://github.com/wrf-model/WRF) | 已分析 | 2016-08-16 | The official repository for the Weather Research and Forecasting (WRF) model |
-| [jarun/nnn](https://github.com/jarun/nnn) | 已分析 | 2016-08-20 | n³ The unorthodox terminal file manager |
-| [GGBRW/BOOLR](https://github.com/GGBRW/BOOLR) | 已分析 | 2016-08-21 | A digital logic simulator |
-| [bdash-app/bdash](https://github.com/bdash-app/bdash) | 已分析 | 2016-08-23 | Simple SQL Client for lightweight data analysis. |
-| [influxdata/chronograf](https://github.com/influxdata/chronograf) | 已分析 | 2016-08-24 | Open source monitoring and visualization UI for the TICK stack |
-| [hadyang/interview](https://github.com/hadyang/interview) | 已分析 | 2016-08-26 | Java 笔试、面试 知识整理 |
-| [apify/crawlee](https://github.com/apify/crawlee) | 已分析 | 2016-08-26 | Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScri |
-| [antvis/F2](https://github.com/antvis/F2) | 已分析 | 2016-08-29 | 📱📈An elegant, interactive and flexible charting library for mobile. |
-| [qax-os/excelize](https://github.com/qax-os/excelize) | 已分析 | 2016-08-29 | Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets |
-| [reorx/httpstat](https://github.com/reorx/httpstat) | 已分析 | 2016-08-30 | curl statistics made simple |
-| [ondrajz/go-callvis](https://github.com/ondrajz/go-callvis) | 已分析 | 2016-09-03 | Visualize call graph of a Go program using Graphviz |
-| [unrealcv/unrealcv](https://github.com/unrealcv/unrealcv) | 已分析 | 2016-09-08 | UnrealCV: Connecting Computer Vision to Unreal Engine |
-| [DiseaseOntology/SymptomOntology](https://github.com/DiseaseOntology/SymptomOntology) | 已分析 | 2016-09-09 | The symptom ontology was designed around the guiding concept of a symptom being: “A perceived change in function, sensat |
-| [reportportal/reportportal](https://github.com/reportportal/reportportal) | 已分析 | 2016-09-16 | Main Repository. ReportPortal starts here - see readme below. |
-| [ponzu-cms/ponzu](https://github.com/ponzu-cms/ponzu) | 已分析 | 2016-09-17 | Headless CMS with automatic JSON API. Featuring auto-HTTPS from Let's Encrypt, HTTP/2 Server Push, and flexible server f |
-| [tox-dev/tox](https://github.com/tox-dev/tox) | 已分析 | 2016-09-17 | Command line driven CI frontend and development task automation tool. |

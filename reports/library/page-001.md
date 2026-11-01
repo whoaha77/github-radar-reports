@@ -32,6 +32,7 @@
 | [mosra/magnum](https://github.com/mosra/magnum) | 已分析 | 2010-12-19 | Lightweight and modular C++11 graphics middleware for games and data visualization |
 | [libvips/libvips](https://github.com/libvips/libvips) | 已分析 | 2011-01-25 | A fast image processing library with low memory needs. |
 | [mne-tools/mne-python](https://github.com/mne-tools/mne-python) | 已分析 | 2011-01-28 | MNE: Magnetoencephalography (MEG) and Electroencephalography (EEG) in Python |
+| [OpenXcom/OpenXcom](https://github.com/OpenXcom/OpenXcom) | 已分析 | 2011-02-06 | Open-source clone of the original X-Com 👽 |
 | [mapeditor/tiled](https://github.com/mapeditor/tiled) | 已分析 | 2011-02-27 | Flexible level editor |
 | [MovingBlocks/Terasology](https://github.com/MovingBlocks/Terasology) | 已分析 | 2011-03-04 | Terasology - open source voxel world |
 | [scipy/scipy](https://github.com/scipy/scipy) | 已分析 | 2011-03-09 | SciPy library main repository |
@@ -67,6 +68,7 @@
 | [bokeh/bokeh](https://github.com/bokeh/bokeh) | 已分析 | 2012-03-26 | Interactive Data Visualization in the browser, from  Python |
 | [jrnl-org/jrnl](https://github.com/jrnl-org/jrnl) | 已分析 | 2012-03-29 | Collect your thoughts and notes without leaving the command line. |
 | [perfume-dev/example-openFrameworks](https://github.com/perfume-dev/example-openFrameworks) | 已分析 | 2012-03-30 | openFrameworks 0.12.1 examples from the 2012 Perfume Global Site Project, including BVH motion visualization. |
+| [magefree/mage](https://github.com/magefree/mage) | 已分析 | 2012-04-27 | XMage - Magic Another Game Engine |
 | [OpenChemistry/avogadrolibs](https://github.com/OpenChemistry/avogadrolibs) | 已分析 | 2012-04-28 | Avogadro libraries provide 3D rendering, visualization, analysis and data processing useful in computational chemistry,  |
 | [PHPOffice/PHPWord](https://github.com/PHPOffice/PHPWord) | 分析受阻 | 2012-05-06 | A pure PHP library for reading and writing word processing documents |
 | [errbotio/errbot](https://github.com/errbotio/errbot) | 已分析 | 2012-05-20 | Errbot is a chatbot, a daemon that connects to your favorite chat service and bring your tools and some fun into the con |
@@ -79,6 +81,7 @@
 | [libgdx/libgdx](https://github.com/libgdx/libgdx) | 已分析 | 2012-08-10 | Desktop/Android/HTML5/iOS Java game development framework |
 | [EasyEngine/easyengine](https://github.com/EasyEngine/easyengine) | 已分析 | 2012-08-14 | Command-line control panel for Nginx Server to manage WordPress sites running on Nginx, PHP, MySQL, and Let's Encrypt |
 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 已分析 | 2012-08-30 | The main repository for the development of the evolution game Thrive.  |
+| [jrnold/ggthemes](https://github.com/jrnold/ggthemes) | 已分析 | 2012-09-07 | Additional themes, scales, and geoms for ggplot2 |
 | [grobidOrg/grobid](https://github.com/grobidOrg/grobid) | 已分析 | 2012-09-13 | A machine learning software for extracting information from scholarly documents |
 | [libMesh/libmesh](https://github.com/libMesh/libmesh) | 已分析 | 2012-09-18 | libMesh github repository |
 | [CleverRaven/Cataclysm-DDA](https://github.com/CleverRaven/Cataclysm-DDA) | 已分析 | 2012-09-26 | Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world. |
@@ -99,6 +102,3 @@
 | [huginn/huginn](https://github.com/huginn/huginn) | 已分析 | 2013-03-10 | Create agents that monitor and act on your behalf.  Your agents are standing by! |
 | [tabulapdf/tabula](https://github.com/tabulapdf/tabula) | 已分析 | 2013-03-11 | Tabula is a tool for liberating data tables trapped inside PDF files |
 | [finmath/finmath-lib](https://github.com/finmath/finmath-lib) | 已分析 | 2013-03-17 | Mathematical Finance Library: Algorithms and methodologies related to mathematical finance. |
-| [vispy/vispy](https://github.com/vispy/vispy) | 已分析 | 2013-03-21 | Main repository for Vispy |
-| [lambdamusic/Ontospy](https://github.com/lambdamusic/Ontospy) | 已分析 | 2013-03-22 | Python library and command-line interface for inspecting and visualizing RDF models aka ontologies. |
-| [koreader/koreader](https://github.com/koreader/koreader) | 已分析 | 2013-03-24 | An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, P |

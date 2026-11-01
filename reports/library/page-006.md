@@ -2,6 +2,35 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [OWASP/Nettacker](https://github.com/OWASP/Nettacker) | 已分析 | 2017-04-21 | Automated Penetration Testing Framework - Open-Source Vulnerability Scanner - Vulnerability Management |
+| [PaulWaltersDev/FreeLearningResourcesForSoftwareTesters](https://github.com/PaulWaltersDev/FreeLearningResourcesForSoftwareTesters) | 已分析 | 2017-04-22 | A New Project to create a set of links to free Online Learning Resources for New and Experienced Software Testers. |
+| [mono0926/LicensePlist](https://github.com/mono0926/LicensePlist) | 已分析 | 2017-04-28 | A license list generator of all your dependencies for iOS applications |
+| [AMReX-Codes/amrex](https://github.com/AMReX-Codes/amrex) | 已分析 | 2017-04-28 | AMReX: Software Framework for Block Structured AMR |
+| [Anuken/Mindustry](https://github.com/Anuken/Mindustry) | 已分析 | 2017-04-30 | The automation tower defense RTS |
+| [rolyatmax/watercolor-canvas](https://github.com/rolyatmax/watercolor-canvas) | 已分析 | 2017-05-01 | Creating watercolor-style canvas art |
+| [saadq/resumake.io](https://github.com/saadq/resumake.io) | 已分析 | 2017-05-02 | 📝 A website for automatically generating elegant LaTeX resumes. |
+| [iandol/scrivomatic](https://github.com/iandol/scrivomatic) | 已分析 | 2017-05-04 | A writing workflow using Scrivener's style system + Pandoc for output… |
+| [heavyai/heavydb](https://github.com/heavyai/heavydb) | 已分析 | 2017-05-07 | HeavyDB (formerly MapD/OmniSciDB) |
+| [Nonchalant/AppIcon](https://github.com/Nonchalant/AppIcon) | 已分析 | 2017-05-09 | AppIcon generates *.appiconset contains each resolution image for iOS |
+| [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | 已分析 | 2017-05-09 | JavaScript API for Chrome and Firefox |
+| [ahundt/awesome-robotics](https://github.com/ahundt/awesome-robotics) | 已分析 | 2017-05-12 | A curated list of awesome links and software libraries that are useful for robots. |
+| [ansible/awx](https://github.com/ansible/awx) | 已分析 | 2017-05-17 | AWX provides a web-based user interface, REST API, and task engine built on top of Ansible. It is one of the upstream pr |
+| [space-wizards/space-station-14](https://github.com/space-wizards/space-station-14) | 已分析 | 2017-05-22 | A multiplayer game about paranoia and chaos on a space station. Remake of the cult-classic Space Station 13. |
+| [pypr/pysph](https://github.com/pypr/pysph) | 已分析 | 2017-05-25 | A framework for Smoothed Particle Hydrodynamics in Python |
+| [jonhoo/fantoccini](https://github.com/jonhoo/fantoccini) | 已分析 | 2017-05-28 | A high-level API for programmatically interacting with web pages through WebDriver. |
+| [pyvista/pyvista](https://github.com/pyvista/pyvista) | 已分析 | 2017-05-31 | 3D visualization and mesh analysis for science and engineering |
+| [FakeFishGames/Barotrauma](https://github.com/FakeFishGames/Barotrauma) | 已分析 | 2017-06-04 | A 2D online multiplayer game taking place in a submarine travelling through the icy depths of Jupiter's moon Europa. |
+| [EBISPOT/efo](https://github.com/EBISPOT/efo) | 已分析 | 2017-06-05 | The Experimental Factor Ontology (EFO) |
+| [linsa-io/books](https://github.com/linsa-io/books) | 已分析 | 2017-06-05 | Awesome Books |
+| [moroshko/rxviz](https://github.com/moroshko/rxviz) | 已分析 | 2017-06-07 | Rx Visualizer - Animated playground for Rx Observables |
+| [peterdalle/mediacommtools](https://github.com/peterdalle/mediacommtools) | 已分析 | 2017-06-09 | Tools/resources for journalism, media, communication, computational social science |
+| [linsa-io/alfred-workflows](https://github.com/linsa-io/alfred-workflows) | 已分析 | 2017-06-10 | Amazing Alfred Workflows |
+| [scilab/scilab](https://github.com/scilab/scilab) | 已分析 | 2017-06-12 | Read only copy of https://gitlab.com/scilab/scilab |
+| [lanpa/tensorboardX](https://github.com/lanpa/tensorboardX) | 已分析 | 2017-06-13 | tensorboard for pytorch (and chainer, mxnet, numpy, ...) |
+| [vibertthio/beact](https://github.com/vibertthio/beact) | 已分析 | 2017-06-18 | :guitar::art: DJ and VJ all by yourself in seconds ! |
+| [pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu) | 已分析 | 2017-06-18 | PDF tooling for Go and the command line. |
+| [NoiseByNorthwest/php-spx](https://github.com/NoiseByNorthwest/php-spx) | 已分析 | 2017-06-20 | A simple &amp; straight-to-the-point PHP profiling extension with its built-in web UI |
+| [Bogdan-Lyashenko/Under-the-hood-ReactJS](https://github.com/Bogdan-Lyashenko/Under-the-hood-ReactJS) | 已分析 | 2017-06-22 | Entire React code base explanation by visual block schemes (Stack version)  |
 | [ChampSim/ChampSim](https://github.com/ChampSim/ChampSim) | 已分析 | 2017-06-30 | ChampSim is an open-source trace based simulator maintained at Texas A&amp;M University and through the support of the compu |
 | [renode/renode](https://github.com/renode/renode) | 已分析 | 2017-06-30 | Renode - Antmicro's open source simulation and virtual development framework for complex embedded systems |
 | [lmcinnes/umap](https://github.com/lmcinnes/umap) | 已分析 | 2017-07-02 | Uniform Manifold Approximation and Projection |
@@ -65,40 +94,11 @@
 | [stc/face-tracking-p5js](https://github.com/stc/face-tracking-p5js) | 已分析 | 2017-11-20 | Using facetracking with p5js to create playful or critical web applications  |
 | [deepdrive/deepdrive](https://github.com/deepdrive/deepdrive) | 已分析 | 2017-11-21 | Deepdrive is a simulator that allows anyone with a PC to push the state-of-the-art in self-driving |
 | [yairm210/Unciv](https://github.com/yairm210/Unciv) | 已分析 | 2017-11-21 | Open-source Android/Desktop remake of Civ V |
+| [LuxCoreRender/LuxCore](https://github.com/LuxCoreRender/LuxCore) | 已分析 | 2017-11-22 | LuxCore source repository |
 | [JPCERTCC/LogonTracer](https://github.com/JPCERTCC/LogonTracer) | 已分析 | 2017-11-24 | Investigate malicious Windows logon by visualizing and analyzing Windows event log |
 | [DIYer22/boxx](https://github.com/DIYer22/boxx) | 已分析 | 2017-11-26 | Tool-box for efficient build and debug in Python. Especially for Scientific Computing and Computer Vision. |
+| [data-forge/data-forge-ts](https://github.com/data-forge/data-forge-ts) | 已分析 | 2017-11-27 | The JavaScript data transformation and analysis toolkit inspired by Pandas and LINQ. |
 | [thomasp85/patchwork](https://github.com/thomasp85/patchwork) | 已分析 | 2017-11-28 | The Composer of ggplots |
 | [biolink/biolink-model](https://github.com/biolink/biolink-model) | 已分析 | 2017-12-04 | Schema and generated objects for biolink data model and upper ontology |
 | [arvkevi/kneed](https://github.com/arvkevi/kneed) | 已分析 | 2017-12-11 | Knee point detection in Python :chart_with_upwards_trend: |
-| [kekingcn/kkFileView](https://github.com/kekingcn/kkFileView) | 已分析 | 2017-12-12 | Universal File Online Preview Project based on Spring-Boot |
-| [quantumlib/Cirq](https://github.com/quantumlib/Cirq) | 已分析 | 2017-12-14 | Python framework for creating, editing, and running Noisy Intermediate-Scale Quantum (NISQ) circuits. |
-| [JSBSim-Team/jsbsim](https://github.com/JSBSim-Team/jsbsim) | 已分析 | 2017-12-17 | An open source flight dynamics &amp; control software library |
-| [PaddlePaddle/VisualDL](https://github.com/PaddlePaddle/VisualDL) | 已分析 | 2017-12-20 | Deep Learning Visualization Toolkit（『飞桨』深度学习可视化工具 ） |
-| [jyrkioraskari/IFCtoLBD](https://github.com/jyrkioraskari/IFCtoLBD) | 已分析 | 2017-12-21 | IFCtoLBD converts IFC (Industry Foundation Classes STEP formatted files into the Linked Building Data ontologies. |
-| [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) | 已分析 | 2017-12-26 | Your One-Stop Publication Workbench |
-| [crazy-max/diun](https://github.com/crazy-max/diun) | 已分析 | 2017-12-30 | Receive notifications when an image is updated on a Docker registry |
-| [villares/sketch-a-day](https://github.com/villares/sketch-a-day) | 已分析 | 2018-01-02 | One visual idea a day |
-| [ScottPlot/ScottPlot](https://github.com/ScottPlot/ScottPlot) | 已分析 | 2018-01-04 | Interactive plotting library for .NET |
-| [OpenLoco/OpenLoco](https://github.com/OpenLoco/OpenLoco) | 已分析 | 2018-01-06 | An open source re-implementation of Chris Sawyer's Locomotion |
-| [spider-rs/spider](https://github.com/spider-rs/spider) | 已分析 | 2018-01-07 | Foundational low latency web data collecting in Rust |
-| [reHackable/awesome-reMarkable](https://github.com/reHackable/awesome-reMarkable) | 已分析 | 2018-01-19 | A curated list of projects related to the reMarkable tablet |
-| [deepcharles/ruptures](https://github.com/deepcharles/ruptures) | 已分析 | 2018-01-20 | ruptures: change point detection in Python |
-| [pdf2htmlEX/pdf2htmlEX](https://github.com/pdf2htmlEX/pdf2htmlEX) | 已分析 | 2018-01-22 | Convert PDF to HTML without losing text or format. |
-| [thi-ng/umbrella](https://github.com/thi-ng/umbrella) | 已分析 | 2018-01-24 | ⛱  Broadly scoped ecosystem &amp; mono-repository of 215 TypeScript projects (and ~185 examples) for general purpose, functi |
-| [AirtestProject/Poco](https://github.com/AirtestProject/Poco) | 已分析 | 2018-01-24 | A cross-engine test automation framework based on UI inspection |
-| [AirtestProject/Airtest](https://github.com/AirtestProject/Airtest) | 已分析 | 2018-01-24 | UI Automation Framework for Games and Apps |
-| [0xFA11/MultiplayerNetworkingResources](https://github.com/0xFA11/MultiplayerNetworkingResources) | 已分析 | 2018-01-24 | A curated list of Multiplayer Game Network Programming Resources |
-| [xoseperez/espurna](https://github.com/xoseperez/espurna) | 已分析 | 2018-01-24 | Home automation firmware for ESP8266-based devices |
-| [Splode/pomotroid](https://github.com/Splode/pomotroid) | 已分析 | 2018-01-26 | :tomato: Simple and visually-pleasing Pomodoro timer |
-| [NullArray/AutoSploit](https://github.com/NullArray/AutoSploit) | 已分析 | 2018-01-30 | Automated Mass Exploiter |
-| [runatlantis/atlantis](https://github.com/runatlantis/atlantis) | 已分析 | 2018-02-06 | Terraform Pull Request Automation |
-| [dpilger26/NumCpp](https://github.com/dpilger26/NumCpp) | 已分析 | 2018-02-07 | C++ implementation of the Python Numpy library |
-| [automagica/automagica](https://github.com/automagica/automagica) | 已分析 | 2018-02-08 | AI-powered Smart Robotic Process Automation 🤖 |
-| [BindsNET/bindsnet](https://github.com/BindsNET/bindsnet) | 已分析 | 2018-02-09 | Simulation of spiking neural networks (SNNs) using PyTorch. |
-| [brentvollebregt/auto-py-to-exe](https://github.com/brentvollebregt/auto-py-to-exe) | 已分析 | 2018-02-09 | Converts .py to .exe using a simple graphical interface  |
-| [cuinjune/Ofelia](https://github.com/cuinjune/Ofelia) | 已分析 | 2018-02-10 | A real-time cross-platform creative coding tool for multimedia development |
-| [WordOps/WordOps](https://github.com/WordOps/WordOps) | 已分析 | 2018-02-12 | Install and manage a high performance WordPress stack with a few keystrokes |
-| [InsightSoftwareConsortium/itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets) | 已分析 | 2018-02-15 | An elegant Python interface for visualization on the web platform to interactively generate insights into multidimension |
-| [owenmcateer/Motus-Art](https://github.com/owenmcateer/Motus-Art) | 已分析 | 2018-02-20 | My digital sketch book |
-| [openrndr/openrndr](https://github.com/openrndr/openrndr) | 已分析 | 2018-02-20 | OPENRNDR. A Kotlin/JVM library for creative coding, real-time and interactive graphics |
-| [ecomfe/echarts-for-weixin](https://github.com/ecomfe/echarts-for-weixin) | 分析受阻 | 2018-02-26 | 基于 Apache ECharts 的微信小程序图表库 |
+| [oemof/tespy](https://github.com/oemof/tespy) | 已分析 | 2017-12-11 | Thermal Engineering Systems in Python (TESPy). This package provides a powerful simulation toolkit for thermodynamic mod |

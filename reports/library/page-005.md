@@ -2,6 +2,28 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [PokemonGoF/PokemonGo-Bot](https://github.com/PokemonGoF/PokemonGo-Bot) | 已分析 | 2016-07-20 | The Pokemon Go Bot, baking with community. |
+| [JasonKessler/scattertext](https://github.com/JasonKessler/scattertext) | 已分析 | 2016-07-21 | Beautiful visualizations of how language differs among document types. |
+| [wojtekmaj/react-pdf](https://github.com/wojtekmaj/react-pdf) | 已分析 | 2016-08-01 | Display PDFs in your React app as easily as if they were images. |
+| [smuyyh/BookReader](https://github.com/smuyyh/BookReader) | 已分析 | 2016-08-03 | :closed_book:  "任阅" 网络小说阅读器，3D翻页效果、txt/pdf/epub书籍阅读、Wifi传书~ |
+| [natasha/natasha](https://github.com/natasha/natasha) | 已分析 | 2016-08-03 | Solves basic Russian NLP tasks, API for lower level Natasha projects |
+| [wulkano/Kap](https://github.com/wulkano/Kap) | 已分析 | 2016-08-10 | An open-source screen recorder built with web technology |
+| [wrf-model/WRF](https://github.com/wrf-model/WRF) | 已分析 | 2016-08-16 | The official repository for the Weather Research and Forecasting (WRF) model |
+| [jarun/nnn](https://github.com/jarun/nnn) | 已分析 | 2016-08-20 | n³ The unorthodox terminal file manager |
+| [GGBRW/BOOLR](https://github.com/GGBRW/BOOLR) | 已分析 | 2016-08-21 | A digital logic simulator |
+| [bdash-app/bdash](https://github.com/bdash-app/bdash) | 已分析 | 2016-08-23 | Simple SQL Client for lightweight data analysis. |
+| [influxdata/chronograf](https://github.com/influxdata/chronograf) | 已分析 | 2016-08-24 | Open source monitoring and visualization UI for the TICK stack |
+| [hadyang/interview](https://github.com/hadyang/interview) | 已分析 | 2016-08-26 | Java 笔试、面试 知识整理 |
+| [apify/crawlee](https://github.com/apify/crawlee) | 已分析 | 2016-08-26 | Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScri |
+| [antvis/F2](https://github.com/antvis/F2) | 已分析 | 2016-08-29 | 📱📈An elegant, interactive and flexible charting library for mobile. |
+| [qax-os/excelize](https://github.com/qax-os/excelize) | 已分析 | 2016-08-29 | Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets |
+| [reorx/httpstat](https://github.com/reorx/httpstat) | 已分析 | 2016-08-30 | curl statistics made simple |
+| [ondrajz/go-callvis](https://github.com/ondrajz/go-callvis) | 已分析 | 2016-09-03 | Visualize call graph of a Go program using Graphviz |
+| [unrealcv/unrealcv](https://github.com/unrealcv/unrealcv) | 已分析 | 2016-09-08 | UnrealCV: Connecting Computer Vision to Unreal Engine |
+| [DiseaseOntology/SymptomOntology](https://github.com/DiseaseOntology/SymptomOntology) | 已分析 | 2016-09-09 | The symptom ontology was designed around the guiding concept of a symptom being: “A perceived change in function, sensat |
+| [reportportal/reportportal](https://github.com/reportportal/reportportal) | 已分析 | 2016-09-16 | Main Repository. ReportPortal starts here - see readme below. |
+| [ponzu-cms/ponzu](https://github.com/ponzu-cms/ponzu) | 已分析 | 2016-09-17 | Headless CMS with automatic JSON API. Featuring auto-HTTPS from Let's Encrypt, HTTP/2 Server Push, and flexible server f |
+| [tox-dev/tox](https://github.com/tox-dev/tox) | 已分析 | 2016-09-17 | Command line driven CI frontend and development task automation tool. |
 | [penrose/penrose](https://github.com/penrose/penrose) | 已分析 | 2016-09-22 | Create beautiful diagrams just by typing notation in plain text. |
 | [go-vgo/robotgo](https://github.com/go-vgo/robotgo) | 已分析 | 2016-09-26 | RobotGo, Go Native cross-platform RPA, GUI automation, Auto test and Computer use  @vcaesar |
 | [InstaPy/InstaPy](https://github.com/InstaPy/InstaPy) | 分析受阻 | 2016-09-26 | 📷 Instagram Bot - Tool for automated Instagram interactions |
@@ -39,6 +61,7 @@
 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 已分析 | 2017-01-06 | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes |
 | [daleroberts/itermplot](https://github.com/daleroberts/itermplot) | 已分析 | 2017-01-11 | An awesome iTerm2 backend for Matplotlib, so you can plot directly in your terminal. |
 | [heroiclabs/nakama](https://github.com/heroiclabs/nakama) | 已分析 | 2017-01-13 | Scalable open-source game backend server: multiplayer, matchmaking, leaderboards, chat, and social features for games. |
+| [tawnkramer/sdsandbox](https://github.com/tawnkramer/sdsandbox) | 已分析 | 2017-01-14 | This provides a sandbox simulator for training a self-driving car. This uses Unity for simulation and Python with Keras  |
 | [dswah/pyGAM](https://github.com/dswah/pyGAM) | 已分析 | 2017-01-19 | [CONTRIBUTORS WELCOME] Generalized Additive Models in Python |
 | [eltonlaw/impyute](https://github.com/eltonlaw/impyute) | 已分析 | 2017-01-21 | Data imputations library to preprocess datasets with missing data |
 | [R-js/libRmath.js](https://github.com/R-js/libRmath.js) | 已分析 | 2017-01-21 | This R statistical nmath module re-created in typescript/javascript and handwritten webassembly. |
@@ -46,13 +69,17 @@
 | [arendst/Tasmota](https://github.com/arendst/Tasmota) | 已分析 | 2017-01-28 | Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation us |
 | [lmmentel/awesome-python-chemistry](https://github.com/lmmentel/awesome-python-chemistry) | 已分析 | 2017-01-30 | A curated list of Python packages related to chemistry  |
 | [jongallant/LiquidSimulator](https://github.com/jongallant/LiquidSimulator) | 已分析 | 2017-01-30 | Cellular Automaton 2D Liquid Simulator for Unity |
+| [pixielabs/cavy](https://github.com/pixielabs/cavy) | 已分析 | 2017-01-30 | An integration test framework for React Native. |
 | [salomonelli/best-resume-ever](https://github.com/salomonelli/best-resume-ever) | 已分析 | 2017-01-30 | :necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever! Made with Vu |
 | [reiinakano/scikit-plot](https://github.com/reiinakano/scikit-plot) | 已分析 | 2017-02-04 | An intuitive library to add plotting functionality to scikit-learn objects. |
+| [michelpereira/awesome-games-of-coding](https://github.com/michelpereira/awesome-games-of-coding) | 已分析 | 2017-02-04 | A curated list of games that can teach you how to learn a programming language. |
 | [KaiserY/trpl-zh-cn](https://github.com/KaiserY/trpl-zh-cn) | 已分析 | 2017-02-05 | Rust 程序设计语言（2024 edition 施工完毕） |
 | [SciML/Catalyst.jl](https://github.com/SciML/Catalyst.jl) | 已分析 | 2017-02-06 | Chemical reaction network and systems biology interface for scientific machine learning (SciML). High performance, GPU-p |
 | [karatelabs/karate](https://github.com/karatelabs/karate) | 已分析 | 2017-02-07 | Test Automation Made Simple |
+| [hrbrmstr/hrbrthemes](https://github.com/hrbrmstr/hrbrthemes) | 已分析 | 2017-02-11 | :lock_with_ink_pen: Opinionated, typographic-centric ggplot2 themes and theme components |
 | [antvis/G6](https://github.com/antvis/G6) | 已分析 | 2017-02-13 | ♾ A Graph Visualization Framework in JavaScript. |
 | [css-doodle/css-doodle](https://github.com/css-doodle/css-doodle) | 分析受阻 | 2017-02-14 | A web component for visual art and creative coding |
+| [InstaPy/instagram-profilecrawl](https://github.com/InstaPy/instagram-profilecrawl) | 已分析 | 2017-02-15 | 📝 quickly crawl the information (e.g. followers, tags etc...) of an instagram profile. |
 | [Wandmalfarbe/pandoc-latex-template](https://github.com/Wandmalfarbe/pandoc-latex-template) | 已分析 | 2017-02-20 | A pandoc LaTeX template to convert markdown files to PDF or LaTeX. |
 | [obi-ontology/obi](https://github.com/obi-ontology/obi) | 已分析 | 2017-02-27 | The Ontology for Biomedical Investigations |
 | [zcreativelabs/react-simple-maps](https://github.com/zcreativelabs/react-simple-maps) | 已分析 | 2017-03-03 | Composable SVG map charts for data visualization in React |
@@ -75,30 +102,3 @@
 | [atlas-engineer/nyxt](https://github.com/atlas-engineer/nyxt) | 已分析 | 2017-04-08 | Nyxt - the hacker's browser. |
 | [hobby-kube/guide](https://github.com/hobby-kube/guide) | 已分析 | 2017-04-18 |  Kubernetes clusters for the hobbyist. |
 | [yt-project/yt](https://github.com/yt-project/yt) | 已分析 | 2017-04-19 | Main yt repository |
-| [OWASP/Nettacker](https://github.com/OWASP/Nettacker) | 已分析 | 2017-04-21 | Automated Penetration Testing Framework - Open-Source Vulnerability Scanner - Vulnerability Management |
-| [mono0926/LicensePlist](https://github.com/mono0926/LicensePlist) | 已分析 | 2017-04-28 | A license list generator of all your dependencies for iOS applications |
-| [AMReX-Codes/amrex](https://github.com/AMReX-Codes/amrex) | 已分析 | 2017-04-28 | AMReX: Software Framework for Block Structured AMR |
-| [Anuken/Mindustry](https://github.com/Anuken/Mindustry) | 已分析 | 2017-04-30 | The automation tower defense RTS |
-| [rolyatmax/watercolor-canvas](https://github.com/rolyatmax/watercolor-canvas) | 已分析 | 2017-05-01 | Creating watercolor-style canvas art |
-| [saadq/resumake.io](https://github.com/saadq/resumake.io) | 已分析 | 2017-05-02 | 📝 A website for automatically generating elegant LaTeX resumes. |
-| [iandol/scrivomatic](https://github.com/iandol/scrivomatic) | 已分析 | 2017-05-04 | A writing workflow using Scrivener's style system + Pandoc for output… |
-| [heavyai/heavydb](https://github.com/heavyai/heavydb) | 已分析 | 2017-05-07 | HeavyDB (formerly MapD/OmniSciDB) |
-| [Nonchalant/AppIcon](https://github.com/Nonchalant/AppIcon) | 已分析 | 2017-05-09 | AppIcon generates *.appiconset contains each resolution image for iOS |
-| [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | 已分析 | 2017-05-09 | JavaScript API for Chrome and Firefox |
-| [ahundt/awesome-robotics](https://github.com/ahundt/awesome-robotics) | 已分析 | 2017-05-12 | A curated list of awesome links and software libraries that are useful for robots. |
-| [ansible/awx](https://github.com/ansible/awx) | 已分析 | 2017-05-17 | AWX provides a web-based user interface, REST API, and task engine built on top of Ansible. It is one of the upstream pr |
-| [space-wizards/space-station-14](https://github.com/space-wizards/space-station-14) | 已分析 | 2017-05-22 | A multiplayer game about paranoia and chaos on a space station. Remake of the cult-classic Space Station 13. |
-| [pypr/pysph](https://github.com/pypr/pysph) | 已分析 | 2017-05-25 | A framework for Smoothed Particle Hydrodynamics in Python |
-| [jonhoo/fantoccini](https://github.com/jonhoo/fantoccini) | 已分析 | 2017-05-28 | A high-level API for programmatically interacting with web pages through WebDriver. |
-| [pyvista/pyvista](https://github.com/pyvista/pyvista) | 已分析 | 2017-05-31 | 3D visualization and mesh analysis for science and engineering |
-| [EBISPOT/efo](https://github.com/EBISPOT/efo) | 已分析 | 2017-06-05 | The Experimental Factor Ontology (EFO) |
-| [linsa-io/books](https://github.com/linsa-io/books) | 已分析 | 2017-06-05 | Awesome Books |
-| [moroshko/rxviz](https://github.com/moroshko/rxviz) | 已分析 | 2017-06-07 | Rx Visualizer - Animated playground for Rx Observables |
-| [peterdalle/mediacommtools](https://github.com/peterdalle/mediacommtools) | 已分析 | 2017-06-09 | Tools/resources for journalism, media, communication, computational social science |
-| [linsa-io/alfred-workflows](https://github.com/linsa-io/alfred-workflows) | 已分析 | 2017-06-10 | Amazing Alfred Workflows |
-| [scilab/scilab](https://github.com/scilab/scilab) | 已分析 | 2017-06-12 | Read only copy of https://gitlab.com/scilab/scilab |
-| [lanpa/tensorboardX](https://github.com/lanpa/tensorboardX) | 已分析 | 2017-06-13 | tensorboard for pytorch (and chainer, mxnet, numpy, ...) |
-| [vibertthio/beact](https://github.com/vibertthio/beact) | 已分析 | 2017-06-18 | :guitar::art: DJ and VJ all by yourself in seconds ! |
-| [pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu) | 已分析 | 2017-06-18 | PDF tooling for Go and the command line. |
-| [NoiseByNorthwest/php-spx](https://github.com/NoiseByNorthwest/php-spx) | 已分析 | 2017-06-20 | A simple &amp; straight-to-the-point PHP profiling extension with its built-in web UI |
-| [Bogdan-Lyashenko/Under-the-hood-ReactJS](https://github.com/Bogdan-Lyashenko/Under-the-hood-ReactJS) | 已分析 | 2017-06-22 | Entire React code base explanation by visual block schemes (Stack version)  |
