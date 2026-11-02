@@ -2,6 +2,14 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [opensim-org/opensim-core](https://github.com/opensim-org/opensim-core) | 已分析 | 2014-06-12 | SimTK OpenSim C++ libraries and command-line applications, and Java/Python wrapping. |
+| [tpn/pdfs](https://github.com/tpn/pdfs) | 已分析 | 2014-06-16 | Technically-oriented PDF Collection (Papers, Specs, Decks, Manuals, etc) — browse &amp; search it at tpn.github.io/pdfs |
+| [muesli/beehive](https://github.com/muesli/beehive) | 已分析 | 2014-06-23 | A flexible event/agent &amp; automation system with lots of bees 🐝 |
+| [robotframework/robotframework](https://github.com/robotframework/robotframework) | 已分析 | 2014-06-27 | Generic automation framework for acceptance testing and RPA |
+| [4ian/GDevelop](https://github.com/4ian/GDevelop) | 已分析 | 2014-06-29 | 🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone. |
+| [E3SM-Project/E3SM](https://github.com/E3SM-Project/E3SM) | 已分析 | 2014-07-03 | Energy Exascale Earth System Model source code.  NOTE:  use "maint" branches for your work.  Head of master is not valid |
+| [chapel-lang/chapel](https://github.com/chapel-lang/chapel) | 已分析 | 2014-07-09 | a Productive Parallel Programming Language |
+| [dealii/dealii](https://github.com/dealii/dealii) | 已分析 | 2014-07-17 | The development repository for the deal.II finite element library |
 | [ppy/osu](https://github.com/ppy/osu) | 已分析 | 2014-07-31 | rhythm is just a *click* away! |
 | [00-Evan/shattered-pixel-dungeon](https://github.com/00-Evan/shattered-pixel-dungeon) | 已分析 | 2014-07-31 | Shattered Pixel Dungeon is an open-source traditional roguelike dungeon crawler with randomized levels and enemies, and  |
 | [rust-ndarray/ndarray](https://github.com/rust-ndarray/ndarray) | 已分析 | 2014-08-04 | ndarray: an N-dimensional array with array views, multidimensional slicing, and efficient operations |
@@ -10,6 +18,7 @@
 | [MRPT/mvsim](https://github.com/MRPT/mvsim) | 已分析 | 2014-08-10 | Vehicle and mobile robotics simulator. C++ &amp; Python API. Use it as a standalone application or via ROS 1 or ROS 2 |
 | [usnistgov/fipy](https://github.com/usnistgov/fipy) | 已分析 | 2014-08-25 | FiPy is a Finite Volume PDE solver written in Python |
 | [pdfminer/pdfminer.six](https://github.com/pdfminer/pdfminer.six) | 已分析 | 2014-08-29 | Community maintained fork of pdfminer - we fathom PDF |
+| [glumpy/glumpy](https://github.com/glumpy/glumpy) | 已分析 | 2014-08-31 | Python+Numpy+OpenGL: fast, scalable and beautiful scientific visualization |
 | [OpenXRay/xray-16](https://github.com/OpenXRay/xray-16) | 已分析 | 2014-09-05 | Improved version of the X-Ray Engine, the game engine used in the world-famous S.T.A.L.K.E.R. game series by GSC Game Wo |
 | [dhamaniasad/HeadlessBrowsers](https://github.com/dhamaniasad/HeadlessBrowsers) | 已分析 | 2014-09-12 | A list of (almost) all headless web browsers in existence |
 | [semantic-release/semantic-release](https://github.com/semantic-release/semantic-release) | 已分析 | 2014-09-15 | 📦🚀 Fully automated version management and package publishing |
@@ -19,12 +28,14 @@
 | [tio/tio](https://github.com/tio/tio) | 已分析 | 2014-09-27 | A serial device I/O tool |
 | [vaexio/vaex](https://github.com/vaexio/vaex) | 已分析 | 2014-09-27 | Out-of-Core hybrid Apache Arrow/NumPy DataFrame for Python, ML, visualization and exploration of big tabular data at a b |
 | [Hammerspoon/hammerspoon](https://github.com/Hammerspoon/hammerspoon) | 已分析 | 2014-10-08 | Staggeringly powerful macOS desktop automation with Lua |
+| [pravj/geopattern](https://github.com/pravj/geopattern) | 已分析 | 2014-10-22 | :triangular_ruler: Create beautiful generative image patterns from a string in golang. |
 | [cjcliffe/CubicSDR](https://github.com/cjcliffe/CubicSDR) | 已分析 | 2014-10-26 | Cross-Platform Software-Defined Radio Application |
 | [arrayfire/arrayfire](https://github.com/arrayfire/arrayfire) | 已分析 | 2014-10-28 | ArrayFire: a general purpose GPU library. |
 | [haifengl/smile](https://github.com/haifengl/smile) | 已分析 | 2014-11-20 | Statistical Machine Intelligence &amp; Learning Engine |
 | [vega/vega-lite](https://github.com/vega/vega-lite) | 已分析 | 2014-11-20 | A concise grammar of interactive graphics, built on Vega. |
 | [sylvainhalle/PaperShell](https://github.com/sylvainhalle/PaperShell) | 已分析 | 2014-11-20 | Nice and flexible template environment for papers written in LaTeX |
 | [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons) | 已分析 | 2014-11-22 | Adds file type icons to Vim plugins such as: NERDTree, vim-airline, CtrlP, unite, Denite, lightline, vim-startify and ma |
+| [swcarpentry/python-novice-inflammation](https://github.com/swcarpentry/python-novice-inflammation) | 已分析 | 2014-11-25 | Programming with Python |
 | [ICA-EGAD/RiC-O](https://github.com/ICA-EGAD/RiC-O) | 已分析 | 2014-11-26 | ICA Records in Contexts-Ontology (ICA RiC-O) GitHub repository web pages |
 | [haddocking/pdb-tools](https://github.com/haddocking/pdb-tools) | 已分析 | 2014-11-27 | A dependency-free cross-platform swiss army knife for PDB files. |
 | [gem5/gem5](https://github.com/gem5/gem5) | 已分析 | 2014-12-02 | The official repository for the gem5 computer-system architecture simulator. |
@@ -61,8 +72,10 @@
 | [TUDelft-CNS-ATM/bluesky](https://github.com/TUDelft-CNS-ATM/bluesky) | 已分析 | 2015-04-01 | The open source air traffic simulator |
 | [rlguy/GridFluidSim3D](https://github.com/rlguy/GridFluidSim3D) | 已分析 | 2015-04-07 | A PIC/FLIP fluid simulation based on the methods found in Robert Bridson's "Fluid Simulation for Computer Graphics" |
 | [plotly/dash](https://github.com/plotly/dash) | 已分析 | 2015-04-10 | Data Apps &amp; Dashboards for Python. No JavaScript Required. |
+| [schmich/marinara](https://github.com/schmich/marinara) | 已分析 | 2015-04-13 | Pomodoro® time management assistant for Chrome |
 | [apache/airflow](https://github.com/apache/airflow) | 已分析 | 2015-04-13 | Apache Airflow - A platform to programmatically author, schedule, and monitor workflows |
 | [obophenotype/bio-attribute-ontology](https://github.com/obophenotype/bio-attribute-ontology) | 已分析 | 2015-04-14 | source files for OBA (Ontology of Biological Attributes) |
+| [sourceryinstitute/OpenCoarrays](https://github.com/sourceryinstitute/OpenCoarrays) | 已分析 | 2015-04-21 | A parallel application binary interface for Fortran 2018 compilers.  |
 | [weaveworks/scope](https://github.com/weaveworks/scope) | 已分析 | 2015-04-27 | Monitoring, visualisation &amp; management for Docker &amp; Kubernetes |
 | [olistic/warriorjs](https://github.com/olistic/warriorjs) | 已分析 | 2015-04-29 | 🏰 An exciting game of programming and Artificial Intelligence |
 | [eralchemy/eralchemy](https://github.com/eralchemy/eralchemy) | 已分析 | 2015-04-29 | Entity Relation Diagrams generation tool |
@@ -83,22 +96,9 @@
 | [mukyasa/MMCamScanner](https://github.com/mukyasa/MMCamScanner) | 已分析 | 2015-06-16 | Simulation of CamScanner app With Custom Camera and Crop Rect Validation  |
 | [yinkaisheng/Python-UIAutomation-for-Windows](https://github.com/yinkaisheng/Python-UIAutomation-for-Windows) | 已分析 | 2015-06-23 | 🐍Python 3 wrapper of Microsoft UIAutomation. Support UIAutomation for MFC, WindowsForm, WPF, Modern UI(Metro UI), Qt, IE |
 | [nvdv/vprof](https://github.com/nvdv/vprof) | 已分析 | 2015-06-29 | Visual profiler for Python |
+| [OpenSpace/OpenSpace](https://github.com/OpenSpace/OpenSpace) | 已分析 | 2015-07-01 | This is the official GitHub repository for OpenSpace: an open source astrovisualization project. For instructions on how |
 | [hiloteam/Hilo](https://github.com/hiloteam/Hilo) | 已分析 | 2015-07-06 | A Cross-end HTML5 Game development solution |
 | [jyguyomarch/awesome-productivity](https://github.com/jyguyomarch/awesome-productivity) | 已分析 | 2015-07-07 | A curated list of delightful productivity resources. |
 | [OpenIntroStat/ims](https://github.com/OpenIntroStat/ims) | 已分析 | 2015-07-13 | 📚 Introduction to Modern Statistics - A college-level open-source textbook with a modern approach highlighting multivari |
 | [cyanfish/naps2](https://github.com/cyanfish/naps2) | 已分析 | 2015-07-19 | Scan documents to PDF and more, as simply as possible. |
 | [cneben/QuickQanava](https://github.com/cneben/QuickQanava) | 已分析 | 2015-07-19 | :link: C++17 network / graph visualization library - Qt6 / QML node editor. |
-| [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader) | 已分析 | 2015-07-21 | A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations  |
-| [hal9ai/awesome-dataviz](https://github.com/hal9ai/awesome-dataviz) | 已分析 | 2015-07-21 | A curated list of awesome data visualization libraries and resources. |
-| [matsim-org/matsim-libs](https://github.com/matsim-org/matsim-libs) | 已分析 | 2015-07-28 | Multi-Agent Transport Simulation |
-| [dkfans/keeperfx](https://github.com/dkfans/keeperfx) | 已分析 | 2015-08-17 | Open source remake and Fan Expansion of Dungeon Keeper. |
-| [davyxu/cellnet](https://github.com/davyxu/cellnet) | 已分析 | 2015-08-18 | High performance, simple, extensible golang open source network library |
-| [obophenotype/upheno](https://github.com/obophenotype/upheno) | 已分析 | 2015-08-19 | The Unified Phenotype Ontology (uPheno) integrates multiple phenotype ontologies into a unified cross-species phenotype  |
-| [Calinou/awesome-gamedev](https://github.com/Calinou/awesome-gamedev) | 已分析 | 2015-08-20 | A collection of free software and free culture resources for making amazing games. (mirror) |
-| [jsvine/pdfplumber](https://github.com/jsvine/pdfplumber) | 已分析 | 2015-08-24 | Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables. |
-| [guillaumeblanc/ozz-animation](https://github.com/guillaumeblanc/ozz-animation) | 已分析 | 2015-08-24 | Open source c++ skeletal animation library and toolset |
-| [JuliaPlots/Plots.jl](https://github.com/JuliaPlots/Plots.jl) | 分析受阻 | 2015-08-25 | Powerful convenience for Julia visualizations and data analysis |
-| [davepwsmith/zotpick-applescript](https://github.com/davepwsmith/zotpick-applescript) | 已分析 | 2015-09-02 | Leverage Better-BibTeX's citation picker in Scrivener |
-| [deck-of-cards/deck-of-cards](https://github.com/deck-of-cards/deck-of-cards) | 已分析 | 2015-09-02 | Deck of Cards (old version) |
-| [ontologyportal/sumo](https://github.com/ontologyportal/sumo) | 已分析 | 2015-09-06 | Suggested Upper Merged Ontology (SUMO) |
-| [sshahine/JFoenix](https://github.com/sshahine/JFoenix) | 已分析 | 2015-09-08 | JavaFX Material Design Library |

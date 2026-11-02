@@ -2,9 +2,25 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader) | 已分析 | 2015-07-21 | A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations  |
+| [hal9ai/awesome-dataviz](https://github.com/hal9ai/awesome-dataviz) | 已分析 | 2015-07-21 | A curated list of awesome data visualization libraries and resources. |
+| [matsim-org/matsim-libs](https://github.com/matsim-org/matsim-libs) | 已分析 | 2015-07-28 | Multi-Agent Transport Simulation |
+| [senseyeio/roger](https://github.com/senseyeio/roger) | 已分析 | 2015-08-10 | Golang RServe client. Use R from Go |
+| [dkfans/keeperfx](https://github.com/dkfans/keeperfx) | 已分析 | 2015-08-17 | Open source remake and Fan Expansion of Dungeon Keeper. |
+| [davyxu/cellnet](https://github.com/davyxu/cellnet) | 已分析 | 2015-08-18 | High performance, simple, extensible golang open source network library |
+| [obophenotype/upheno](https://github.com/obophenotype/upheno) | 已分析 | 2015-08-19 | The Unified Phenotype Ontology (uPheno) integrates multiple phenotype ontologies into a unified cross-species phenotype  |
+| [Calinou/awesome-gamedev](https://github.com/Calinou/awesome-gamedev) | 已分析 | 2015-08-20 | A collection of free software and free culture resources for making amazing games. (mirror) |
+| [jsvine/pdfplumber](https://github.com/jsvine/pdfplumber) | 已分析 | 2015-08-24 | Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables. |
+| [guillaumeblanc/ozz-animation](https://github.com/guillaumeblanc/ozz-animation) | 已分析 | 2015-08-24 | Open source c++ skeletal animation library and toolset |
+| [JuliaPlots/Plots.jl](https://github.com/JuliaPlots/Plots.jl) | 分析受阻 | 2015-08-25 | Powerful convenience for Julia visualizations and data analysis |
+| [davepwsmith/zotpick-applescript](https://github.com/davepwsmith/zotpick-applescript) | 已分析 | 2015-09-02 | Leverage Better-BibTeX's citation picker in Scrivener |
+| [deck-of-cards/deck-of-cards](https://github.com/deck-of-cards/deck-of-cards) | 已分析 | 2015-09-02 | Deck of Cards (old version) |
+| [ontologyportal/sumo](https://github.com/ontologyportal/sumo) | 已分析 | 2015-09-06 | Suggested Upper Merged Ontology (SUMO) |
+| [sshahine/JFoenix](https://github.com/sshahine/JFoenix) | 已分析 | 2015-09-08 | JavaFX Material Design Library |
 | [jmathai/elodie](https://github.com/jmathai/elodie) | 已分析 | 2015-09-09 | An EXIF-based photo assistant, organizer  and workflow automation tool. |
 | [yymao/adstex](https://github.com/yymao/adstex) | 已分析 | 2015-09-13 | Automated generation of NASA ADS bibtex entries directly from citation keys in your TeX source files |
 | [DiseaseOntology/HumanDiseaseOntology](https://github.com/DiseaseOntology/HumanDiseaseOntology) | 已分析 | 2015-09-23 | Repository for the Human Disease Ontology. |
+| [iTowns/itowns](https://github.com/iTowns/itowns) | 已分析 | 2015-09-24 | A Three.js-based framework written in Javascript/WebGL for visualizing 3D geospatial data |
 | [openhpc/ohpc](https://github.com/openhpc/ohpc) | 已分析 | 2015-09-28 | OpenHPC Integration, Packaging, and Test Repo |
 | [danger/danger](https://github.com/danger/danger) | 已分析 | 2015-09-29 | 🚫 Stop saying "you forgot to …" in code review (in Ruby) |
 | [gprMax/gprMax](https://github.com/gprMax/gprMax) | 已分析 | 2015-09-30 | gprMax is open source software that simulates electromagnetic wave propagation using the Finite-Difference Time-Domain F |
@@ -29,10 +45,12 @@
 | [evelinag/StarWars-social-network](https://github.com/evelinag/StarWars-social-network) | 已分析 | 2015-12-15 | The Star Wars social network |
 | [visgl/deck.gl](https://github.com/visgl/deck.gl) | 已分析 | 2015-12-15 | WebGL2 powered visualization framework |
 | [onlylemi/processing-android-capture](https://github.com/onlylemi/processing-android-capture) | 已分析 | 2015-12-17 | AndroidCapture For Processing |
+| [AppliedMechanics-EAFIT/SolidsPy](https://github.com/AppliedMechanics-EAFIT/SolidsPy) | 已分析 | 2015-12-19 | 2D-Finite Element Analysis with Python |
 | [nuttyartist/notes](https://github.com/nuttyartist/notes) | 已分析 | 2015-12-25 | Fast and beautiful note-taking app written in C++. Write down your thoughts. |
 | [jtablesaw/tablesaw](https://github.com/jtablesaw/tablesaw) | 已分析 | 2016-01-01 | Java dataframe and visualization library |
 | [Red5d/docker-autocompose](https://github.com/Red5d/docker-autocompose) | 已分析 | 2016-01-02 | Generate a docker-compose yaml definition from a running container |
 | [konvajs/react-konva](https://github.com/konvajs/react-konva) | 已分析 | 2016-01-03 | React components for the Konva 2d canvas library. Build interactive graphics, design editors, and whiteboards with JSX. |
+| [slowkow/ggrepel](https://github.com/slowkow/ggrepel) | 已分析 | 2016-01-03 | :round_pushpin: Repel overlapping text labels away from each other in your ggplot2 figures. |
 | [egeerardyn/awesome-LaTeX](https://github.com/egeerardyn/awesome-LaTeX) | 已分析 | 2016-01-06 | Curated list of LaTeX awesomeness |
 | [xwmx/nb](https://github.com/xwmx/nb) | 分析受阻 | 2016-01-12 | CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versi |
 | [TheMozg/awk-raycaster](https://github.com/TheMozg/awk-raycaster) | 已分析 | 2016-01-12 | Pseudo-3D shooter written completely in gawk using raycasting technique |
@@ -59,6 +77,7 @@
 | [Juris-M/zotero-odf-scan-plugin](https://github.com/Juris-M/zotero-odf-scan-plugin) | 已分析 | 2016-03-26 | RTF/ODF-Scan for Zotero add-on |
 | [agronholm/apscheduler](https://github.com/agronholm/apscheduler) | 已分析 | 2016-03-27 | Task scheduling library for Python |
 | [ashfinal/awesome-hammerspoon](https://github.com/ashfinal/awesome-hammerspoon) | 已分析 | 2016-03-28 | awesome configuration for Hammerspoon. |
+| [PatMartin/Dex](https://github.com/PatMartin/Dex) | 已分析 | 2016-03-29 | Dex : The Data Explorer -- A data visualization tool written in Java/Groovy/JavaFX capable of powerful ETL and publishin |
 | [acados/acados](https://github.com/acados/acados) | 已分析 | 2016-04-05 | Fast and embedded solvers for nonlinear optimal control and nonlinear model predictive control |
 | [neo4j-contrib/neovis.js](https://github.com/neo4j-contrib/neovis.js) | 已分析 | 2016-04-06 | Neo4j + vis.js = neovis.js. Graph visualizations in the browser with data from Neo4j. |
 | [Bithack/principia](https://github.com/Bithack/principia) | 已分析 | 2016-04-07 | Open source physics-based sandbox game with electronic circuitry, mechanics, robots, puzzles, Lua scripting and more. |
@@ -72,6 +91,7 @@
 | [PierfrancescoSoffritti/doodles](https://github.com/PierfrancescoSoffritti/doodles) | 已分析 | 2016-04-30 | Web Experiments I do for fun. |
 | [Magic-Unique/HXImage](https://github.com/Magic-Unique/HXImage) | 已分析 | 2016-05-02 | A automatically reference manager for icon image. |
 | [reactchartjs/react-chartjs-2](https://github.com/reactchartjs/react-chartjs-2) | 已分析 | 2016-05-06 | React components for Chart.js, the most popular charting library |
+| [sentinl/sentinl](https://github.com/sentinl/sentinl) | 已分析 | 2016-05-07 | Kibana Alert &amp; Report App for Elasticsearch |
 | [dhondta/rpl-attacks](https://github.com/dhondta/rpl-attacks) | 已分析 | 2016-05-08 | RPL attacks framework for simulating WSN with a malicious mote based on Contiki |
 | [cocopon/tweakpane](https://github.com/cocopon/tweakpane) | 已分析 | 2016-05-10 | :control_knobs: Compact GUI for fine-tuning parameters and monitoring value changes |
 | [algorithm-visualizer/algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer) | 已分析 | 2016-05-15 | :fireworks:Interactive Online Platform that Visualizes Algorithms from Code |
@@ -82,23 +102,3 @@
 | [NeverSinkDev/NeverSink-Filter](https://github.com/NeverSinkDev/NeverSink-Filter) | 已分析 | 2016-05-26 | This is a lootfilter for the game "Path of Exile". It hides low value items, uses a markup-scheme and sounds to highligh |
 | [mas-bandwidth/yojimbo](https://github.com/mas-bandwidth/yojimbo) | 分析受阻 | 2016-05-29 | A network library for client/server games written in C++ |
 | [sofa-framework/sofa](https://github.com/sofa-framework/sofa) | 已分析 | 2016-05-31 | Real-time multi-physics simulation with an emphasis on medical simulation. |
-| [hustcc/echarts-for-react](https://github.com/hustcc/echarts-for-react) | 已分析 | 2016-06-03 | ⛳️  Apache ECharts components for React wrapper. 一个简单的 Apache echarts 的 React 封装。 |
-| [projectstorm/react-diagrams](https://github.com/projectstorm/react-diagrams) | 已分析 | 2016-06-03 | a super simple, no-nonsense diagramming library written in react that just works |
-| [citybound/citybound](https://github.com/citybound/citybound) | 已分析 | 2016-06-04 | A work-in-progress, open-source, multi-player city simulation game. |
-| [RandyGaul/cute_headers](https://github.com/RandyGaul/cute_headers) | 已分析 | 2016-06-05 | Collection of cross-platform one-file C/C++ libraries with no dependencies, primarily used for games |
-| [aff3ct/aff3ct](https://github.com/aff3ct/aff3ct) | 已分析 | 2016-06-07 | Fast multi-thread FEC simulator &amp; library of efficient digital communication algorithms for SDR. |
-| [wix/Detox](https://github.com/wix/Detox) | 已分析 | 2016-06-15 | Gray box end-to-end testing and automation framework for mobile apps |
-| [synthetichealth/synthea](https://github.com/synthetichealth/synthea) | 已分析 | 2016-06-17 | Synthetic Patient Population Simulator |
-| [sdlpal/sdlpal](https://github.com/sdlpal/sdlpal) | 已分析 | 2016-06-19 | SDL-based reimplementation of the classic Chinese-language RPG known as PAL. |
-| [owlbarn/owl](https://github.com/owlbarn/owl) | 已分析 | 2016-06-20 | Owl - OCaml Scientific Computing @ https://ocaml.xyz |
-| [Geant4/geant4](https://github.com/Geant4/geant4) | 已分析 | 2016-06-21 | Geant4 toolkit for the simulation of the passage of particles through matter - NIM A 506 (2003) 250-303 |
-| [SmileiPIC/Smilei](https://github.com/SmileiPIC/Smilei) | 已分析 | 2016-06-23 | Particle-in-cell code for plasma simulation |
-| [crsh/citr](https://github.com/crsh/citr) | 已分析 | 2016-06-23 | RStudio Addin to Insert Markdown Citations from a BibTeX file or Zotero |
-| [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | 已分析 | 2016-06-26 | Complete Open Source and Modular solution for MMO |
-| [althonos/pronto](https://github.com/althonos/pronto) | 已分析 | 2016-07-01 | A Python frontend to (Open Biomedical) Ontologies. |
-| [ethereum/hive](https://github.com/ethereum/hive) | 已分析 | 2016-07-04 | Ethereum end-to-end test harness |
-| [you-dont-need/You-Dont-Need-JavaScript](https://github.com/you-dont-need/You-Dont-Need-JavaScript) | 已分析 | 2016-07-05 | CSS is powerful, you can do a lot of things without JS. |
-| [Facepunch/Facepunch.Steamworks](https://github.com/Facepunch/Facepunch.Steamworks) | 已分析 | 2016-07-06 | Another fucking c# Steamworks implementation |
-| [LibrePDF/OpenPDF](https://github.com/LibrePDF/OpenPDF) | 已分析 | 2016-07-11 | OpenPDF is an open-source Java library for creating, editing, rendering, and encrypting PDF documents, as well as genera |
-| [USEPA/WNTR](https://github.com/USEPA/WNTR) | 已分析 | 2016-07-13 | An EPANET compatible python package to simulate and analyze water distribution networks under disaster scenarios. |
-| [LeanerCloud/AutoSpotting](https://github.com/LeanerCloud/AutoSpotting) | 已分析 | 2016-07-19 | Saves up to 90% of AWS EC2 costs by automating the use of spot instances on existing AutoScaling groups. Installs in min |

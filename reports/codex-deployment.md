@@ -469,6 +469,16 @@
 
 **部署前核查：** 核查skills/academic-integrity-rewrite/SKILL.md与scripts/audit_revision.py，及examples用例
 
+### [Ruisi-Lu/academic-literature-mining-skill](projects/1305103103.md)
+
+**为什么值得：** 提供可复现的文献发现、校验、PDF存档与引用导出管线
+
+**重叠与增量（未核对安装清单）：** 与既有文献检索与PDF处理交叉，增量在DOI校验与Qdrant证据库
+
+**代价与风险：** Docker或Rust工具链；NVIDIA/OpenAlex Key；Windows Docker支持待核验；外部API费用与付费墙流程合规风险未验证
+
+**部署前核查：** 核查INSTALL.MD、compose文件与research-plan示例
+
 ### [getomni-ai/zerox](projects/831872524.md)
 
 **为什么值得：** 为Codex补充基于视觉模型的PDF/扫描件OCR与结构化字段抽取能力。
@@ -518,6 +528,16 @@
 **代价与风险：** Python 3.9+或发行包，需联系邮箱与可选API密钥，Windows有x64包；第三方站点抓取合规性与反爬触发风险，密钥安全需谨慎
 
 **部署前核查：** 核查SKILL.md安装流程、docs/RATE_LIMITS.md与.env.example
+
+### [HzaCode/OneCite](projects/1036400028.md)
+
+**为什么值得：** 补充可审计的标识符到BibTeX/CSL引用规范化能力
+
+**重叠与增量（未核对安装清单）：** 与已有文献检索、论文写作存在引用核验交叉，待核验增量
+
+**代价与风险：** 需Python 3.10+，运行时访问Crossref等外部服务；外部服务限流与误引用风险未验证
+
+**部署前核查：** 核查process/suggest分离实现与external_services文档
 
 ### [growgraph/ontocast](projects/958212587.md)
 

@@ -2,6 +2,34 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [antvis/G6](https://github.com/antvis/G6) | 已分析 | 2017-02-13 | ♾ A Graph Visualization Framework in JavaScript. |
+| [css-doodle/css-doodle](https://github.com/css-doodle/css-doodle) | 分析受阻 | 2017-02-14 | A web component for visual art and creative coding |
+| [InstaPy/instagram-profilecrawl](https://github.com/InstaPy/instagram-profilecrawl) | 已分析 | 2017-02-15 | 📝 quickly crawl the information (e.g. followers, tags etc...) of an instagram profile. |
+| [Wandmalfarbe/pandoc-latex-template](https://github.com/Wandmalfarbe/pandoc-latex-template) | 已分析 | 2017-02-20 | A pandoc LaTeX template to convert markdown files to PDF or LaTeX. |
+| [obi-ontology/obi](https://github.com/obi-ontology/obi) | 已分析 | 2017-02-27 | The Ontology for Biomedical Investigations |
+| [mfem/PyMFEM](https://github.com/mfem/PyMFEM) | 已分析 | 2017-03-01 | Python wrapper for MFEM |
+| [zcreativelabs/react-simple-maps](https://github.com/zcreativelabs/react-simple-maps) | 已分析 | 2017-03-03 | Composable SVG map charts for data visualization in React |
+| [mgechev/ngrev](https://github.com/mgechev/ngrev) | 已分析 | 2017-03-03 | Tool for reverse engineering of Angular applications |
+| [geocompx/geocompr](https://github.com/geocompx/geocompr) | 已分析 | 2017-03-07 | Geocomputation with R: an open source book |
+| [precise-simulation/featool-multiphysics](https://github.com/precise-simulation/featool-multiphysics) | 已分析 | 2017-03-12 | FEATool Multiphysics - "Physics Simulation Made Easy"   (Fully Integrated FEA, FEniCS, OpenFOAM, SU2 Solver GUI &amp; Engine |
+| [airbnb/visx](https://github.com/airbnb/visx) | 已分析 | 2017-03-15 | 🐯 visx \| visualization components |
+| [nteract/semiotic](https://github.com/nteract/semiotic) | 已分析 | 2017-03-16 | React data visualization library for streaming, networks, and AI-assisted development |
+| [AAChartModel/AAChartKit](https://github.com/AAChartModel/AAChartKit) | 已分析 | 2017-03-17 | 📈📊🚀🚀🚀An elegant modern declarative data visualization chart framework for iOS, iPadOS and macOS. Extremely powerful, sup |
+| [home-assistant/apps](https://github.com/home-assistant/apps) | 已分析 | 2017-03-18 | :heavy_plus_sign: Docker add-ons for Home Assistant |
+| [ohmybash/oh-my-bash](https://github.com/ohmybash/oh-my-bash) | 分析受阻 | 2017-03-19 | A delightful community-driven framework for managing your bash configuration, and an auto-update tool so that makes it e |
+| [brocode/fw](https://github.com/brocode/fw) | 已分析 | 2017-03-23 | workspace productivity booster |
+| [yimengfan/BDFramework.Core](https://github.com/yimengfan/BDFramework.Core) | 已分析 | 2017-03-23 | Simple and powerful Unity3d game workflow!  简单、高效、高度工业化的商业级unity3d 工作流。 |
+| [williamngan/pts](https://github.com/williamngan/pts) | 已分析 | 2017-03-24 | A library for visualization and creative-coding |
+| [gonum/gonum](https://github.com/gonum/gonum) | 已分析 | 2017-03-25 | Gonum is a set of numeric libraries for the Go programming language. It contains libraries for matrices, statistics, opt |
+| [noisefactorllc/noisemaker](https://github.com/noisefactorllc/noisemaker) | 已分析 | 2017-03-25 | A friendly and extendable shader art engine. |
+| [thomaspark/gridgarden](https://github.com/thomaspark/gridgarden) | 已分析 | 2017-03-29 | A game for learning CSS grid layout 🥕 |
+| [TileDB-Inc/TileDB](https://github.com/TileDB-Inc/TileDB) | 已分析 | 2017-03-31 | The Universal Storage Engine |
+| [jcelerier/qml-creative-controls](https://github.com/jcelerier/qml-creative-controls) | 已分析 | 2017-04-01 | QML controls for creative applications and creative coding |
+| [janishar/mit-deep-learning-book-pdf](https://github.com/janishar/mit-deep-learning-book-pdf) | 已分析 | 2017-04-07 | MIT Deep Learning Book in PDF format (complete and parts) by Ian Goodfellow, Yoshua Bengio and Aaron Courville |
+| [atlas-engineer/nyxt](https://github.com/atlas-engineer/nyxt) | 已分析 | 2017-04-08 | Nyxt - the hacker's browser. |
+| [hobby-kube/guide](https://github.com/hobby-kube/guide) | 已分析 | 2017-04-18 |  Kubernetes clusters for the hobbyist. |
+| [yt-project/yt](https://github.com/yt-project/yt) | 已分析 | 2017-04-19 | Main yt repository |
+| [scikit-garden/scikit-garden](https://github.com/scikit-garden/scikit-garden) | 已分析 | 2017-04-19 | A garden for scikit-learn compatible trees |
 | [OWASP/Nettacker](https://github.com/OWASP/Nettacker) | 已分析 | 2017-04-21 | Automated Penetration Testing Framework - Open-Source Vulnerability Scanner - Vulnerability Management |
 | [PaulWaltersDev/FreeLearningResourcesForSoftwareTesters](https://github.com/PaulWaltersDev/FreeLearningResourcesForSoftwareTesters) | 已分析 | 2017-04-22 | A New Project to create a set of links to free Online Learning Resources for New and Experienced Software Testers. |
 | [mono0926/LicensePlist](https://github.com/mono0926/LicensePlist) | 已分析 | 2017-04-28 | A license list generator of all your dependencies for iOS applications |
@@ -74,31 +102,3 @@
 | [MakieOrg/Makie.jl](https://github.com/MakieOrg/Makie.jl) | 已分析 | 2017-09-25 | Interactive data visualizations and plotting in Julia |
 | [alvarcarto/url-to-pdf-api](https://github.com/alvarcarto/url-to-pdf-api) | 已分析 | 2017-09-28 | Web page PDF/PNG rendering done right. Self-hosted service for rendering receipts, invoices, or any content. |
 | [monarch-initiative/MAxO](https://github.com/monarch-initiative/MAxO) | 已分析 | 2017-09-29 | Medical action ontology |
-| [hardkoded/puppeteer-sharp](https://github.com/hardkoded/puppeteer-sharp) | 已分析 | 2017-09-30 | Headless Chrome .NET API |
-| [llnl/sundials](https://github.com/llnl/sundials) | 已分析 | 2017-10-05 | Official development repository for SUNDIALS - a SUite of Nonlinear and DIfferential/ALgebraic equation Solvers. Pull re |
-| [laochiangx/Common.Utility](https://github.com/laochiangx/Common.Utility) | 已分析 | 2017-10-10 | Various helper class |
-| [IridiumIO/CompactGUI](https://github.com/IridiumIO/CompactGUI) | 已分析 | 2017-10-12 | Reduce the space taken up by games and programs on disk by using native Windows APIs |
-| [meetfranz/franz](https://github.com/meetfranz/franz) | 已分析 | 2017-10-13 | Franz is a free messaging app for services like WhatsApp, Slack, Messenger and many more. |
-| [softwareunderground/awesome-open-geoscience](https://github.com/softwareunderground/awesome-open-geoscience) | 已分析 | 2017-10-18 | Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome |
-| [grailbio/reflow](https://github.com/grailbio/reflow) | 已分析 | 2017-10-20 | A language and runtime for distributed, incremental data processing in the cloud |
-| [flame-engine/flame](https://github.com/flame-engine/flame) | 已分析 | 2017-10-22 | A Flutter based game engine. |
-| [ethibox/ethibox](https://github.com/ethibox/ethibox) | 已分析 | 2017-10-24 | Open-source web app hoster |
-| [getgauge/taiko](https://github.com/getgauge/taiko) | 已分析 | 2017-10-27 | A node.js library for testing modern web applications |
-| [dreamRs/esquisse](https://github.com/dreamRs/esquisse) | 已分析 | 2017-10-27 | RStudio add-in to make plots interactively with ggplot2 |
-| [eclipse-sumo/sumo](https://github.com/eclipse-sumo/sumo) | 已分析 | 2017-10-27 | Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handl |
-| [uber-common/metta](https://github.com/uber-common/metta) | 已分析 | 2017-11-01 | An information security preparedness tool to do adversarial simulation. |
-| [UglyToad/PdfPig](https://github.com/UglyToad/PdfPig) | 已分析 | 2017-11-09 | Read and extract text and other content from PDFs in C# (port of PDFBox) |
-| [marcomusy/vedo](https://github.com/marcomusy/vedo) | 已分析 | 2017-11-10 | A python module for scientific analysis of 3D data based on VTK and Numpy |
-| [vanrez-nez/awesome-glsl](https://github.com/vanrez-nez/awesome-glsl) | 已分析 | 2017-11-14 | :sparkler: Compilation of the best resources to learn programming OpenGL Shaders |
-| [vuesion/vuesion](https://github.com/vuesion/vuesion) | 已分析 | 2017-11-18 | The original open-source Vuesion 5: a Nuxt 3 boilerplate with design system, Storybook, Figma UI kit, authentication and |
-| [stc/face-tracking-p5js](https://github.com/stc/face-tracking-p5js) | 已分析 | 2017-11-20 | Using facetracking with p5js to create playful or critical web applications  |
-| [deepdrive/deepdrive](https://github.com/deepdrive/deepdrive) | 已分析 | 2017-11-21 | Deepdrive is a simulator that allows anyone with a PC to push the state-of-the-art in self-driving |
-| [yairm210/Unciv](https://github.com/yairm210/Unciv) | 已分析 | 2017-11-21 | Open-source Android/Desktop remake of Civ V |
-| [LuxCoreRender/LuxCore](https://github.com/LuxCoreRender/LuxCore) | 已分析 | 2017-11-22 | LuxCore source repository |
-| [JPCERTCC/LogonTracer](https://github.com/JPCERTCC/LogonTracer) | 已分析 | 2017-11-24 | Investigate malicious Windows logon by visualizing and analyzing Windows event log |
-| [DIYer22/boxx](https://github.com/DIYer22/boxx) | 已分析 | 2017-11-26 | Tool-box for efficient build and debug in Python. Especially for Scientific Computing and Computer Vision. |
-| [data-forge/data-forge-ts](https://github.com/data-forge/data-forge-ts) | 已分析 | 2017-11-27 | The JavaScript data transformation and analysis toolkit inspired by Pandas and LINQ. |
-| [thomasp85/patchwork](https://github.com/thomasp85/patchwork) | 已分析 | 2017-11-28 | The Composer of ggplots |
-| [biolink/biolink-model](https://github.com/biolink/biolink-model) | 已分析 | 2017-12-04 | Schema and generated objects for biolink data model and upper ontology |
-| [arvkevi/kneed](https://github.com/arvkevi/kneed) | 已分析 | 2017-12-11 | Knee point detection in Python :chart_with_upwards_trend: |
-| [oemof/tespy](https://github.com/oemof/tespy) | 已分析 | 2017-12-11 | Thermal Engineering Systems in Python (TESPy). This package provides a powerful simulation toolkit for thermodynamic mod |

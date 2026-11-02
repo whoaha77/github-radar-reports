@@ -37,6 +37,7 @@
 | [MovingBlocks/Terasology](https://github.com/MovingBlocks/Terasology) | 已分析 | 2011-03-04 | Terasology - open source voxel world |
 | [scipy/scipy](https://github.com/scipy/scipy) | 已分析 | 2011-03-09 | SciPy library main repository |
 | [Flexget/Flexget](https://github.com/Flexget/Flexget) | 已分析 | 2011-03-22 | The official FlexGet repository |
+| [espressomd/espresso](https://github.com/espressomd/espresso) | 已分析 | 2011-03-25 | The ESPResSo package |
 | [inducer/pyopencl](https://github.com/inducer/pyopencl) | 已分析 | 2011-04-06 | OpenCL integration for Python, plus shiny features |
 | [inducer/pycuda](https://github.com/inducer/pycuda) | 已分析 | 2011-04-06 | CUDA integration for Python, plus shiny features |
 | [pioneerspacesim/pioneer](https://github.com/pioneerspacesim/pioneer) | 已分析 | 2011-04-09 | A game of lonely space adventure |
@@ -49,6 +50,7 @@
 | [lucastheis/django-publications](https://github.com/lucastheis/django-publications) | 已分析 | 2011-08-12 | A Django app for managing scientific publications. |
 | [cytoscape/cytoscape.js](https://github.com/cytoscape/cytoscape.js) | 已分析 | 2011-08-23 | Graph theory (network) library for visualisation and analysis |
 | [webdriverio/webdriverio](https://github.com/webdriverio/webdriverio) | 已分析 | 2011-08-30 | Next-gen browser and mobile automation test framework for Node.js |
+| [jobovy/galpy](https://github.com/jobovy/galpy) | 已分析 | 2011-09-13 | Galactic Dynamics in python |
 | [asmuth/clip](https://github.com/asmuth/clip) | 已分析 | 2011-09-16 | Create charts from the command line |
 | [dartsim/dart](https://github.com/dartsim/dart) | 已分析 | 2011-09-19 | DART: Dynamic Animation and Robotics Toolkit |
 | [session-replay-tools/tcpcopy](https://github.com/session-replay-tools/tcpcopy) | 已分析 | 2011-10-14 | An online request replication and TCP stream replay tool, ideal for real testing, performance testing, stability testing |
@@ -72,6 +74,7 @@
 | [OpenChemistry/avogadrolibs](https://github.com/OpenChemistry/avogadrolibs) | 已分析 | 2012-04-28 | Avogadro libraries provide 3D rendering, visualization, analysis and data processing useful in computational chemistry,  |
 | [PHPOffice/PHPWord](https://github.com/PHPOffice/PHPWord) | 分析受阻 | 2012-05-06 | A pure PHP library for reading and writing word processing documents |
 | [errbotio/errbot](https://github.com/errbotio/errbot) | 已分析 | 2012-05-20 | Errbot is a chatbot, a daemon that connects to your favorite chat service and bring your tools and some fun into the con |
+| [feelpp/feelpp](https://github.com/feelpp/feelpp) | 已分析 | 2012-05-21 | :gem: Feel++: Finite Element Embedded Language and Library in C++ |
 | [ddemidov/vexcl](https://github.com/ddemidov/vexcl) | 已分析 | 2012-05-29 | VexCL is a C++ vector expression template library for OpenCL/CUDA/OpenMP |
 | [qpdf/qpdf](https://github.com/qpdf/qpdf) | 已分析 | 2012-06-03 | qpdf: A content-preserving PDF document transformer |
 | [dc-js/dc.js](https://github.com/dc-js/dc.js) | 已分析 | 2012-06-19 | Multi-Dimensional charting built to work natively with crossfilter rendered with d3.js |
@@ -99,6 +102,3 @@
 | [vega/vega](https://github.com/vega/vega) | 已分析 | 2013-02-03 | A visualization grammar. |
 | [biolab/orange3](https://github.com/biolab/orange3) | 已分析 | 2013-02-22 | 🍊 :bar_chart: :bulb: Orange: Interactive data analysis |
 | [processing/p5.js](https://github.com/processing/p5.js) | 已分析 | 2013-02-26 | p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express t |
-| [huginn/huginn](https://github.com/huginn/huginn) | 已分析 | 2013-03-10 | Create agents that monitor and act on your behalf.  Your agents are standing by! |
-| [tabulapdf/tabula](https://github.com/tabulapdf/tabula) | 已分析 | 2013-03-11 | Tabula is a tool for liberating data tables trapped inside PDF files |
-| [finmath/finmath-lib](https://github.com/finmath/finmath-lib) | 已分析 | 2013-03-17 | Mathematical Finance Library: Algorithms and methodologies related to mathematical finance. |

@@ -2,6 +2,9 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [huginn/huginn](https://github.com/huginn/huginn) | 已分析 | 2013-03-10 | Create agents that monitor and act on your behalf.  Your agents are standing by! |
+| [tabulapdf/tabula](https://github.com/tabulapdf/tabula) | 已分析 | 2013-03-11 | Tabula is a tool for liberating data tables trapped inside PDF files |
+| [finmath/finmath-lib](https://github.com/finmath/finmath-lib) | 已分析 | 2013-03-17 | Mathematical Finance Library: Algorithms and methodologies related to mathematical finance. |
 | [vispy/vispy](https://github.com/vispy/vispy) | 已分析 | 2013-03-21 | Main repository for Vispy |
 | [lambdamusic/Ontospy](https://github.com/lambdamusic/Ontospy) | 已分析 | 2013-03-22 | Python library and command-line interface for inspecting and visualizing RDF models aka ontologies. |
 | [koreader/koreader](https://github.com/koreader/koreader) | 已分析 | 2013-03-24 | An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, P |
@@ -17,6 +20,7 @@
 | [pissang/claygl](https://github.com/pissang/claygl) | 已分析 | 2013-05-21 | A WebGL graphic library for building scalable Web3D applications |
 | [DanielChappuis/reactphysics3d](https://github.com/DanielChappuis/reactphysics3d) | 已分析 | 2013-05-24 | Open source C++ physics engine library in 3D |
 | [opengaming/osgameclones](https://github.com/opengaming/osgameclones) | 已分析 | 2013-05-27 | Open Source Clones of Popular Games |
+| [aardappel/treesheets](https://github.com/aardappel/treesheets) | 已分析 | 2013-06-13 | Hierarchical spreadsheet: a free-form data organizer that replaces outliners, mind maps and spreadsheets. |
 | [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) | 已分析 | 2013-06-16 | A dead simple 2D game engine for Go |
 | [barryvdh/laravel-dompdf](https://github.com/barryvdh/laravel-dompdf) | 已分析 | 2013-06-23 | A DOMPDF Wrapper for Laravel |
 | [stepmania/stepmania](https://github.com/stepmania/stepmania) | 已分析 | 2013-06-24 | Advanced rhythm game for Windows, Linux and OS X. Designed for both home and arcade use. |
@@ -46,6 +50,7 @@
 | [ossia/score](https://github.com/ossia/score) | 已分析 | 2013-10-15 | ossia score, an interactive sequencer for the intermedia arts |
 | [hcfyapp/crx-selection-translate](https://github.com/hcfyapp/crx-selection-translate) | 已分析 | 2013-10-17 | 一站式划词 / 截图 / 网页全文 / 音视频 AI 翻译扩展。 |
 | [effekseer/Effekseer](https://github.com/effekseer/Effekseer) | 已分析 | 2013-10-19 |  |
+| [fulldecent/FDWaveformView](https://github.com/fulldecent/FDWaveformView) | 已分析 | 2013-10-19 | Reads an audio file and displays the waveform |
 | [geneontology/go-site](https://github.com/geneontology/go-site) | 已分析 | 2013-10-24 | A collection of metadata, tools, and files associated with the Gene Ontology public web presence. |
 | [graememcc/micropolisJS](https://github.com/graememcc/micropolisJS) | 已分析 | 2013-10-27 | A port of Micropolis to JS/HTML5 |
 | [getredash/redash](https://github.com/getredash/redash) | 已分析 | 2013-10-28 | Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data. |
@@ -67,6 +72,7 @@
 | [spack/spack](https://github.com/spack/spack) | 已分析 | 2014-01-08 | A flexible package manager that supports multiple versions, configurations, platforms, and compilers. |
 | [release-it/release-it](https://github.com/release-it/release-it) | 已分析 | 2014-01-15 | 🚀 Automate versioning and package publishing |
 | [JabRef/JabRef-Browser-Extension](https://github.com/JabRef/JabRef-Browser-Extension) | 已分析 | 2014-01-24 | Browser extension for JabRef to allow importing of new items directly from the browser. |
+| [jasonlong/geo_pattern](https://github.com/jasonlong/geo_pattern) | 已分析 | 2014-01-27 | Create beautiful generative geometric background images from a string. |
 | [thp/urlwatch](https://github.com/thp/urlwatch) | 已分析 | 2014-01-29 | Watch (parts of) webpages and get notified when something changes via e-mail, on your phone or via other means. Highly c |
 | [btmills/geopattern](https://github.com/btmills/geopattern) | 已分析 | 2014-01-29 | Generate beautiful SVG patterns |
 | [autokey/autokey](https://github.com/autokey/autokey) | 已分析 | 2014-01-31 | AutoKey, a desktop automation utility for Linux and X11. |
@@ -85,6 +91,7 @@
 | [appium/java-client](https://github.com/appium/java-client) | 已分析 | 2014-04-04 | Java language binding for writing Appium Tests, conforms to W3C WebDriver Protocol |
 | [vcmi/vcmi](https://github.com/vcmi/vcmi) | 已分析 | 2014-04-06 | Open-source engine for Heroes of Might and Magic III |
 | [itamarst/eliot](https://github.com/itamarst/eliot) | 已分析 | 2014-04-09 | Eliot: the logging system that tells you *why* it happened |
+| [justone/dockviz](https://github.com/justone/dockviz) | 已分析 | 2014-04-21 | Visualizing Docker data |
 | [StackStorm/st2](https://github.com/StackStorm/st2) | 已分析 | 2014-04-23 | StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, incident responses, troubleshooting, d |
 | [island-org/island](https://github.com/island-org/island) | 已分析 | 2014-04-24 | Lightweight and low-level creative coding toolkits in C. |
 | [VIDA-NYU/reprozip](https://github.com/VIDA-NYU/reprozip) | 已分析 | 2014-05-06 | ReproZip is a tool that simplifies the process of creating reproducible experiments from command-line executions, a freq |
@@ -94,11 +101,4 @@
 | [sbstjn/timesheet.js](https://github.com/sbstjn/timesheet.js) | 已分析 | 2014-05-25 | JavaScript library for HTML5 &amp; CSS3 time sheets |
 | [emptymalei/awesome-research](https://github.com/emptymalei/awesome-research) | 已分析 | 2014-05-26 | :seedling: a curated list of tools to help you with your research/life; I built a front end around this repo, please use |
 | [inducer/loopy](https://github.com/inducer/loopy) | 已分析 | 2014-05-29 | A code generator for array-based code on CPUs and GPUs |
-| [opensim-org/opensim-core](https://github.com/opensim-org/opensim-core) | 已分析 | 2014-06-12 | SimTK OpenSim C++ libraries and command-line applications, and Java/Python wrapping. |
-| [tpn/pdfs](https://github.com/tpn/pdfs) | 已分析 | 2014-06-16 | Technically-oriented PDF Collection (Papers, Specs, Decks, Manuals, etc) — browse &amp; search it at tpn.github.io/pdfs |
-| [muesli/beehive](https://github.com/muesli/beehive) | 已分析 | 2014-06-23 | A flexible event/agent &amp; automation system with lots of bees 🐝 |
-| [robotframework/robotframework](https://github.com/robotframework/robotframework) | 已分析 | 2014-06-27 | Generic automation framework for acceptance testing and RPA |
-| [4ian/GDevelop](https://github.com/4ian/GDevelop) | 已分析 | 2014-06-29 | 🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone. |
-| [E3SM-Project/E3SM](https://github.com/E3SM-Project/E3SM) | 已分析 | 2014-07-03 | Energy Exascale Earth System Model source code.  NOTE:  use "maint" branches for your work.  Head of master is not valid |
-| [chapel-lang/chapel](https://github.com/chapel-lang/chapel) | 已分析 | 2014-07-09 | a Productive Parallel Programming Language |
-| [dealii/dealii](https://github.com/dealii/dealii) | 已分析 | 2014-07-17 | The development repository for the deal.II finite element library |
+| [YuLab-SMU/clusterProfiler](https://github.com/YuLab-SMU/clusterProfiler) | 已分析 | 2014-05-31 | :bar_chart: A universal enrichment tool for interpreting omics data |

@@ -2,6 +2,35 @@
 
 | 项目 | 状态 | 创建时间 | 简介 |
 | --- | --- | --- | --- |
+| [hardkoded/puppeteer-sharp](https://github.com/hardkoded/puppeteer-sharp) | 已分析 | 2017-09-30 | Headless Chrome .NET API |
+| [llnl/sundials](https://github.com/llnl/sundials) | 已分析 | 2017-10-05 | Official development repository for SUNDIALS - a SUite of Nonlinear and DIfferential/ALgebraic equation Solvers. Pull re |
+| [laochiangx/Common.Utility](https://github.com/laochiangx/Common.Utility) | 已分析 | 2017-10-10 | Various helper class |
+| [IridiumIO/CompactGUI](https://github.com/IridiumIO/CompactGUI) | 已分析 | 2017-10-12 | Reduce the space taken up by games and programs on disk by using native Windows APIs |
+| [meetfranz/franz](https://github.com/meetfranz/franz) | 已分析 | 2017-10-13 | Franz is a free messaging app for services like WhatsApp, Slack, Messenger and many more. |
+| [softwareunderground/awesome-open-geoscience](https://github.com/softwareunderground/awesome-open-geoscience) | 已分析 | 2017-10-18 | Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome |
+| [grailbio/reflow](https://github.com/grailbio/reflow) | 已分析 | 2017-10-20 | A language and runtime for distributed, incremental data processing in the cloud |
+| [flame-engine/flame](https://github.com/flame-engine/flame) | 已分析 | 2017-10-22 | A Flutter based game engine. |
+| [ethibox/ethibox](https://github.com/ethibox/ethibox) | 已分析 | 2017-10-24 | Open-source web app hoster |
+| [getgauge/taiko](https://github.com/getgauge/taiko) | 已分析 | 2017-10-27 | A node.js library for testing modern web applications |
+| [dreamRs/esquisse](https://github.com/dreamRs/esquisse) | 已分析 | 2017-10-27 | RStudio add-in to make plots interactively with ggplot2 |
+| [eclipse-sumo/sumo](https://github.com/eclipse-sumo/sumo) | 已分析 | 2017-10-27 | Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handl |
+| [uber-common/metta](https://github.com/uber-common/metta) | 已分析 | 2017-11-01 | An information security preparedness tool to do adversarial simulation. |
+| [UglyToad/PdfPig](https://github.com/UglyToad/PdfPig) | 已分析 | 2017-11-09 | Read and extract text and other content from PDFs in C# (port of PDFBox) |
+| [marcomusy/vedo](https://github.com/marcomusy/vedo) | 已分析 | 2017-11-10 | A python module for scientific analysis of 3D data based on VTK and Numpy |
+| [vanrez-nez/awesome-glsl](https://github.com/vanrez-nez/awesome-glsl) | 已分析 | 2017-11-14 | :sparkler: Compilation of the best resources to learn programming OpenGL Shaders |
+| [bradleyjkemp/memviz](https://github.com/bradleyjkemp/memviz) | 已分析 | 2017-11-17 | Visualize your Go data structures using graphviz |
+| [vuesion/vuesion](https://github.com/vuesion/vuesion) | 已分析 | 2017-11-18 | The original open-source Vuesion 5: a Nuxt 3 boilerplate with design system, Storybook, Figma UI kit, authentication and |
+| [stc/face-tracking-p5js](https://github.com/stc/face-tracking-p5js) | 已分析 | 2017-11-20 | Using facetracking with p5js to create playful or critical web applications  |
+| [deepdrive/deepdrive](https://github.com/deepdrive/deepdrive) | 已分析 | 2017-11-21 | Deepdrive is a simulator that allows anyone with a PC to push the state-of-the-art in self-driving |
+| [yairm210/Unciv](https://github.com/yairm210/Unciv) | 已分析 | 2017-11-21 | Open-source Android/Desktop remake of Civ V |
+| [LuxCoreRender/LuxCore](https://github.com/LuxCoreRender/LuxCore) | 已分析 | 2017-11-22 | LuxCore source repository |
+| [JPCERTCC/LogonTracer](https://github.com/JPCERTCC/LogonTracer) | 已分析 | 2017-11-24 | Investigate malicious Windows logon by visualizing and analyzing Windows event log |
+| [DIYer22/boxx](https://github.com/DIYer22/boxx) | 已分析 | 2017-11-26 | Tool-box for efficient build and debug in Python. Especially for Scientific Computing and Computer Vision. |
+| [data-forge/data-forge-ts](https://github.com/data-forge/data-forge-ts) | 已分析 | 2017-11-27 | The JavaScript data transformation and analysis toolkit inspired by Pandas and LINQ. |
+| [thomasp85/patchwork](https://github.com/thomasp85/patchwork) | 已分析 | 2017-11-28 | The Composer of ggplots |
+| [biolink/biolink-model](https://github.com/biolink/biolink-model) | 已分析 | 2017-12-04 | Schema and generated objects for biolink data model and upper ontology |
+| [arvkevi/kneed](https://github.com/arvkevi/kneed) | 已分析 | 2017-12-11 | Knee point detection in Python :chart_with_upwards_trend: |
+| [oemof/tespy](https://github.com/oemof/tespy) | 已分析 | 2017-12-11 | Thermal Engineering Systems in Python (TESPy). This package provides a powerful simulation toolkit for thermodynamic mod |
 | [kekingcn/kkFileView](https://github.com/kekingcn/kkFileView) | 已分析 | 2017-12-12 | Universal File Online Preview Project based on Spring-Boot |
 | [quantumlib/Cirq](https://github.com/quantumlib/Cirq) | 已分析 | 2017-12-14 | Python framework for creating, editing, and running Noisy Intermediate-Scale Quantum (NISQ) circuits. |
 | [JSBSim-Team/jsbsim](https://github.com/JSBSim-Team/jsbsim) | 已分析 | 2017-12-17 | An open source flight dynamics &amp; control software library |
@@ -55,9 +84,11 @@
 | [valpackett/awesome-gtk](https://github.com/valpackett/awesome-gtk) | 已分析 | 2018-03-24 | List of awesome GTK (3/4) applications |
 | [diasurgical/devilution](https://github.com/diasurgical/devilution) | 已分析 | 2018-04-02 | Diablo devolved - magic behind the 1996 computer game |
 | [plibither8/2048.cpp](https://github.com/plibither8/2048.cpp) | 已分析 | 2018-04-02 | 🎮 Fully featured terminal version of the game "2048" written in C++ |
+| [gnudatalanguage/gdl](https://github.com/gnudatalanguage/gdl) | 已分析 | 2018-04-04 | GDL - GNU Data Language |
 | [rust-ml/linfa](https://github.com/rust-ml/linfa) | 已分析 | 2018-04-05 | A Rust machine learning framework. |
 | [OpenTTD/OpenTTD](https://github.com/OpenTTD/OpenTTD) | 已分析 | 2018-04-06 | OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe |
 | [autopilot-rs/autopilot-rs](https://github.com/autopilot-rs/autopilot-rs) | 已分析 | 2018-04-10 | A simple, cross-platform GUI automation module for Rust. |
+| [antvis/wx-f2](https://github.com/antvis/wx-f2) | 已分析 | 2018-04-12 | F2 的微信小程序 |
 | [aravindr93/mjrl](https://github.com/aravindr93/mjrl) | 已分析 | 2018-04-12 | Reinforcement learning algorithms for MuJoCo tasks |
 | [tuist/tuist](https://github.com/tuist/tuist) | 已分析 | 2018-04-16 | Your platform team, as a service |
 | [autopilot-rs/autopy](https://github.com/autopilot-rs/autopy) | 已分析 | 2018-04-20 |  A simple, cross-platform GUI automation module for Python and Rust. |
@@ -71,34 +102,3 @@
 | [firesim/firesim](https://github.com/firesim/firesim) | 已分析 | 2018-05-13 | FireSim: Fast and Effortless FPGA-accelerated Hardware Simulation with On-Prem and Cloud Flexibility |
 | [berstend/puppeteer-extra](https://github.com/berstend/puppeteer-extra) | 已分析 | 2018-05-15 | 💯  Teach puppeteer new tricks through plugins. |
 | [mgramin/awesome-db-tools](https://github.com/mgramin/awesome-db-tools) | 已分析 | 2018-05-18 | Everything that makes working with databases easier |
-| [ultralytics/functions-matlab](https://github.com/ultralytics/functions-matlab) | 已分析 | 2018-05-18 | Shared MATLAB utility functions for Ultralytics scientific computing, machine learning, data analysis, geometry, visuali |
-| [waleedka/hiddenlayer](https://github.com/waleedka/hiddenlayer) | 已分析 | 2018-05-18 | Neural network graphs and training metrics for PyTorch, Tensorflow, and Keras. |
-| [d3cod3/Mosaic](https://github.com/d3cod3/Mosaic) | 已分析 | 2018-05-25 | Mosaic, an openFrameworks/ImGui based Visual Patching Creative-Coding Platform |
-| [veloren/veloren](https://github.com/veloren/veloren) | 已分析 | 2018-05-29 | [mirror of https://gitlab.com/veloren/veloren] An open world, open source voxel RPG inspired by Dwarf Fortress and Cube  |
-| [AlterWL/Battery_SOC_Estimation](https://github.com/AlterWL/Battery_SOC_Estimation) | 已分析 | 2018-05-30 | Battery state of charge estimation using kalman filter in Matlab |
-| [saucepleez/taskt](https://github.com/saucepleez/taskt) | 已分析 | 2018-06-03 | taskt (pronounced 'tasked' and formely sharpRPA) is free and open-source robotic process automation (rpa) built in C# po |
-| [a-b-street/abstreet](https://github.com/a-b-street/abstreet) | 已分析 | 2018-06-04 | Transportation planning and traffic simulation software for creating cities friendlier to walking, biking, and public tr |
-| [OpenEnergyPlatform/ontology](https://github.com/OpenEnergyPlatform/ontology) | 已分析 | 2018-06-06 | Repository for the Open Energy Ontology (OEO) |
-| [pavlin-policar/openTSNE](https://github.com/pavlin-policar/openTSNE) | 已分析 | 2018-06-08 | Extensible, parallel implementations of t-SNE |
-| [CharlesPikachu/Games](https://github.com/CharlesPikachu/Games) | 已分析 | 2018-06-13 | Games: Create interesting games in pure python. |
-| [Jannchie/Historical-ranking-data-visualization-based-on-d3.js](https://github.com/Jannchie/Historical-ranking-data-visualization-based-on-d3.js) | 已分析 | 2018-06-14 | [Deprecated!] This is a data visualization project that converts historical data rankings into dynamic bar charts. |
-| [d3cod3/ofxVisualProgramming](https://github.com/d3cod3/ofxVisualProgramming) | 已分析 | 2018-06-18 | A visual programming patching environment for OF |
-| [sottlmarek/DevSecOps](https://github.com/sottlmarek/DevSecOps) | 已分析 | 2018-06-27 | Ultimate DevSecOps library |
-| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | 已分析 | 2018-06-29 | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
-| [erikbrinkman/d3-dag](https://github.com/erikbrinkman/d3-dag) | 已分析 | 2018-07-06 | Layout algorithms for visualizing directed acyclic graphs |
-| [vikashplus/robohive](https://github.com/vikashplus/robohive) | 已分析 | 2018-07-06 | A unified framework for robot learning |
-| [shzlw/zeu](https://github.com/shzlw/zeu) | 已分析 | 2018-07-10 | A JavaScript library for real-time visualization |
-| [ShaftHQ/SHAFT_ENGINE](https://github.com/ShaftHQ/SHAFT_ENGINE) | 已分析 | 2018-07-15 | Java test automation framework for web, mobile, API, CLI, database, and desktop E2E testing with a fluent API and built- |
-| [testcontainers/testcontainers-go](https://github.com/testcontainers/testcontainers-go) | 已分析 | 2018-07-18 | Testcontainers for Go is a Go package that makes it simple to create and clean up container-based dependencies for autom |
-| [tensorspace-team/tensorspace](https://github.com/tensorspace-team/tensorspace) | 已分析 | 2018-07-22 | Neural network 3D visualization framework, build interactive and intuitive model in browsers, support pre-trained deep l |
-| [apexcharts/apexcharts.js](https://github.com/apexcharts/apexcharts.js) | 已分析 | 2018-07-24 | 📊 Interactive JavaScript Charts built on SVG |
-| [invana/invana](https://github.com/invana/invana) | 已分析 | 2018-07-27 | An ontology-governed operating system for humans and AI agents. |
-| [zjunlp/DeepKE](https://github.com/zjunlp/DeepKE) | 已分析 | 2018-08-01 | [EMNLP 2022] An Open Toolkit for Knowledge Graph Extraction and Construction |
-| [gazebosim/ros_gz](https://github.com/gazebosim/ros_gz) | 已分析 | 2018-08-01 | Integration between ROS (1 and 2) and Gazebo simulation |
-| [diasurgical/DevilutionX](https://github.com/diasurgical/DevilutionX) | 已分析 | 2018-08-02 | Diablo build for modern operating systems |
-| [napari/napari](https://github.com/napari/napari) | 已分析 | 2018-08-13 | napari: a fast, interactive, multi-dimensional image viewer for python |
-| [parrt/dtreeviz](https://github.com/parrt/dtreeviz) | 已分析 | 2018-08-13 | A python library for decision tree visualization and model interpretation. |
-| [rossant/awesome-scientific-python](https://github.com/rossant/awesome-scientific-python) | 已分析 | 2018-08-15 | A curated list of awesome scientific Python resources |
-| [jasonwebb/2d-differential-growth-experiments](https://github.com/jasonwebb/2d-differential-growth-experiments) | 已分析 | 2018-08-18 | Visual experiments exploring differential growth as a 2D morphogenesis tool. |
-| [nut-tree/nut.js](https://github.com/nut-tree/nut.js) | 已分析 | 2018-08-21 | Native UI testing / controlling with node |
-| [rwv/chinese-dos-games](https://github.com/rwv/chinese-dos-games) | 已分析 | 2018-08-30 | 🎮 Chinese DOS games collections. |
